@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Raccolta personale di pagine condivisibili.">
+  <title>Pagine online</title>
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow">Raccolta personale</p>
+      <h1>Pagine online</h1>
+      <p class="intro">Le pagine pubblicate appariranno qui automaticamente.</p>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="toolbar">
+      <label class="search">
+        <span class="sr-only">Cerca nelle pagine</span>
+        <input id="search" type="search" placeholder="Cerca una pagina" autocomplete="off">
+      </label>
+      <p id="count" class="count" aria-live="polite"></p>
+    </div>
+
+    <section id="catalog" class="catalog" aria-label="Pagine pubblicate"></section>
+    <div id="empty" class="empty" hidden>
+      <h2>Nessuna pagina pubblicata</h2>
+      <p>Il catalogo si aggiornera' alla prima pubblicazione.</p>
+    </div>
+  </main>
+
+  <template id="card-template">
+    <article class="card">
+      <a class="card__link">
+        <div class="card__media" hidden><img alt=""></div>
+        <div class="card__body">
+          <p class="card__date"></p>
+          <h2 class="card__title"></h2>
+          <p class="card__description"></p>
+        </div>
+      </a>
+      <button class="share" type="button">Condividi</button>
+    </article>
+  </template>
+
+  <script src="./assets/catalogo.js" defer></script>
+</body>
+</html>
