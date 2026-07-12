@@ -18,12 +18,12 @@ function formatDate(value) {
 }
 
 async function sharePage(page) {
-  const data = { title: page.title, text: page.description, url: page.url };
+  const shareUrl = page.shareUrl || page.url;`n  const data = { title: page.title, text: page.description, url: shareUrl };
   if (navigator.share) {
     await navigator.share(data);
     return;
   }
-  await navigator.clipboard.writeText(page.url);
+  await navigator.clipboard.writeText(shareUrl);
   window.alert('Link copiato negli appunti.');
 }
 
@@ -53,7 +53,7 @@ function render() {
       image.alt = `Copertina di ${page.title}`;
     }
     card.querySelector('.share').addEventListener('click', () => {
-      sharePage(page).catch(() => window.prompt('Copia questo link:', page.url));
+      sharePage(page).catch(() => window.prompt('Copia questo link:', page.shareUrl || page.url));
     });
     catalog.append(card);
   }
