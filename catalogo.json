@@ -1,5 +1,21 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-07-12",
-  "pages": []
+  "pages": [
+    {
+      "title": "Apparecchi acustici",
+      "slug": "apparecchi-acustici",
+      "description": "Confronto di cinque apparecchi acustici ricaricabili con prezzi indicativi, batteria, canali, app e fitting professionale.",
+      "createdAt": "2026-07-12",
+      "updatedAt": "2026-07-12",
+      "coverImageUrl": null,
+      "url": "https://giufog.github.io/pagine-online/pagine/apparecchi-acustici/",
+      "tags": [
+        "apparecchi-acustici",
+        "ricaricabili",
+        "confronto"
+      ],
+      "listed": true
+    }
+  ]
 }
