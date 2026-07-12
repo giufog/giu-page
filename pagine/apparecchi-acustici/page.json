@@ -5,7 +5,11 @@
   "description": "Confronto di cinque apparecchi acustici ricaricabili con prezzi indicativi, batteria, canali, app e fitting professionale.",
   "createdAt": "2026-07-12",
   "updatedAt": "2026-07-12",
-  "coverImage": null,
-  "tags": ["apparecchi-acustici", "ricaricabili", "confronto"],
+  "coverImage": "assets/share-apparecchi-acustici.png",
+  "tags": [
+    "apparecchi-acustici",
+    "ricaricabili",
+    "confronto"
+  ],
   "listed": true
 }
