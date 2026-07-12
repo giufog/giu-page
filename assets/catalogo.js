@@ -19,7 +19,7 @@ function formatDate(value) {
 
 async function sharePage(page) {
   const shareUrl = page.shareUrl || page.url;
-  const data = { title: page.title, text: page.description, url: shareUrl };
+  const data = { url: shareUrl };
   if (navigator.share) {
     await navigator.share(data);
     return;
