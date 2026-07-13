@@ -2,6 +2,7 @@ const catalog = document.querySelector('#catalog');
 const empty = document.querySelector('#empty');
 const count = document.querySelector('#count');
 const search = document.querySelector('#search');
+const sort = document.querySelector('#sort');
 const template = document.querySelector('#card-template');
 let pages = [];
 
@@ -28,11 +29,20 @@ async function sharePage(page) {
   window.alert('Link copiato negli appunti.');
 }
 
+function insertionDate(page) {
+  return String(page.createdAt || page.updatedAt || '');
+}
+
 function render() {
   const query = normalize(search.value.trim());
   const visible = pages.filter(page => {
     const haystack = normalize([page.title, page.description, ...(page.tags || [])].join(' '));
     return page.listed !== false && haystack.includes(query);
+  });
+
+  visible.sort((a, b) => {
+    if (sort.value === 'title') return String(a.title || '').localeCompare(String(b.title || ''), 'it');
+    return insertionDate(b).localeCompare(insertionDate(a));
   });
 
   catalog.replaceChildren();
@@ -45,7 +55,7 @@ function render() {
     const media = card.querySelector('.card__media');
     const image = media.querySelector('img');
     link.href = page.url;
-    card.querySelector('.card__date').textContent = formatDate(page.updatedAt || page.createdAt);
+    card.querySelector('.card__date').textContent = formatDate(insertionDate(page));
     card.querySelector('.card__title').textContent = page.title;
     card.querySelector('.card__description').textContent = page.description || '';
     if (page.coverImageUrl) {
@@ -67,7 +77,6 @@ fetch('./catalogo.json', { cache: 'no-store' })
   })
   .then(data => {
     pages = Array.isArray(data.pages) ? data.pages : [];
-    pages.sort((a, b) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || '')));
     render();
   })
   .catch(error => {
@@ -78,3 +87,4 @@ fetch('./catalogo.json', { cache: 'no-store' })
   });
 
 search.addEventListener('input', render);
+sort.addEventListener('change', render);
