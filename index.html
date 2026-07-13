@@ -4,16 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Raccolta personale di pagine condivisibili.">
-  <title>Pagine online</title>
-  <link rel="stylesheet" href="./assets/site.css">
+  <meta name="description" content="JuPage: pagine da condividere.">
+  <title>JuPage</title>
+  <link rel="icon" href="./assets/gp-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/site.css?v=20260713-2">
 </head>
 <body>
   <header class="hero">
     <div class="hero__inner">
-      <p class="eyebrow">Raccolta personale</p>
-      <h1>Pagine online</h1>
-      <p class="intro">Le pagine pubblicate appariranno qui automaticamente.</p>
+      <h1>JuPage</h1>
     </div>
   </header>
 
@@ -22,6 +21,13 @@
       <label class="search">
         <span class="sr-only">Cerca nelle pagine</span>
         <input id="search" type="search" placeholder="Cerca una pagina" autocomplete="off">
+      </label>
+      <label class="sort">
+        <span class="sr-only">Ordina le pagine</span>
+        <select id="sort">
+          <option value="recent">Data di inserimento</option>
+          <option value="title">Titolo</option>
+        </select>
       </label>
       <p id="count" class="count" aria-live="polite"></p>
     </div>
@@ -47,6 +53,6 @@
     </article>
   </template>
 
-  <script src="./assets/catalogo.js?v=20260712-1200" defer></script>
+  <script src="./assets/catalogo.js?v=20260713-2" defer></script>
 </body>
 </html>
