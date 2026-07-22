@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Scheda sintetica del progetto Miosavi per la valutazione legale preliminare.">
+  <meta property="og:title" content="Miosavi - parte legale">
+  <meta property="og:description" content="Scheda sintetica del progetto Miosavi per la valutazione legale preliminare.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://giufog.github.io/giu-page/miosavi-parte-legale/">
+  <meta property="og:image" content="https://giufog.github.io/giu-page/miosavi-parte-legale/assets/share.png">
+  <meta property="og:image:alt" content="Documenti tecnici, dati e bilancia simbolica per la valutazione legale di Miosavi">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Miosavi - parte legale</title>
+  <style>
+    :root {
+      --ink: #173b31;
+      --muted: #5d746b;
+      --forest: #245847;
+      --forest-soft: #3d715f;
+      --canvas: #f4f8f4;
+      --paper: #ffffff;
+      --mint: #e3f1e6;
+      --mint-strong: #cce5d2;
+      --sage: #a8cbb2;
+      --line: #d7e5da;
+      --open: #fbf4dc;
+      --open-line: #ead8a1;
+      --shadow: 0 14px 40px rgba(27, 73, 57, .08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top right, rgba(204, 229, 210, .65), transparent 30rem),
+        var(--canvas);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    a { color: inherit; }
+
+    .page {
+      width: min(940px, calc(100% - 32px));
+      margin: 32px auto 56px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 42px 44px 38px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, .92);
+      box-shadow: var(--shadow);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0 0 0 auto;
+      width: 12px;
+      background: var(--sage);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--mint);
+      color: var(--forest);
+      font-size: .75rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--forest-soft);
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+
+    h1 {
+      max-width: 720px;
+      margin-bottom: 14px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 5vw, 3.55rem);
+      line-height: 1.02;
+      letter-spacing: -.04em;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin-bottom: 22px;
+      color: var(--muted);
+      font-size: 1.04rem;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pill {
+      padding: 7px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fbfdfb;
+      color: var(--forest);
+      font-size: .8rem;
+      font-weight: 700;
+    }
+
+    .actions {
+      position: absolute;
+      top: 20px;
+      right: 28px;
+    }
+
+    .print-button {
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 8px 11px;
+      color: var(--forest);
+      background: var(--paper);
+      font: inherit;
+      font-size: .78rem;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    .print-button:hover,
+    .print-button:focus-visible {
+      border-color: var(--sage);
+      background: var(--mint);
+      outline: none;
+    }
+
+    .status-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .status {
+      min-height: 96px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, .82);
+    }
+
+    .status strong {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--forest);
+      font-size: .86rem;
+    }
+
+    .status span {
+      color: var(--muted);
+      font-size: .8rem;
+      line-height: 1.35;
+    }
+
+    section {
+      margin-top: 16px;
+      padding: 28px 30px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, .9);
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin-bottom: 5px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.55rem;
+      line-height: 1.15;
+      letter-spacing: -.02em;
+    }
+
+    h3 {
+      margin-bottom: 7px;
+      font-size: .92rem;
+      line-height: 1.3;
+    }
+
+    .section-heading p,
+    .card p,
+    .note p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+
+    .tag {
+      flex: 0 0 auto;
+      padding: 5px 9px;
+      border-radius: 999px;
+      color: var(--forest);
+      background: var(--mint);
+      font-size: .68rem;
+      font-weight: 850;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    .tag.open {
+      border: 1px solid var(--open-line);
+      color: #755a16;
+      background: var(--open);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #fcfefc;
+    }
+
+    .card.emphasis {
+      border-color: var(--sage);
+      background: var(--mint);
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      counter-reset: step;
+    }
+
+    .flow > div {
+      position: relative;
+      min-height: 124px;
+      padding: 17px 14px 14px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #fbfdfb;
+      counter-increment: step;
+    }
+
+    .flow > div::before {
+      content: counter(step, decimal-leading-zero);
+      display: block;
+      margin-bottom: 16px;
+      color: var(--forest-soft);
+      font-size: .72rem;
+      font-weight: 850;
+      letter-spacing: .08em;
+    }
+
+    .flow strong {
+      display: block;
+      margin-bottom: 5px;
+      font-size: .83rem;
+    }
+
+    .flow span {
+      display: block;
+      color: var(--muted);
+      font-size: .75rem;
+      line-height: 1.4;
+    }
+
+    .examples {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 16px;
+    }
+
+    .examples span {
+      padding: 6px 9px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      background: var(--paper);
+      font-size: .75rem;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    li {
+      margin: 7px 0;
+      color: var(--muted);
+      font-size: .86rem;
+    }
+
+    li::marker { color: var(--forest-soft); }
+
+    .open-issues {
+      border-color: var(--open-line);
+      background: linear-gradient(180deg, #fffdf6, #ffffff);
+    }
+
+    .questions {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: question;
+    }
+
+    .questions li {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 12px;
+      align-items: start;
+      margin: 0;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 11px;
+      background: rgba(255, 255, 255, .8);
+      counter-increment: question;
+    }
+
+    .questions li::before {
+      content: counter(question);
+      display: grid;
+      width: 30px;
+      height: 30px;
+      place-items: center;
+      border-radius: 9px;
+      color: var(--paper);
+      background: var(--forest-soft);
+      font-size: .76rem;
+      font-weight: 800;
+    }
+
+    .questions strong {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--ink);
+      font-size: .84rem;
+    }
+
+    .questions span {
+      display: block;
+      font-size: .8rem;
+      line-height: 1.4;
+    }
+
+    .note {
+      margin-top: 16px;
+      padding: 17px 18px;
+      border-left: 4px solid var(--sage);
+      border-radius: 0 11px 11px 0;
+      background: var(--mint);
+    }
+
+    footer {
+      padding: 22px 4px 0;
+      color: var(--muted);
+      font-size: .74rem;
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      .page { width: min(100% - 20px, 940px); margin-top: 10px; }
+      .hero { padding: 56px 23px 26px; border-radius: 16px; }
+      .actions { top: 15px; right: 22px; }
+      .status-grid, .grid { grid-template-columns: 1fr 1fr; }
+      .flow { grid-template-columns: 1fr 1fr; }
+      section { padding: 23px 20px; border-radius: 15px; }
+      .section-heading { display: block; }
+      .tag { display: inline-flex; margin-top: 8px; }
+    }
+
+    @media (max-width: 480px) {
+      .status-grid, .grid, .flow { grid-template-columns: 1fr; }
+      .status { min-height: auto; }
+      .flow > div { min-height: auto; }
+    }
+
+    @media print {
+      @page { margin: 13mm; }
+      body { background: #fff; }
+      .page { width: 100%; margin: 0; }
+      .hero, section { break-inside: avoid; box-shadow: none; }
+      .hero { padding: 26px 28px; }
+      section { padding: 19px 21px; margin-top: 10px; }
+      .actions { display: none; }
+      .status-grid { margin: 10px 0; }
+      .status { min-height: 78px; padding: 12px; }
+      .flow > div { min-height: 100px; }
+      footer { padding-top: 12px; }
+    }
+  </style>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="actions">
+        <button class="print-button" type="button" title="Apre la stampa per salvare anche in PDF" onclick="window.print()">Stampa / PDF</button>
+      </div>
+      <div class="eyebrow">Bozza pre-lancio · valutazione legale (redatta da IA)</div>
+      <h1>Miosavi, database tecnico mondiale di prodotti</h1>
+      <p class="lead">
+        Sintesi del progetto, del processo automatizzato e dei punti da valutare prima del lancio.
+        Miosavi sarà un catalogo tecnico: non venderà direttamente prodotti.
+      </p>
+      <div class="meta" aria-label="Informazioni principali">
+        <span class="pill">Prima uscita: Italia</span>
+        <span class="pill">84 sottocategorie</span>
+        <span class="pill">Modello: affiliazioni</span>
+        <span class="pill">Processo largamente automatizzato con IA</span>
+      </div>
+    </header>
+
+    <div class="status-grid" aria-label="Stato del progetto">
+      <div class="status">
+        <strong>Stato</strong>
+        <span>Sito non ancora realizzato; prima versione visionabile prevista nel prossimo mese.</span>
+      </div>
+      <div class="status">
+        <strong>Domini acquistati</strong>
+        <span>miosavi.com<br>miosavi.it<br>miosavi.eu</span>
+      </div>
+      <div class="status">
+        <strong>Utenti</strong>
+        <span>Nessun account, newsletter, recensione o avviso prezzo iniziale.</span>
+      </div>
+      <div class="status">
+        <strong>Gestore</strong>
+        <span>Soggetto giuridico e posizione fiscale ancora da definire prima della monetizzazione.</span>
+      </div>
+    </div>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>1. Che cosa sarà Miosavi</h2>
+          <p>Ispirazione funzionale: cataloghi tecnici come Kimovil, senza copiarne dati o struttura.</p>
+        </div>
+        <span class="tag">Definito</span>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Catalogo strutturato</h3>
+          <p>Categoria → sottocategoria → marca → modello → variante, con EAN, UPC, GTIN e altri identificativi disponibili.</p>
+        </article>
+        <article class="card">
+          <h3>Contenuto pubblico</h3>
+          <p>Immagini, dati tecnici normalizzati, filtri, pagina della variante e link “Dove acquistare”.</p>
+        </article>
+        <article class="card emphasis">
+          <h3>Confronto neutrale</h3>
+          <p>L’utente affianca due o tre prodotti. Miosavi mostra solo dati tecnici: nessun punteggio, vincitore o giudizio “migliore/peggiore”.</p>
+        </article>
+        <article class="card">
+          <h3>Scelta dell’utente</h3>
+          <p>Filtri e affiancamento permettono all’utente di scegliere autonomamente.</p>
+        </article>
+      </div>
+      <div class="examples" aria-label="Esempi di sottocategorie">
+        <span>Smartphone</span><span>Televisori</span><span>Notebook</span><span>Droni</span>
+        <span>Robot pulizia</span><span>Robot tagliaerba</span><span>Robot piscina</span><span>Indossabili</span>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>2. Processo previsto</h2>
+          <p>Il database locale è separato dal sito pubblico, che riceve soltanto record pronti.</p>
+        </div>
+        <span class="tag open">Da validare</span>
+      </div>
+      <div class="flow" aria-label="Flusso di raccolta e pubblicazione">
+        <div>
+          <strong>Ricerca automatizzata</strong>
+          <span>IA e scraper individuano marche, modelli, varianti, fonti, dati e immagini.</span>
+        </div>
+        <div>
+          <strong>Database locale</strong>
+          <span>I materiali vengono acquisiti, normalizzati e associati alla variante.</span>
+        </div>
+        <div>
+          <strong>Controlli</strong>
+          <span>Si verificano completezza, duplicati, identificativi, fonti e pubblicabilità. L’approvazione umana è da definire.</span>
+        </div>
+        <div>
+          <strong>Pubblicazione</strong>
+          <span>L’IA gestirà aggiornamento e caricamento. Responsabilità, log e supervisione sono da definire.</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>3. Dati tecnici e fonti</h2>
+          <p>L’obiettivo è creare un database autonomo, non ripubblicare schede o testi completi.</p>
+        </div>
+        <span class="tag open">Punto centrale</span>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Fonti possibili</h3>
+          <p>Produttori, manuali, certificazioni, merchant, marketplace, feed, API e siti tecnici.</p>
+        </article>
+        <article class="card">
+          <h3>Uso previsto</h3>
+          <p>Ricerca dei campi previsti, estrazione di dati tecnici e normalizzazione. Niente copia integrale di descrizioni, recensioni, tabelle o cataloghi.</p>
+        </article>
+      </div>
+      <div class="note">
+        <p><strong>Da definire:</strong> accesso lecito, termini d’uso, scraping, text and data mining, diritto sulle banche dati, frequenza, conservazione delle fonti, blocchi e richieste di rimozione.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>4. Immagini dei prodotti</h2>
+          <p>È il principale problema aperto individuato prima del lancio.</p>
+        </div>
+        <span class="tag open">Alta priorità</span>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Canali considerati</h3>
+          <p>Immagini acquistate o autorizzate, feed affiliati, media kit, fotografie proprie o commissionate e immagini generate con IA.</p>
+        </article>
+        <article class="card emphasis">
+          <h3>Questione da chiarire</h3>
+          <p>Limiti delle modifiche IA a fotografie online — prospettiva, sfondo o composizione — e rischio di elaborazione non autorizzata.</p>
+        </article>
+      </div>
+      <div class="note">
+        <p>Da chiarire: fotografia, design, confezione, marchi, prova e limiti della licenza, uso commerciale e indicazione delle immagini sintetiche.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>5. “Dove acquistare” e affiliazioni</h2>
+          <p>Le commissioni derivano dagli acquisti attribuiti ai link Miosavi.</p>
+        </div>
+        <span class="tag">Modello economico</span>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Sito pubblico</h3>
+          <p>Mostra soltanto dati tecnici, immagini e link “Dove acquistare”. Il link usa il sistema di tracciamento del programma per attribuire l’eventuale commissione a Miosavi.</p>
+        </article>
+        <article class="card">
+          <h3>Gestione locale</h3>
+          <p>Network, merchant, contatti, email, contratti, parametri, commissioni e logica affiliata restano nel database locale e non vengono pubblicati.</p>
+        </article>
+      </div>
+      <div class="note">
+        <p>Miosavi non vende né gestisce pagamento, spedizione, garanzia o reso. Da definire: disclosure, tracking del click, prezzi, ordine dei link, contenuti sponsorizzati e responsabilità verso i merchant.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>6. IA, privacy e gestione del sito</h2>
+          <p>L’IA sarà usata in quasi tutto il processo; la responsabilità resta al gestore.</p>
+        </div>
+        <span class="tag open">Da classificare</span>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>AI Act</h3>
+          <p>Definire ruolo di Miosavi, alfabetizzazione IA, supervisione, tracciabilità, termini dei fornitori e contenuti sintetici.</p>
+        </article>
+        <article class="card">
+          <h3>Privacy reale</h3>
+          <p>Nessun profilo utente iniziale; restano IP, log, hosting, CDN, contatti, analytics, cookie e tracking dei link.</p>
+        </article>
+        <article class="card">
+          <h3>Accuratezza</h3>
+          <p>Controllare errori IA, conflitti fra fonti, varianti, richiami e dati su sicurezza o compatibilità.</p>
+        </article>
+        <article class="card">
+          <h3>Futuri video social</h3>
+          <p>Futuri video IA per YouTube e social: immagini, musica, voci, marchi, pubblicità ed etichettatura da valutare separatamente.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>7. Gestore, fiscalità e territori</h2>
+          <p>Prima Italia, poi Europa e successivamente altri paesi e lingue.</p>
+        </div>
+        <span class="tag open">Non definito</span>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Posizione attuale</h3>
+          <p>Partita IVA non attiva. Prima della monetizzazione vanno definiti momento di apertura e forma dell’attività, senza presumere una soglia generale di 5.000 euro.</p>
+        </article>
+        <article class="card">
+          <h3>Espansione</h3>
+          <p>Da stabilire: mercati rivolti, lingue, valute, merchant, trasferimenti di dati, regole consumeristiche e informative.</p>
+        </article>
+      </div>
+      <div class="note">
+        <p>Da verificare anche marchio “Miosavi”, intestazione dei domini e pagine legali minime.</p>
+      </div>
+    </section>
+
+    <section class="open-issues">
+      <div class="section-heading">
+        <div>
+          <h2>Questioni prioritarie per il parere</h2>
+          <p>Orientamento richiesto prima del lancio.</p>
+        </div>
+        <span class="tag open">Richiesta</span>
+      </div>
+      <ol class="questions">
+        <li><span><strong>Raccolta dati</strong>Quali fonti e modalità di scraping sono utilizzabili e quali prove conservare?</span></li>
+        <li><span><strong>Database</strong>Quali limiti valgono per dati tecnici, copyright, banche dati e contratti?</span></li>
+        <li><span><strong>Immagini</strong>Quali licenze servono e quando una modifica IA resta non autorizzata?</span></li>
+        <li><span><strong>AI Act</strong>Qual è il ruolo di Miosavi e quali misure servono?</span></li>
+        <li><span><strong>Affiliazioni</strong>Come presentare link, prezzi e contenuti sponsorizzati?</span></li>
+        <li><span><strong>Privacy</strong>Quali informative e consensi servono per log e tracking?</span></li>
+        <li><span><strong>Attività economica</strong>Quando aprire la posizione fiscale e quale soggetto deve operare?</span></li>
+        <li><span><strong>Marchio e paesi</strong>Come proteggere Miosavi ed espandersi fuori dall’Italia?</span></li>
+      </ol>
+    </section>
+
+    <footer>
+      Documento descrittivo preliminare · 22 luglio 2026 · Non costituisce una decisione legale definitiva
+    </footer>
+  </main>
+</body>
+</html>
