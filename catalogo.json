@@ -1,7 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-12",
+  "updatedAt": "2026-07-22",
   "pages": [
+    {
+      "title": "Miosavi - parte legale",
+      "slug": "miosavi-parte-legale",
+      "description": "Scheda sintetica del progetto Miosavi per la valutazione legale preliminare.",
+      "createdAt": "2026-07-22",
+      "updatedAt": "2026-07-22",
+      "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale/assets/share.png",
+      "url": "https://giufog.github.io/giu-page/miosavi-parte-legale/",
+      "shareUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale/",
+      "tags": [
+        "Miosavi",
+        "legale",
+        "anteprima"
+      ],
+      "listed": true
+    },
     {
       "title": "Apparecchi acustici",
       "slug": "apparecchi-acustici",
