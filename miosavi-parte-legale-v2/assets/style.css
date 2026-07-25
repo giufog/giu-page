@@ -218,18 +218,11 @@ tr:last-child td { border-bottom: 0; }
   line-height: 1;
 }
 .note-marker strong { margin-left: 3px; color: #000; font-weight: 900; }
-.sources { margin: 12px 0 0; padding: 0; list-style: none; }
+.sources { margin: 0; padding: 0; list-style: none; }
 .sources li { padding: 12px 0; border-bottom: 1px solid var(--border); }
 .sources li:last-child { border-bottom: 0; }
 .source-type { margin-right: 7px; color: var(--muted); font-size: .76rem; font-weight: 800; text-transform: uppercase; }
 .sources-details { margin-top: 0; }
-.sources-details summary {
-  padding: 0 0 12px;
-  font-size: clamp(1.35rem, 3vw, 1.8rem);
-  line-height: 1.2;
-}
-.sources-details[open] summary { padding-bottom: 14px; }
-.sources-details .sources { margin-top: 0; }
 .print {
   min-height: 44px;
   margin-top: 15px;
@@ -264,6 +257,18 @@ footer { max-width: 1080px; margin: auto; padding: 0 20px 96px; color: var(--mut
 }
 .back-to-top:hover { background: #d8e5dc; color: var(--action); }
 .back-to-top:focus-visible { outline: 3px solid rgb(77 138 112 / 24%); outline-offset: 3px; }
+.page-counter {
+  position: fixed;
+  z-index: 9;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(16px, env(safe-area-inset-bottom));
+  margin: 0;
+  color: rgb(100 117 107 / 82%);
+  font-size: .72rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  pointer-events: none;
+}
 @media (max-width: 760px) {
   .grid, .choices, .note-index, nav ul { grid-template-columns: minmax(0, 1fr); }
   main { padding-inline: 14px; }
@@ -271,10 +276,19 @@ footer { max-width: 1080px; margin: auto; padding: 0 20px 96px; color: var(--mut
   .choice { min-height: 215px; }
 }
 @media print {
+  @page {
+    size: A4;
+    margin: 16mm 14mm 18mm;
+    @bottom-right {
+      content: "Pagina " counter(page) " di " counter(pages);
+      color: #64756b;
+      font: 8pt Inter, Arial, sans-serif;
+    }
+  }
   body { background: white; font-size: 11pt; }
   header { background: var(--forest); print-color-adjust: exact; }
-  nav, .back, .print, .back-to-top { display: none; }
+  nav, .back, .print, .back-to-top, .page-counter { display: none; }
   section { break-inside: avoid; box-shadow: none; }
-  details > div { display: block; }
+  details:not([open]) > :not(summary), details > div { display: block; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
