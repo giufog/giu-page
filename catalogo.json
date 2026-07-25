@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-07-25",
   "pages": [
+    {
+      "title": "Miosavi - Parte legale V2",
+      "slug": "miosavi-parte-legale-v2",
+      "description": "Questioni legali da sottoporre all'avvocato per il progetto MioSavi.",
+      "createdAt": "2026-07-25",
+      "updatedAt": "2026-07-25",
+      "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/assets/share-whatsapp.jpg",
+      "url": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/",
+      "shareUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/",
+      "tags": ["miosavi", "legale", "affiliazioni"],
+      "listed": true
+    },
     {
       "title": "Miosavi - parte legale",
       "slug": "miosavi-parte-legale",
@@ -11,11 +23,7 @@
       "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale/assets/share-whatsapp.jpg",
       "url": "https://giufog.github.io/giu-page/miosavi-parte-legale/",
       "shareUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale/?wa=20260722-1",
-      "tags": [
-        "Miosavi",
-        "legale",
-        "anteprima"
-      ],
+      "tags": ["Miosavi", "legale", "anteprima"],
       "listed": true
     },
     {
@@ -26,11 +34,7 @@
       "updatedAt": "2026-07-12",
       "coverImageUrl": "https://giufog.github.io/giu-page/apparecchi-acustici/assets/share-whatsapp.jpg",
       "url": "https://giufog.github.io/giu-page/apparecchi-acustici/",
-      "tags": [
-        "apparecchi-acustici",
-        "ricaricabili",
-        "confronto"
-      ],
+      "tags": ["apparecchi-acustici", "ricaricabili", "confronto"],
       "listed": true,
       "shareUrl": "https://giufog.github.io/giu-page/apparecchi-acustici/?wa=20260712-1200"
     }
