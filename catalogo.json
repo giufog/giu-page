@@ -11,7 +11,28 @@
       "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/assets/share-whatsapp.jpg?v=20260725-2",
       "url": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/",
       "shareUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/",
-      "tags": ["miosavi", "legale", "affiliazioni"],
+      "tags": [
+        "miosavi",
+        "legale",
+        "affiliazioni"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Miosavi - Commercialista",
+      "slug": "miosavi-commercialista",
+      "description": "Questioni fiscali e previdenziali da sottoporre al commercialista per MioSavi.",
+      "createdAt": "2026-07-25",
+      "updatedAt": "2026-07-25",
+      "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-commercialista/assets/share-whatsapp.jpg",
+      "url": "https://giufog.github.io/giu-page/miosavi-commercialista/",
+      "shareUrl": "https://giufog.github.io/giu-page/miosavi-commercialista/",
+      "tags": [
+        "miosavi",
+        "commercialista",
+        "fisco",
+        "naspi"
+      ],
       "listed": true
     },
     {
@@ -23,7 +44,11 @@
       "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale/assets/share-whatsapp.jpg",
       "url": "https://giufog.github.io/giu-page/miosavi-parte-legale/",
       "shareUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale/?wa=20260722-1",
-      "tags": ["Miosavi", "legale", "anteprima"],
+      "tags": [
+        "Miosavi",
+        "legale",
+        "anteprima"
+      ],
       "listed": true
     },
     {
@@ -34,7 +59,11 @@
       "updatedAt": "2026-07-12",
       "coverImageUrl": "https://giufog.github.io/giu-page/apparecchi-acustici/assets/share-whatsapp.jpg",
       "url": "https://giufog.github.io/giu-page/apparecchi-acustici/",
-      "tags": ["apparecchi-acustici", "ricaricabili", "confronto"],
+      "tags": [
+        "apparecchi-acustici",
+        "ricaricabili",
+        "confronto"
+      ],
       "listed": true,
       "shareUrl": "https://giufog.github.io/giu-page/apparecchi-acustici/?wa=20260712-1200"
     }

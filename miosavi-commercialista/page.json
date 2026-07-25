@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "title": "Miosavi - Commercialista",
+  "slug": "miosavi-commercialista",
+  "description": "Questioni fiscali e previdenziali da sottoporre al commercialista per MioSavi.",
+  "createdAt": "2026-07-25",
+  "updatedAt": "2026-07-25",
+  "coverImage": "assets/share-whatsapp.jpg",
+  "tags": ["miosavi", "commercialista", "fisco", "naspi"],
+  "listed": true
+}
