@@ -3,6 +3,22 @@
   "updatedAt": "2026-07-25",
   "pages": [
     {
+      "title": "Token Agenti",
+      "slug": "token-agenti",
+      "description": "Confronto tra i modelli Codex e Antigravity disponibili nel progetto, con prezzi API indicativi, qualità di ricerca e impiego consigliato.",
+      "createdAt": "2026-07-25",
+      "updatedAt": "2026-07-25",
+      "coverImageUrl": "https://giufog.github.io/giu-page/token-agenti/assets/share-whatsapp.jpg",
+      "url": "https://giufog.github.io/giu-page/token-agenti/",
+      "shareUrl": "https://giufog.github.io/giu-page/token-agenti/",
+      "tags": [
+        "modelli-ai",
+        "codex",
+        "antigravity"
+      ],
+      "listed": true
+    },
+    {
       "title": "Miosavi - Parte legale V2",
       "slug": "miosavi-parte-legale-v2",
       "description": "Questioni legali da sottoporre all'avvocato per il progetto MioSavi.",

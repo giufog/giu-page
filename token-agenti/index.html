@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Token Agenti — Confronto Codex e Antigravity</title>
+  <meta name="description" content="Confronto tra i modelli Codex e Antigravity disponibili nel progetto, con prezzi API indicativi, qualità di ricerca e impiego consigliato.">
+  <meta name="theme-color" content="#173E35">
+  <link rel="canonical" href="https://giufog.github.io/giu-page/token-agenti/">
+  <meta property="og:title" content="Token Agenti — Confronto Codex e Antigravity">
+  <meta property="og:description" content="Confronto tra i modelli Codex e Antigravity disponibili nel progetto, con prezzi API indicativi, qualità di ricerca e impiego consigliato.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://giufog.github.io/giu-page/token-agenti/">
+  <meta property="og:image" content="https://giufog.github.io/giu-page/token-agenti/assets/share-whatsapp.jpg">
+  <meta property="og:image:secure_url" content="https://giufog.github.io/giu-page/token-agenti/assets/share-whatsapp.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Agenti IA specializzati collaborano in una pipeline di ricerca, confronto e verifica.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Token Agenti — Confronto Codex e Antigravity">
+  <meta name="twitter:description" content="Confronto tra i modelli Codex e Antigravity disponibili nel progetto, con prezzi API indicativi, qualità di ricerca e impiego consigliato.">
+  <meta name="twitter:image" content="https://giufog.github.io/giu-page/token-agenti/assets/share-whatsapp.jpg">
+  <style>
+    :root {
+      --ink: #102820;
+      --muted: #5d6f68;
+      --green-950: #103c31;
+      --green-900: #174c3f;
+      --green-800: #22634f;
+      --green-700: #2b7b5d;
+      --green-100: #e8f2ed;
+      --green-50: #f4f8f6;
+      --nvidia: #76b900;
+      --nvidia-dark: #4f7d00;
+      --line: #cbdcd3;
+      --white: #ffffff;
+      --amber: #f0a43c;
+      --blue: #4774d9;
+      --shadow: 0 10px 26px rgba(16, 60, 49, .08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 100% 0, rgba(118, 185, 0, .10), transparent 32rem),
+        var(--green-50);
+      font: 15px/1.5 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a { color: var(--green-800); }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 13px clamp(18px, 4vw, 56px);
+      color: var(--white);
+      background: linear-gradient(110deg, var(--green-950), var(--green-800));
+      box-shadow: 0 4px 20px rgba(16, 60, 49, .18);
+    }
+
+    .brand {
+      font-size: 18px;
+      font-weight: 850;
+      letter-spacing: -.02em;
+    }
+
+    .topbar nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .topbar a,
+    .share-button {
+      padding: 6px 10px;
+      color: var(--white);
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, .24);
+      border-radius: 999px;
+      text-decoration: none;
+      font: inherit;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .topbar a:hover,
+    .share-button:hover {
+      background: rgba(255, 255, 255, .12);
+    }
+
+    main {
+      width: min(1640px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 34px 0 56px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.65fr) minmax(280px, .8fr);
+      gap: 20px;
+      align-items: stretch;
+      margin-bottom: 20px;
+    }
+
+    .hero-main,
+    .hero-side,
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, .94);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-main { padding: clamp(24px, 4vw, 46px); }
+    .hero-side { padding: 24px; }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--green-700);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-size: clamp(32px, 5vw, 66px);
+      line-height: 1.02;
+      letter-spacing: -.055em;
+    }
+
+    h1 span { color: var(--nvidia-dark); }
+
+    .lead {
+      max-width: 970px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(16px, 2vw, 20px);
+    }
+
+    .date {
+      display: inline-flex;
+      margin-top: 22px;
+      padding: 7px 11px;
+      border-radius: 999px;
+      color: var(--green-950);
+      background: var(--green-100);
+      font-weight: 750;
+    }
+
+    .metric {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 5px 13px;
+      align-items: baseline;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .metric:last-child { border-bottom: 0; }
+
+    .metric strong {
+      color: var(--nvidia-dark);
+      font-size: 31px;
+      line-height: 1;
+    }
+
+    .metric span { color: var(--muted); }
+
+    .notice {
+      margin: 0 0 20px;
+      padding: 17px 19px;
+      border: 1px solid #c7d99e;
+      border-left: 5px solid var(--nvidia);
+      border-radius: 12px;
+      background: #f7fbe9;
+    }
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin: 22px 0 16px;
+    }
+
+    .tab {
+      cursor: pointer;
+      padding: 10px 16px;
+      color: var(--green-950);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--white);
+      font: inherit;
+      font-weight: 800;
+    }
+
+    .tab[aria-selected="true"] {
+      color: var(--white);
+      border-color: var(--green-800);
+      background: var(--green-800);
+    }
+
+    .panel {
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .panel-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 22px 24px 17px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2, h3 { margin: 0; line-height: 1.18; }
+    h2 { font-size: clamp(22px, 3vw, 32px); }
+    h3 { font-size: 18px; }
+
+    .panel-head p,
+    .section-copy {
+      margin: 5px 0 0;
+      color: var(--muted);
+    }
+
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      min-width: 1050px;
+      border-collapse: collapse;
+    }
+
+    th {
+      position: sticky;
+      top: 56px;
+      z-index: 5;
+      padding: 11px 13px;
+      color: var(--green-950);
+      background: var(--green-100);
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      font-size: 12px;
+      letter-spacing: .025em;
+      text-transform: uppercase;
+    }
+
+    td {
+      padding: 13px;
+      border-bottom: 1px solid #dfebe4;
+      vertical-align: top;
+    }
+
+    tbody tr:hover { background: #f8fbf9; }
+    tbody tr:last-child td { border-bottom: 0; }
+
+    .rank {
+      width: 34px;
+      height: 34px;
+      display: inline-grid;
+      place-items: center;
+      color: var(--white);
+      border-radius: 50%;
+      background: var(--green-800);
+      font-weight: 900;
+    }
+
+    .model-name {
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    .price {
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    .badge.excellent { color: #284500; background: #def3b8; }
+    .badge.very-high { color: #104a34; background: #dcefe5; }
+    .badge.high { color: #294d72; background: #e3edf8; }
+    .badge.medium { color: #6b4211; background: #f8e8ce; }
+
+    .source-state {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .recommendation {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      padding: 24px;
+    }
+
+    .role {
+      min-height: 150px;
+      padding: 17px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: var(--green-50);
+    }
+
+    .role .step {
+      color: var(--nvidia-dark);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .role h3 { margin-top: 8px; }
+    .role p { margin: 8px 0 0; color: var(--muted); }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .ranking-list {
+      margin: 0;
+      padding: 17px 24px 23px 54px;
+      columns: 2;
+      column-gap: 40px;
+    }
+
+    .ranking-list li {
+      break-inside: avoid;
+      padding: 5px 0 5px 4px;
+    }
+
+    .notes {
+      padding: 20px 24px 24px;
+    }
+
+    .notes ul { margin-bottom: 0; }
+
+    .sources {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0 24px 24px;
+    }
+
+    .sources a {
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--white);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    [data-view][hidden] { display: none !important; }
+
+    footer {
+      padding: 10px 0 0;
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 1100px) {
+      .hero,
+      .grid-two { grid-template-columns: 1fr; }
+      .recommendation { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 700px) {
+      main { width: min(100% - 20px, 1640px); padding-top: 18px; }
+      .topbar { position: static; align-items: flex-start; flex-direction: column; }
+      .hero-main, .hero-side { padding: 20px; }
+      .panel-head { align-items: flex-start; flex-direction: column; padding: 18px; }
+      .recommendation { grid-template-columns: 1fr; padding: 18px; }
+      .ranking-list { columns: 1; }
+      th { top: 0; }
+    }
+
+    @media print {
+      body { background: var(--white); }
+      .topbar, .tabs { display: none; }
+      main { width: 100%; padding: 0; }
+      .panel, .hero-main, .hero-side { box-shadow: none; break-inside: avoid; }
+      [data-view][hidden] { display: block !important; }
+      .table-wrap { overflow: visible; }
+      table { min-width: 0; font-size: 9px; }
+      th { position: static; }
+    }
+  </style>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">BuyerWise Lab — Modelli AI</div>
+    <nav aria-label="Sezioni">
+      <a href="#confronto">Confronto</a>
+      <a href="#classifiche">Classifiche</a>
+      <a href="#configurazione">Configurazione</a>
+      <a href="#fonti">Fonti</a>
+      <button class="share-button" id="share-page" type="button">Condividi</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-main">
+        <p class="eyebrow">Analisi comparativa locale</p>
+        <h1>Codex e <span>Antigravity</span></h1>
+        <p class="lead">
+          Modelli realmente disponibili nel progetto, prezzi API indicativi, qualità nella ricerca
+          tecnica online e impiego consigliato nelle procedure BuyerWise.
+        </p>
+        <span class="date">Aggiornato al 25 luglio 2026</span>
+      </div>
+      <aside class="hero-side" aria-label="Riepilogo">
+        <div class="metric"><strong>7</strong><span>modelli Codex selezionabili oggi</span></div>
+        <div class="metric"><strong>11</strong><span>modelli restituiti da Antigravity CLI</span></div>
+        <div class="metric"><strong>90–98%</strong><span>obiettivo di copertura affidato a Codex</span></div>
+      </aside>
+    </section>
+
+    <p class="notice">
+      <strong>Come leggere i costi.</strong> Le cifre sono prezzi API standard in dollari per un milione
+      di token. Gli abbonamenti Codex e Antigravity consumano quote dinamiche e non dichiarano una
+      conversione garantita tra euro pagati e token disponibili.
+    </p>
+
+    <section id="confronto">
+      <div class="tabs" role="tablist" aria-label="Scegli il confronto">
+        <button class="tab" role="tab" aria-selected="true" data-target="codex">Codex — 7 modelli</button>
+        <button class="tab" role="tab" aria-selected="false" data-target="antigravity">Antigravity — 11 modelli</button>
+        <button class="tab" role="tab" aria-selected="false" data-target="all">Mostra entrambi</button>
+      </div>
+
+      <article class="panel" data-view="codex">
+        <div class="panel-head">
+          <div>
+            <h2>Modelli Codex</h2>
+            <p>Ordine stimato per ricerca tecnica completa e lavoro agentico sul web.</p>
+          </div>
+          <span class="source-state">Disponibilità verificata con Codex CLI</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Modello</th>
+                <th>Input / 1M</th>
+                <th>Output / 1M</th>
+                <th>Ricerca tecnica</th>
+                <th>Velocità</th>
+                <th>Impiego consigliato</th>
+                <th>Evidenza BuyerWise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="rank">1</span></td>
+                <td class="model-name">GPT-5.6 Sol</td>
+                <td class="price">$5,00</td><td class="price">$30,00</td>
+                <td><span class="badge excellent">Eccellente</span></td>
+                <td>Media</td>
+                <td>Conflitti difficili e massima qualità.</td>
+                <td>Non ancora testato localmente.</td>
+              </tr>
+              <tr>
+                <td><span class="rank">2</span></td>
+                <td class="model-name">GPT-5.6 Terra</td>
+                <td class="price">$2,50</td><td class="price">$15,00</td>
+                <td><span class="badge very-high">Molto alta</span></td>
+                <td>Medio-alta</td>
+                <td>Miglior equilibrio generale qualità/costo.</td>
+                <td>Da benchmarkare su casi BuyerWise.</td>
+              </tr>
+              <tr>
+                <td><span class="rank">3</span></td>
+                <td class="model-name">GPT-5.6 Luna</td>
+                <td class="price">$1,00</td><td class="price">$6,00</td>
+                <td><span class="badge very-high">Molto alta</span></td>
+                <td>Molto alta</td>
+                <td>Corpo principale delle procedure massive.</td>
+                <td>Testato: veloce, prudente e affidabile.</td>
+              </tr>
+              <tr>
+                <td><span class="rank">4</span></td>
+                <td class="model-name">GPT-5.5</td>
+                <td class="price">$5,00</td><td class="price">$30,00</td>
+                <td><span class="badge very-high">Molto alta</span></td>
+                <td>Media</td>
+                <td>Lavori complessi, ma Terra è più conveniente.</td>
+                <td>Nessun benchmark BuyerWise dedicato.</td>
+              </tr>
+              <tr>
+                <td><span class="rank">5</span></td>
+                <td class="model-name">GPT-5.4</td>
+                <td class="price">$2,50</td><td class="price">$15,00</td>
+                <td><span class="badge high">Alta</span></td>
+                <td>Media</td>
+                <td>Procedure complesse precedenti alla famiglia 5.6.</td>
+                <td>Non preferito nella pipeline corrente.</td>
+              </tr>
+              <tr>
+                <td><span class="rank">6</span></td>
+                <td class="model-name">GPT-5.2</td>
+                <td class="price">$1,75</td><td class="price">$14,00</td>
+                <td><span class="badge high">Medio-alta</span></td>
+                <td>Media</td>
+                <td>Compatibilità con processi precedenti.</td>
+                <td>Disponibile in CLI, assente nella UI BuyerWise.</td>
+              </tr>
+              <tr>
+                <td><span class="rank">7</span></td>
+                <td class="model-name">GPT-5.4 Mini</td>
+                <td class="price">$0,75</td><td class="price">$4,50</td>
+                <td><span class="badge high">Alta su compiti delimitati</span></td>
+                <td>Alta</td>
+                <td>Estrazione strutturata, recupero, giudice e coda.</td>
+                <td>Testato: preciso con pagine già acquisite.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="panel" data-view="antigravity" hidden>
+        <div class="panel-head">
+          <div>
+            <h2>Modelli Antigravity</h2>
+            <p>L’elenco completo restituito da <code>agy.exe models</code>.</p>
+          </div>
+          <span class="source-state">Prezzi API di riferimento, non quota dell’abbonamento</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Modello</th>
+                <th>Input / 1M</th>
+                <th>Output / 1M</th>
+                <th>Ricerca tecnica</th>
+                <th>Velocità</th>
+                <th>Ruolo consigliato</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class="model-name">Gemini 3.6 Flash High</td><td class="price">$1,50</td><td class="price">$7,50</td><td><span class="badge excellent">Eccellente</span></td><td>Alta</td><td>Massima qualità Flash; ricerca e grounding.</td></tr>
+              <tr><td class="model-name">Gemini 3.6 Flash Medium</td><td class="price">$1,50</td><td class="price">$7,50</td><td><span class="badge very-high">Molto alta</span></td><td>Molto alta</td><td>Miglior fallback operativo da testare.</td></tr>
+              <tr><td class="model-name">Gemini 3.6 Flash Low</td><td class="price">$1,50</td><td class="price">$7,50</td><td><span class="badge high">Alta</span></td><td>Massima</td><td>Estrazioni semplici da fonti chiare.</td></tr>
+              <tr><td class="model-name">Gemini 3.5 Flash High</td><td class="price">$1,50</td><td class="price">$9,00</td><td><span class="badge very-high">Molto alta</span></td><td>Alta</td><td>Ragionamento Flash più approfondito.</td></tr>
+              <tr><td class="model-name">Gemini 3.5 Flash Medium</td><td class="price">$1,50</td><td class="price">$9,00</td><td><span class="badge very-high">Molto alta</span></td><td>Molto alta</td><td>Corpo Antigravity già verificato in BuyerWise.</td></tr>
+              <tr><td class="model-name">Gemini 3.5 Flash Low</td><td class="price">$1,50</td><td class="price">$9,00</td><td><span class="badge high">Medio-alta</span></td><td>Massima</td><td>Casi facili; minore robustezza.</td></tr>
+              <tr><td class="model-name">Gemini 3.1 Pro High</td><td class="price">$2,00*</td><td class="price">$12,00*</td><td><span class="badge excellent">Eccellente</span></td><td>Bassa</td><td>Ambiguità, conflitti e ricerca profonda.</td></tr>
+              <tr><td class="model-name">Gemini 3.1 Pro Low</td><td class="price">$2,00*</td><td class="price">$12,00*</td><td><span class="badge high">Alta</span></td><td>Media</td><td>Ragionamento Pro con consumo ridotto.</td></tr>
+              <tr><td class="model-name">Claude Opus 4.6 Thinking</td><td class="price">$5,50</td><td class="price">$27,50</td><td><span class="badge excellent">Eccellente</span></td><td>Bassa</td><td>Ragionamento molto complesso; costoso.</td></tr>
+              <tr><td class="model-name">Claude Sonnet 4.6</td><td class="price">$3,30</td><td class="price">$16,50</td><td><span class="badge very-high">Molto alta</span></td><td>Media</td><td>Buon equilibrio; non testato in BuyerWise.</td></tr>
+              <tr><td class="model-name">GPT-OSS 120B Medium</td><td class="price">$0,09</td><td class="price">$0,36</td><td><span class="badge medium">Media</span></td><td>Alta</td><td>Economico; non adatto come giudice finale.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="notes">
+          <small>* Gemini 3.1 Pro fino a 200.000 token di input; oltre tale soglia il riferimento Agent Platform sale a $4 input e $18 output. High, Medium e Low hanno lo stesso prezzo unitario, ma i livelli più alti generano normalmente più token di ragionamento.</small>
+        </div>
+      </article>
+    </section>
+
+    <section id="classifiche" class="grid-two">
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Classifica Codex</h2>
+            <p>Prestazione assoluta stimata nella ricerca tecnica end-to-end.</p>
+          </div>
+        </div>
+        <ol class="ranking-list">
+          <li>GPT-5.6 Sol</li>
+          <li>GPT-5.6 Terra</li>
+          <li>GPT-5.6 Luna</li>
+          <li>GPT-5.5</li>
+          <li>GPT-5.4</li>
+          <li>GPT-5.2</li>
+          <li>GPT-5.4 Mini</li>
+        </ol>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Classifica Antigravity</h2>
+            <p>Stima preliminare: non tutti gli undici modelli hanno un benchmark BuyerWise.</p>
+          </div>
+        </div>
+        <ol class="ranking-list">
+          <li>Gemini 3.6 Flash High</li>
+          <li>Gemini 3.1 Pro High</li>
+          <li>Claude Opus 4.6 Thinking</li>
+          <li>Gemini 3.6 Flash Medium</li>
+          <li>Gemini 3.5 Flash High</li>
+          <li>Claude Sonnet 4.6</li>
+          <li>Gemini 3.5 Flash Medium</li>
+          <li>Gemini 3.1 Pro Low</li>
+          <li>Gemini 3.6 Flash Low</li>
+          <li>Gemini 3.5 Flash Low</li>
+          <li>GPT-OSS 120B Medium</li>
+        </ol>
+      </article>
+    </section>
+
+    <section id="configurazione" class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>Configurazione consigliata per BuyerWise</h2>
+          <p>Codex copre il 90–98% del lavoro; Antigravity interviene solamente su eccezioni concrete.</p>
+        </div>
+      </div>
+      <div class="recommendation">
+        <article class="role">
+          <span class="step">01 · Testa</span>
+          <h3>Meccanica + Luna</h3>
+          <p>Acquisizione completa delle pagine, estratti, fonti e contesto.</p>
+        </article>
+        <article class="role">
+          <span class="step">02 · Corpo</span>
+          <h3>GPT-5.6 Luna</h3>
+          <p>Ricerca ed estrazione principale ad alto volume.</p>
+        </article>
+        <article class="role">
+          <span class="step">03 · Coda</span>
+          <h3>GPT-5.4 Mini</h3>
+          <p>Normalizzazione, controllo schema, recupero e giudizio.</p>
+        </article>
+        <article class="role">
+          <span class="step">04 · Escalation</span>
+          <h3>Terra → Sol</h3>
+          <p>Solo per conflitti che Luna e Mini non risolvono.</p>
+        </article>
+        <article class="role">
+          <span class="step">05 · Fallback</span>
+          <h3>Gemini 3.6 Medium</h3>
+          <p>Antigravity eccezionale; Pro High come ultima escalation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>Note importanti</h2>
+          <p>Limiti necessari per interpretare correttamente il confronto.</p>
+        </div>
+      </div>
+      <div class="notes">
+        <ul>
+          <li>Il prezzo per token non comprende sempre il costo delle ricerche web e degli altri strumenti.</li>
+          <li>Gemini Search, oltre la franchigia indicata da Google, costa $14 ogni 1.000 query; Claude su Google Cloud indica $10 ogni 1.000 ricerche.</li>
+          <li>La UI BuyerWise contiene ancora GPT-5.3 Codex Spark, non più presente nel catalogo Codex attuale, e non mostra GPT-5.2.</li>
+          <li>Nei benchmark BuyerWise Luna è risultata più veloce di Mini; Mini è particolarmente precisa quando riceve pagine già aperte e dati ben delimitati.</li>
+          <li>Antigravity 3.5 Flash Medium ha mostrato maggiore copertura in alcuni casi, ma anche più candidati conflittuali da validare.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="fonti" class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>Fonti</h2>
+          <p>Documentazione ufficiale e benchmark locale usati per questa fotografia.</p>
+        </div>
+      </div>
+      <div class="sources">
+        <a href="https://developers.openai.com/api/docs/models" target="_blank" rel="noreferrer">Modelli OpenAI</a>
+        <a href="https://openai.com/index/gpt-5-6/" target="_blank" rel="noreferrer">Famiglia GPT-5.6</a>
+        <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash" target="_blank" rel="noreferrer">Gemini 3.6 Flash</a>
+        <a href="https://ai.google.dev/gemini-api/docs/pricing" target="_blank" rel="noreferrer">Prezzi Gemini API</a>
+        <a href="https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing" target="_blank" rel="noreferrer">Prezzi Agent Platform</a>
+        <a href="benchmark_130_140_fonti_provider_20260721.md">Benchmark BuyerWise 130/140</a>
+      </div>
+    </section>
+
+    <footer>BuyerWise Lab · Documento locale di analisi · Nessuna modifica al database</footer>
+  </main>
+
+  <script>
+    const tabs = [...document.querySelectorAll(".tab")];
+    const views = [...document.querySelectorAll("[data-view]")];
+
+    function selectView(target) {
+      tabs.forEach(tab => {
+        tab.setAttribute("aria-selected", String(tab.dataset.target === target));
+      });
+      views.forEach(view => {
+        view.hidden = target !== "all" && view.dataset.view !== target;
+      });
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => selectView(tab.dataset.target));
+    });
+
+    const shareButton = document.querySelector("#share-page");
+    const shareUrl = "https://giufog.github.io/giu-page/token-agenti/";
+
+    shareButton.addEventListener("click", async () => {
+      try {
+        if (navigator.share) {
+          await navigator.share({ url: shareUrl });
+          return;
+        }
+        if (navigator.clipboard) {
+          await navigator.clipboard.writeText(shareUrl);
+          const previousLabel = shareButton.textContent;
+          shareButton.textContent = "Link copiato";
+          window.setTimeout(() => {
+            shareButton.textContent = previousLabel;
+          }, 1800);
+          return;
+        }
+      } catch (error) {
+        if (error.name === "AbortError") return;
+      }
+      window.prompt("Copia questo link", shareUrl);
+    });
+  </script>
+</body>
+</html>
