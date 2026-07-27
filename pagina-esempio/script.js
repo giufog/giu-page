@@ -1,6 +1,20 @@
 const toast = document.querySelector('.toast');
 let toastTimer;
 const sources = document.querySelector('.sources');
+const pageCounter = document.querySelector('[data-page-counter]');
+
+function updatePageCounter() {
+  if (!pageCounter) return;
+  const total = Math.max(1, Number(pageCounter.dataset.totalPages) || 1);
+  const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+  const progress = Math.min(1, Math.max(0, window.scrollY / maxScroll));
+  const current = Math.min(total, Math.floor(progress * total) + 1);
+  pageCounter.textContent = `Pagina ${current} di ${total}`;
+}
+
+updatePageCounter();
+window.addEventListener('scroll', updatePageCounter, { passive: true });
+window.addEventListener('resize', updatePageCounter);
 
 document.querySelectorAll('a[href^="#"]').forEach((link) => {
   link.addEventListener('click', (event) => {
