@@ -4,38 +4,45 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Giu Page: pagine da condividere.">
+  <meta name="description" content="Giu Page: raccolta di pagine pubbliche da consultare e condividere.">
+  <meta name="theme-color" content="#173e35">
   <title>Giu Page</title>
   <link rel="icon" href="./assets/gp-icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/site.css?v=20260713-2">
+  <link rel="stylesheet" href="./assets/site.css?v=20260727-7">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero__inner">
-      <h1>Giu Page</h1>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="./" aria-label="Giu Page, pagina iniziale">
+        <img class="brand__mark" src="./assets/gp-icon.svg" width="34" height="34" alt="">
+        <span>Giu Page</span>
+      </a>
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Cerca nelle pagine" aria-expanded="false" aria-controls="home-search" data-search-toggle>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg>
+        </button>
+        <details class="menu">
+          <summary class="icon-button" aria-label="Apri elenco delle pagine">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5h14M5 9.5h14M5 14.5h14M5 19.5h14"></path></svg>
+          </summary>
+          <nav class="menu__panel" id="page-menu" aria-label="Pagine disponibili"></nav>
+        </details>
+      </div>
+    </div>
+    <div class="home-search" id="home-search" hidden>
+      <div class="home-search__inner">
+        <label for="search">Cerca nelle pagine</label>
+        <input id="search" type="search" placeholder="Titolo o argomento" autocomplete="off">
+      </div>
     </div>
   </header>
 
   <main class="content">
-    <div class="toolbar">
-      <label class="search">
-        <span class="sr-only">Cerca nelle pagine</span>
-        <input id="search" type="search" placeholder="Cerca una pagina" autocomplete="off">
-      </label>
-      <label class="sort">
-        <span class="sr-only">Ordina le pagine</span>
-        <select id="sort">
-          <option value="recent">Data di inserimento</option>
-          <option value="title">Titolo</option>
-        </select>
-      </label>
-      <p id="count" class="count" aria-live="polite"></p>
-    </div>
-
+    <p id="count" class="count" aria-live="polite"></p>
     <section id="catalog" class="catalog" aria-label="Pagine pubblicate"></section>
     <div id="empty" class="empty" hidden>
-      <h2>Nessuna pagina pubblicata</h2>
-      <p>Il catalogo si aggiornera' alla prima pubblicazione.</p>
+      <h1>Nessuna pagina pubblicata</h1>
+      <p>Il catalogo si aggiornerà alla prima pubblicazione.</p>
     </div>
   </main>
 
@@ -53,6 +60,6 @@
     </article>
   </template>
 
-  <script src="./assets/catalogo.js?v=20260713-2" defer></script>
+  <script src="./assets/catalogo.js?v=20260727-7" defer></script>
 </body>
 </html>
