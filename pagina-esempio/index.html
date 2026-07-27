@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Riferimento grafico e funzionale per pagine Giu Page coerenti, leggibili da telefono, stampabili in PDF e pronte per la pubblicazione online.">
+  <meta name="description" content="Riferimento grafico e funzionale per creare pagine Giu Page coerenti, semplici, leggibili da telefono e pronte per la pubblicazione.">
   <link rel="canonical" href="https://giufog.github.io/giu-page/pagina-esempio/">
   <link rel="icon" href="https://giufog.github.io/giu-page/assets/gp-icon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Giu Page">
   <meta property="og:title" content="Standard grafico da provare">
-  <meta property="og:description" content="Riferimento grafico e funzionale per pagine Giu Page coerenti, leggibili da telefono, stampabili in PDF e pronte per la pubblicazione online.">
+  <meta property="og:description" content="Riferimento grafico e funzionale per creare pagine Giu Page coerenti, semplici, leggibili da telefono e pronte per la pubblicazione.">
   <meta property="og:url" content="https://giufog.github.io/giu-page/pagina-esempio/">
   <meta property="og:image" content="https://giufog.github.io/giu-page/pagina-esempio/assets/share-whatsapp.svg">
   <meta property="og:image:secure_url" content="https://giufog.github.io/giu-page/pagina-esempio/assets/share-whatsapp.svg">
@@ -21,7 +21,7 @@
   <meta property="og:image:alt" content="Anteprima grafica verde salvia dello standard Giu Page">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Standard grafico da provare">
-  <meta name="twitter:description" content="Riferimento grafico e funzionale per pagine Giu Page coerenti, leggibili da telefono, stampabili in PDF e pronte per la pubblicazione online.">
+  <meta name="twitter:description" content="Riferimento grafico e funzionale per creare pagine Giu Page coerenti, semplici, leggibili da telefono e pronte per la pubblicazione.">
   <meta name="twitter:image" content="https://giufog.github.io/giu-page/pagina-esempio/assets/share-whatsapp.svg">
   <title>Standard grafico da provare | Giu Page</title>
   <link rel="stylesheet" href="style.css">
@@ -36,19 +36,30 @@
         <span>Giu Page</span>
       </a>
       <div class="header-actions">
-        <button class="icon-button" type="button" aria-label="Cerca nella pagina" data-toast="Ricerca: esempio di azione rapida.">
+        <button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" aria-controls="page-search" data-search-toggle>
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg>
         </button>
         <details class="menu">
-          <summary class="icon-button" aria-label="Apri menu">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h14"></path></svg>
+          <summary class="icon-button" aria-label="Apri indice della pagina">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5h14M5 9.5h14M5 14.5h14M5 19.5h14"></path></svg>
           </summary>
-          <div class="menu__panel">
-            <a href="#componenti">Componenti</a>
-            <a href="#fonti">Fonti</a>
-            <button type="button" data-toast="Voce menu: esempio.">Azione di esempio</button>
-          </div>
+          <nav class="menu__panel" aria-label="Indice della pagina">
+            <a href="#principi"><span>01</span>Principi proposti</a>
+            <a href="#componenti"><span>02</span>Pulsanti, menu e campi</a>
+            <a href="#contenuti"><span>03</span>Schede, dati e avvisi</a>
+            <a href="#fonti"><span>04</span>Fonti e riferimenti</a>
+          </nav>
         </details>
+      </div>
+    </div>
+    <div class="page-search" id="page-search" hidden>
+      <div class="page-search__inner">
+        <label for="page-search-input">Cerca nella pagina</label>
+        <div class="page-search__control">
+          <input id="page-search-input" type="search" placeholder="Scrivi una parola o un argomento" autocomplete="off">
+          <button type="button" data-search-next>Trova</button>
+        </div>
+        <p class="page-search__status" role="status" aria-live="polite">Scrivi almeno due caratteri.</p>
       </div>
     </div>
   </header>
@@ -56,13 +67,9 @@
   <main id="contenuto">
     <section class="hero" id="inizio" aria-labelledby="titolo-pagina">
       <h1 id="titolo-pagina">Standard grafico da provare</h1>
-      <p class="hero__lead">Questa pagina raccoglie gli elementi grafici e funzionali approvati per creare contenuti Giu Page coerenti, leggibili da telefono e pronti per la pubblicazione online.</p>
+      <p class="hero__lead">Riferimento grafico e funzionale per creare pagine Giu Page coerenti, semplici, leggibili da telefono e pronte per la pubblicazione.</p>
       <div class="page-meta" aria-label="Informazioni sulla pagina">
-        <span>4 pagine</span>
-        <span aria-hidden="true">•</span>
-        <span>Creata il 27 luglio 2026</span>
-        <span aria-hidden="true">•</span>
-        <span>Tempo di lettura: 2 minuti</span>
+        <span>4 pagine, create il 27 luglio 2026, e da 2 minuti di lettura.</span>
       </div>
       <div class="hero__actions">
         <button class="button button--print" type="button" data-print>
@@ -73,27 +80,7 @@
     </section>
 
     <div class="page-shell">
-      <aside class="page-side" aria-label="Navigazione della pagina">
-        <p class="side-label">IN QUESTA PAGINA</p>
-        <nav class="side-nav">
-          <a class="is-current" href="#principi">Principi</a>
-          <a href="#componenti">Pulsanti e controlli</a>
-          <a href="#contenuti">Contenuti e dati</a>
-          <a href="#fonti">Fonti e note</a>
-        </nav>
-      </aside>
-
       <article class="article">
-        <details class="page-index">
-          <summary><span>Indice della pagina</span><span class="summary-meta">4 sezioni</span></summary>
-          <ol>
-            <li><a href="#principi">Principi proposti</a></li>
-            <li><a href="#componenti">Pulsanti, menu e campi</a></li>
-            <li><a href="#contenuti">Schede, dati e avvisi</a></li>
-            <li><a href="#fonti">Fonti e riferimenti</a></li>
-          </ol>
-        </details>
-
         <section id="principi" aria-labelledby="titolo-principi">
           <div class="section-heading">
             <p class="eyebrow eyebrow--green">01 · BASE</p>
@@ -188,4 +175,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
