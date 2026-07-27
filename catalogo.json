@@ -3,6 +3,22 @@
   "updatedAt": "2026-07-27",
   "pages": [
     {
+      "title": "Standard grafico da provare",
+      "slug": "pagina-esempio",
+      "description": "Riferimento grafico e funzionale per pagine Giu Page coerenti, leggibili da telefono, stampabili in PDF e pronte per la pubblicazione online.",
+      "createdAt": "2026-07-27",
+      "updatedAt": "2026-07-27",
+      "coverImageUrl": "https://giufog.github.io/giu-page/pagina-esempio/assets/share-whatsapp.svg",
+      "url": "https://giufog.github.io/giu-page/pagina-esempio/",
+      "shareUrl": "https://giufog.github.io/giu-page/pagina-esempio/",
+      "tags": [
+        "giu-page",
+        "design-system",
+        "pagina-esempio"
+      ],
+      "listed": true
+    },
+    {
       "title": "Token Agenti",
       "slug": "token-agenti",
       "description": "Confronto tra i modelli Codex e Antigravity disponibili nel progetto, con prezzi API indicativi, qualità di ricerca e impiego consigliato.",
