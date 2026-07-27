@@ -122,3 +122,15 @@ fetch('./catalogo.json', { cache: 'no-store' })
   });
 
 search.addEventListener('input', render);
+
+let viewportRefreshFrame = 0;
+
+function refreshCatalogAfterResize() {
+  window.cancelAnimationFrame(viewportRefreshFrame);
+  viewportRefreshFrame = window.requestAnimationFrame(() => {
+    if (pages.length) render();
+  });
+}
+
+window.addEventListener('resize', refreshCatalogAfterResize);
+window.visualViewport?.addEventListener('resize', refreshCatalogAfterResize);
