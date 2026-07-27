@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-27",
   "pages": [
     {
       "title": "Token Agenti",
@@ -82,6 +82,21 @@
       ],
       "listed": true,
       "shareUrl": "https://giufog.github.io/giu-page/apparecchi-acustici/?wa=20260712-1200"
+    },
+    {
+      "slug": "forfora",
+      "title": "Forfora",
+      "description": "Confronto informativo tra ketoconazolo e ciclopirox per forfora o dermatite seborroica, con avvertenze per possibile irritazione da contatto.",
+      "url": "https://giufog.github.io/giu-page/forfora/",
+      "createdAt": "2026-07-27",
+      "updatedAt": "2026-07-27",
+      "coverImageUrl": "https://giufog.github.io/giu-page/forfora/assets/share-whatsapp.jpg",
+      "tags": [
+        "medicina",
+        "cuoio-capelluto",
+        "forfora"
+      ],
+      "listed": true
     }
   ]
 }
