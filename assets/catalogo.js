@@ -2,7 +2,9 @@ const catalog = document.querySelector('#catalog');
 const empty = document.querySelector('#empty');
 const count = document.querySelector('#count');
 const search = document.querySelector('#search');
-const sort = document.querySelector('#sort');
+const searchToggle = document.querySelector('[data-search-toggle]');
+const searchPanel = document.querySelector('#home-search');
+const pageMenu = document.querySelector('#page-menu');
 const template = document.querySelector('#card-template');
 let pages = [];
 
@@ -18,32 +20,64 @@ function formatDate(value) {
   }).format(date);
 }
 
+function insertionDate(page) {
+  return String(page.createdAt || page.updatedAt || '');
+}
+
 async function sharePage(page) {
   const shareUrl = page.shareUrl || page.url;
-  const data = { url: shareUrl };
   if (navigator.share) {
-    await navigator.share(data);
+    await navigator.share({ url: shareUrl });
     return;
   }
   await navigator.clipboard.writeText(shareUrl);
   window.alert('Link copiato negli appunti.');
 }
 
-function insertionDate(page) {
-  return String(page.createdAt || page.updatedAt || '');
+function closeSearch() {
+  searchPanel.hidden = true;
+  searchToggle.setAttribute('aria-expanded', 'false');
+}
+
+searchToggle.addEventListener('click', () => {
+  const open = searchPanel.hidden;
+  searchPanel.hidden = !open;
+  searchToggle.setAttribute('aria-expanded', String(open));
+  document.querySelectorAll('details.menu[open]').forEach(menu => menu.removeAttribute('open'));
+  if (open) search.focus();
+});
+
+document.addEventListener('click', event => {
+  document.querySelectorAll('details.menu[open]').forEach(menu => {
+    if (!menu.contains(event.target)) menu.removeAttribute('open');
+  });
+  if (!searchPanel.hidden && !searchPanel.contains(event.target) && !searchToggle.contains(event.target)) {
+    closeSearch();
+  }
+});
+
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  document.querySelectorAll('details.menu[open]').forEach(menu => menu.removeAttribute('open'));
+  if (!searchPanel.hidden) closeSearch();
+});
+
+function renderMenu() {
+  pageMenu.replaceChildren();
+  for (const page of pages.filter(page => page.listed !== false).sort((a, b) => insertionDate(b).localeCompare(insertionDate(a)))) {
+    const link = document.createElement('a');
+    link.href = page.url;
+    link.textContent = page.title;
+    pageMenu.append(link);
+  }
 }
 
 function render() {
   const query = normalize(search.value.trim());
-  const visible = pages.filter(page => {
-    const haystack = normalize([page.title, page.description, ...(page.tags || [])].join(' '));
-    return page.listed !== false && haystack.includes(query);
-  });
-
-  visible.sort((a, b) => {
-    if (sort.value === 'title') return String(a.title || '').localeCompare(String(b.title || ''), 'it');
-    return insertionDate(b).localeCompare(insertionDate(a));
-  });
+  const visible = pages
+    .filter(page => page.listed !== false)
+    .filter(page => normalize([page.title, page.description, ...(page.tags || [])].join(' ')).includes(query))
+    .sort((a, b) => insertionDate(b).localeCompare(insertionDate(a)));
 
   catalog.replaceChildren();
   empty.hidden = visible.length !== 0;
@@ -77,14 +111,14 @@ fetch('./catalogo.json', { cache: 'no-store' })
   })
   .then(data => {
     pages = Array.isArray(data.pages) ? data.pages : [];
+    renderMenu();
     render();
   })
   .catch(error => {
     empty.hidden = false;
-    empty.querySelector('h2').textContent = 'Catalogo non disponibile';
+    empty.querySelector('h1').textContent = 'Catalogo non disponibile';
     empty.querySelector('p').textContent = error.message;
     count.textContent = '';
   });
 
 search.addEventListener('input', render);
-sort.addEventListener('change', render);
