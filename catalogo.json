@@ -113,6 +113,23 @@
         "forfora"
       ],
       "listed": true
+    },
+    {
+      "slug": "cura-dei-piedi",
+      "title": "Cura dei piedi",
+      "description": "Come distinguere micosi, sudorazione e danno dell’unghia, con prodotti e controlli da valutare.",
+      "url": "https://giufog.github.io/giu-page/cura-dei-piedi/",
+      "shareUrl": "https://giufog.github.io/giu-page/cura-dei-piedi/?wa=20260727-1",
+      "createdAt": "2026-07-27",
+      "updatedAt": "2026-07-27",
+      "coverImageUrl": "https://giufog.github.io/giu-page/cura-dei-piedi/assets/share-whatsapp.jpg",
+      "tags": [
+        "medicina",
+        "piedi",
+        "micosi",
+        "unghie"
+      ],
+      "listed": true
     }
   ]
 }

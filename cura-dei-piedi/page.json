@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "title": "Cura dei piedi",
+  "slug": "cura-dei-piedi",
+  "description": "Come distinguere micosi, sudorazione e danno dell’unghia, con prodotti e controlli da valutare.",
+  "createdAt": "2026-07-27",
+  "updatedAt": "2026-07-27",
+  "pageCount": 5,
+  "readingMinutes": 9,
+  "coverImage": "assets/share-whatsapp.jpg",
+  "tags": [
+    "salute",
+    "piedi",
+    "micosi",
+    "unghie"
+  ],
+  "listed": true
+}
