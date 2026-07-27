@@ -2,6 +2,7 @@ const toast = document.querySelector('.toast');
 let toastTimer;
 const sources = document.querySelector('.sources');
 const pageCounter = document.querySelector('[data-page-counter]');
+const backToTop = document.querySelector('[data-to-top]');
 
 function updatePageCounter() {
   if (!pageCounter) return;
@@ -15,6 +16,10 @@ function updatePageCounter() {
 updatePageCounter();
 window.addEventListener('scroll', updatePageCounter, { passive: true });
 window.addEventListener('resize', updatePageCounter);
+
+backToTop?.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 document.querySelectorAll('a[href^="#"]').forEach((link) => {
   link.addEventListener('click', (event) => {
@@ -33,6 +38,16 @@ document.addEventListener('pointerdown', (event) => {
   document.querySelectorAll('details.menu[open]').forEach((menu) => {
     if (!menu.contains(event.target)) menu.removeAttribute('open');
   });
+  if (
+    searchPanel &&
+    !searchPanel.hidden &&
+    !searchPanel.contains(event.target) &&
+    !searchToggle?.contains(event.target)
+  ) {
+    searchPanel.hidden = true;
+    searchToggle?.setAttribute('aria-expanded', 'false');
+    clearSearchResult();
+  }
 });
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
@@ -112,6 +127,29 @@ searchInput?.addEventListener('keydown', (event) => {
   }
 });
 searchNext?.addEventListener('click', showNextSearchResult);
+
+document.querySelector('[data-share]')?.addEventListener('click', async () => {
+  const canonical = document.querySelector('link[rel="canonical"]')?.href;
+  const url = canonical || window.location.href.split('#')[0];
+  try {
+    if (navigator.share) {
+      await navigator.share({ url });
+      return;
+    }
+    await navigator.clipboard.writeText(url);
+    toast.textContent = 'Link copiato.';
+    toast.classList.add('is-visible');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('is-visible'), 3200);
+  } catch (error) {
+    if (error?.name !== 'AbortError') {
+      toast.textContent = 'Condivisione non disponibile.';
+      toast.classList.add('is-visible');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('is-visible'), 3200);
+    }
+  }
+});
 
 document.querySelectorAll('[data-toast]').forEach((button) => {
   button.addEventListener('click', () => {
