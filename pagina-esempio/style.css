@@ -111,16 +111,25 @@ summary { cursor: pointer; }
 .sources { overflow: hidden; }.sources summary { gap: 12px; }.sources summary > span:first-child { display: grid; gap: 2px; }.chevron { color: var(--action); font-size: 1.4rem; transition: transform .16s ease; }.sources[open] .chevron { transform: rotate(180deg); }.source-list { display: grid; gap: 0; margin: 0; padding: 0 18px 8px; list-style: none; }.source-list li { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 9px; padding: 13px 0; border-top: 1px solid var(--line); }.source-number { display: grid; width: 26px; height: 26px; place-items: center; border-radius: 8px; color: var(--action); background: var(--soft); font-size: .7rem; font-weight: 850; }.source-list div { display: grid; gap: 2px; }.source-list b { font-size: .88rem; }.source-list a { font-size: .85rem; }.source-list small { font-size: .75rem; }
 
 .site-footer { border-top: 1px solid var(--line); background: var(--white); }.site-footer div { display: grid; width: min(var(--site), 100%); gap: 2px; margin: auto; padding: 24px 20px 34px; }.site-footer b { font-size: .9rem; }.site-footer span { color: var(--muted); font-size: .8rem; }
+.page-counter { position: fixed; z-index: 9; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); margin: 0; color: rgb(100 117 107 / 82%); font-size: .72rem; font-variant-numeric: tabular-nums; line-height: 1; pointer-events: none; }
 dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var(--line); border-radius: var(--radius-lg); color: var(--ink); box-shadow: var(--shadow-hover); }dialog::backdrop { background: rgb(23 62 53 / 45%); }dialog form { padding: 23px; }dialog h2 { margin: 0 0 8px; font-size: 1.35rem; }dialog p { margin: 0; color: var(--muted); }.dialog-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; margin-top: 22px; }.toast { position: fixed; z-index: 30; bottom: 20px; left: 50%; width: min(430px, calc(100% - 32px)); padding: 12px 14px; border-radius: var(--radius); color: var(--white); background: var(--forest); box-shadow: var(--shadow-hover); font-size: .9rem; opacity: 0; pointer-events: none; transform: translate(-50%, 16px); transition: opacity .18s ease, transform .18s ease; }.toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
 
 @media (max-width: 860px) { .page-shell { padding-top: 24px; }.article > section:first-of-type { margin-top: 0; } }
 @media (max-width: 620px) { .site-header__inner { min-height: 58px; padding-inline: 16px; }.brand { font-size: 1rem; }.brand__mark { width: 32px; height: 32px; }.menu__panel { position: fixed; top: 64px; right: 12px; left: 12px; width: auto; }.hero { padding: 33px 20px 34px; }.page-shell { padding: 22px 16px 56px; }.sources summary { min-height: 58px; padding-inline: 15px; }.token-grid, .control-grid, .cards { grid-template-columns: 1fr; }.token { grid-template-columns: 40px 1fr; padding: 11px; }.button-row { display: grid; grid-template-columns: 1fr 1fr; }.button-row .button { width: 100%; }.hero__actions .button { flex: 1 1 170px; }.type-sample, .component-card { padding: 17px; }.article > section { margin-top: 38px; }.sources { margin-inline: -2px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; } }
 @media print {
-  @page { size: A4; margin: 14mm; }
+  @page {
+    size: A4;
+    margin: 14mm 14mm 18mm;
+    @bottom-right {
+      content: "Pagina " counter(page) " di " counter(pages);
+      color: #64756b;
+      font: 8pt Inter, Arial, sans-serif;
+    }
+  }
   html { scroll-behavior: auto; }
   body { background: #fff; color: #111; font-size: 10.5pt; }
-  .site-header, .hero__actions, .site-footer, .toast, dialog { display: none !important; }
+  .site-header, .hero__actions, .site-footer, .page-counter, .toast, dialog { display: none !important; }
   .hero { padding: 0 0 8mm; color: #111; background: none; }
   .hero > * { max-width: none; }
   h1 { max-width: none; color: #111; font-size: 26pt; }
