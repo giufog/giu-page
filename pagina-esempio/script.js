@@ -128,9 +128,10 @@ searchInput?.addEventListener('keydown', (event) => {
 });
 searchNext?.addEventListener('click', showNextSearchResult);
 
-document.querySelector('[data-share]')?.addEventListener('click', async () => {
+document.querySelector('[data-share]')?.addEventListener('click', async (event) => {
+  const configuredUrl = event.currentTarget.dataset.shareUrl;
   const canonical = document.querySelector('link[rel="canonical"]')?.href;
-  const url = canonical || window.location.href.split('#')[0];
+  const url = configuredUrl || canonical || window.location.href.split('#')[0];
   try {
     if (navigator.share) {
       await navigator.share({ url });

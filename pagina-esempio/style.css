@@ -75,10 +75,10 @@ h1 { max-width: 17ch; margin: 0; font-size: clamp(2.25rem, 8vw, 4.35rem); line-h
 .hero__lead { margin: 18px 0 0; color: rgb(255 255 255 / 86%); font-size: clamp(1rem, 2.8vw, 1.2rem); }
 .page-meta { display: flex; flex-wrap: wrap; gap: 5px 9px; margin-top: 17px; color: rgb(255 255 255 / 70%); font-size: .86rem; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 19px; }
-.button--print { border-color: rgb(255 255 255 / 42%); color: var(--forest); background: var(--white); box-shadow: 0 7px 16px rgb(0 0 0 / 13%); }
-.button--print:hover { border-color: var(--white); color: var(--white); background: rgb(255 255 255 / 13%); }
-.button--share { border-color: rgb(255 255 255 / 42%); color: var(--white); background: rgb(255 255 255 / 10%); }
-.button--share:hover { border-color: var(--white); color: var(--forest); background: var(--white); }
+.button--print, .button--share { min-width: 158px; border-color: rgb(255 255 255 / 48%); background: var(--white); box-shadow: 0 7px 16px rgb(0 0 0 / 13%); }
+.button--print { color: #b23a3a; }
+.button--share { color: #2878b8; }
+.button--print:hover, .button--share:hover { border-color: var(--white); background: var(--soft); }
 
 .page-shell { display: block; width: min(var(--content), 100%); min-width: 0; margin: auto; padding: 34px 20px 76px; }
 .article { width: 100%; min-width: 0; }
@@ -119,7 +119,7 @@ summary { cursor: pointer; }
 dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var(--line); border-radius: var(--radius-lg); color: var(--ink); box-shadow: var(--shadow-hover); }dialog::backdrop { background: rgb(23 62 53 / 45%); }dialog form { padding: 23px; }dialog h2 { margin: 0 0 8px; font-size: 1.35rem; }dialog p { margin: 0; color: var(--muted); }.dialog-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; margin-top: 22px; }.toast { position: fixed; z-index: 30; bottom: 20px; left: 50%; width: min(430px, calc(100% - 32px)); padding: 12px 14px; border-radius: var(--radius); color: var(--white); background: var(--forest); box-shadow: var(--shadow-hover); font-size: .9rem; opacity: 0; pointer-events: none; transform: translate(-50%, 16px); transition: opacity .18s ease, transform .18s ease; }.toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
 
 @media (max-width: 860px) { .page-shell { padding-top: 24px; }.article > section:first-of-type { margin-top: 0; } }
-@media (max-width: 620px) { .site-header__inner { min-height: 58px; padding-inline: 16px; }.brand { font-size: 1rem; }.brand__mark { width: 32px; height: 32px; }.menu__panel { position: fixed; top: 64px; right: 12px; left: 12px; width: auto; }.hero { padding: 33px 20px 34px; }.page-shell { padding: 22px 16px 56px; }.sources summary { min-height: 58px; padding-inline: 15px; }.token-grid, .control-grid, .cards { grid-template-columns: 1fr; }.token { grid-template-columns: 40px 1fr; padding: 11px; }.button-row { display: grid; grid-template-columns: 1fr 1fr; }.button-row .button { width: 100%; }.hero__actions .button { flex: 1 1 170px; }.type-sample, .component-card { padding: 17px; }.article > section { margin-top: 38px; }.sources { margin-inline: -2px; } }
+@media (max-width: 620px) { .site-header__inner { min-height: 58px; padding-inline: 16px; }.brand { font-size: 1rem; }.brand__mark { width: 32px; height: 32px; }.menu__panel { position: fixed; top: 64px; right: 12px; left: 12px; width: auto; }.hero { padding: 33px 20px 34px; }.page-shell { padding: 22px 16px 56px; }.sources summary { min-height: 58px; padding-inline: 15px; }.token-grid, .control-grid, .cards { grid-template-columns: 1fr; }.token { grid-template-columns: 40px 1fr; padding: 11px; }.button-row { display: grid; grid-template-columns: 1fr 1fr; }.button-row .button { width: 100%; }.hero__actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }.hero__actions .button { width: 100%; min-width: 0; padding-inline: 8px; white-space: nowrap; font-size: .88rem; }.type-sample, .component-card { padding: 17px; }.article > section { margin-top: 38px; }.sources { margin-inline: -2px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; } }
 @media print {
   @page {
