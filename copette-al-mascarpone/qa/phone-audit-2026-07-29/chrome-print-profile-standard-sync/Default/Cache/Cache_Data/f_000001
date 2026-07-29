@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#173e35">
+  <title>copette al mascarpone | Giu Page</title>
+  <meta name="description" content="Tre ricette italiane pubblicate per preparare creme e coppette al mascarpone con Nutella, cacao e varianti documentate.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Giu Page">
+  <meta property="og:title" content="copette al mascarpone">
+  <meta property="og:description" content="Tre ricette italiane pubblicate per preparare creme e coppette al mascarpone con Nutella, cacao e varianti documentate.">
+  <meta property="og:url" content="https://giufog.github.io/giu-page/copette-al-mascarpone/">
+  <meta property="og:image" content="https://giufog.github.io/giu-page/copette-al-mascarpone/assets/share-whatsapp.jpg?v=20260729-1">
+  <meta property="og:image:secure_url" content="https://giufog.github.io/giu-page/copette-al-mascarpone/assets/share-whatsapp.jpg?v=20260729-1">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Due bicchieri di crema al mascarpone con strati di crema alla nocciola e cacao">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="copette al mascarpone">
+  <meta name="twitter:description" content="Tre ricette italiane pubblicate per preparare creme e coppette al mascarpone con Nutella, cacao e varianti documentate.">
+  <meta name="twitter:image" content="https://giufog.github.io/giu-page/copette-al-mascarpone/assets/share-whatsapp.jpg?v=20260729-1">
+  <link rel="canonical" href="https://giufog.github.io/giu-page/copette-al-mascarpone/">
+  <link rel="icon" href="assets/gp-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Salta al contenuto</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#inizio" aria-label="Giu Page, copette al mascarpone">
+        <img class="brand__mark" src="assets/gp-icon.svg" width="34" height="34" alt="">
+        <span>Giu Page</span>
+      </a>
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" aria-controls="page-search" data-search-toggle>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg>
+        </button>
+        <details class="menu">
+          <summary class="icon-button" aria-label="Apri indice della pagina">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5h14M5 9.5h14M5 14.5h14M5 19.5h14"></path></svg>
+          </summary>
+          <nav class="menu__panel" aria-label="Indice della pagina">
+            <a href="#ricette"><span>01</span>Ricette pubblicate</a>
+            <a href="#coppette-gnamgnam"><span>02</span>Coppette mascarpone e Nutella</a>
+            <a href="#crema-amare"><span>03</span>Crema con cacao</a>
+            <a href="#bicchierini-kikakitchen"><span>04</span>Bicchierini variegati</a>
+            <a href="#analisi"><span>05</span>Analisi degli ingredienti</a>
+            <a href="#fonti"><span>06</span>Fonti consultate</a>
+          </nav>
+        </details>
+      </div>
+    </div>
+    <div class="page-search" id="page-search" hidden>
+      <div class="page-search__inner">
+        <label for="page-search-input">Cerca nella pagina</label>
+        <div class="page-search__control">
+          <input id="page-search-input" type="search" placeholder="Ingredienti, passaggi, allergeni…" autocomplete="off">
+          <button type="button" data-search-next>Trova</button>
+        </div>
+        <p class="page-search__status" role="status" aria-live="polite">Scrivi almeno due caratteri.</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="hero" id="inizio" aria-labelledby="titolo-pagina">
+        <h1 id="titolo-pagina">copette al mascarpone</h1>
+        <p class="hero__lead">Tre ricette italiane pubblicate per preparare creme e coppette al mascarpone con Nutella, cacao e varianti documentate.</p>
+        <div class="page-meta" aria-label="Informazioni sulla pagina">
+          <span data-page-meta>11 pagine, create il 29 luglio 2026, e da 8 minuti di lettura.</span>
+        </div>
+        <div class="hero__actions">
+          <button class="button button--print" type="button" data-print>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V4h10v5"></path><path d="M7 18H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><path d="M7 14h10v6H7z"></path></svg>
+            Stampa PDF
+          </button>
+          <button class="button button--share" type="button" data-share data-share-url="https://giufog.github.io/giu-page/copette-al-mascarpone/?wa=20260729-1">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"></path></svg>
+            Condividi
+          </button>
+        </div>
+    </section>
+
+    <div class="page-shell">
+      <article class="article">
+      <section class="research-note content-column" aria-label="Nota sulla provenienza">
+        <strong>Nota sulla provenienza</strong>
+        <p>Non ho trovato una fonte che attribuisca con certezza queste preparazioni al Centro Italia. Le tre proposte sono quindi presentate come ricette italiane, senza assegnare loro un’origine regionale non verificata.</p>
+      </section>
+
+      <section class="structure wide-section" aria-labelledby="structure-title">
+        <div class="content-column">
+          <p class="kicker">Impostazione</p>
+          <h2 id="structure-title">Struttura della ricetta</h2>
+          <dl class="fact-grid">
+            <div><dt>Area di riferimento</dt><dd>Ricette italiane</dd><small>La provenienza centro-italiana non è verificata.</small></div>
+            <div><dt>Servizio</dt><dd>4 bicchieri</dd><small>Le quantità a persona sono già calcolate.</small></div>
+            <div><dt>Tempi</dt><dd>Da 5 a 25 minuti</dd><small>Una proposta richiede inoltre 2 ore in frigorifero.</small></div>
+            <div><dt>Difficoltà</dt><dd>Facile</dd><small>Il livello riportato segue la fonte consultata.</small></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="variants content-column" id="ricette">
+        <div class="section-heading">
+          <p class="kicker">Tre risultati verificati</p>
+          <h2>Ricette pubblicate</h2>
+          <p>Ogni scheda apre la preparazione corrispondente. Gli adattamenti di dose o presentazione sono sempre dichiarati.</p>
+        </div>
+        <div class="variant-grid">
+          <a class="variant-card" href="#coppette-gnamgnam">
+            <img src="assets/fonte-gnamgnam.jpg" alt="Coppette mascarpone e Nutella della ricetta GnamGnam">
+            <div><h3>Coppette mascarpone e Nutella</h3><p>Mousse al mascarpone con strati di Nutella; i biscotti non fanno parte della ricetta base.</p><p class="variant-time"><strong>25 minuti</strong><span>Tenere 2 ore in frigorifero.</span></p></div>
+          </a>
+          <a class="variant-card" href="#crema-amare">
+            <img src="assets/fonte-amare.jpg" alt="Crema mascarpone e Nutella con cacao della ricetta ABC">
+            <div><h3>Crema mascarpone e Nutella con cacao</h3><p>Crema di mascarpone e Nutella, servita al cucchiaio con cacao amaro in superficie.</p><p class="variant-time"><strong>5 minuti</strong><span>Conservare in frigorifero fino al servizio.</span></p></div>
+          </a>
+          <a class="variant-card" href="#bicchierini-kikakitchen">
+            <img src="assets/fonte-kikakitchen.jpg" alt="Bicchierini variegati mascarpone e Nutella della ricetta Kikakitchen">
+            <div><h3>Bicchierini variegati mascarpone e Nutella</h3><p>Crema al mascarpone e Nutella inserite nella stessa tasca per ottenere striature visibili.</p><p class="variant-time"><strong>20 minuti</strong><span>Il procedimento non prevede cottura.</span></p></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="recipe content-column" id="coppette-gnamgnam">
+        <div class="recipe-intro">
+          <div><h2>Coppette mascarpone e Nutella</h2><p>Ricetta per quattro persone, servita in coppette e composta da mousse al mascarpone e strati di Nutella.</p><p class="callout">Niente biscotti nella lista base. La fonte li cita soltanto come aggiunta facoltativa.</p></div>
+          <figure><img src="assets/fonte-gnamgnam.jpg" alt="Coppette mascarpone e Nutella"><figcaption>Fotografia della <a href="https://www.gnamgnam.it/ricetta/coppette-mascarpone-e-nutella.htm" target="_blank" rel="noreferrer">ricetta pubblicata su GnamGnam</a>.</figcaption></figure>
+        </div>
+        <dl class="recipe-meta"><div><dt>Porzioni</dt><dd>4 persone</dd></div><div><dt>Difficoltà</dt><dd>3/5</dd></div><div><dt>Preparazione</dt><dd>25 min</dd></div><div><dt>In frigorifero</dt><dd>2 ore</dd></div><div class="total"><dt>Tempo totale</dt><dd>circa 2 h 25 min</dd></div></dl>
+        <h3>Ingredienti</h3>
+        <div class="ingredient-grid">
+          <article><b>Mascarpone</b><span>Ricetta 250 g</span><span>A persona 62,5 g</span></article>
+          <article><b>Panna</b><span>Ricetta 200 ml</span><span>A persona 50 ml</span></article>
+          <article><b>Nutella</b><span>Ricetta 100 g</span><span>A persona 25 g</span></article>
+          <article><b>Zucchero</b><span>Ricetta 60 g</span><span>A persona 15 g</span></article>
+          <article><b>Nocciole</b><span>Quantità q.b.</span><span>Decorazione prevista</span></article>
+        </div>
+        <h3>Attrezzi</h3>
+        <ul class="tools"><li>2 ciotole</li><li>Fruste elettriche</li><li>Spatola</li><li>4 coppette</li><li>Cucchiaio o tasca da pasticcere</li></ul>
+        <h3>Procedura</h3>
+        <ol class="steps">
+          <li><span>01</span><div><h4>Lavora il mascarpone <time>circa 3 min</time></h4><p><b>Ingredienti:</b> 250 g mascarpone, 60 g zucchero. <b>Attrezzi:</b> ciotola e fruste.</p><p>Amalgama mascarpone e zucchero fino a ottenere una base uniforme. La crema è pronta quando appare liscia e senza grumi visibili.</p></div></li>
+          <li><span>02</span><div><h4>Incorpora la panna <time>circa 7 min</time></h4><p><b>Ingredienti:</b> 200 ml panna montata. <b>Attrezzi:</b> fruste e spatola.</p><p>Monta la panna e incorporala alla base senza schiacciare il composto. La mousse deve rimanere soffice e sostenuta.</p></div></li>
+          <li><span>03</span><div><h4>Componi le coppette <time>circa 15 min</time></h4><p><b>Ingredienti:</b> mousse, 100 g Nutella, nocciole q.b. <b>Attrezzi:</b> coppette e cucchiaio o tasca.</p><p>Alterna mousse, Nutella e ancora mousse. Completa con poca Nutella e nocciole tritate; dal vetro devono distinguersi gli strati.</p></div></li>
+          <li><span>04</span><div><h4>Fai riposare <time>2 ore</time></h4><p><b>Ingredienti:</b> 4 coppette complete. <b>Attrezzi:</b> frigorifero.</p><p>Copri le coppette e lasciale riposare fino a quando la mousse è fredda e stabile.</p></div></li>
+        </ol>
+        <p class="source-note"><b>Rapporto con la fonte.</b> Ingredienti e quantità non sono stati cambiati; il procedimento è parafrasato.</p>
+      </section>
+
+      <section class="recipe content-column" id="crema-amare">
+        <div class="recipe-intro">
+          <div><h2>Crema mascarpone e Nutella con cacao</h2><p>La ricetta pubblicata usa soltanto mascarpone e Nutella. La fonte propone esplicitamente il cacao amaro in superficie.</p><p class="callout">Questa proposta rispetta la richiesta di una crema senza biscotti e con cacao sopra.</p></div>
+          <figure><img src="assets/fonte-amare.jpg" alt="Crema mascarpone e Nutella con cacao"><figcaption>Fotografia della <a href="https://blog.giallozafferano.it/amarelabuonacucina/crema-mascarpone-e-nutella/" target="_blank" rel="noreferrer">ricetta pubblicata da ABC… Amare la Buona Cucina</a>.</figcaption></figure>
+        </div>
+        <dl class="recipe-meta"><div><dt>Porzioni</dt><dd>4 persone</dd></div><div><dt>Difficoltà</dt><dd>Molto facile</dd></div><div><dt>Preparazione</dt><dd>5 min</dd></div><div><dt>Conservazione</dt><dd>In frigorifero fino al servizio</dd></div><div class="total"><dt>Tempo totale</dt><dd>5 min</dd></div></dl>
+        <h3>Ingredienti</h3>
+        <div class="ingredient-grid">
+          <article><b>Mascarpone</b><span>Ricetta 250 g</span><span>A persona 62,5 g</span></article>
+          <article><b>Nutella</b><span>Ricetta 100 g</span><span>A persona 25 g</span></article>
+          <article><b>Cacao amaro</b><span>Quantità q.b.</span><span>Finitura facoltativa</span></article>
+        </div>
+        <h3>Attrezzi</h3>
+        <ul class="tools"><li>Ciotola capiente</li><li>Fruste o cucchiaio</li><li>Pellicola</li><li>4 bicchieri</li><li>Setaccino</li></ul>
+        <h3>Procedura</h3>
+        <ol class="steps">
+          <li><span>01</span><div><h4>Rendi liscio il mascarpone <time>circa 1 min</time></h4><p><b>Ingredienti:</b> 250 g mascarpone. <b>Attrezzi:</b> ciotola e fruste o cucchiaio.</p><p>Lavora il mascarpone finché perde i grumi e la superficie diventa uniforme.</p></div></li>
+          <li><span>02</span><div><h4>Unisci la Nutella <time>circa 2 min</time></h4><p><b>Ingredienti:</b> 100 g Nutella. <b>Attrezzi:</b> fruste o cucchiaio.</p><p>Aggiungi la Nutella e amalgama fino a quando non restano striature separate.</p></div></li>
+          <li><span>03</span><div><h4>Servi nei bicchieri <time>circa 2 min</time></h4><p><b>Ingredienti:</b> crema e cacao q.b. <b>Attrezzi:</b> 4 bicchieri e setaccino.</p><p>Distribuisci la crema nei bicchieri e forma un velo sottile di cacao amaro in superficie.</p></div></li>
+        </ol>
+        <p class="source-note"><b>Rapporto con la fonte.</b> Il cacao compare tra le finiture suggerite. Il servizio in quattro bicchieri è coerente con le quattro porzioni dichiarate.</p>
+      </section>
+
+      <section class="recipe content-column" id="bicchierini-kikakitchen">
+        <div class="recipe-intro">
+          <div><h2>Bicchierini variegati mascarpone e Nutella</h2><p>La fonte descrive una variegatura ottenuta mettendo crema al mascarpone e Nutella nella stessa tasca da pasticcere.</p><p class="callout">Questa tecnica mantiene visibili zone chiare e scure senza mescolare completamente le due creme.</p></div>
+          <figure><img src="assets/fonte-kikakitchen.jpg" alt="Bicchierini variegati mascarpone e Nutella"><figcaption>Fotografia della <a href="https://www.kikakitchen.com/recipe/bicchierini-crema-mascarpone-e-nutella/" target="_blank" rel="noreferrer">ricetta pubblicata su Kikakitchen</a>.</figcaption></figure>
+        </div>
+        <dl class="recipe-meta"><div><dt>Porzioni</dt><dd>4 bicchieri</dd></div><div><dt>Difficoltà</dt><dd>Facile</dd></div><div><dt>Preparazione</dt><dd>20 min</dd></div><div class="total"><dt>Tempo totale</dt><dd>20 min</dd></div></dl>
+        <h3>Ingredienti</h3>
+        <div class="ingredient-grid">
+          <article><b>Panna zuccherata</b><span>Ricetta circa 57 ml</span><span>A persona circa 14 ml</span></article>
+          <article><b>Mascarpone</b><span>Ricetta circa 36 g</span><span>A persona circa 9 g</span></article>
+          <article><b>Nutella</b><span>Ricetta circa 71 g</span><span>A persona circa 18 g</span></article>
+          <article><b>Granella di nocciole</b><span>Quantità q.b.</span><span>Facoltativa</span></article>
+        </div>
+        <h3>Attrezzi</h3>
+        <ul class="tools"><li>Ciotola</li><li>Fruste elettriche</li><li>Spatola</li><li>Tasca da pasticcere</li><li>4 bicchieri</li></ul>
+        <h3>Procedura</h3>
+        <ol class="steps">
+          <li><span>01</span><div><h4>Monta la panna <time>circa 5 min</time></h4><p><b>Ingredienti:</b> circa 57 ml panna fredda. <b>Attrezzi:</b> ciotola e fruste.</p><p>Monta la panna senza renderla eccessivamente ferma: deve mantenere una punta morbida.</p></div></li>
+          <li><span>02</span><div><h4>Prepara la crema <time>circa 5 min</time></h4><p><b>Ingredienti:</b> circa 36 g mascarpone e panna montata. <b>Attrezzi:</b> spatola.</p><p>Incorpora poco per volta il mascarpone con movimenti delicati fino a ottenere una crema densa e uniforme.</p></div></li>
+          <li><span>03</span><div><h4>Crea la variegatura <time>circa 10 min</time></h4><p><b>Ingredienti:</b> crema e circa 71 g Nutella. <b>Attrezzi:</b> tasca da pasticcere e bicchieri.</p><p>Inserisci crema e Nutella nella stessa tasca senza mescolarle del tutto, poi distribuisci: devono restare zone chiare e scure riconoscibili.</p></div></li>
+        </ol>
+        <p class="source-note"><b>Rapporto con la fonte.</b> Le dosi originali per 14 porzioni sono state ridotte matematicamente a quattro; i biscotti opzionali sono stati omessi.</p>
+      </section>
+
+      <section class="health wide-section" id="analisi">
+        <div class="content-column">
+          <div class="section-heading">
+            <p class="kicker">Valori ricalcolati a persona</p>
+            <h2>Analisi media degli ingredienti</h2>
+            <p>La media usa solo le ricette in cui l’ingrediente compare. Le quantità “q.b.” non diventano numeri inventati. I valori sono stime editoriali, non indicazioni mediche personali.</p>
+          </div>
+          <div class="legend" aria-label="Legenda">
+            <span><i class="dot alert"></i> Attenzione elevata</span>
+            <span><i class="dot watch"></i> Da contestualizzare</span>
+            <span><i class="dot good"></i> Bassa attenzione o favorevole</span>
+            <span><i class="dot plain"></i> Neutro o non applicabile</span>
+          </div>
+          <p class="table-method">Gli ingredienti sono ordinati dal livello di attenzione più alto al più basso, combinando allergeni, intolleranze e profilo infiammatorio. Il punteggio usato per l’ordinamento non è mostrato. Le frequenze sono stime prudenziali riferite alla quantità media a persona e al dessert completo.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Ingrediente · quantità media</th><th>Cosa apporta</th><th>Profilo nutrizionale a persona</th><th>Consumo · volte/settimana</th><th>Allergeni e intolleranze</th><th>Profilo infiammatorio</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><b>Nutella</b><small>Ricetta ≈ 90,5 g</small><small>A persona ≈ 22,6 g</small><em>Media delle 3 ricette</em></th><td>Dolcezza, cacao e nocciola; forma strati o variegatura.</td><td><span class="chip watch">Zuccheri ≈ 12,7 g</span><span class="chip watch">Saturi ≈ 2,4 g</span><span class="chip watch">Energia ≈ 122 kcal</span><span class="chip">Grassi ≈ 7 g</span><span class="chip">Proteine ≈ 1,4 g</span><span class="chip">Sodio ≈ 10 mg</span></td><td><span class="chip watch">0,5–1</span></td><td><span class="chip alert">Contiene nocciole, latte e soia; controllare il vasetto.</span></td><td><span class="chip watch">Da contestualizzare per zuccheri aggiunti e grassi saturi.</span></td></tr>
+              <tr><th scope="row"><b>Mascarpone</b><small>Ricetta ≈ 178,6 g</small><small>A persona ≈ 44,6 g</small><em>Media delle 3 ricette</em></th><td>È la struttura cremosa principale.</td><td><span class="chip alert">Saturi ≈ 12–14 g</span><span class="chip alert">Grassi ≈ 21 g</span><span class="chip alert">Energia ≈ 200 kcal</span><span class="chip">Proteine ≈ 3 g</span><span class="chip">Carboidrati &lt; 2 g</span><span class="chip">Sodio ≈ 40 mg</span></td><td><span class="chip watch">0,5–1</span></td><td><span class="chip alert">Contiene latte e lattosio salvo prodotto certificato.</span></td><td><span class="chip watch">Da contestualizzare per l’elevata quota di grassi saturi.</span></td></tr>
+              <tr><th scope="row"><b>Panna</b><small>Ricetta ≈ 128,6 ml</small><small>A persona ≈ 32,1 ml</small><em>Media delle 2 ricette</em></th><td>Rende la mousse più soffice e ariosa.</td><td><span class="chip alert">Saturi ≈ 7–8 g</span><span class="chip watch">Grassi ≈ 11 g</span><span class="chip watch">Energia ≈ 108 kcal</span><span class="chip">Proteine ≈ 0,7 g</span><span class="chip">Carboidrati ≈ 1,1 g</span><span class="chip">Sodio ≈ 11 mg</span></td><td><span class="chip watch">1–2</span></td><td><span class="chip alert">Contiene latte e lattosio.</span></td><td><span class="chip watch">La dose si somma ai grassi del mascarpone.</span></td></tr>
+              <tr><th scope="row"><b>Nocciole</b><small>Ricetta q.b.</small><small>A persona non calcolabile</small><em>Presenti in 2 ricette</em></th><td>Aggiungono croccantezza, ma non sono indispensabili.</td><td><span class="chip">Non calcolabile senza dose</span></td><td><span class="chip">Non calcolabile</span></td><td><span class="chip alert">Frutta a guscio: allergene rilevante anche in piccole quantità.</span></td><td><span class="chip good">Bassa attenzione nel normale contesto alimentare, senza promesse cliniche.</span></td></tr>
+              <tr><th scope="row"><b>Zucchero</b><small>Ricetta 60 g</small><small>A persona 15 g</small><em>Presente in 1 ricetta</em></th><td>Dolcifica la mousse della prima ricetta.</td><td><span class="chip watch">Zuccheri 15 g</span><span class="chip watch">Energia ≈ 60 kcal</span><span class="chip">Grassi 0 g</span><span class="chip">Proteine 0 g</span></td><td><span class="chip watch">0,5–1</span></td><td><span class="chip">Nessuno dei 14 allergeni se il prodotto è puro.</span></td><td><span class="chip watch">Si somma agli zuccheri della crema spalmabile.</span></td></tr>
+              <tr><th scope="row"><b>Cacao amaro</b><small>Ricetta q.b.</small><small>A persona non calcolabile</small><em>Finitura in 1 ricetta</em></th><td>Aggiunge amarezza e profumo alla superficie.</td><td><span class="chip">Non calcolabile senza dose</span></td><td><span class="chip">Non calcolabile</span></td><td><span class="chip">Non è uno dei 14 allergeni; verificare l’etichetta.</span></td><td><span class="chip good">Dose troppo piccola per attribuire effetti clinici.</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="content-column sources-section" id="fonti">
+        <details class="sources">
+          <summary><span>Fonti consultate</span><small>7 riferimenti</small></summary>
+          <div>
+            <p>Le prime tre fonti sono ricette operative; le altre sostengono ingredienti confezionati, nutrizione e allergeni.</p>
+            <ol>
+              <li><a href="https://www.gnamgnam.it/ricetta/coppette-mascarpone-e-nutella.htm" target="_blank" rel="noreferrer">GnamGnam — Coppette mascarpone e Nutella</a><p>Ricetta completa, fotografia, ingredienti, quattro porzioni, tempi e riposo.</p></li>
+              <li><a href="https://blog.giallozafferano.it/amarelabuonacucina/crema-mascarpone-e-nutella/" target="_blank" rel="noreferrer">ABC… Amare la Buona Cucina — Crema mascarpone e Nutella</a><p>Due ingredienti, quattro porzioni, cinque minuti e cacao indicato tra le finiture.</p></li>
+              <li><a href="https://www.kikakitchen.com/recipe/bicchierini-crema-mascarpone-e-nutella/" target="_blank" rel="noreferrer">Kikakitchen — Bicchierini crema mascarpone e Nutella</a><p>Ricetta fotografata e tecnica variegata documentata. Il procedimento non prevede cottura; il minuto riportato nei metadati della fonte non è stato ripreso.</p></li>
+              <li><a href="https://www.nutella.com/it/it/prodotti/nutella" target="_blank" rel="noreferrer">Nutella — scheda ufficiale</a><p>Ingredienti, allergeni e valori nutrizionali del prodotto confezionato.</p></li>
+              <li><a href="https://www.alimentinutrizione.it/tabelle-nutrizionali/ricerca-per-alimento" target="_blank" rel="noreferrer">CREA — banca dati di composizione degli alimenti</a><p>Riferimento per le stime nutrizionali degli ingredienti generici.</p></li>
+              <li><a href="https://sapermangiare.an.crea.gov.it/493/le-giuste-porzioni-e-le-frequenze-di-consumo-consigliate.html" target="_blank" rel="noreferrer">CREA Sapermangiare — porzioni e frequenze</a><p>Riferimento generale sulle porzioni di dolci al cucchiaio.</p></li>
+              <li><a href="https://www.salute.gov.it/new/it/tema/nutrizione/allergie-alimentari/" target="_blank" rel="noreferrer">Ministero della Salute — allergie alimentari</a><p>Riferimento per allergeni e controllo dell’etichetta.</p></li>
+            </ol>
+          </div>
+        </details>
+      </section>
+      </article>
+    </div>
+  </main>
+
+  <button class="back-to-top" type="button" aria-label="Torna all’inizio della pagina" data-to-top>↑</button>
+  <p class="page-counter" data-page-counter data-total-pages="11" aria-live="polite">Pagina 1 di 11</p>
+
+  <footer class="site-footer">
+    <div><b>Giu Page</b><span>Ricette italiane documentate, leggibili da telefono e pronte per la stampa.</span></div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
