@@ -1,7 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-27",
+  "updatedAt": "2026-07-29",
   "pages": [
+    {
+      "title": "copette al mascarpone",
+      "slug": "copette-al-mascarpone",
+      "description": "Tre ricette italiane pubblicate per preparare creme e coppette al mascarpone con Nutella, cacao e varianti documentate.",
+      "createdAt": "2026-07-29",
+      "updatedAt": "2026-07-29",
+      "coverImageUrl": "https://giufog.github.io/giu-page/copette-al-mascarpone/assets/share-whatsapp.jpg?v=20260729-1",
+      "url": "https://giufog.github.io/giu-page/copette-al-mascarpone/",
+      "shareUrl": "https://giufog.github.io/giu-page/copette-al-mascarpone/?wa=20260729-1",
+      "tags": [
+        "cucina",
+        "ricette",
+        "mascarpone",
+        "dolci-al-cucchiaio"
+      ],
+      "listed": true
+    },
     {
       "title": "Standard grafico da provare",
       "slug": "pagina-esempio",

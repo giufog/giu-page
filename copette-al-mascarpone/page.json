@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "title": "copette al mascarpone",
+  "slug": "copette-al-mascarpone",
+  "description": "Tre ricette italiane pubblicate per preparare creme e coppette al mascarpone con Nutella, cacao e varianti documentate.",
+  "createdAt": "2026-07-29",
+  "updatedAt": "2026-07-29",
+  "pageCount": 11,
+  "readingMinutes": 8,
+  "coverImage": "assets/share-whatsapp.jpg",
+  "tags": ["cucina", "ricette", "mascarpone", "Nutella", "dolci al cucchiaio"],
+  "listed": true
+}
