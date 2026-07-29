@@ -68,23 +68,6 @@
       "listed": true
     },
     {
-      "title": "Miosavi - Commercialista",
-      "slug": "miosavi-commercialista",
-      "description": "Questioni fiscali e previdenziali da sottoporre al commercialista per MioSavi.",
-      "createdAt": "2026-07-25",
-      "updatedAt": "2026-07-25",
-      "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-commercialista/assets/share-whatsapp.jpg",
-      "url": "https://giufog.github.io/giu-page/miosavi-commercialista/",
-      "shareUrl": "https://giufog.github.io/giu-page/miosavi-commercialista/",
-      "tags": [
-        "miosavi",
-        "commercialista",
-        "fisco",
-        "naspi"
-      ],
-      "listed": true
-    },
-    {
       "title": "Miosavi - parte legale",
       "slug": "miosavi-parte-legale",
       "description": "Scheda sintetica del progetto Miosavi per la valutazione legale preliminare.",
@@ -145,6 +128,24 @@
         "piedi",
         "micosi",
         "unghie"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Miosavi - Commercialista",
+      "slug": "miosavi-commercialista",
+      "description": "Inquadramento fiscale e previdenziale preliminare del comparatore Miosavi, con affiliazioni, ATECO, NASpI e quesiti operativi.",
+      "createdAt": "2026-07-25",
+      "updatedAt": "2026-07-29",
+      "url": "https://giufog.github.io/giu-page/miosavi-commercialista/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-commercialista/assets/share-whatsapp.jpg",
+      "tags": [
+        "Miosavi",
+        "commercialista",
+        "affiliazioni",
+        "ATECO",
+        "NASpI",
+        "fisco"
       ],
       "listed": true
     }
