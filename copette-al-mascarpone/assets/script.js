@@ -2,6 +2,18 @@ const toast = document.querySelector('.toast');
 let toastTimer;
 const pageCounter = document.querySelector('[data-page-counter]');
 const backToTop = document.querySelector('[data-to-top]');
+const compactDetails = [...document.querySelectorAll('.compact-details')];
+const compactLayout = window.matchMedia('(max-width: 699px)');
+
+function syncCompactDetails(event) {
+  compactDetails.forEach((item) => {
+    item.open = !event.matches;
+  });
+  updatePageCounter();
+}
+
+syncCompactDetails(compactLayout);
+compactLayout.addEventListener?.('change', syncCompactDetails);
 
 function updatePageCounter() {
   if (!pageCounter) return;
