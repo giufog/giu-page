@@ -396,17 +396,14 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 .recipe-meta .total { background: var(--soft); }
 .recipe-meta dd { margin: 2px 0 0; font-size: .9rem; font-weight: 800; }
 .recipe-workspace {
-  display: grid;
-  grid-template-columns: minmax(340px, 4fr) minmax(0, 8fr);
-  align-items: start;
-  gap: 16px;
+  display: block;
 }
 .compact-details > summary { display: none; }
 .recipe-workspace h3 { margin: 0 0 8px; font-size: 1.05rem; }
 .recipe-ingredients > h3:not(:first-child) { margin-top: 14px; }
 .ingredient-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
   gap: 7px;
 }
 .ingredient-grid article {
@@ -420,8 +417,8 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 .ingredient-grid b { margin-bottom: 4px; font-size: .9rem; }
 .ingredient-grid span { color: var(--muted); font-size: .78rem; line-height: 1.35; }
 .tools {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
   margin: 0;
   padding: 0;
   gap: 6px;
@@ -436,12 +433,13 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 }
 .steps {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
   margin: 0;
   padding: 0;
   gap: 7px;
   list-style: none;
 }
+.recipe-process { margin-top: 16px; }
 .steps li {
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr);
@@ -646,8 +644,6 @@ tbody th em { margin-top: 5px; color: var(--muted); font-size: .68rem; font-weig
   .fact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .variant-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .variant-card:last-child { grid-column: 1 / -1; }
-  .recipe-workspace { grid-template-columns: minmax(280px, 4fr) minmax(0, 7fr); }
-  .steps { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 699px) {
@@ -747,11 +743,13 @@ tbody th em { margin-top: 5px; color: var(--muted); font-size: .68rem; font-weig
   .recipe-workspace > .recipe-ingredients,
   .recipe-workspace > .recipe-process { padding: 10px; }
   .recipe-workspace > .recipe-process { border-top: 1px solid var(--line); }
+  .recipe-process { margin-top: 0; }
   .ingredient-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
   .ingredient-grid article { padding: 8px; }
   .ingredient-grid b { font-size: .82rem; }
   .ingredient-grid span { font-size: .72rem; }
   .tools { gap: 5px; }
+  .tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tools li { padding: 5px 7px; font-size: .72rem; }
   .steps { grid-template-columns: 1fr; gap: 6px; }
   .steps li { grid-template-columns: 32px minmax(0, 1fr); padding: 8px; }
