@@ -7,6 +7,7 @@
   const canonical = document.querySelector('link[rel="canonical"]')?.href || location.href.split('#')[0].split('?')[0];
   let pageData = null;
   let activeMarks = [];
+  let activeSearchIndex = -1;
 
   const icon = (name, color) => `${ICONS}/${name}.svg?color=${encodeURIComponent(color)}`;
 
@@ -151,6 +152,7 @@
   function clearMarks() {
     activeMarks.forEach(mark => mark.replaceWith(document.createTextNode(mark.textContent)));
     activeMarks = [];
+    activeSearchIndex = -1;
   }
 
   function searchPage(value) {
@@ -158,14 +160,16 @@
     const query = value.trim();
     if (query.length < 2) return 0;
     const pattern = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-    const root = document.querySelector('main') || document.body;
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-      acceptNode(node) {
-        return node.parentElement?.closest('[hidden], script, style, mark, button, summary') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
-      }
-    });
     const nodes = [];
-    while (walker.nextNode()) nodes.push(walker.currentNode);
+    const roots = [document.querySelector('.gp-standard-hero'), document.querySelector('main')].filter(Boolean);
+    roots.forEach(root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+          return node.parentElement?.closest('[hidden], script, style, mark, button, summary') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
+        }
+      });
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+    });
     nodes.forEach(node => {
       if (!pattern.test(node.nodeValue)) return;
       pattern.lastIndex = 0;
@@ -184,7 +188,6 @@
       fragment.append(document.createTextNode(node.nodeValue.slice(last)));
       node.replaceWith(fragment);
     });
-    activeMarks[0]?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     return activeMarks.length;
   }
 
@@ -193,27 +196,85 @@
     const panel = document.createElement('div');
     panel.className = 'gp-search';
     panel.hidden = true;
-    panel.innerHTML = '<div class="gp-search__inner"><label for="gp-search-input">Cerca nella pagina</label><input id="gp-search-input" type="search" placeholder="Scrivi almeno due caratteri"><small>Scrivi almeno due caratteri.</small></div>';
+    panel.innerHTML = `
+      <div class="gp-search__inner">
+        <label for="gp-search-input">Cerca nella pagina</label>
+        <div class="gp-search__controls">
+          <input id="gp-search-input" type="search" placeholder="Scrivi almeno due caratteri" autocomplete="off">
+          <button type="button" class="gp-search__nav" data-gp-search-prev aria-label="Risultato precedente" disabled><img src="${icon('arrow-up', '#173e35')}" alt=""></button>
+          <button type="button" class="gp-search__nav" data-gp-search-next aria-label="Risultato successivo" disabled><img src="${icon('arrow-down', '#173e35')}" alt=""></button>
+        </div>
+        <small role="status" aria-live="polite" aria-atomic="true">Scrivi almeno due caratteri.</small>
+      </div>`;
     header.append(panel);
     const toggle = header.querySelector('[data-gp-search-toggle]');
     const input = panel.querySelector('input');
     const status = panel.querySelector('small');
+    const previous = panel.querySelector('[data-gp-search-prev]');
+    const next = panel.querySelector('[data-gp-search-next]');
+
+    const updateSearch = () => {
+      const query = input.value.trim();
+      const count = searchPage(query);
+      previous.disabled = count === 0;
+      next.disabled = count === 0;
+      status.textContent = query.length < 2
+        ? 'Scrivi almeno due caratteri.'
+        : count
+          ? count === 1
+            ? '1 risultato. Usa le frecce per raggiungerlo.'
+            : `${count} risultati. Usa le frecce per scorrerli.`
+          : 'Nessun risultato.';
+    };
+
+    const showResult = direction => {
+      if (!activeMarks.length) return;
+      activeMarks[activeSearchIndex]?.classList.remove('is-active');
+      activeSearchIndex = activeSearchIndex < 0
+        ? direction < 0 ? activeMarks.length - 1 : 0
+        : (activeSearchIndex + direction + activeMarks.length) % activeMarks.length;
+      const result = activeMarks[activeSearchIndex];
+      result.classList.add('is-active');
+      result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      status.textContent = `Risultato ${activeSearchIndex + 1} di ${activeMarks.length}.`;
+    };
+
+    const closeSearch = () => {
+      panel.hidden = true;
+      toggle?.setAttribute('aria-expanded', 'false');
+      clearMarks();
+      previous.disabled = true;
+      next.disabled = true;
+    };
+
     toggle?.addEventListener('click', () => {
       const open = panel.hidden;
       panel.hidden = !open;
       toggle.setAttribute('aria-expanded', String(open));
-      if (open) input.focus();
-      else clearMarks();
+      if (open) {
+        if (input.value.trim().length >= 2) updateSearch();
+        input.focus();
+      } else {
+        closeSearch();
+      }
     });
-    input.addEventListener('input', () => {
-      const count = searchPage(input.value);
-      status.textContent = input.value.trim().length < 2 ? 'Scrivi almeno due caratteri.' : `${count} ${count === 1 ? 'risultato' : 'risultati'}.`;
+    input.addEventListener('input', updateSearch);
+    input.addEventListener('keydown', event => {
+      if (event.key !== 'Enter') return;
+      event.preventDefault();
+      showResult(event.shiftKey ? -1 : 1);
     });
+    previous.addEventListener('click', () => showResult(-1));
+    next.addEventListener('click', () => showResult(1));
     document.addEventListener('pointerdown', event => {
       if (!panel.hidden && !panel.contains(event.target) && !toggle?.contains(event.target)) {
-        panel.hidden = true;
-        toggle?.setAttribute('aria-expanded', 'false');
-        clearMarks();
+        closeSearch();
+      }
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !panel.hidden) {
+        closeSearch();
+        toggle?.focus();
       }
     });
   }

@@ -110,6 +110,7 @@ document.addEventListener('keydown', (event) => {
 const searchToggle = document.querySelector('[data-search-toggle]');
 const searchPanel = document.querySelector('#page-search');
 const searchInput = document.querySelector('#page-search-input');
+const searchPrevious = document.querySelector('[data-search-prev]');
 const searchNext = document.querySelector('[data-search-next]');
 const searchStatus = document.querySelector('.page-search__status');
 let searchMatches = [];
@@ -126,23 +127,31 @@ function collectSearchResults() {
   searchIndex = -1;
   if (activeQuery.length < 2) {
     searchMatches = [];
+    if (searchPrevious) searchPrevious.disabled = true;
+    if (searchNext) searchNext.disabled = true;
     searchStatus.textContent = 'Scrivi almeno due caratteri.';
     return;
   }
   searchMatches = [...document.querySelectorAll('.article h2, .article h3, .article p, .article li, .article th, .article td')]
     .filter((element) => element.textContent.toLocaleLowerCase('it').includes(activeQuery));
+  if (searchPrevious) searchPrevious.disabled = searchMatches.length === 0;
+  if (searchNext) searchNext.disabled = searchMatches.length === 0;
   searchStatus.textContent = searchMatches.length
-    ? `${searchMatches.length} risultati. Premi Trova per scorrerli.`
+    ? searchMatches.length === 1
+      ? '1 risultato. Usa le frecce per raggiungerlo.'
+      : `${searchMatches.length} risultati. Usa le frecce per scorrerli.`
     : 'Nessun risultato.';
 }
 
-function showNextSearchResult() {
+function showSearchResult(direction) {
   if (searchInput.value.trim().toLocaleLowerCase('it') !== activeQuery) {
     collectSearchResults();
   }
   if (!searchMatches.length) return;
   clearSearchResult();
-  searchIndex = (searchIndex + 1) % searchMatches.length;
+  searchIndex = searchIndex < 0
+    ? direction < 0 ? searchMatches.length - 1 : 0
+    : (searchIndex + direction + searchMatches.length) % searchMatches.length;
   const result = searchMatches[searchIndex];
   result.classList.add('search-result');
   result.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -166,10 +175,11 @@ searchInput?.addEventListener('input', collectSearchResults);
 searchInput?.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
     event.preventDefault();
-    showNextSearchResult();
+    showSearchResult(event.shiftKey ? -1 : 1);
   }
 });
-searchNext?.addEventListener('click', showNextSearchResult);
+searchPrevious?.addEventListener('click', () => showSearchResult(-1));
+searchNext?.addEventListener('click', () => showSearchResult(1));
 
 document.querySelector('[data-share]')?.addEventListener('click', async (event) => {
   const configuredUrl = event.currentTarget.dataset.shareUrl;

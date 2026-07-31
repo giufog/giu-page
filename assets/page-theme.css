@@ -69,10 +69,15 @@ body.gp-page .gp-search { position: absolute; z-index: 31; top: 62px; right: max
 body.gp-page .gp-search[hidden] { display: none; }
 body.gp-page .gp-search__inner { padding: 14px; }
 body.gp-page .gp-search label { display: block; margin-bottom: 6px; color: var(--gp-muted); font-size: .8rem; font-weight: 800; }
+body.gp-page .gp-search__controls { display: grid; grid-template-columns: minmax(0, 1fr) 44px 44px; align-items: center; gap: 8px; }
 body.gp-page .gp-search input { width: 100%; min-height: 44px; padding: 9px 12px; border: 1px solid var(--gp-line); border-radius: 12px; outline: none; color: var(--gp-forest); background: #fff; }
 body.gp-page .gp-search input:focus { border-color: var(--gp-accent); box-shadow: 0 0 0 3px rgb(77 138 112 / 24%); }
+body.gp-page .gp-search__nav { display: inline-grid; width: 44px; height: 44px; min-height: 44px; place-items: center; padding: 0; border: 1px solid var(--gp-line); border-radius: 12px; color: var(--gp-forest); background: var(--gp-soft); cursor: pointer; }
+body.gp-page .gp-search__nav img { width: 19px; height: 19px; }
+body.gp-page .gp-search__nav:disabled { opacity: .38; cursor: default; }
 body.gp-page .gp-search small { display: block; margin-top: 6px; color: var(--gp-muted); }
 body.gp-page mark[data-gp-search-mark] { padding: 0 .08em; color: inherit; background: #ffea8a; }
+body.gp-page mark[data-gp-search-mark].is-active { border-radius: 3px; outline: 3px solid rgb(33 122 70 / 36%); outline-offset: 2px; background: #ffdc4a; }
 
 body.gp-page .hero, body.gp-page .page-header, body.gp-page header > .hero {
   color: #fff;
