@@ -79,6 +79,11 @@ body.gp-page .hero__inner, body.gp-page .page-header__inner, body.gp-page .gp-he
 body.gp-page .hero h1, body.gp-page .page-header h1, body.gp-page header > .hero h1 { max-width: 18ch; margin-top: 0; margin-bottom: 8px; font-size: clamp(2.7rem, 5.5vw, 4.8rem); line-height: .98; letter-spacing: -.055em; }
 body.gp-page .hero > .eyebrow, body.gp-page .page-header > .eyebrow, body.gp-page header > .hero > .eyebrow { display: none; }
 body.gp-page .hero__lead, body.gp-page .page-header .lead, body.gp-page .page-header__lead { max-width: 62ch; color: rgb(255 255 255 / 86%); font-size: 1.08rem; line-height: 1.5; }
+body.gp-page header.hero .eyebrow { color: rgb(255 255 255 / 76%) !important; }
+body.gp-page header.hero .lead { color: rgb(255 255 255 / 86%) !important; }
+body.gp-page header.hero .notice p, body.gp-page header.hero .notice strong { color: var(--gp-forest) !important; }
+body.gp-page .hero > .hero-main, body.gp-page .hero > .hero-side { color: var(--gp-forest); }
+body.gp-page .hero > .hero-main h1 { color: var(--gp-forest); }
 body.gp-page .page-meta, body.gp-page .gp-page-meta { margin: 15px 0 0; color: rgb(255 255 255 / 72%); font-size: .88rem; }
 body.gp-page .hero__actions, body.gp-page .hero-actions, body.gp-page .gp-hero-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 170px)); gap: 9px; margin-top: 18px; }
 body.gp-page .hero__actions button, body.gp-page .hero-actions button, body.gp-page .gp-hero-actions button { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: 8px; padding: 9px 13px; border: 1px solid rgb(255 255 255 / 70%); border-radius: 12px; background: #fff; font-weight: 820; }
@@ -142,6 +147,7 @@ body.gp-page button:focus-visible, body.gp-page a:focus-visible, body.gp-page su
   body.gp-page main:not(#contenuto), body.gp-page .container, body.gp-page main.page { width: calc(100% - 24px); }
   body.gp-page[data-gp-slug="forfora"] main#contenuto { width: calc(100% - 24px); }
   body.gp-page[data-gp-slug="forfora"] .page-header { padding-inline: 12px; }
+  body.gp-page[data-gp-slug="miosavi-parte-legale"] .hero { margin-inline: 0 !important; }
   body.gp-page .gp-modern-section { margin-top: 18px; padding: 19px; border-radius: 14px; }
   body.gp-page table.gp-responsive-source { display: none; }
   body.gp-page .gp-mobile-table { display: block; }
