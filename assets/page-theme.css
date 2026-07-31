@@ -86,7 +86,7 @@ body.gp-page .hero > .hero-main, body.gp-page .hero > .hero-side { color: var(--
 body.gp-page .hero > .hero-main h1 { color: var(--gp-forest); }
 body.gp-page .page-meta, body.gp-page .gp-page-meta { margin: 15px 0 0; color: rgb(255 255 255 / 72%); font-size: .88rem; }
 body.gp-page .hero__actions, body.gp-page .hero-actions, body.gp-page .gp-hero-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 170px)); gap: 9px; margin-top: 18px; }
-body.gp-page .hero__actions button, body.gp-page .hero-actions button, body.gp-page .gp-hero-actions button { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: 8px; padding: 9px 13px; border: 1px solid rgb(255 255 255 / 70%); border-radius: 12px; background: #fff; font-weight: 820; }
+body.gp-page .hero__actions button, body.gp-page .hero-actions button, body.gp-page .gp-hero-actions button { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: 8px; padding: 9px 13px; border: 1px solid rgb(255 255 255 / 70%); border-radius: 12px; background: #fff; font-weight: 820; white-space: nowrap; }
 body.gp-page [data-print] { color: var(--gp-red); }
 body.gp-page [data-share] { color: var(--gp-blue); }
 body.gp-page .hero__actions img, body.gp-page .hero-actions img, body.gp-page .gp-hero-actions img { width: 19px; height: 19px; }
