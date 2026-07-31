@@ -2,9 +2,12 @@
   "schemaVersion": 1,
   "title": "Forfora",
   "slug": "forfora",
+  "category": "medicina",
   "description": "Confronto informativo tra ketoconazolo e ciclopirox per forfora o dermatite seborroica, con avvertenze per possibile irritazione da contatto.",
   "createdAt": "2026-07-27",
-  "updatedAt": "2026-07-27",
+  "updatedAt": "2026-07-31",
+  "pageCount": 4,
+  "readingMinutes": 6,
   "coverImage": "assets/share-whatsapp.jpg",
   "tags": ["medicina", "cuoio-capelluto", "forfora"],
   "listed": true

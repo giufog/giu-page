@@ -2,9 +2,12 @@
   "schemaVersion": 1,
   "title": "Miosavi - parte legale",
   "slug": "miosavi-parte-legale",
+  "category": "legale",
   "description": "Scheda sintetica del progetto Miosavi per la valutazione legale preliminare.",
   "createdAt": "2026-07-22",
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-07-31",
+  "pageCount": 4,
+  "readingMinutes": 4,
   "coverImage": "assets/share-whatsapp.jpg",
   "tags": ["Miosavi", "legale", "anteprima"],
   "listed": true

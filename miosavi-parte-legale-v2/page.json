@@ -2,9 +2,12 @@
   "schemaVersion": 1,
   "title": "Miosavi - Parte legale V2",
   "slug": "miosavi-parte-legale-v2",
+  "category": "legale",
   "description": "Questioni legali da sottoporre all'avvocato per il progetto MioSavi.",
   "createdAt": "2026-07-25",
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-31",
+  "pageCount": 5,
+  "readingMinutes": 5,
   "coverImage": "assets/share-whatsapp.jpg",
   "tags": ["miosavi", "legale", "affiliazioni"],
   "listed": true

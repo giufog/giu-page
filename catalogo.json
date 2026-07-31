@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29",
+  "updatedAt": "2026-07-31",
   "pages": [
     {
       "title": "Standard grafico da provare",
       "slug": "pagina-esempio",
+      "category": "varie",
       "description": "Riferimento grafico e funzionale per creare pagine Giu Page coerenti, semplici, leggibili da telefono e pronte per la pubblicazione.",
       "createdAt": "2026-07-27",
-      "updatedAt": "2026-07-27",
+      "updatedAt": "2026-07-31",
       "coverImageUrl": "https://giufog.github.io/giu-page/pagina-esempio/assets/share-whatsapp.jpg?v=20260727-6",
       "url": "https://giufog.github.io/giu-page/pagina-esempio/",
       "shareUrl": "https://giufog.github.io/giu-page/pagina-esempio/?wa=20260727-6",
@@ -21,9 +22,10 @@
     {
       "title": "Token Agenti",
       "slug": "token-agenti",
+      "category": "lavoro",
       "description": "Confronto tra i modelli Codex e Antigravity disponibili nel progetto, con prezzi API indicativi, qualità di ricerca e impiego consigliato.",
       "createdAt": "2026-07-25",
-      "updatedAt": "2026-07-25",
+      "updatedAt": "2026-07-31",
       "coverImageUrl": "https://giufog.github.io/giu-page/token-agenti/assets/share-whatsapp.jpg",
       "url": "https://giufog.github.io/giu-page/token-agenti/",
       "shareUrl": "https://giufog.github.io/giu-page/token-agenti/",
@@ -37,9 +39,10 @@
     {
       "title": "Miosavi - Parte legale V2",
       "slug": "miosavi-parte-legale-v2",
+      "category": "legale",
       "description": "Questioni legali da sottoporre all'avvocato per il progetto MioSavi.",
       "createdAt": "2026-07-25",
-      "updatedAt": "2026-07-25",
+      "updatedAt": "2026-07-31",
       "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/assets/share-whatsapp.jpg?v=20260725-2",
       "url": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/",
       "shareUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale-v2/",
@@ -53,9 +56,10 @@
     {
       "title": "Miosavi - parte legale",
       "slug": "miosavi-parte-legale",
+      "category": "legale",
       "description": "Scheda sintetica del progetto Miosavi per la valutazione legale preliminare.",
       "createdAt": "2026-07-22",
-      "updatedAt": "2026-07-22",
+      "updatedAt": "2026-07-31",
       "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale/assets/share-whatsapp.jpg",
       "url": "https://giufog.github.io/giu-page/miosavi-parte-legale/",
       "shareUrl": "https://giufog.github.io/giu-page/miosavi-parte-legale/?wa=20260722-1",
@@ -69,9 +73,10 @@
     {
       "title": "Apparecchi acustici",
       "slug": "apparecchi-acustici",
+      "category": "medicina",
       "description": "Confronto di cinque apparecchi acustici ricaricabili con prezzi indicativi, batteria, canali, app e fitting professionale.",
       "createdAt": "2026-07-12",
-      "updatedAt": "2026-07-12",
+      "updatedAt": "2026-07-31",
       "coverImageUrl": "https://giufog.github.io/giu-page/apparecchi-acustici/assets/share-whatsapp.jpg",
       "url": "https://giufog.github.io/giu-page/apparecchi-acustici/",
       "tags": [
@@ -84,11 +89,12 @@
     },
     {
       "slug": "forfora",
+      "category": "medicina",
       "title": "Forfora",
       "description": "Confronto informativo tra ketoconazolo e ciclopirox per forfora o dermatite seborroica, con avvertenze per possibile irritazione da contatto.",
       "url": "https://giufog.github.io/giu-page/forfora/",
       "createdAt": "2026-07-27",
-      "updatedAt": "2026-07-27",
+      "updatedAt": "2026-07-31",
       "coverImageUrl": "https://giufog.github.io/giu-page/forfora/assets/share-whatsapp.jpg",
       "tags": [
         "medicina",
@@ -99,12 +105,13 @@
     },
     {
       "slug": "cura-dei-piedi",
+      "category": "medicina",
       "title": "Cura dei piedi",
       "description": "Come distinguere micosi, sudorazione e danno dell’unghia, con prodotti e controlli da valutare.",
       "url": "https://giufog.github.io/giu-page/cura-dei-piedi/",
       "shareUrl": "https://giufog.github.io/giu-page/cura-dei-piedi/?wa=20260727-1",
       "createdAt": "2026-07-27",
-      "updatedAt": "2026-07-27",
+      "updatedAt": "2026-07-31",
       "coverImageUrl": "https://giufog.github.io/giu-page/cura-dei-piedi/assets/share-whatsapp.jpg",
       "tags": [
         "medicina",
@@ -117,9 +124,10 @@
     {
       "title": "Miosavi - Commercialista",
       "slug": "miosavi-commercialista",
+      "category": "lavoro",
       "description": "Inquadramento fiscale e previdenziale preliminare del comparatore Miosavi, con affiliazioni, ATECO, NASpI e quesiti operativi.",
       "createdAt": "2026-07-25",
-      "updatedAt": "2026-07-29",
+      "updatedAt": "2026-07-31",
       "url": "https://giufog.github.io/giu-page/miosavi-commercialista/",
       "coverImageUrl": "https://giufog.github.io/giu-page/miosavi-commercialista/assets/share-whatsapp.jpg",
       "tags": [
@@ -135,9 +143,10 @@
     {
       "title": "Copette al mascarpone",
       "slug": "copette-al-mascarpone",
+      "category": "cucina",
       "description": "Tre ricette italiane pubblicate per preparare creme e coppette al mascarpone con Nutella, cacao e varianti documentate.",
       "createdAt": "2026-07-29",
-      "updatedAt": "2026-07-29",
+      "updatedAt": "2026-07-31",
       "url": "https://giufog.github.io/giu-page/copette-al-mascarpone/",
       "coverImageUrl": "https://giufog.github.io/giu-page/copette-al-mascarpone/assets/share-whatsapp.jpg",
       "tags": [
