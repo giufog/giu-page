@@ -130,6 +130,10 @@ body.gp-page .page-counter { display: none; }
 
 body.gp-page button:focus-visible, body.gp-page a:focus-visible, body.gp-page summary:focus-visible { outline: 3px solid rgb(77 138 112 / 36%); outline-offset: 3px; }
 
+@media (max-width: 1200px) {
+  body.gp-page[data-gp-slug="miosavi-parte-legale"] .hero { margin-inline: 0 !important; }
+}
+
 @media (max-width: 620px) {
   body.gp-page { font-size: 1rem; line-height: 1.62; }
   body.gp-page p, body.gp-page li { line-height: 1.62; }
@@ -147,7 +151,6 @@ body.gp-page button:focus-visible, body.gp-page a:focus-visible, body.gp-page su
   body.gp-page main:not(#contenuto), body.gp-page .container, body.gp-page main.page { width: calc(100% - 24px); }
   body.gp-page[data-gp-slug="forfora"] main#contenuto { width: calc(100% - 24px); }
   body.gp-page[data-gp-slug="forfora"] .page-header { padding-inline: 12px; }
-  body.gp-page[data-gp-slug="miosavi-parte-legale"] .hero { margin-inline: 0 !important; }
   body.gp-page .gp-modern-section { margin-top: 18px; padding: 19px; border-radius: 14px; }
   body.gp-page table.gp-responsive-source { display: none; }
   body.gp-page .gp-mobile-table { display: block; }
