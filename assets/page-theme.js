@@ -27,12 +27,12 @@
     });
   }
 
-  function existingHeaderIsStandard() {
-    return Boolean(document.querySelector('.site-header .site-header__inner'));
-  }
-
   function buildHeader() {
-    if (existingHeaderIsStandard()) return document.querySelector('.site-header');
+    document.querySelectorAll('.site-header').forEach(header => header.remove());
+    document.querySelectorAll('body > .topbar, body > header.topbar').forEach(topbar => {
+      topbar.hidden = true;
+      topbar.setAttribute('aria-hidden', 'true');
+    });
     const header = document.createElement('header');
     header.className = 'site-header gp-generated-header';
     header.innerHTML = `
@@ -45,9 +45,52 @@
         </div>
       </div>`;
     document.body.prepend(header);
-    const oldTopbar = document.querySelector('body > .topbar');
-    if (oldTopbar && oldTopbar !== header) oldTopbar.hidden = true;
     return header;
+  }
+
+  function ensureStandardHero(header) {
+    if (!pageData) return;
+
+    const oldTitle = document.querySelector('h1');
+    const oldHero = oldTitle?.closest('.hero, .page-header');
+    const legacyHost = oldHero?.closest('header:not(.site-header)') || oldHero;
+    const preserveSelector = {
+      'apparecchi-acustici': '.notice',
+      'miosavi-parte-legale': '.meta',
+      'token-agenti': '.hero-side'
+    }[pageData.slug];
+    const preserved = preserveSelector ? oldHero?.querySelector(preserveSelector) : null;
+    const main = document.querySelector('main');
+    if (preserved && main) {
+      preserved.classList.add('gp-modern-section', 'gp-preserved-summary');
+      main.prepend(preserved);
+    }
+    if (legacyHost) {
+      legacyHost.classList.add('gp-legacy-hero');
+      legacyHost.hidden = true;
+      legacyHost.setAttribute('aria-hidden', 'true');
+    }
+
+    const createdAt = new Intl.DateTimeFormat('it-IT', {
+      day: 'numeric', month: 'long', year: 'numeric'
+    }).format(new Date(`${pageData.createdAt}T12:00:00`));
+    const hero = document.createElement('section');
+    hero.className = 'hero gp-standard-hero';
+    hero.setAttribute('aria-labelledby', 'gp-standard-title');
+    hero.innerHTML = `
+      <div class="gp-hero-inner">
+        <h1 id="gp-standard-title"></h1>
+        <p class="hero__lead"></p>
+        <p class="gp-page-meta"></p>
+        <div class="gp-hero-actions">
+          <button type="button" data-print><img src="${icon('printer', '#b23a3a')}" alt="">Stampa PDF</button>
+          <button type="button" data-share><img src="${icon('share-2', '#2878b8')}" alt="">Condividi</button>
+        </div>
+      </div>`;
+    hero.querySelector('h1').textContent = pageData.title;
+    hero.querySelector('.hero__lead').textContent = pageData.description;
+    hero.querySelector('.gp-page-meta').textContent = `${pageData.pageCount || 1} ${pageData.pageCount === 1 ? 'pagina' : 'pagine'}, create il ${createdAt}, e da ${pageData.readingMinutes || 1} minuti di lettura.`;
+    header.insertAdjacentElement('afterend', hero);
   }
 
   function ensureSlots(header) {
@@ -118,7 +161,7 @@
     const root = document.querySelector('main') || document.body;
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
-        return node.parentElement?.closest('script, style, mark, button, summary') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
+        return node.parentElement?.closest('[hidden], script, style, mark, button, summary') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
       }
     });
     const nodes = [];
@@ -197,7 +240,21 @@
         const details = document.createElement('details');
         if (rowIndex === 0) details.open = true;
         const summary = document.createElement('summary');
-        summary.innerHTML = `<span>${cells[0]?.textContent.trim() || `Riga ${rowIndex + 1}`}</span><img src="${icon('chevron-down', '#173e35')}" alt="">`;
+        const firstCell = cells[0];
+        const summaryParts = firstCell
+          ? [...firstCell.children]
+              .map(part => part.textContent.replace(/\s+/g, ' ').trim())
+              .filter(Boolean)
+          : [];
+        const summaryText = summaryParts.length
+          ? summaryParts.join(' · ')
+          : firstCell?.textContent.replace(/\s+/g, ' ').trim() || `Riga ${rowIndex + 1}`;
+        const summaryLabel = document.createElement('span');
+        summaryLabel.textContent = summaryText;
+        const summaryIcon = document.createElement('img');
+        summaryIcon.src = icon('chevron-down', '#173e35');
+        summaryIcon.alt = '';
+        summary.append(summaryLabel, summaryIcon);
         const body = document.createElement('div');
         body.className = 'gp-mobile-table__body';
         cells.slice(1).forEach((cell, index) => {
@@ -300,6 +357,7 @@
     replaceBrandLinks();
     const header = buildHeader();
     ensureSlots(header);
+    ensureStandardHero(header);
     buildIndex();
     ensureSearch(header);
     addProgress(header);
