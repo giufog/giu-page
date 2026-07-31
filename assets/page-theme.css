@@ -76,7 +76,7 @@ body.gp-page .gp-search__nav { display: inline-grid; width: 44px; height: 44px; 
 body.gp-page .gp-search__nav img { width: 19px; height: 19px; }
 body.gp-page .gp-search__nav:disabled { opacity: .38; cursor: default; }
 body.gp-page .gp-search small { display: block; margin-top: 6px; color: var(--gp-muted); }
-body.gp-page mark[data-gp-search-mark] { padding: 0 .08em; color: inherit; background: #ffea8a; }
+body.gp-page mark[data-gp-search-mark] { padding: 0; color: inherit; background: #ffea8a; }
 body.gp-page mark[data-gp-search-mark].is-active { border-radius: 3px; outline: 3px solid rgb(33 122 70 / 36%); outline-offset: 2px; background: #ffdc4a; }
 
 body.gp-page .hero, body.gp-page .page-header, body.gp-page header > .hero {

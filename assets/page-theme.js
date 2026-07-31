@@ -214,8 +214,10 @@
     const next = panel.querySelector('[data-gp-search-next]');
 
     const updateSearch = () => {
+      const scrollPosition = { x: window.scrollX, y: window.scrollY };
       const query = input.value.trim();
       const count = searchPage(query);
+      window.scrollTo(scrollPosition.x, scrollPosition.y);
       previous.disabled = count === 0;
       next.disabled = count === 0;
       status.textContent = query.length < 2
@@ -253,7 +255,7 @@
       toggle.setAttribute('aria-expanded', String(open));
       if (open) {
         if (input.value.trim().length >= 2) updateSearch();
-        input.focus();
+        input.focus({ preventScroll: true });
       } else {
         closeSearch();
       }
