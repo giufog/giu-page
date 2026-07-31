@@ -84,7 +84,12 @@
     .then(response => response.ok ? response.json() : Promise.reject(new Error('catalogo')))
     .then(data => {
       const pages = Array.isArray(data.pages) ? data.pages : [];
-      if (!buildMenu(pages)) document.addEventListener('giu:page-ready', () => buildMenu(pages), { once: true });
+      const install = () => {
+        if (!document.querySelector('.app-menu')) buildMenu(pages);
+      };
+      document.addEventListener('giu:page-ready', install, { once: true });
+      const usesSharedTheme = Boolean(document.querySelector('script[src*="/assets/page-theme.js"], script[src^="../assets/page-theme.js"]'));
+      if (document.body.classList.contains('gp-page') || !usesSharedTheme) install();
     })
     .catch(() => {});
 })();
