@@ -37,7 +37,7 @@
       item.style.setProperty('--category', category.color);
       item.innerHTML = `
         <button class="app-menu__toggle" type="button" aria-expanded="false">
-          <span class="app-menu__main"><img src="${icon(category.icon, category.color)}" alt=""><span class="app-menu__name">${category.name}</span><span class="app-menu__count">${categoryPages.length} ${categoryPages.length === 1 ? 'pagina' : 'pagine'}</span><span class="app-menu__chevron">›</span></span>
+          <span class="app-menu__main"><img src="${icon(category.icon, category.color)}" alt=""><span class="app-menu__name">${category.name}</span><span class="app-menu__count">${categoryPages.length} ${categoryPages.length === 1 ? 'pagina' : 'pagine'}</span><img class="app-menu__chevron" src="${icon('chevron-right', category.color)}" alt=""></span>
         </button>
         <div class="app-menu__submenu" hidden></div>`;
       const toggle = item.querySelector('.app-menu__toggle');

@@ -2,6 +2,50 @@ const toast = document.querySelector('.toast');
 let toastTimer;
 const sources = document.querySelector('.sources');
 const pageCounter = document.querySelector('[data-page-counter]');
+
+document.querySelectorAll('[data-menu-demo] details').forEach((details) => {
+  details.open = false;
+  details.addEventListener('toggle', () => {
+    if (!details.open) return;
+    details.closest('[data-menu-demo]').querySelectorAll('details[open]').forEach((other) => {
+      if (other !== details) other.open = false;
+    });
+  });
+});
+
+document.querySelectorAll('table').forEach((table) => {
+  const headers = [...table.querySelectorAll('thead th')].map((cell) => cell.textContent.trim());
+  const rows = [...table.querySelectorAll('tbody tr')];
+  if (!headers.length || !rows.length) return;
+  const mobile = document.createElement('div');
+  mobile.className = 'mobile-table';
+  mobile.setAttribute('aria-label', 'Tabella in formato mobile');
+  rows.forEach((row, rowIndex) => {
+    const cells = [...row.children];
+    const details = document.createElement('details');
+    details.open = rowIndex === 0;
+    const summary = document.createElement('summary');
+    summary.innerHTML = `<span>${cells[0]?.textContent.trim() || `Riga ${rowIndex + 1}`}</span><img src="https://api.iconify.design/lucide/chevron-down.svg?color=%23173e35" alt="">`;
+    const body = document.createElement('div');
+    body.className = 'mobile-table__body';
+    cells.slice(1).forEach((cell, index) => {
+      const label = document.createElement('strong');
+      label.textContent = headers[index + 1] || `Dato ${index + 1}`;
+      const value = document.createElement('p');
+      value.innerHTML = cell.innerHTML;
+      body.append(label, value);
+    });
+    details.append(summary, body);
+    details.addEventListener('toggle', () => {
+      if (!details.open) return;
+      mobile.querySelectorAll('details[open]').forEach((other) => {
+        if (other !== details) other.open = false;
+      });
+    });
+    mobile.append(details);
+  });
+  table.closest('.table-wrap')?.insertAdjacentElement('afterend', mobile);
+});
 const backToTop = document.querySelector('[data-to-top]');
 
 function updatePageCounter() {
@@ -12,7 +56,6 @@ function updatePageCounter() {
   const current = Math.min(total, Math.floor(progress * total) + 1);
   pageCounter.textContent = `Pagina ${current} di ${total}`;
 }
-
 updatePageCounter();
 window.addEventListener('scroll', updatePageCounter, { passive: true });
 window.addEventListener('resize', updatePageCounter);

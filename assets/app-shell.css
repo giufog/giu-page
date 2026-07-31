@@ -8,7 +8,7 @@
 .app-menu__main img { width: 22px; height: 22px; }
 .app-menu__name { font-weight: 820; }
 .app-menu__count { color: var(--muted, #64756b); font-size: .75rem; font-weight: 760; }
-.app-menu__chevron { color: var(--category); font-size: 1rem; transition: transform .16s ease; }
+.app-menu__chevron { width: 18px; height: 18px; transition: transform .16s ease; }
 .app-menu__toggle[aria-expanded="true"] .app-menu__chevron { transform: rotate(90deg); }
 .app-menu__submenu { display: grid; padding: 0 8px 7px 53px; }
 .app-menu__submenu a { display: flex; min-height: 42px; align-items: center; padding: 8px 10px; border-top: 1px solid #edf2ee; border-radius: 8px; color: inherit; text-decoration: none; }

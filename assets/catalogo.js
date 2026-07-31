@@ -81,7 +81,7 @@ function categoryCard(category) {
     <span class="category-icon"><img src="${iconUrl(category.icon, category.color)}" alt=""></span>
     <span><h2>${category.name}</h2></span>
     <p>${category.description}</p>
-    <span class="category-meta"><span class="category-count">${categoryPages.length} ${categoryPages.length === 1 ? 'pagina' : 'pagine'}</span><span class="category-arrow" aria-hidden="true">→</span></span>`;
+    <span class="category-meta"><span class="category-count">${categoryPages.length} ${categoryPages.length === 1 ? 'pagina' : 'pagine'}</span><img class="category-arrow" src="${iconUrl('arrow-right', category.color)}" alt=""></span>`;
   button.addEventListener('click', () => showCategory(category));
   return button;
 }
