@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "title": "Artrosi alle anche",
+  "slug": "artrosi-alle-anche",
+  "category": "medicina",
+  "description": "Guida aggiornata per comprendere l’artrosi dell’anca, distinguere le possibili fonti del dolore e valutare trattamenti ed esercizio.",
+  "createdAt": "2026-08-05",
+  "updatedAt": "2026-08-05",
+  "pageCount": 7,
+  "readingMinutes": 9,
+  "coverImage": "assets/share-whatsapp.jpg",
+  "tags": ["medicina", "artrosi", "anca", "esercizio", "coxartrosi"],
+  "listed": true
+}

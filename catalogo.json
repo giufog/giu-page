@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31",
+  "updatedAt": "2026-08-05",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -155,6 +155,24 @@
         "mascarpone",
         "Nutella",
         "dolci al cucchiaio"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Artrosi alle anche",
+      "slug": "artrosi-alle-anche",
+      "category": "medicina",
+      "description": "Guida aggiornata per comprendere l’artrosi dell’anca, distinguere le possibili fonti del dolore e valutare trattamenti ed esercizio.",
+      "createdAt": "2026-08-05",
+      "updatedAt": "2026-08-05",
+      "url": "https://giufog.github.io/giu-page/artrosi-alle-anche/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/artrosi-alle-anche/assets/share-whatsapp.jpg",
+      "tags": [
+        "medicina",
+        "artrosi",
+        "anca",
+        "esercizio",
+        "coxartrosi"
       ],
       "listed": true
     }
