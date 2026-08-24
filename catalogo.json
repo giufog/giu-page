@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-08-24",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -173,6 +173,22 @@
         "anca",
         "esercizio",
         "coxartrosi"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Chiave Peugeot 208 scarica",
+      "slug": "chiave-peugeot-208-scarica",
+      "category": "varie",
+      "description": "Batteria CR2032, avviamento d’emergenza e ricarica wireless per la chiave Keyless della Peugeot 208 II.",
+      "createdAt": "2026-08-24",
+      "updatedAt": "2026-08-24",
+      "url": "https://giufog.github.io/giu-page/chiave-peugeot-208-scarica/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/chiave-peugeot-208-scarica/assets/share-whatsapp.jpg",
+      "tags": [
+        "peugeot-208",
+        "chiave-keyless",
+        "batteria-cr2032"
       ],
       "listed": true
     }
