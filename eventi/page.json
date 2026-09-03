@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "title": "Eventi delle prossime due settimane",
+  "slug": "eventi",
+  "category": "eventi",
+  "description": "Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
+  "createdAt": "2026-09-03",
+  "updatedAt": "2026-09-03",
+  "pageCount": 1,
+  "readingMinutes": 4,
+  "coverImage": "assets/share-whatsapp.jpg",
+  "tags": ["eventi", "friuli", "mare", "austria"],
+  "listed": true
+}

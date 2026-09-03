@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24",
+  "updatedAt": "2026-09-03",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -189,6 +189,23 @@
         "peugeot-208",
         "chiave-keyless",
         "batteria-cr2032"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Eventi delle prossime due settimane",
+      "slug": "eventi",
+      "category": "eventi",
+      "description": "Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
+      "createdAt": "2026-09-03",
+      "updatedAt": "2026-09-03",
+      "url": "https://giufog.github.io/giu-page/eventi/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-whatsapp.jpg",
+      "tags": [
+        "eventi",
+        "friuli",
+        "mare",
+        "austria"
       ],
       "listed": true
     }

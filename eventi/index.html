@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.">
+  <link rel="canonical" href="https://giufog.github.io/giu-page/eventi/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Eventi delle prossime due settimane">
+  <meta property="og:description" content="Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento.">
+  <meta property="og:url" content="https://giufog.github.io/giu-page/eventi/">
+  <meta property="og:image" content="https://giufog.github.io/giu-page/eventi/assets/share-whatsapp.jpg">
+  <link rel="icon" href="assets/gp-icon.svg" type="image/svg+xml">
+  <title>Eventi delle prossime due settimane | Giu Page</title>
+  <link rel="stylesheet" href="assets/style.css?v=20260903-6">
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Salta al contenuto</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="brand" aria-label="Giu Page, anteprima Eventi">
+        <img class="brand__mark" src="assets/gp-icon.svg" width="34" height="34" alt="">
+        <span>Giu Page</span>
+      </div>
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" aria-controls="page-search" data-search-toggle>
+          <img src="https://api.iconify.design/lucide/search.svg?color=%23ffffff" alt="">
+        </button>
+        <details class="menu">
+          <summary class="icon-button" aria-label="Apri indice della pagina">
+            <img src="https://api.iconify.design/lucide/list.svg?color=%23ffffff" alt="">
+          </summary>
+          <nav class="menu__panel" aria-label="Indice della pagina">
+            <a href="#eventi"><span>01</span>Eventi trovati</a>
+            <a href="#criteri"><span>02</span>Come sono scelti</a>
+            <a href="#fonti"><span>03</span>Fonti consultate</a>
+          </nav>
+        </details>
+      </div>
+    </div>
+    <div class="page-search" id="page-search" hidden>
+      <div class="page-search__inner">
+        <label for="page-search-input">Cerca nella pagina</label>
+        <div class="page-search__control">
+          <input id="page-search-input" type="search" placeholder="Evento, localita o categoria" autocomplete="off">
+          <button type="button" data-search-prev aria-label="Risultato precedente" disabled><img src="https://api.iconify.design/lucide/arrow-up.svg?color=%23173e35" alt=""></button>
+          <button type="button" data-search-next aria-label="Risultato successivo" disabled><img src="https://api.iconify.design/lucide/arrow-down.svg?color=%23173e35" alt=""></button>
+        </div>
+        <p class="page-search__status" role="status" aria-live="polite">Scrivi almeno due caratteri.</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="hero gp-standard-hero" id="inizio" aria-labelledby="titolo-pagina">
+      <h1 id="titolo-pagina">Eventi delle prossime due settimane</h1>
+      <p class="hero__lead" data-event-lead>Appuntamenti delle prossime due settimane, con priorità a Tarcento e sezioni Friuli, Mare e Austria.</p>
+      <div class="page-meta" aria-label="Informazioni sulla pagina">
+        <span data-event-meta>Caricamento dell’ultimo aggiornamento…</span>
+      </div>
+      <div class="native-refresh" data-native-refresh hidden>
+        <button class="button button--primary" type="button" data-native-refresh-button>Aggiorna eventi</button>
+        <span>Disponibile soltanto nell’app. GitHub limita automaticamente le richieste ravvicinate.</span>
+      </div>
+      <div class="hero__actions">
+        <button class="button button--print" type="button" data-print>
+          <img src="https://api.iconify.design/lucide/printer.svg?color=%23b23a3a" alt="">
+          Stampa PDF
+        </button>
+        <button class="button button--share" type="button" data-share>
+          <img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">
+          Condividi
+        </button>
+      </div>
+    </section>
+
+    <div class="page-shell">
+      <article class="article">
+        <section id="eventi" aria-labelledby="titolo-eventi">
+          <div class="section-heading section-heading--eventi">
+            <p class="eyebrow eyebrow--eventi">01 · PROSSIME DUE SETTIMANE</p>
+            <h2 id="titolo-eventi">Scegli dove andare</h2>
+          </div>
+          <p class="section-intro">Gli eventi sono sempre ordinati dal più vicino al più lontano rispetto a Tarcento. I colori distinguono le zone.</p>
+
+          <div class="filter-block" aria-label="Filtri degli eventi">
+            <div class="event-filter-search">
+              <label for="event-filter-text">Cerca negli eventi</label>
+              <input id="event-filter-text" type="search" data-event-search placeholder="Es. moto, frico, concerto, Udine…" autocomplete="off" aria-describedby="filter-help">
+            </div>
+            <div class="filter-group">
+              <span class="filter-label">Zona</span>
+              <div class="filter-row" data-area-filters>
+                <button class="filter-button filter-button--all is-selected" type="button" data-area="all">Tutte</button>
+                <button class="filter-button filter-button--friuli" type="button" data-area="friuli">Friuli</button>
+                <button class="filter-button filter-button--mare" type="button" data-area="mare">Mare</button>
+                <button class="filter-button filter-button--austria" type="button" data-area="austria">Austria</button>
+              </div>
+            </div>
+            <div class="filter-group">
+              <span class="filter-label">Periodo</span>
+              <div class="filter-row" data-day-filters>
+                <button class="filter-button is-selected" type="button" data-period="all">Tutti</button>
+                <button class="filter-button" type="button" data-period="weekday1">31 ago–4 set</button>
+                <button class="filter-button" type="button" data-period="sat1">Sab 5</button>
+                <button class="filter-button" type="button" data-period="sun1">Dom 6</button>
+                <button class="filter-button" type="button" data-period="weekday2">7–11 set</button>
+                <button class="filter-button" type="button" data-period="sat2">Sab 12</button>
+                <button class="filter-button" type="button" data-period="sun2">Dom 13</button>
+              </div>
+            </div>
+            <p id="filter-help" class="filter-help">I numeri si aggiornano con la ricerca e gli altri filtri. Lignano è sia Friuli sia Mare; ogni evento compare una sola volta nell’elenco.</p>
+            <p class="results-count" data-results-count role="status" aria-live="polite">Caricamento degli eventi...</p>
+          </div>
+
+          <div class="event-grid" data-events-list data-searchable>
+            <div class="loading-state">Preparazione dell'elenco in corso.</div>
+          </div>
+          <div class="empty-state" data-empty-state hidden>Nessun evento trovato per questa zona e questo periodo.</div>
+        </section>
+
+        <section id="criteri" aria-labelledby="titolo-criteri">
+          <div class="section-heading">
+            <p class="eyebrow eyebrow--eventi">02 · CONTROLLO</p>
+            <h2 id="titolo-criteri">Come sono scelti</h2>
+          </div>
+          <div class="criteria-grid">
+            <article class="criterion-card">
+              <img src="https://api.iconify.design/lucide/badge-check.svg?color=%23217a46" alt="">
+              <div><h3>Fonte prima di tutto</h3><p>Comune, portale turistico regionale o sito dell'organizzatore hanno precedenza sugli aggregatori.</p></div>
+            </article>
+            <article class="criterion-card">
+              <img src="https://api.iconify.design/lucide/copy-check.svg?color=%23217a46" alt="">
+              <div><h3>Niente doppioni</h3><p>Titolo, comune e giorni effettivi identificano lo stesso evento anche quando compare su piu siti.</p></div>
+            </article>
+            <article class="criterion-card">
+              <img src="https://api.iconify.design/lucide/cloud-rain.svg?color=%23b7791f" alt="">
+              <div><h3>Controllo del giovedi</h3><p>Rinvii, annullamenti, cambi di sede e programmi per maltempo vengono verificati di nuovo.</p></div>
+            </article>
+          </div>
+          <div class="notice notice--warning"><b>Prima raccolta.</b> Gli eventi piccoli pubblicati solo sui social o su locandine non indicizzate possono ancora mancare.</div>
+        </section>
+
+        <section id="fonti" aria-labelledby="titolo-fonti">
+          <div class="section-heading">
+            <p class="eyebrow eyebrow--eventi">03 · TRASPARENZA</p>
+            <h2 id="titolo-fonti">Fonti consultate</h2>
+          </div>
+          <p>Le fonti complete di ogni evento restano nel JSON consegnato a Pagine Online. Qui sono raggruppate per non appesantire le schede.</p>
+          <details class="sources">
+            <summary><span><b>Apri le fonti</b><small>Fonti istituzionali, territoriali e degli organizzatori · 3 settembre 2026</small></span><img class="chevron" src="https://api.iconify.design/lucide/chevron-down.svg?color=%23217a46" alt=""></summary>
+            <ol class="source-list">
+              <li><span class="source-number">01</span><div><b>PromoTurismoFVG</b><a href="https://www.turismofvg.it/eventi" target="_blank" rel="noopener">turismofvg.it/eventi</a><small>Copertura regionale e pagine di dettaglio</small></div></li>
+              <li><span class="source-number">02</span><div><b>Comune di Tarcento</b><a href="https://www.comune.tarcento.ud.it/it/categorie-eventi/83656" target="_blank" rel="noopener">comune.tarcento.ud.it</a><small>Calendario locale prioritario</small></div></li>
+              <li><span class="source-number">03</span><div><b>Agenda del Comune di Udine</b><a href="https://agenda.comune.udine.it/" target="_blank" rel="noopener">agenda.comune.udine.it</a><small>Eventi e dettagli del capoluogo</small></div></li>
+              <li><span class="source-number">04</span><div><b>Estate a Pordenone</b><a href="https://estate.comune.pordenone.it/" target="_blank" rel="noopener">estate.comune.pordenone.it</a><small>Calendario comunale del fine settimana</small></div></li>
+              <li><span class="source-number">05</span><div><b>FriuliEventi</b><a href="https://www.friuleventi.it/eventi-questo-weekend" target="_blank" rel="noopener">friuleventi.it/eventi-questo-weekend</a><small>Scoperta regionale e confronto</small></div></li>
+              <li><span class="source-number">06</span><div><b>SagreFVG e Portale Eventi</b><a href="https://sagrefvg.it/" target="_blank" rel="noopener">sagrefvg.it</a><small>Completamento di sagre e programmi locali</small></div></li>
+              <li><span class="source-number">07</span><div><b>Pordenone With Love</b><a href="https://www.pordenonewithlove.it/it/eventi/elenco-eventi/manifestazioni" target="_blank" rel="noopener">pordenonewithlove.it</a><small>Manifestazioni nel territorio pordenonese</small></div></li>
+            </ol>
+          </details>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div><b>Giu Page · Eventi</b><span>Anteprima locale per definire il formato della raccolta settimanale.</span></div></footer>
+  <button class="back-to-top" type="button" data-to-top aria-label="Torna all'inizio della pagina" title="Torna all'inizio"><img src="https://api.iconify.design/lucide/arrow-up.svg?color=%23173e35" alt=""></button>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/events-data.js?v=20260903-6"></script>
+  <script src="assets/script.js?v=20260903-6"></script>
+</body>
+</html>
