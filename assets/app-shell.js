@@ -7,10 +7,10 @@
   const iconBase = 'https://api.iconify.design/lucide';
   const definitions = [
     { id: 'cucina', name: 'Cucina', icon: 'cooking-pot', color: '#c86432' },
-    { id: 'medicina', name: 'Medicina', icon: 'stethoscope', color: '#167d83' },
-    { id: 'legale', name: 'Legale', icon: 'scale', color: '#4f5a9a' },
-    { id: 'lavoro', name: 'Lavoro', icon: 'briefcase-business', color: '#b7791f' },
     { id: 'eventi', name: 'Eventi', icon: 'calendar-days', color: '#b44672' },
+    { id: 'lavoro', name: 'Lavoro', icon: 'briefcase-business', color: '#b7791f' },
+    { id: 'legale', name: 'Legale', icon: 'scale', color: '#4f5a9a' },
+    { id: 'medicina', name: 'Medicina', icon: 'stethoscope', color: '#167d83' },
     { id: 'varie', name: 'Varie', icon: 'layout-grid', color: '#7a5c99' }
   ];
 
