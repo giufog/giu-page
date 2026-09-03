@@ -1,6 +1,6 @@
 const CATEGORY_DEFINITIONS = [
   { id: 'cucina', name: 'Cucina', icon: 'cooking-pot', color: '#c86432', description: 'Ricette, ingredienti e preparazioni da ritrovare con facilità.' },
-  { id: 'eventi', name: 'Eventi', icon: 'calendar-days', color: '#b44672', description: 'Appuntamenti delle prossime due settimane in Friuli, al mare e nell’Austria vicina.' },
+  { id: 'eventi', name: 'Eventi', icon: 'calendar-days', color: '#b44672', description: 'Appuntamenti delle prossime due settimane in Friuli, al mare e nell’Austria vicina.', directPage: 'eventi' },
   { id: 'lavoro', name: 'Lavoro', icon: 'briefcase-business', color: '#b7791f', description: 'Attività, strumenti e documenti operativi per progetti professionali.' },
   { id: 'legale', name: 'Legale', icon: 'scale', color: '#4f5a9a', description: 'Documenti, quesiti e riferimenti giuridici raccolti in un unico spazio.' },
   { id: 'medicina', name: 'Medicina', icon: 'stethoscope', color: '#167d83', description: 'Salute, prevenzione e confronti informativi organizzati per tema.' },
@@ -83,7 +83,16 @@ function categoryCard(category) {
     <span><h2>${category.name}</h2></span>
     <p>${category.description}</p>
     <span class="category-meta"><span class="category-count">${categoryPages.length} ${categoryPages.length === 1 ? 'pagina' : 'pagine'}</span><img class="category-arrow" src="${iconUrl('arrow-right', category.color)}" alt=""></span>`;
-  button.addEventListener('click', () => showCategory(category));
+  button.addEventListener('click', () => {
+    const directPage = category.directPage
+      ? categoryPages.find(page => page.slug === category.directPage)
+      : null;
+    if (directPage) {
+      window.location.assign(directPage.url);
+      return;
+    }
+    showCategory(category);
+  });
   return button;
 }
 
@@ -133,7 +142,7 @@ function closeSearch() {
   elements.searchToggle.setAttribute('aria-expanded', 'false');
 }
 
-function showCategory(category) {
+function showCategory(category, { pushHistory = true } = {}) {
   activeCategory = category;
   elements.home.hidden = true;
   elements.topic.hidden = false;
@@ -143,18 +152,22 @@ function showCategory(category) {
   elements.searchInput.value = '';
   elements.searchLabel.textContent = `Cerca in ${category.name}`;
   renderPages();
-  history.replaceState(null, '', `#${category.id}`);
+  if (pushHistory) {
+    history.pushState({ giuView: 'category', categoryId: category.id }, '', `#${category.id}`);
+  }
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function showHome() {
+function showHome({ replaceHistory = false } = {}) {
   activeCategory = null;
   elements.home.hidden = false;
   elements.topic.hidden = true;
   elements.searchInput.value = '';
   elements.searchLabel.textContent = 'Cerca titolo o argomento';
   renderCategories();
-  history.replaceState(null, '', `${location.pathname}${location.search}`);
+  if (replaceHistory) {
+    history.replaceState({ giuView: 'home' }, '', `${location.pathname}${location.search}`);
+  }
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -171,7 +184,16 @@ elements.searchInput.addEventListener('input', () => {
   else renderCategories(elements.searchInput.value);
 });
 
-document.querySelector('[data-back]').addEventListener('click', showHome);
+document.querySelector('[data-back]').addEventListener('click', () => {
+  if (history.state?.giuView === 'category') history.back();
+  else showHome({ replaceHistory: true });
+});
+
+window.addEventListener('popstate', () => {
+  const requestedCategory = CATEGORY_DEFINITIONS.find(category => `#${category.id}` === location.hash);
+  if (requestedCategory) showCategory(requestedCategory, { pushHistory: false });
+  else showHome();
+});
 
 document.addEventListener('pointerdown', event => {
   if (!elements.searchPanel.hidden && !elements.searchPanel.contains(event.target) && !elements.searchToggle.contains(event.target)) closeSearch();
@@ -190,7 +212,12 @@ fetch('./catalogo.json', { cache: 'no-store' })
     pages = Array.isArray(data.pages) ? data.pages : [];
     renderCategories();
     const requestedCategory = CATEGORY_DEFINITIONS.find(category => `#${category.id}` === location.hash);
-    if (requestedCategory) showCategory(requestedCategory);
+    if (requestedCategory) {
+      history.replaceState({ giuView: 'category', categoryId: requestedCategory.id }, '', location.href);
+      showCategory(requestedCategory, { pushHistory: false });
+    } else {
+      history.replaceState({ giuView: 'home' }, '', `${location.pathname}${location.search}`);
+    }
     document.dispatchEvent(new CustomEvent('giu:catalog-ready', { detail: { pages, categories: CATEGORY_DEFINITIONS } }));
   })
   .catch(error => {
