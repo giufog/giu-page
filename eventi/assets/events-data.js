@@ -1,6 +1,6 @@
 window.EVENTS_DATA = {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-03T17:35:50+00:00",
+  "generatedAt": "2026-09-03T19:42:17+00:00",
   "weekend": {
     "from": "2026-09-04",
     "to": "2026-09-13"
@@ -31,7 +31,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Tra i mesi di agosto e settembre 2026, gli spazi di Villa Dora e dell&#39;Antiquarium ospiteranno un ricco calendario di eventi culturali che spaziano dalla musica dal vivo alle presentazioni di libri, fino a letture e mostre d&#39;arte.",
+      "description": "Tra i mesi di agosto e settembre 2026, gli spazi di Villa Dora e dell'Antiquarium ospiteranno un ricco calendario di eventi culturali che spaziano dalla musica dal vivo alle presentazioni di libri, fino a letture e mostre d'arte.",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -56,7 +56,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "agosto-e-settembre-a-villa-dora-2026-05-06",
-      "longDescription": "Tra i mesi di agosto e settembre 2026, gli spazi di Villa Dora e dell&#39;Antiquarium ospiteranno un ricco calendario di eventi culturali che spaziano dalla musica dal vivo alle presentazioni di libri, fino a letture e mostre d&#39;arte.",
+      "longDescription": "Tra i mesi di agosto e settembre 2026, gli spazi di Villa Dora e dell'Antiquarium ospiteranno un ricco calendario di eventi culturali che spaziano dalla musica dal vivo alle presentazioni di libri, fino a letture e mostre d'arte.",
       "detailParagraphs": [
         "Tra i mesi di agosto e settembre 2026 , gli spazi di Villa Dora e dell' Antiquarium ospiteranno un ricco calendario di eventi culturali che spaziano dalla musica dal vivo alle presentazioni di libri, fino a letture e mostre d'arte.",
         "La programmazione dettagliata prevede i seguenti appuntamenti:",
@@ -101,7 +101,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=agosto-e-settembre-a-villa-dora-2026-05-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:09+00:00"
     },
     {
       "title": "Le Giornate della luce: Stelle. Ritratti nel cinema di Stefano C. Montesi",
@@ -186,7 +186,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=le-giornate-della-luce-stelle-ritratti-nel-cinema-di-stefano-c-montesi-2026-06-0",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:13+00:00"
     },
     {
       "title": "16a Ed. Concerti al Castello 2026",
@@ -278,7 +278,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=16a-ed-concerti-al-castello-2026-2026-06-14",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00"
+      "checkedAt": "2026-09-03T19:42:15+00:00"
     },
     {
       "title": "Musica in Villa® 2026",
@@ -361,7 +361,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=musica-in-villa-2026-2026-07-09",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "Radici Festival 2026",
@@ -446,7 +446,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=radici-festival-2026-2026-07-17",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:13+00:00"
     },
     {
       "title": "753ª Sagra Dei Osei",
@@ -533,7 +533,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=753a-sagra-dei-osei-2026-08-02",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:11+00:00"
     },
     {
       "title": "Terra & Acqua",
@@ -552,7 +552,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Nasce a Ronchis&nbsp;Terra &amp; Acqua,&nbsp;un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.<br /><br />Programma del festival<br /><br />Tutti gli appu",
+      "description": "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Programma del festival Tutti gli appuntamenti sono a partecipazione liber",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -577,7 +577,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "terra-acqua-2026-08-29",
-      "longDescription": "Nasce a Ronchis&nbsp;Terra &amp; Acqua,&nbsp;un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.<br /><br />Programma del festival<br /><br />Tutti gli appuntamenti sono a partecipazione libera",
+      "longDescription": "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Programma del festival Tutti gli appuntamenti sono a partecipazione libera",
       "detailParagraphs": [
         "Description Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Programma del festival Tutti gli appuntamenti sono a partecipazione libera",
         "Organized by: Comune di Ronchis Tel. 0431 56014 Email: areaamministrativa@comune.ronchis.ud.it",
@@ -620,7 +620,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=terra-acqua-2026-08-29",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00"
+      "checkedAt": "2026-09-03T19:42:09+00:00"
     },
     {
       "title": "L'arlecchino Errante - Anno 30 - Suoni e sentimenti",
@@ -708,7 +708,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-anno-30-suoni-e-sentimenti-2026-09-01",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00"
+      "checkedAt": "2026-09-03T19:42:15+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - Segni di Resistenza",
@@ -791,7 +791,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-segni-di-resistenza-2026-09-02",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00"
+      "checkedAt": "2026-09-03T19:42:14+00:00"
     },
     {
       "title": "ESTIVAL - Rapsodie nel Parco: tra cultura e natura",
@@ -810,7 +810,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "La Pro Loco di Pasian di Prato APS organizza &ldquo;ESTIVAL - Rapsodie nel Parco: tra cultura e natura&rdquo;, rassegna di due appuntamenti serali dedicati allo spettacolo e alla musica, realizzata con il patrocinio del Comune di Pasian di Prato.<br /><br />Gioved&igrave; 3 sette",
+      "description": "La Pro Loco di Pasian di Prato APS organizza “ESTIVAL - Rapsodie nel Parco: tra cultura e natura”, rassegna di due appuntamenti serali dedicati allo spettacolo e alla musica, realizzata con il patrocinio del Comune di Pasian di Prato. Giovedì 3 settembre andrà in scena “Charlot i",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -835,7 +835,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "estival-rapsodie-nel-parco-tra-cultura-e-natura-2026-09-03",
-      "longDescription": "La Pro Loco di Pasian di Prato APS organizza &ldquo;ESTIVAL - Rapsodie nel Parco: tra cultura e natura&rdquo;, rassegna di due appuntamenti serali dedicati allo spettacolo e alla musica, realizzata con il patrocinio del Comune di Pasian di Prato.<br /><br />Gioved&igrave; 3 settembre andr&agrave; in scena &ldquo;Charlot in concerto&rdquo;, nuovo spettacolo dell&rsquo;artista Natalia Ratti dedicato al genio e alla comicit&agrave; di Charlie Chaplin.<br />Mercoled&igrave; 9 settembre sar&agrave; invece protagonista la musica dei &ldquo;Nosis&agrave;&rdquo;, con un concerto di musica tradizionale friulana rivisitata in chiave rock, preceduto dalla lettura di poesie in lingua friulana dell&rsquo;autore e docente Fausto Zof.<br /><br />In caso di maltempo gli spettacoli si terranno all&rsquo;Auditorium &ldquo;E. Venier&rdquo; di via Roma.&nbsp;<br /><br />L&rsquo;ingresso &egrave; gratuito.<br />Informazioni: Pro Loco di Pasian di Prato APS &ndash; 338 4505366<br />prolocoaps.pasiandiprato@gmail.com&nbsp;&ndash;&nbsp;www.prolocopasiandiprato.it",
+      "longDescription": "La Pro Loco di Pasian di Prato APS organizza “ESTIVAL - Rapsodie nel Parco: tra cultura e natura”, rassegna di due appuntamenti serali dedicati allo spettacolo e alla musica, realizzata con il patrocinio del Comune di Pasian di Prato. Giovedì 3 settembre andrà in scena “Charlot in concerto”, nuovo spettacolo dell’artista Natalia Ratti dedicato al genio e alla comicità di Charlie Chaplin. Mercoledì 9 settembre sarà invece protagonista la musica dei “Nosisà”, con un concerto di musica tradizionale friulana rivisitata in chiave rock, preceduto dalla lettura di poesie in lingua friulana dell’autore e docente Fausto Zof. In caso di maltempo gli spettacoli si terranno all’Auditorium “E. Venier” di via Roma. L’ingresso è gratuito. Informazioni: Pro Loco di Pasian di Prato APS – 338 4505366 prolocoaps.pasiandiprato@gmail.com – www.prolocopasiandiprato.it",
       "detailParagraphs": [
         "Description La Pro Loco di Pasian di Prato APS organizza “ESTIVAL - Rapsodie nel Parco: tra cultura e natura”, rassegna di due appuntamenti serali dedicati allo spettacolo e alla musica, realizzata con il patrocinio del Comune di Pasian di Prato. Giovedì 3 settembre andrà in scena “Charlot in concerto”, nuovo spettacolo dell’artista Natalia Ratti dedicato al genio e alla comicità di Charlie Chaplin. Mercoledì 9 settembre sarà invece protagonista la musica dei “Nosisà”, con un concerto di musica tradizionale friulana rivisitata in chiave rock, preceduto dalla lettura di poesie in lingua friulana dell’autore e docente Fausto Zof. In caso di maltempo gli spettacoli si terranno all’Auditorium “E. Venier” di via Roma. L’ingresso è gratuito. Informazioni: Pro Loco di Pasian di Prato APS – 338 4505366 prolocoaps.pasiandiprato@gmail.com – www.prolocopasiandiprato.it",
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
@@ -877,7 +877,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=estival-rapsodie-nel-parco-tra-cultura-e-natura-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:08+00:00"
     },
     {
       "title": "Home - per tornare assieme nella casa del mondo",
@@ -959,7 +959,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=home-per-tornare-assieme-nella-casa-del-mondo-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00"
+      "checkedAt": "2026-09-03T19:42:13+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - Cuna. Dal buio prende forma un universo di sensazioni",
@@ -972,7 +972,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -997,7 +997,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-cuna-dal-buio-prende-forma-un-universo-di-sensazioni-2026",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "Cuna. Dal buio prende forma un universo di sensazioni / Giuseppe Comuniello Sala Consiliare giovedì 3 settembre ore 18.00",
@@ -1042,7 +1042,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-cuna-dal-buio-prende-forma-un-universo-di-sensazioni-2026",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:08+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - Handle with care",
@@ -1055,7 +1055,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -1080,7 +1080,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-handle-with-care-2026-09-03",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "Handle with care / Ontroerend Goed Teatro nuovo Giovedì 3 settembre ore 21.00",
@@ -1125,7 +1125,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-handle-with-care-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:08+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - Partschótt",
@@ -1138,7 +1138,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -1163,7 +1163,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-partschott-2026-09-03",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "Partschótt / Andrea Dante Benazzo Sala Bergamas Giovedì 3 settembre ore 19.00",
@@ -1208,7 +1208,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-partschott-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:08+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - Human +",
@@ -1221,7 +1221,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Ensemble Hybrid Collective / Italia<br />con<br />Samuele Gandin &ndash; Trombone<br />Paolo Pascolo &ndash; Flauto<br />Flavio Zanuttini &ndash; Tromba<br />Gabriel Maizan &ndash; Clarinetto<br />Yannis Maizan &ndash; Sassofono<br /><br />e con<br />Sarah Ferretti e Davide Visin",
+      "description": "Ensemble Hybrid Collective / Italia con Samuele Gandin – Trombone Paolo Pascolo – Flauto Flavio Zanuttini – Tromba Gabriel Maizan – Clarinetto Yannis Maizan – Sassofono e con Sarah Ferretti e Davide Visintini Performance immersiva che percorre la città come un’onda sonora di gest",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -1246,7 +1246,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-human-2026-09-03",
-      "longDescription": "Ensemble Hybrid Collective / Italia<br />con<br />Samuele Gandin &ndash; Trombone<br />Paolo Pascolo &ndash; Flauto<br />Flavio Zanuttini &ndash; Tromba<br />Gabriel Maizan &ndash; Clarinetto<br />Yannis Maizan &ndash; Sassofono<br /><br />e con<br />Sarah Ferretti e Davide Visintini<br /><br />Performance immersiva che percorre la citt&agrave; come un&rsquo;onda sonora di gesti e musica. Arte circense, note, elettronica per svolgere il nastro di un itinerario immaginifico, in equilibrio tra spazio e e tempo.<br /><br />Ingresso Solidale:&nbsp;&euro; 1 per tutti, con procedimento &ldquo;self&rdquo; presso le casse volanti",
+      "longDescription": "Ensemble Hybrid Collective / Italia con Samuele Gandin – Trombone Paolo Pascolo – Flauto Flavio Zanuttini – Tromba Gabriel Maizan – Clarinetto Yannis Maizan – Sassofono e con Sarah Ferretti e Davide Visintini Performance immersiva che percorre la città come un’onda sonora di gesti e musica. Arte circense, note, elettronica per svolgere il nastro di un itinerario immaginifico, in equilibrio tra spazio e e tempo. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
       "detailParagraphs": [
         "Description Ensemble Hybrid Collective / Italia con Samuele Gandin – Trombone Paolo Pascolo – Flauto Flavio Zanuttini – Tromba Gabriel Maizan – Clarinetto Yannis Maizan – Sassofono e con Sarah Ferretti e Davide Visintini Performance immersiva che percorre la città come un’onda sonora di gesti e musica. Arte circense, note, elettronica per svolgere il nastro di un itinerario immaginifico, in equilibrio tra spazio e e tempo. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
         "con Samuele Gandin – Trombone Paolo Pascolo – Flauto Flavio Zanuttini – Tromba Gabriel Maizan – Clarinetto Yannis Maizan – Sassofono",
@@ -1296,7 +1296,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-human-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00",
+      "checkedAt": "2026-09-03T19:42:07+00:00",
       "sourceReachable": true
     },
     {
@@ -1310,7 +1310,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Accademia Mutamenti<br />con&nbsp;Sara Donzelli e Giorgio Zorc&ugrave;<br />Singolo workshop:&nbsp;&euro; 20<br />Pi&ugrave; di un workshop:&nbsp;&euro; 10<br />Tutti i workshop :&nbsp;&euro; 100<br />Informazioni e prenotazioni: festival@arlecchinoerrante.com<br />",
+      "description": "Accademia Mutamenti con Sara Donzelli e Giorgio Zorcù Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -1335,7 +1335,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-open-workshop-l-opera-senza-canto-le-radici-del-melodram",
-      "longDescription": "Accademia Mutamenti<br />con&nbsp;Sara Donzelli e Giorgio Zorc&ugrave;<br />Singolo workshop:&nbsp;&euro; 20<br />Pi&ugrave; di un workshop:&nbsp;&euro; 10<br />Tutti i workshop :&nbsp;&euro; 100<br />Informazioni e prenotazioni: festival@arlecchinoerrante.com<br />",
+      "longDescription": "Accademia Mutamenti con Sara Donzelli e Giorgio Zorcù Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
       "detailParagraphs": [
         "Description Accademia Mutamenti con Sara Donzelli e Giorgio Zorcù Affascinati dai motivi profondi che hanno decretato il successo del melodramma, due anni fa gli artisti di Accademia Mutamento hanno iniziato la loro ricerca con la Butterfly . Recuperando l’impronta narrativa originale, data dal romanzo breve di John Luther Long – che tra l’altro ha un diverso finale dal libretto di Illica-Giacosa – hanno inserito dentro questo tessuto narrativo le più famose “arie d’opera” musicate da Puccini per un soprano lirico-drammatico. È su queste arie che si è rivolto principalmente l’interesse artistico dell’attrice, trasponendo il canto in interpretazione teatrale. Una risonanza che trattiene la memoria del canto ma fa vivere il “tema” in modo nuovo e inatteso Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
         "Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
@@ -1380,7 +1380,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-open-workshop-l-opera-senza-canto-le-radici-del-melodram",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:08+00:00"
     },
     {
       "title": "Lignano Noir 2026. Festival omaggio a Giorgio Scerbanenco.",
@@ -1461,7 +1461,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=lignano-noir-2026-festival-omaggio-a-giorgio-scerbanenco-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:13+00:00"
     },
     {
       "title": "Underground - giovani e storie in festival",
@@ -1474,7 +1474,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Underground - giovani e storie in festival - &egrave; un festival fatto di ragazze e ragazzi under 25.&nbsp;<br />Con un filo conduttore che &egrave; l&rsquo;idea di ci&ograve; che &quot;&egrave; sotterraneo nel microcosmo nell&rsquo;animo dei ragazzi e nel macrocosmo della socie",
+      "description": "Underground - giovani e storie in festival - è un festival fatto di ragazze e ragazzi under 25. Con un filo conduttore che è l’idea di ciò che \"è sotterraneo nel microcosmo nell’animo dei ragazzi e nel macrocosmo della società\", si vuole dare ai giovani la possibilità di far emer",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -1499,7 +1499,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "underground-giovani-e-storie-in-festival-2026-09-03",
-      "longDescription": "Underground - giovani e storie in festival - &egrave; un festival fatto di ragazze e ragazzi under 25.&nbsp;<br />Con un filo conduttore che &egrave; l&rsquo;idea di ci&ograve; che &quot;&egrave; sotterraneo nel microcosmo nell&rsquo;animo dei ragazzi e nel macrocosmo della societ&agrave;&quot;, si vuole dare ai giovani la possibilit&agrave; di far emergere quelle visioni che in superficie non trovano spazio per mancanza di tempo, luoghi, occasioni, finanziamenti.<br /><br />Il festival prender&agrave; forma attraverso una molteplicit&agrave; di arti: letteratura, oralit&agrave;, performance teatrali, linguaggi digitali, arti figurative.<br /><br />3 settembre&nbsp;Corte di palazzo Morpurgo<br /><br />ore 18.00 - Atti umani - simposio di poesia a cura del Circolo degli Incastrati<br /><br />ore 20:00 -&nbsp;&quot;Army Dreamers&quot; Spettacolo teatrale&nbsp;a cura del gruppo Assetati<br /><br />Scopri tutti gli altri appuntamenti sul sito&nbsp;",
+      "longDescription": "Underground - giovani e storie in festival - è un festival fatto di ragazze e ragazzi under 25. Con un filo conduttore che è l’idea di ciò che \"è sotterraneo nel microcosmo nell’animo dei ragazzi e nel macrocosmo della società\", si vuole dare ai giovani la possibilità di far emergere quelle visioni che in superficie non trovano spazio per mancanza di tempo, luoghi, occasioni, finanziamenti. Il festival prenderà forma attraverso una molteplicità di arti: letteratura, oralità, performance teatrali, linguaggi digitali, arti figurative. 3 settembre Corte di palazzo Morpurgo ore 18.00 - Atti umani - simposio di poesia a cura del Circolo degli Incastrati ore 20:00 - \"Army Dreamers\" Spettacolo teatrale a cura del gruppo Assetati Scopri tutti gli altri appuntamenti sul sito",
       "detailParagraphs": [
         "Organized by: Associazione Scrittori FVG in collaborazione con il Comune di Udine",
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
@@ -1542,7 +1542,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=underground-giovani-e-storie-in-festival-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:08+00:00"
     },
     {
       "title": "29° Simposio Internazionale di Scultura su Pietre FVG",
@@ -1630,7 +1630,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=29-simposio-internazionale-di-scultura-su-pietre-fvg-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00"
+      "checkedAt": "2026-09-03T19:42:15+00:00"
     },
     {
       "title": "2a Ed. Mercato Europeo",
@@ -1711,7 +1711,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=2a-ed-mercato-europeo-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:13+00:00"
     },
     {
       "title": "Friuli Concertante",
@@ -1724,7 +1724,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "PIEDIM&nbsp; 04.09.26 VENERD&Igrave; ore 21.00 Chiesa del Sacro Cuore / Coro di Piedim / Trio &lsquo;Classic and more&rsquo; (fl , fg, pf)<br /><br />FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
+      "description": "PIEDIM 04.09.26 VENERDÌ ore 21.00 Chiesa del Sacro Cuore / Coro di Piedim / Trio ‘Classic and more’ (fl , fg, pf) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -1749,7 +1749,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "friuli-concertante-2026-09-04",
-      "longDescription": "PIEDIM&nbsp; 04.09.26 VENERD&Igrave; ore 21.00 Chiesa del Sacro Cuore / Coro di Piedim / Trio &lsquo;Classic and more&rsquo; (fl , fg, pf)<br /><br />FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
+      "longDescription": "PIEDIM 04.09.26 VENERDÌ ore 21.00 Chiesa del Sacro Cuore / Coro di Piedim / Trio ‘Classic and more’ (fl , fg, pf) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
       "detailParagraphs": [
         "Description Il Festival FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. PIEDIM 04.09.26 VENERDÌ ore 21.00 Chiesa del Sacro Cuore / Coro di Piedim / Trio ‘Classic and more’ (fl , fg, pf) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
@@ -1791,7 +1791,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=friuli-concertante-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:08+00:00"
     },
     {
       "title": "Hello Summer Fest 2026",
@@ -1872,7 +1872,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=hello-summer-fest-2026-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00"
+      "checkedAt": "2026-09-03T19:42:14+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - ANGELS’ ORDERS. The Rilke Project",
@@ -1885,7 +1885,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -1910,7 +1910,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-angels-orders-the-rilke-project-2026-09-04",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "ANGELS’ ORDERS. The Rilke Project / Pablo Girolami / IVONA Porta Nuova Venerdì 4 settembre ore 18.00",
@@ -1955,7 +1955,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-angels-orders-the-rilke-project-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00"
+      "checkedAt": "2026-09-03T19:42:09+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - Not to scale - Gradisca d'Isonzo",
@@ -2035,7 +2035,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-not-to-scale-gradisca-d-isonzo-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - Pas moi",
@@ -2048,7 +2048,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2073,7 +2073,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-pas-moi-2026-09-04",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "Pas moi / Diana Anselmo sala Bergamas Venerdì 4 settembre ore 19.00",
@@ -2123,7 +2123,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-pas-moi-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00",
+      "checkedAt": "2026-09-03T19:42:09+00:00",
       "sourceReachable": true
     },
     {
@@ -2137,7 +2137,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "<br />Kalatharangini Kathakali Troupe / India<br /><br />voce&nbsp; Kalamandalam Ajesh, Kalamandalam Jeevan<br />percussioni&nbsp;Kalamandalam Sudheesh, Kalamandalam Rajanarayanan<br /><br /><br />Il Kathakali &egrave; la forma di teatro classico indiano pi&ugrave; conosciuta in ",
+      "description": "Kalatharangini Kathakali Troupe / India voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Il Kathakali è la forma di teatro classico indiano più conosciuta in Occidente, la più studiata e la più ammirata. Da scoprire negli",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2162,7 +2162,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-indian-beat-2026-09-04",
-      "longDescription": "<br />Kalatharangini Kathakali Troupe / India<br /><br />voce&nbsp; Kalamandalam Ajesh, Kalamandalam Jeevan<br />percussioni&nbsp;Kalamandalam Sudheesh, Kalamandalam Rajanarayanan<br /><br /><br />Il Kathakali &egrave; la forma di teatro classico indiano pi&ugrave; conosciuta in Occidente, la pi&ugrave; studiata e la pi&ugrave; ammirata. Da scoprire negli angoli della citt&agrave; per entrare in nuovi mondi visivi e sonori.<br /><br />Ingresso Solidale:&nbsp;&euro; 1 per tutti, con procedimento &ldquo;self&rdquo; presso le casse volanti",
+      "longDescription": "Kalatharangini Kathakali Troupe / India voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Il Kathakali è la forma di teatro classico indiano più conosciuta in Occidente, la più studiata e la più ammirata. Da scoprire negli angoli della città per entrare in nuovi mondi visivi e sonori. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
       "detailParagraphs": [
         "Description Kalatharangini Kathakali Troupe / India voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Il Kathakali è la forma di teatro classico indiano più conosciuta in Occidente, la più studiata e la più ammirata. Da scoprire negli angoli della città per entrare in nuovi mondi visivi e sonori. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
         "voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan",
@@ -2212,7 +2212,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-indian-beat-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00",
+      "checkedAt": "2026-09-03T19:42:09+00:00",
       "sourceReachable": true
     },
     {
@@ -2226,7 +2226,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "<br />con&nbsp;Massimo Barilla, Luigi Polimeni e Aurora Galteri<br /><br />In una performance multidisciplinare che integra parola poetica, drammaturgie sonore e coreografiche, cosa guida l&rsquo;atto creativo? Come i linguaggi, seppur potenzialmente autonomi, si intrecciano in m",
+      "description": "con Massimo Barilla, Luigi Polimeni e Aurora Galteri In una performance multidisciplinare che integra parola poetica, drammaturgie sonore e coreografiche, cosa guida l’atto creativo? Come i linguaggi, seppur potenzialmente autonomi, si intrecciano in maniera indissolubile, trasfo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2251,7 +2251,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-open-workshop-il-corpo-del-suono-2026-09-04",
-      "longDescription": "<br />con&nbsp;Massimo Barilla, Luigi Polimeni e Aurora Galteri<br /><br />In una performance multidisciplinare che integra parola poetica, drammaturgie sonore e coreografiche, cosa guida l&rsquo;atto creativo? Come i linguaggi, seppur potenzialmente autonomi, si intrecciano in maniera indissolubile, trasformandosi a vicenda, e ci costringono a cercare nuove vie espressive? La sfida &egrave; quella di mettere in campo un continuo dialogo, solido e instabile allo stesso tempo, una tensione dialettica tra universi e linguaggi diversi.<br /><br />Singolo workshop:&nbsp;&euro; 20<br />Pi&ugrave; di un workshop:&nbsp;&euro; 10<br />Tutti i workshop :&nbsp;&euro; 100<br />Informazioni e prenotazioni: festival@arlecchinoerrante.com<br />",
+      "longDescription": "con Massimo Barilla, Luigi Polimeni e Aurora Galteri In una performance multidisciplinare che integra parola poetica, drammaturgie sonore e coreografiche, cosa guida l’atto creativo? Come i linguaggi, seppur potenzialmente autonomi, si intrecciano in maniera indissolubile, trasformandosi a vicenda, e ci costringono a cercare nuove vie espressive? La sfida è quella di mettere in campo un continuo dialogo, solido e instabile allo stesso tempo, una tensione dialettica tra universi e linguaggi diversi. Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
       "detailParagraphs": [
         "Description con: Lucia Zaghet e Daria Sadovskaia (Compagnia Hellequin) … Soprattutto la Maschera che, consapevoli o inconsapevoli, interpretiamo con le forme del corpo. La ricerca nella Commedia dell’Arte della compagnia Hellequin assegna al corpo un ruolo di materiale d’Arte, vivo e sensibile: un buon terreno di esplorazione per esperti o neofiti, per attori della scena o della vita… Il resto, ovvero la danza e il canto, è una garanzia di benessere… Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
         "… Soprattutto la Maschera che, consapevoli o inconsapevoli, interpretiamo con le forme del corpo. La ricerca nella Commedia dell’Arte della compagnia Hellequin assegna al corpo un ruolo di materiale d’Arte, vivo e sensibile: un buon terreno di esplorazione per esperti o neofiti, per attori della scena o della vita… Il resto, ovvero la danza e il canto, è una garanzia di benessere…",
@@ -2296,7 +2296,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-open-workshop-il-corpo-del-suono-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00"
+      "checkedAt": "2026-09-03T19:42:09+00:00"
     },
     {
       "title": "Radici Festival 2026: Campionati mondiali fisarmonica diatonica e organetto",
@@ -2377,7 +2377,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=radici-festival-2026-campionati-mondiali-fisarmonica-diatonica-e-organetto-2026",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:13+00:00"
     },
     {
       "title": "Ridopoco – Il Festival che ti serviva",
@@ -2458,7 +2458,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=ridopoco-il-festival-che-ti-serviva-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00"
+      "checkedAt": "2026-09-03T19:42:13+00:00"
     },
     {
       "title": "Terra & Acqua - Terra, acqua e... stelle",
@@ -2471,7 +2471,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Nasce a Ronchis&nbsp;Terra &amp; Acqua,&nbsp;un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.<br /><br />Serata divulgativa con Fabrizio Cocetti, fisico ",
+      "description": "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Serata divulgativa con Fabrizio Cocetti, fisico delle astroparticelle, ac",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2496,7 +2496,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "terra-acqua-terra-acqua-e-stelle-2026-09-04",
-      "longDescription": "Nasce a Ronchis&nbsp;Terra &amp; Acqua,&nbsp;un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.<br /><br />Serata divulgativa con Fabrizio Cocetti, fisico delle astroparticelle, accompagnata dagli interventi musicali di Rachele Zanier e Flavio Zanier e Paolo Sgheri alla chitarra.<br /><br />In caso di maltempo: Chiesa di Fraforeano.<br /><br />Programma del festival<br /><br />&nbsp;",
+      "longDescription": "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Serata divulgativa con Fabrizio Cocetti, fisico delle astroparticelle, accompagnata dagli interventi musicali di Rachele Zanier e Flavio Zanier e Paolo Sgheri alla chitarra. In caso di maltempo: Chiesa di Fraforeano. Programma del festival",
       "detailParagraphs": [
         "Description Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Il secondo appuntamento sarà una serata divulgativa con Fabrizio Cocetti, fisico delle astroparticelle, Interventi musicali di Rachele Zanier e Flavio Zanier e Paolo Sgheri alla chitarra. Ingresso libero In caso di maltempo, l' evento si terrà nella Chiesa di Fraforeano. Programma del festival",
         "Organized by: Comune di Ronchis Tel. 0431 56014 Email: areaamministrativa@comune.ronchis.ud.it",
@@ -2539,7 +2539,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=terra-acqua-terra-acqua-e-stelle-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00"
+      "checkedAt": "2026-09-03T19:42:09+00:00"
     },
     {
       "title": "Carniarmonie - Opera musical \"55 secondi\"",
@@ -2552,7 +2552,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "FVG ORCHESTRA<br /><br />CORO DEL FRIULI VENEZIA GIULIA<br /><br />Coro di Voci bianche&nbsp;PUERI CANTORES DEL DUOMO DI UDINE<br /><br />Uno spettacolo dei friulani per i friulani, per ricordare i tragici eventi del &rsquo;76 e celebrare la rinascita del Friuli, con un linguaggi",
+      "description": "FVG ORCHESTRA CORO DEL FRIULI VENEZIA GIULIA Coro di Voci bianche PUERI CANTORES DEL DUOMO DI UDINE Uno spettacolo dei friulani per i friulani, per ricordare i tragici eventi del ’76 e celebrare la rinascita del Friuli, con un linguaggio favolistico universale che susciterà commo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2577,7 +2577,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "carniarmonie-opera-musical-55-secondi-2026-09-05",
-      "longDescription": "FVG ORCHESTRA<br /><br />CORO DEL FRIULI VENEZIA GIULIA<br /><br />Coro di Voci bianche&nbsp;PUERI CANTORES DEL DUOMO DI UDINE<br /><br />Uno spettacolo dei friulani per i friulani, per ricordare i tragici eventi del &rsquo;76 e celebrare la rinascita del Friuli, con un linguaggio favolistico universale che susciter&agrave; commozione, gioia e orgoglio.<br /><br />&nbsp;",
+      "longDescription": "FVG ORCHESTRA CORO DEL FRIULI VENEZIA GIULIA Coro di Voci bianche PUERI CANTORES DEL DUOMO DI UDINE Uno spettacolo dei friulani per i friulani, per ricordare i tragici eventi del ’76 e celebrare la rinascita del Friuli, con un linguaggio favolistico universale che susciterà commozione, gioia e orgoglio.",
       "detailParagraphs": [
         "Uno spettacolo dei friulani per i friulani, per ricordare i tragici eventi del ’76 e celebrare la rinascita del Friuli, con un linguaggio favolistico universale che susciterà commozione, gioia e orgoglio.",
         "Commissione e Produzione della Istituzione Musicale e Sinfonica del Friuli Venezia Giulia",
@@ -2622,7 +2622,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=carniarmonie-opera-musical-55-secondi-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00"
+      "checkedAt": "2026-09-03T19:42:10+00:00"
     },
     {
       "title": "Carniarmonie - Tra originali e trascrizioni",
@@ -2635,7 +2635,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Un concerto in un contesto informale, all&rsquo;interno di un laboratorio dove degli artigiani realizzano&nbsp;delle vere opere d&rsquo;arte per suonare la musica del pi&ugrave; grande &ldquo;artigiano&rdquo; della storia della Musica.&nbsp;Le sue composizioni sono costruite con ",
+      "description": "Un concerto in un contesto informale, all’interno di un laboratorio dove degli artigiani realizzano delle vere opere d’arte per suonare la musica del più grande “artigiano” della storia della Musica. Le sue composizioni sono costruite con la precisione di un orologiaio, utilizzan",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2660,7 +2660,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "carniarmonie-tra-originali-e-trascrizioni-2026-09-05",
-      "longDescription": "Un concerto in un contesto informale, all&rsquo;interno di un laboratorio dove degli artigiani realizzano&nbsp;delle vere opere d&rsquo;arte per suonare la musica del pi&ugrave; grande &ldquo;artigiano&rdquo; della storia della Musica.&nbsp;Le sue composizioni sono costruite con la precisione di un orologiaio, utilizzando simmetrie, canoni e fughe cos&igrave; come il costruttore calcola ogni centimetro, tensione e proporzione di uno&nbsp;strumento. Il rapporto di Johann Sebastian Bach con le trascrizioni si articola su due fronti: lui stesso fu&nbsp;un instancabile trascrittore di musiche altrui, da Vivaldi a Pergolesi, da Marcello a Couperin,&nbsp;e le sue opere sono state a loro volta trascritte e rielaborate da innumerevoli compositori di&nbsp;epoche successive che l&rsquo;hanno considerata una &ldquo;materia prima&rdquo; ideale da adattare al pianoforte moderno o all&rsquo;orchestra.<br /><br />Ingresso &euro; 5,00<br /><br />Posti limitati con prenotazione obbligatoria: info@corofvg.it<br /><br />Informazioni sul sito www.corofvg.it<br /><br />A cura del Coro del Friuli Venezia Giulia<br /><br />&nbsp;",
+      "longDescription": "Un concerto in un contesto informale, all’interno di un laboratorio dove degli artigiani realizzano delle vere opere d’arte per suonare la musica del più grande “artigiano” della storia della Musica. Le sue composizioni sono costruite con la precisione di un orologiaio, utilizzando simmetrie, canoni e fughe così come il costruttore calcola ogni centimetro, tensione e proporzione di uno strumento. Il rapporto di Johann Sebastian Bach con le trascrizioni si articola su due fronti: lui stesso fu un instancabile trascrittore di musiche altrui, da Vivaldi a Pergolesi, da Marcello a Couperin, e le sue opere sono state a loro volta trascritte e rielaborate da innumerevoli compositori di epoche successive che l’hanno considerata una “materia prima” ideale da adattare al pianoforte moderno o all’orchestra. Ingresso € 5,00 Posti limitati con prenotazione obbligatoria: info@corofvg.it Informazioni sul sito www.corofvg.it A cura del Coro del Friuli Venezia Giulia",
       "detailParagraphs": [
         "Un concerto in un contesto informale, all’interno di un laboratorio dove degli artigiani realizzano delle vere opere d’arte per suonare la musica del più grande “artigiano” della storia della Musica. Le sue composizioni sono costruite con la precisione di un orologiaio, utilizzando simmetrie, canoni e fughe così come il costruttore calcola ogni centimetro, tensione e proporzione di uno strumento. Il rapporto di Johann Sebastian Bach con le trascrizioni si articola su due fronti: lui stesso fu un instancabile trascrittore di musiche altrui, da Vivaldi a Pergolesi, da Marcello a Couperin, e le sue opere sono state a loro volta trascritte e rielaborate da innumerevoli compositori di epoche successive che l’hanno considerata una “materia prima” ideale da adattare al pianoforte moderno o all’orchestra.",
         "Posti limitati con prenotazione obbligatoria: info@corofvg.it",
@@ -2704,7 +2704,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=carniarmonie-tra-originali-e-trascrizioni-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00"
+      "checkedAt": "2026-09-03T19:42:09+00:00"
     },
     {
       "title": "Festival Diritti in festa",
@@ -2717,7 +2717,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "PROGRAMMA<br /><br />10:00 | conferenza<br />SCELTA INDIVIDUALE, FORZA COLLETTIVA<br />Costruire la pace, difendere la legalit&agrave;, proteggere il lavoro<br />Licio Palazzini e Monica Usai in dialogo con Margherita Cogoi<br /><br />11:45 | conferenza<br />NELLA VALLE DELLA DRI",
+      "description": "PROGRAMMA 10:00 | conferenza SCELTA INDIVIDUALE, FORZA COLLETTIVA Costruire la pace, difendere la legalità, proteggere il lavoro Licio Palazzini e Monica Usai in dialogo con Margherita Cogoi 11:45 | conferenza NELLA VALLE DELLA DRINA Tra rotta balcanica e memoria di Srebrenica Ni",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2742,7 +2742,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "festival-diritti-in-festa-2026-09-05",
-      "longDescription": "PROGRAMMA<br /><br />10:00 | conferenza<br />SCELTA INDIVIDUALE, FORZA COLLETTIVA<br />Costruire la pace, difendere la legalit&agrave;, proteggere il lavoro<br />Licio Palazzini e Monica Usai in dialogo con Margherita Cogoi<br /><br />11:45 | conferenza<br />NELLA VALLE DELLA DRINA<br />Tra rotta balcanica e memoria di Srebrenica<br />Nihad Suljić e Anna Piuzzi in dialogo con Bisera Krkic<br /><br />14:30 | concerto<br />NICOLE COCEANCIG, cantautorato friulano impegnato<br />con Pietro Sponton e Mirco Tondon<br /><br />16:00 | conferenza<br />NON IN NOSTRO NOME<br />Pinkwashing e resistenze in Palestina, Iran e Libano<br />Dalia Ismail, Hamsaye Collective, Darda(she) in dialogo con FVG Pride e Ospiti in Arrivo<br /><br />17:30 | conferenza<br />LA MACCHINA DELL&rsquo;OSSESSIONE<br />Manipolazione del consenso e diritto all&rsquo;informazione<br />Leonardo Bianchi e Rita Rapisardi<br /><br />19:00<br />AVEVAMO RAGIONE NOI&nbsp;| conferenza<br />Controllo sociale e libert&agrave; di manifestazione a venticinque anni dal G8 di Genova<br />Fausto Gianelli e Lorenzo Guadagnucci<br /><br />dalle 21:30 in poi | concerti<br />KUKLA, pop elettronico d&rsquo;autore<br />TONINO CAROTONE, canzone d&rsquo;autore, folk alternativo<br />DJ SET&nbsp;by The Twins<br /><br />L&rsquo;ingresso &egrave; libero",
+      "longDescription": "PROGRAMMA 10:00 | conferenza SCELTA INDIVIDUALE, FORZA COLLETTIVA Costruire la pace, difendere la legalità, proteggere il lavoro Licio Palazzini e Monica Usai in dialogo con Margherita Cogoi 11:45 | conferenza NELLA VALLE DELLA DRINA Tra rotta balcanica e memoria di Srebrenica Nihad Suljić e Anna Piuzzi in dialogo con Bisera Krkic 14:30 | concerto NICOLE COCEANCIG, cantautorato friulano impegnato con Pietro Sponton e Mirco Tondon 16:00 | conferenza NON IN NOSTRO NOME Pinkwashing e resistenze in Palestina, Iran e Libano Dalia Ismail, Hamsaye Collective, Darda(she) in dialogo con FVG Pride e Ospiti in Arrivo 17:30 | conferenza LA MACCHINA DELL’OSSESSIONE Manipolazione del consenso e diritto all’informazione Leonardo Bianchi e Rita Rapisardi 19:00 AVEVAMO RAGIONE NOI | conferenza Controllo sociale e libertà di manifestazione a venticinque anni dal G8 di Genova Fausto Gianelli e Lorenzo Guadagnucci dalle 21:30 in poi | concerti KUKLA, pop elettronico d’autore TONINO CAROTONE, canzone d’autore, folk alternativo DJ SET by The Twins L’ingresso è libero",
       "detailParagraphs": [
         "10:00 | conferenza SCELTA INDIVIDUALE, FORZA COLLETTIVA Costruire la pace, difendere la legalità, proteggere il lavoro Licio Palazzini e Monica Usai in dialogo con Margherita Cogoi",
         "11:45 | conferenza NELLA VALLE DELLA DRINA Tra rotta balcanica e memoria di Srebrenica Nihad Suljić e Anna Piuzzi in dialogo con Bisera Krkic",
@@ -2791,7 +2791,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=festival-diritti-in-festa-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:11+00:00"
     },
     {
       "title": "FESTIVAL “IN-CONTAMINATO\" - ACQUATREKKING sul torrente Resia",
@@ -2804,7 +2804,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Escurisione naturalistica&nbsp;",
+      "description": "Escurisione naturalistica",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2829,7 +2829,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "festival-in-contaminato-acquatrekking-sul-torrente-resia-2026-09-05",
-      "longDescription": "Escurisione naturalistica&nbsp;",
+      "longDescription": "Escurisione naturalistica",
       "detailParagraphs": [
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
       ],
@@ -2870,7 +2870,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=festival-in-contaminato-acquatrekking-sul-torrente-resia-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:11+00:00"
     },
     {
       "title": "FESTIVAL “IN-CONTAMINATO - Concerto d'Archi \"",
@@ -2883,7 +2883,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Festival<br />Musica",
+      "description": "Festival Musica",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2908,7 +2908,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "festival-in-contaminato-concerto-d-archi-2026-09-05",
-      "longDescription": "Festival<br />Musica",
+      "longDescription": "Festival Musica",
       "detailParagraphs": [
         "Description ESTIVAL “IN-CONTAMINATO – Vivere, Conoscere, Proteggere” Nell'ambito del Festival “In-Contaminato” dedicato all’acqua, alla sostenibilità e alla tutela dei fiumi incontaminati si svolgerà sabato 5 settembre alle ore 17.00 un Concerto d'Archi dell'\"Orchestra D'Archi Blanc\". Tra paesaggi naturali, luoghi simbolici e nuove forme di ascolto, la musica diventa un linguaggio capace di unire mondi diversi: tradizione e contemporaneità, arte e scienza, esperienza individuale e dimensione collettiva. Ogni progetto è pensato come un attraversamento, un invito ad andare oltre ciò che è già noto, per scoprire nuove possibilità di ascolto e di relazione. SABATO 5 SETTEMBRE LOC. ZAMLIN dalle ore 17.30 Per informazioni: proloco.provalresia@gmail.com",
         "Organized by: Associazione Pro Loco \"Pro Val Resia\" APS",
@@ -2956,7 +2956,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=festival-in-contaminato-concerto-d-archi-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00",
+      "checkedAt": "2026-09-03T19:42:15+00:00",
       "sourceReachable": true
     },
     {
@@ -2970,7 +2970,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "PALUZZA&nbsp; 05.09.26 SABATO ore 11.00 Torre Moscarda / Chiara Bignozzi (fg)<br /><br />FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
+      "description": "PALUZZA 05.09.26 SABATO ore 11.00 Torre Moscarda / Chiara Bignozzi (fg) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2995,7 +2995,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "friuli-concertante-2026-09-05",
-      "longDescription": "PALUZZA&nbsp; 05.09.26 SABATO ore 11.00 Torre Moscarda / Chiara Bignozzi (fg)<br /><br />FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
+      "longDescription": "PALUZZA 05.09.26 SABATO ore 11.00 Torre Moscarda / Chiara Bignozzi (fg) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
       "detailParagraphs": [
         "Description Il Festival FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. PALUZZA 05.09.26 SABATO ore 11.00 Torre Moscarda / Chiara Bignozzi (fg) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
@@ -3047,7 +3047,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=friuli-concertante-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00",
+      "checkedAt": "2026-09-03T19:42:09+00:00",
       "sourceReachable": true
     },
     {
@@ -3061,7 +3061,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3086,7 +3086,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-dad-or-alive-2026-09-05",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "Dad or Alive / BumBumFitz Corte Marco d’Aviano Sabato 5 settembre ore 21.30",
@@ -3131,7 +3131,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-dad-or-alive-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:10+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - Macelleria cosmica",
@@ -3144,7 +3144,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3169,7 +3169,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-macelleria-cosmica-2026-09-05",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "Macelleria cosmica / Kilonova Art Sala Bergamas Sabato 5 settembre ore 18.00",
@@ -3219,7 +3219,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-macelleria-cosmica-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00",
+      "checkedAt": "2026-09-03T19:42:10+00:00",
       "sourceReachable": true
     },
     {
@@ -3300,7 +3300,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-what-will-we-do-without-exile-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:48+00:00"
+      "checkedAt": "2026-09-03T19:42:14+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - Hamlet Puppet",
@@ -3313,7 +3313,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Compagnia Balletto Civile / Italia<br />di e con&nbsp;Michela Lucenti<br />e con&nbsp;Michele Calcari<br />immagini&nbsp;Giorgina Pi<br />musiche&nbsp;Paolo Spaccamonti<br />disegno sonoro&nbsp;Tiziano Scali<br />supervisione sonora&nbsp;Valerio Vigliar<br />assistente alla creaz",
+      "description": "Compagnia Balletto Civile / Italia di e con Michela Lucenti e con Michele Calcari immagini Giorgina Pi musiche Paolo Spaccamonti disegno sonoro Tiziano Scali supervisione sonora Valerio Vigliar assistente alla creazione Maurizio Camilli Una performance che unisce musica, recitazi",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3338,7 +3338,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-hamlet-puppet-2026-09-05",
-      "longDescription": "Compagnia Balletto Civile / Italia<br />di e con&nbsp;Michela Lucenti<br />e con&nbsp;Michele Calcari<br />immagini&nbsp;Giorgina Pi<br />musiche&nbsp;Paolo Spaccamonti<br />disegno sonoro&nbsp;Tiziano Scali<br />supervisione sonora&nbsp;Valerio Vigliar<br />assistente alla creazione&nbsp;Maurizio Camilli<br /><br />Una performance che unisce musica, recitazione e danza, fuse insieme e tese a un medesimo scopo: riflettere sull&rsquo;essenza della vita e dell&rsquo;arte.<br /><br />Ingresso:<br />Intero: &euro; 15<br />Ridotto: &euro; 10 &ndash; under 25, over 60, possessori del biglietto intero di uno spettacolo precedente<br />Super Ridotto: &euro; 5 &ndash; under 12, soci titolati scuola sperimentale dell&rsquo;attore, possessori di un biglietto ridotto di uno spettacolo precedente<br />Extra Ridotto: &euro; 1 &ndash; colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente<br />",
+      "longDescription": "Compagnia Balletto Civile / Italia di e con Michela Lucenti e con Michele Calcari immagini Giorgina Pi musiche Paolo Spaccamonti disegno sonoro Tiziano Scali supervisione sonora Valerio Vigliar assistente alla creazione Maurizio Camilli Una performance che unisce musica, recitazione e danza, fuse insieme e tese a un medesimo scopo: riflettere sull’essenza della vita e dell’arte. Ingresso: Intero: € 15 Ridotto: € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente Super Ridotto: € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Extra Ridotto: € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente",
       "detailParagraphs": [
         "di e con Michela Lucenti e con Michele Calcari immagini Giorgina Pi musiche Paolo Spaccamonti disegno sonoro Tiziano Scali supervisione sonora Valerio Vigliar assistente alla creazione Maurizio Camilli",
         "Una performance che unisce musica, recitazione e danza, fuse insieme e tese a un medesimo scopo: riflettere sull’essenza della vita e dell’arte. Hamlet Puppet trasforma il capolavoro di Shakespeare in uno spettacolo di teatro fisico pop e potente, dove i personaggi diventano marionette umane mosse da fili invisibili. Gli attori e i danzatori si muovono con la precisione drammatica e la frenesia di pupazzi meccanici, spezzati dai propri dubbi ed emozioni. Ingresso: Intero : € 15 Ridotto : € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente Super Ridotto : € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Extra Ridotto : € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente",
@@ -3383,7 +3383,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-hamlet-puppet-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:10+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - Le vie di carta. Sul viaggio",
@@ -3396,7 +3396,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Arearea / Italia<br />Coreografia&nbsp;Marta Bevilacqua<br />Danzatori&nbsp;Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo<br />Musiche&nbsp;Anna M&uuml;ller, Ceeys, Trinix &amp; Mariana Froes, Weval<br /><br />Le vie di carta&nbsp;&egr",
+      "description": "Arearea / Italia Coreografia Marta Bevilacqua Danzatori Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo Musiche Anna Müller, Ceeys, Trinix & Mariana Froes, Weval Le vie di carta è il miraggio di un giovane viaggiatore che esplora dentro",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3421,7 +3421,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-le-vie-di-carta-sul-viaggio-2026-09-05",
-      "longDescription": "Arearea / Italia<br />Coreografia&nbsp;Marta Bevilacqua<br />Danzatori&nbsp;Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo<br />Musiche&nbsp;Anna M&uuml;ller, Ceeys, Trinix &amp; Mariana Froes, Weval<br /><br />Le vie di carta&nbsp;&egrave; il miraggio di un giovane viaggiatore che esplora dentro di s&eacute; un nuovo racconto. Il progetto intende valorizzare le professionalit&agrave; attive nei settori dell&rsquo;editoria, della rilegatoria e delle arti affini, con un&rsquo;attenzione particolare alla dimensione artigianale e manifatturiera.<br /><br />Ingresso Solidale:&nbsp;&euro; 1 per tutti, con procedimento &ldquo;self&rdquo; presso le casse volanti<br />",
+      "longDescription": "Arearea / Italia Coreografia Marta Bevilacqua Danzatori Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo Musiche Anna Müller, Ceeys, Trinix & Mariana Froes, Weval Le vie di carta è il miraggio di un giovane viaggiatore che esplora dentro di sé un nuovo racconto. Il progetto intende valorizzare le professionalità attive nei settori dell’editoria, della rilegatoria e delle arti affini, con un’attenzione particolare alla dimensione artigianale e manifatturiera. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
       "detailParagraphs": [
         "Description Arearea / Italia Coreografia Marta Bevilacqua Danzatori Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo Musiche Anna Müller, Ceeys, Trinix & Mariana Froes, Weval Le vie di carta è il miraggio di un giovane viaggiatore che esplora dentro di sé un nuovo racconto. Il progetto intende valorizzare le professionalità attive nei settori dell’editoria, della rilegatoria e delle arti affini, con un’attenzione particolare alla dimensione artigianale e manifatturiera. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
         "Coreografia Marta Bevilacqua Danzatori Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo Musiche Anna Müller, Ceeys, Trinix & Mariana Froes, Weval",
@@ -3466,7 +3466,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-le-vie-di-carta-sul-viaggio-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:10+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - MOVIC. Movie is music",
@@ -3479,7 +3479,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Dancing with Maria<br />con<br />Ivan Gergolet &ndash; regista<br />Luca Ciut &ndash; compositore<br />Paolo D&rsquo;Andrea &ndash; attore<br /><br />L&rsquo;evento&nbsp;&ldquo;MOVIC &ndash; Movie is Music&rdquo;&nbsp;prevede la proiezione del documentario&nbsp;Dancing with Maria",
+      "description": "Dancing with Maria con Ivan Gergolet – regista Luca Ciut – compositore Paolo D’Andrea – attore L’evento “MOVIC – Movie is Music” prevede la proiezione del documentario Dancing with Maria, diretto da Ivan Gergolet, dedicato alla figura della ballerina e coreografa argentina Maria",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3504,7 +3504,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-movic-movie-is-music-2026-09-05",
-      "longDescription": "Dancing with Maria<br />con<br />Ivan Gergolet &ndash; regista<br />Luca Ciut &ndash; compositore<br />Paolo D&rsquo;Andrea &ndash; attore<br /><br />L&rsquo;evento&nbsp;&ldquo;MOVIC &ndash; Movie is Music&rdquo;&nbsp;prevede la proiezione del documentario&nbsp;Dancing with Maria, diretto da Ivan Gergolet, dedicato alla figura della ballerina e coreografa argentina Maria Fux, pioniera di un metodo che ha trasformato la danza in uno strumento di espressione, comunicazione e inclusione, aperto a persone di ogni et&agrave; e abilit&agrave;.&nbsp;Nel corso dell&rsquo;evento &egrave; previsto un intervallo con brunch presso lo Spaziozero.<br /><br />Posti limitati. Prenotazione obbligatoria, con ticket per il brunch &euro; 15<br />",
+      "longDescription": "Dancing with Maria con Ivan Gergolet – regista Luca Ciut – compositore Paolo D’Andrea – attore L’evento “MOVIC – Movie is Music” prevede la proiezione del documentario Dancing with Maria, diretto da Ivan Gergolet, dedicato alla figura della ballerina e coreografa argentina Maria Fux, pioniera di un metodo che ha trasformato la danza in uno strumento di espressione, comunicazione e inclusione, aperto a persone di ogni età e abilità. Nel corso dell’evento è previsto un intervallo con brunch presso lo Spaziozero. Posti limitati. Prenotazione obbligatoria, con ticket per il brunch € 15",
       "detailParagraphs": [
         "Description Dancing with Maria con Ivan Gergolet – regista Luca Ciut – compositore Paolo D’Andrea – attore L’evento “MOVIC – Movie is Music” prevede la proiezione del documentario Dancing with Maria , diretto da Ivan Gergolet, dedicato alla figura della ballerina e coreografa argentina Maria Fux, pioniera di un metodo che ha trasformato la danza in uno strumento di espressione, comunicazione e inclusione, aperto a persone di ogni età e abilità. Nel corso dell’evento è previsto un intervallo con brunch presso lo Spaziozero. Posti limitati. Prenotazione obbligatoria, con ticket per il brunch € 15",
         "con Ivan Gergolet – regista Luca Ciut – compositore Paolo D’Andrea – attore L’evento “MOVIC – Movie is Music” prevede la proiezione del documentario Dancing with Maria , diretto da Ivan Gergolet, dedicato alla figura della ballerina e coreografa argentina Maria Fux, pioniera di un metodo che ha trasformato la danza in uno strumento di espressione, comunicazione e inclusione, aperto a persone di ogni età e abilità. Nel corso dell’evento è previsto un intervallo con brunch presso lo Spaziozero.",
@@ -3549,7 +3549,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-movic-movie-is-music-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00"
+      "checkedAt": "2026-09-03T19:42:10+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - Open Workshop \"Introduzione al teatro danza indiano\"",
@@ -3562,7 +3562,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "<br />con&nbsp;Kalamandalam Jhon<br /><br />&hellip; Per esempio il Kathakali. Del resto in tutte le forme sceniche indiani ci sono delle costanti: postura del corpo scultorea ed &ldquo;artificiale&rdquo;, trattamento verticale della forza di gravit&agrave;, enorme lavoro degli o",
+      "description": "con Kalamandalam Jhon … Per esempio il Kathakali. Del resto in tutte le forme sceniche indiani ci sono delle costanti: postura del corpo scultorea ed “artificiale”, trattamento verticale della forza di gravità, enorme lavoro degli occhi e delle mani, ritmo vissuto come concentraz",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3587,7 +3587,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-open-workshop-introduzione-al-teatro-danza-indiano-2026",
-      "longDescription": "<br />con&nbsp;Kalamandalam Jhon<br /><br />&hellip; Per esempio il Kathakali. Del resto in tutte le forme sceniche indiani ci sono delle costanti: postura del corpo scultorea ed &ldquo;artificiale&rdquo;, trattamento verticale della forza di gravit&agrave;, enorme lavoro degli occhi e delle mani, ritmo vissuto come concentrazione pi&ugrave; che come esplosione. Un assaggio di tutte queste cose significa &ldquo;vagire&rdquo; nella lingua (del corpo) di un altro pianeta&hellip; Caldamente raccomandato, di questi tempi&hellip;<br /><br />Singolo workshop:&nbsp;&euro; 20<br />Pi&ugrave; di un workshop:&nbsp;&euro; 10<br />Tutti i workshop :&nbsp;&euro; 100<br />Informazioni e prenotazioni: festival@arlecchinoerrante.com<br />",
+      "longDescription": "con Kalamandalam Jhon … Per esempio il Kathakali. Del resto in tutte le forme sceniche indiani ci sono delle costanti: postura del corpo scultorea ed “artificiale”, trattamento verticale della forza di gravità, enorme lavoro degli occhi e delle mani, ritmo vissuto come concentrazione più che come esplosione. Un assaggio di tutte queste cose significa “vagire” nella lingua (del corpo) di un altro pianeta… Caldamente raccomandato, di questi tempi… Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
       "detailParagraphs": [
         "Description con Kalamandalam Jhon ​​​​​​​… Per esempio il Kathakali. Del resto in tutte le forme sceniche indiani ci sono delle costanti: postura del corpo scultorea ed “artificiale”, trattamento verticale della forza di gravità, enorme lavoro degli occhi e delle mani, ritmo vissuto come concentrazione più che come esplosione. Un assaggio di tutte queste cose significa “vagire” nella lingua (del corpo) di un altro pianeta… Caldamente raccomandato, di questi tempi… Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
         "con Kalamandalam Jhon ​​​​​​​… Per esempio il Kathakali. Del resto in tutte le forme sceniche indiani ci sono delle costanti: postura del corpo scultorea ed “artificiale”, trattamento verticale della forza di gravità, enorme lavoro degli occhi e delle mani, ritmo vissuto come concentrazione più che come esplosione. Un assaggio di tutte queste cose significa “vagire” nella lingua (del corpo) di un altro pianeta… Caldamente raccomandato, di questi tempi…",
@@ -3632,7 +3632,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-open-workshop-introduzione-al-teatro-danza-indiano-2026",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:11+00:00"
     },
     {
       "title": "Premio Scerbanenco@Lignano - Cerimonia di Premiazione dei vincitori",
@@ -3645,7 +3645,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Cerimonia di Premiazione dei vincitori della 12^ edizione del Premio Scerbanenco.<br />Il concorso letterario omaggia il grande scrittore Giorgio Scerbanenco, legato storicamente alla localit&agrave; friulana. Il premio &egrave; dedicato a&nbsp;racconti gialli e/o noir inediti&nb",
+      "description": "Cerimonia di Premiazione dei vincitori della 12^ edizione del Premio Scerbanenco. Il concorso letterario omaggia il grande scrittore Giorgio Scerbanenco, legato storicamente alla località friulana. Il premio è dedicato a racconti gialli e/o noir inediti in lingua italiana. Ingres",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3670,7 +3670,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "premio-scerbanenco-lignano-cerimonia-di-premiazione-dei-vincitori-2026-09-05",
-      "longDescription": "Cerimonia di Premiazione dei vincitori della 12^ edizione del Premio Scerbanenco.<br />Il concorso letterario omaggia il grande scrittore Giorgio Scerbanenco, legato storicamente alla localit&agrave; friulana. Il premio &egrave; dedicato a&nbsp;racconti gialli e/o noir inediti&nbsp;in lingua italiana.<br /><br />Ingresso libero.<br />&nbsp;",
+      "longDescription": "Cerimonia di Premiazione dei vincitori della 12^ edizione del Premio Scerbanenco. Il concorso letterario omaggia il grande scrittore Giorgio Scerbanenco, legato storicamente alla località friulana. Il premio è dedicato a racconti gialli e/o noir inediti in lingua italiana. Ingresso libero.",
       "detailParagraphs": [
         "Description Cerimonia di Premiazione dei vincitori della 12ª edizione del Premio Scerbanenco@Lignano . Il concorso letterario omaggia il grande scrittore Giorgio Scerbanenco, legato storicamente alla località friulana. Il premio è dedicato a racconti gialli e/o noir inediti in lingua italiana. Lignano Sabbiadoro è la città che Scerbanenco scelse, dopo averla scoperta da turista, come luogo di residenza per diversi anni, instaurando un forte legame che permane tuttora con la presenza della figlia Cecilia, curatrice dell’opera del padre e dell’ Archivio Giorgio Scerbanenco (libri, oggetti, documenti, lettere, manoscritti) custodito nella Biblioteca Comunale. Legge i racconti Massimo Somaglino Ingresso libero",
         "Organized by: Comune di Lignano Sabbiadoro Biblioteca comunale Via Treviso, 2 Tel. 0431 409160 Email: biblio@lignano.org",
@@ -3714,7 +3714,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=premio-scerbanenco-lignano-cerimonia-di-premiazione-dei-vincitori-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:44+00:00"
+      "checkedAt": "2026-09-03T19:42:10+00:00"
     },
     {
       "title": "Terra & Acqua - Tagliamento: terra e acque",
@@ -3727,7 +3727,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Nasce a Ronchis&nbsp;Terra &amp; Acqua,&nbsp;un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.<br /><br />Ore 7.30 &ndash; Ritrovo presso l&#39;Azienda Ag",
+      "description": "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Ore 7.30 – Ritrovo presso l'Azienda Agricola Montello (Via Massilute) per",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3752,7 +3752,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "terra-acqua-tagliamento-terra-e-acque-2026-09-05",
-      "longDescription": "Nasce a Ronchis&nbsp;Terra &amp; Acqua,&nbsp;un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.<br /><br />Ore 7.30 &ndash; Ritrovo presso l&#39;Azienda Agricola Montello (Via Massilute) per una passeggiata fino all&#39;Ancona di Sante Sabide insieme al professor Luca De Clara.<br />Ore 9.00 - Inaugurazione della mostra di acquerelli &quot;Tagliamento: terra e acque&quot;, realizzata in collaborazione con UTE Latisana Bassa Friulana Occidentale e con l&#39;insegnante Lucia Zamburlini.<br />A seguire, colazione insieme.<br />La mostra sar&agrave; visitabile dalle ore 9.00 fino al tramonto.<br /><br />In caso di maltempo: Sala della Protezione Civile, Via Moross &ndash; Ronchis<br /><br />Programma del festival<br /><br />&nbsp;",
+      "longDescription": "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Ore 7.30 – Ritrovo presso l'Azienda Agricola Montello (Via Massilute) per una passeggiata fino all'Ancona di Sante Sabide insieme al professor Luca De Clara. Ore 9.00 - Inaugurazione della mostra di acquerelli \"Tagliamento: terra e acque\", realizzata in collaborazione con UTE Latisana Bassa Friulana Occidentale e con l'insegnante Lucia Zamburlini. A seguire, colazione insieme. La mostra sarà visitabile dalle ore 9.00 fino al tramonto. In caso di maltempo: Sala della Protezione Civile, Via Moross – Ronchis Programma del festival",
       "detailParagraphs": [
         "Description Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Ore 7.30 – Ritrovo presso l'Azienda Agricola Montello (Via Massilute) per una passeggiata fino all'Ancona di Sante Sabide insieme al professor Luca De Clara. Ore 9.00 - Inaugurazione della mostra di acquerelli \" Tagliamento: terra e acque \", realizzata in collaborazione con UTE Latisana Bassa Friulana Occidentale e con l'insegnante Lucia Zamburlini. A seguire, colazione insieme. La mostra sarà visitabile dalle ore 9.00 fino al tramonto. Partecipazione libera In caso di maltempo, l' evento si terrà presso la Sala della Protezione Civile (Via Moross) Programma del festival",
         "Organized by: Comune di Ronchis Tel. 0431 56014 Email: areaamministrativa@comune.ronchis.ud.it",
@@ -3796,7 +3796,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=terra-acqua-tagliamento-terra-e-acque-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:10+00:00"
     },
     {
       "title": "Underground - giovani e storie in festival",
@@ -3809,7 +3809,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Underground - giovani e storie in festival - &egrave; un festival fatto di ragazze e ragazzi under 25.&nbsp;<br />Con un filo conduttore che &egrave; l&rsquo;idea di ci&ograve; che &quot;&egrave; sotterraneo nel microcosmo nell&rsquo;animo dei ragazzi e nel macrocosmo della socie",
+      "description": "Underground - giovani e storie in festival - è un festival fatto di ragazze e ragazzi under 25. Con un filo conduttore che è l’idea di ciò che \"è sotterraneo nel microcosmo nell’animo dei ragazzi e nel macrocosmo della società\", si vuole dare ai giovani la possibilità di far emer",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3834,7 +3834,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "underground-giovani-e-storie-in-festival-2026-09-05",
-      "longDescription": "Underground - giovani e storie in festival - &egrave; un festival fatto di ragazze e ragazzi under 25.&nbsp;<br />Con un filo conduttore che &egrave; l&rsquo;idea di ci&ograve; che &quot;&egrave; sotterraneo nel microcosmo nell&rsquo;animo dei ragazzi e nel macrocosmo della societ&agrave;&quot;, si vuole dare ai giovani la possibilit&agrave; di far emergere quelle visioni che in superficie non trovano spazio per mancanza di tempo, luoghi, occasioni, finanziamenti.<br /><br />Il festival prender&agrave; forma attraverso una molteplicit&agrave; di arti: letteratura, oralit&agrave;, performance teatrali, linguaggi digitali, arti figurative.<br /><br />5 settembre&nbsp;Corte di palazzo Morpurgo<br /><br />ore 18.00 - Presentazione del progetto Passi d&#39;Inchiostro con accompagnamento del Rapsodia Saxophone Quartet<br /><br />Scopri tutti gli altri appuntamenti sul sito&nbsp;",
+      "longDescription": "Underground - giovani e storie in festival - è un festival fatto di ragazze e ragazzi under 25. Con un filo conduttore che è l’idea di ciò che \"è sotterraneo nel microcosmo nell’animo dei ragazzi e nel macrocosmo della società\", si vuole dare ai giovani la possibilità di far emergere quelle visioni che in superficie non trovano spazio per mancanza di tempo, luoghi, occasioni, finanziamenti. Il festival prenderà forma attraverso una molteplicità di arti: letteratura, oralità, performance teatrali, linguaggi digitali, arti figurative. 5 settembre Corte di palazzo Morpurgo ore 18.00 - Presentazione del progetto Passi d'Inchiostro con accompagnamento del Rapsodia Saxophone Quartet Scopri tutti gli altri appuntamenti sul sito",
       "detailParagraphs": [
         "Organized by: Associazione Scrittori FVG in collaborazione con il Comune di Udine",
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
@@ -3876,7 +3876,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=underground-giovani-e-storie-in-festival-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00"
+      "checkedAt": "2026-09-03T19:42:11+00:00"
     },
     {
       "title": "Concerto Omar Pedrini - Dai Timoria ad Oggi",
@@ -3957,7 +3957,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=concerto-omar-pedrini-dai-timoria-ad-oggi-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:46+00:00"
+      "checkedAt": "2026-09-03T19:42:11+00:00"
     },
     {
       "title": "Festa dell’uva",
@@ -3970,7 +3970,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Domenica 6 settembre torna la Festa dell&rsquo;uva, il suggestivo evento nato a met&agrave; degli anni Novanta da un&rsquo;idea di Francesca Feruglio e sostenuto con passione, nel corso del tempo, dalla sua famiglia e dall&rsquo;intera comunit&agrave;, con l&rsquo;obiettivo di va",
+      "description": "Domenica 6 settembre torna la Festa dell’uva, il suggestivo evento nato a metà degli anni Novanta da un’idea di Francesca Feruglio e sostenuto con passione, nel corso del tempo, dalla sua famiglia e dall’intera comunità, con l’obiettivo di valorizzare la cultura contadina e promu",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -3995,7 +3995,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "festa-delluva-2026-09-06",
-      "longDescription": "Domenica 6 settembre torna la Festa dell&rsquo;uva, il suggestivo evento nato a met&agrave; degli anni Novanta da un&rsquo;idea di Francesca Feruglio e sostenuto con passione, nel corso del tempo, dalla sua famiglia e dall&rsquo;intera comunit&agrave;, con l&rsquo;obiettivo di valorizzare la cultura contadina e promuovere il territorio. Come nelle pi&ugrave; antiche tradizioni della vita contadina, infatti, la Festa dell&rsquo;uva di Staranzano celebra il termine delle fatiche e la prosperit&agrave; della vendemmia.<br />La Festa ha inizio alle 10.30 presso l&rsquo;Azienda Agricola &ldquo;La Ferula&rdquo;, luogo di partenza della grande sfilata che attraversa le Vie Brigata Fratelli Fontanot e Martiri della Libert&agrave;. Sfilano in corteo i carri agricoli de &ldquo;La Ferula&rdquo;, i bellissimi carri e trattori storici del Club Epoca Tractor - Collezione Misuri, il carro della Comunit&agrave; Locale di Renče (SLO) gemellata con Staranzano, i Trattoristi Transumanti di Modena, il Gruppo.<br />Costumi Bisiachi di Turriaco e il Consorzio Apicoltori della Provincia di Gorizia.<br />All&rsquo;arrivo in Piazza Dante, previsto alle 12.00 circa, sono in programma la pigiatura dell&rsquo;uva, l&rsquo;esibizione del Gruppo Costumi Bisiachi con canti della tradizione popolare, la smielatura (l&rsquo;estrazione del miele dai favi delle api) a cura del Consorzio Apicoltori e la distribuzione, a offerta libera, dei dolci preparati dalle pasticcerie del territorio (il cui ricavato sar&agrave; devoluto in beneficenza).",
+      "longDescription": "Domenica 6 settembre torna la Festa dell’uva, il suggestivo evento nato a metà degli anni Novanta da un’idea di Francesca Feruglio e sostenuto con passione, nel corso del tempo, dalla sua famiglia e dall’intera comunità, con l’obiettivo di valorizzare la cultura contadina e promuovere il territorio. Come nelle più antiche tradizioni della vita contadina, infatti, la Festa dell’uva di Staranzano celebra il termine delle fatiche e la prosperità della vendemmia. La Festa ha inizio alle 10.30 presso l’Azienda Agricola “La Ferula”, luogo di partenza della grande sfilata che attraversa le Vie Brigata Fratelli Fontanot e Martiri della Libertà. Sfilano in corteo i carri agricoli de “La Ferula”, i bellissimi carri e trattori storici del Club Epoca Tractor - Collezione Misuri, il carro della Comunità Locale di Renče (SLO) gemellata con Staranzano, i Trattoristi Transumanti di Modena, il Gruppo. Costumi Bisiachi di Turriaco e il Consorzio Apicoltori della Provincia di Gorizia. All’arrivo in Piazza Dante, previsto alle 12.00 circa, sono in programma la pigiatura dell’uva, l’esibizione del Gruppo Costumi Bisiachi con canti della tradizione popolare, la smielatura (l’estrazione del miele dai favi delle api) a cura del Consorzio Apicoltori e la distribuzione, a offerta libera, dei dolci preparati dalle pasticcerie del territorio (il cui ricavato sarà devoluto in beneficenza).",
       "detailParagraphs": [
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
       ],
@@ -4036,7 +4036,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=festa-delluva-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "Friuli Concertante",
@@ -4049,7 +4049,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Ai mulini / Duo Estroverso<br />FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
+      "description": "Ai mulini / Duo Estroverso FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4074,7 +4074,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "friuli-concertante-2026-09-06",
-      "longDescription": "Ai mulini / Duo Estroverso<br />FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
+      "longDescription": "Ai mulini / Duo Estroverso FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
       "detailParagraphs": [
         "Description Ai mulini / Duo Estroverso Il Festival amici della musica FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
@@ -4121,7 +4121,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=friuli-concertante-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:45+00:00",
+      "checkedAt": "2026-09-03T19:42:11+00:00",
       "sourceReachable": true
     },
     {
@@ -4135,7 +4135,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4160,7 +4160,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-asteroide-2026-09-06",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "Asteroide/Marco D’Agostin Teatro Nuovo Domenica 6 settembre ore 19.00",
@@ -4205,7 +4205,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-asteroide-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "In\\Visible Cities 2026 - I offer myself to you",
@@ -4218,7 +4218,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico all",
+      "description": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4243,7 +4243,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "in-visible-cities-2026-i-offer-myself-to-you-2026-09-06",
-      "longDescription": "In\\Visible Cities &egrave; un festival urbano e site specific che si svolge &ldquo;nelle citt&agrave; visibili&rdquo; , per lo pi&ugrave; a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l&rsquo;obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti.<br /><br />Con l&rsquo;edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull&rsquo;ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalit&agrave; narrative<br /><br /><br />&nbsp;",
+      "longDescription": "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. Con l’edizione 2026 In\\Visible Cities inaugura un nuovo triennio, con rinnovato slancio, tante idee, tanta voglia di andare fuori dagli schemi, promuovendo nuove pratiche, sguardi trasversali, modi spiazzanti di intendere la scena, puntando su drammaturgie originali e sull’ibridazione tra i linguaggi espressivi. Un festival dedicato, come sempre, alle creazioni contemporanee, con un programma di performance teatrali, musicali e di danza, partecipative, itineranti, multimediali. Proposte capaci di coniugare riflessioni su temi importanti del nostro tempo con la cura estetica e la sperimentazione di nuove modalità narrative",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "I offer myself to you / Daniele Ninarello Corte di Palazzo Torriani Domenica 6 settembre ore 18.00",
@@ -4288,7 +4288,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=in-visible-cities-2026-i-offer-myself-to-you-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:46+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - Anime leggere",
@@ -4301,7 +4301,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Quartetto Dekru / Ucraina<br />scritto e diretto da&nbsp;Liubov Cherepakhina<br />con&nbsp;Mykyta Cherepukhin, Viktor Sukhorukov, Inna Turik, Bohdan Baev<br /><br />Considerati tra i migliori eredi del mimo contemporaneo a livello internazionale, i virtuosi ucraini del Quartetto ",
+      "description": "Quartetto Dekru / Ucraina scritto e diretto da Liubov Cherepakhina con Mykyta Cherepukhin, Viktor Sukhorukov, Inna Turik, Bohdan Baev Considerati tra i migliori eredi del mimo contemporaneo a livello internazionale, i virtuosi ucraini del Quartetto DEKRU trasformano il palcosceni",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4326,7 +4326,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-anime-leggere-2026-09-06",
-      "longDescription": "Quartetto Dekru / Ucraina<br />scritto e diretto da&nbsp;Liubov Cherepakhina<br />con&nbsp;Mykyta Cherepukhin, Viktor Sukhorukov, Inna Turik, Bohdan Baev<br /><br />Considerati tra i migliori eredi del mimo contemporaneo a livello internazionale, i virtuosi ucraini del Quartetto DEKRU trasformano il palcoscenico vuoto in un universo pieno di vita, magia e divertimento.<br /><br />Ingresso:<br />Intero: &euro; 15<br />Ridotto: &euro; 10 &ndash; under 25, over 60, possessori del biglietto intero di uno spettacolo precedente<br />Super Ridotto: &euro; 5 &ndash; under 12, soci titolati scuola sperimentale dell&rsquo;attore, possessori di un biglietto ridotto di uno spettacolo precedente<br />Extra Ridotto: &euro; 1 &ndash; colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente<br />",
+      "longDescription": "Quartetto Dekru / Ucraina scritto e diretto da Liubov Cherepakhina con Mykyta Cherepukhin, Viktor Sukhorukov, Inna Turik, Bohdan Baev Considerati tra i migliori eredi del mimo contemporaneo a livello internazionale, i virtuosi ucraini del Quartetto DEKRU trasformano il palcoscenico vuoto in un universo pieno di vita, magia e divertimento. Ingresso: Intero: € 15 Ridotto: € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente Super Ridotto: € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Extra Ridotto: € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente",
       "detailParagraphs": [
         "scritto e diretto da Liubov Cherepakhina con Mykyta Cherepukhin, Viktor Sukhorukov, Inna Turik, Bohdan Baev",
         "Organized by: L'Arlecchino Errante - Scuola Sperimentale dell'Attore Tel: +39 3518392425 (info e prenotazioni) E-mail: festival@arlecchinoerrante.com",
@@ -4370,7 +4370,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-anime-leggere-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:46+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - India Passion",
@@ -4383,7 +4383,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Kalatharangini Kathakali Troupe / India<br />danza&nbsp;Kalatharangini Ruby K John<br />voce&nbsp; Kalamandalam Ajesh, Kalamandalam Jeevan<br />percussioni&nbsp;Kalamandalam Sudheesh, Kalamandalam Rajanarayanan<br /><br />Ritmo potente di tamburi, grazia e precisione formale dell",
+      "description": "Kalatharangini Kathakali Troupe / India danza Kalatharangini Ruby K John voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Ritmo potente di tamburi, grazia e precisione formale della danza, gesti ed espressività di rara per",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4408,7 +4408,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-india-passion-2026-09-06",
-      "longDescription": "Kalatharangini Kathakali Troupe / India<br />danza&nbsp;Kalatharangini Ruby K John<br />voce&nbsp; Kalamandalam Ajesh, Kalamandalam Jeevan<br />percussioni&nbsp;Kalamandalam Sudheesh, Kalamandalam Rajanarayanan<br /><br />Ritmo potente di tamburi, grazia e precisione formale della danza, gesti ed espressivit&agrave; di rara perfezione: i colori e i suoni dell&rsquo;India fanno battere il cuore della &ldquo;citt&agrave; che sorprende&rdquo;.<br /><br />Ingresso Solidale:&nbsp;&euro; 1 per tutti, con procedimento &ldquo;self&rdquo; presso le casse volanti<br />",
+      "longDescription": "Kalatharangini Kathakali Troupe / India danza Kalatharangini Ruby K John voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Ritmo potente di tamburi, grazia e precisione formale della danza, gesti ed espressività di rara perfezione: i colori e i suoni dell’India fanno battere il cuore della “città che sorprende”. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
       "detailParagraphs": [
         "Description Kalatharangini Kathakali Troupe / India danza Kalatharangini Ruby K John voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Ritmo potente di tamburi, grazia e precisione formale della danza, gesti ed espressività di rara perfezione: i colori e i suoni dell’India fanno battere il cuore della “città che sorprende”. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
         "danza Kalatharangini Ruby K John voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan",
@@ -4453,7 +4453,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-india-passion-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:46+00:00"
+      "checkedAt": "2026-09-03T19:42:11+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - La stella dell'Arlecchino Errante",
@@ -4466,7 +4466,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "con le autorit&agrave;<br />Silvano Pascolo<br />con gli artisti premiati<br />Michela Lucenti, Jhon Kalamandalam, Liubov Cherepakhina<br />con gli artigiani musici e mascherai<br />ore 16:30<br />Apertura&nbsp;MOSTRA DI ARTIGIANATO ARTISTICO<br />Suoni e Sentimenti, Strumenti e ",
+      "description": "con le autorità Silvano Pascolo con gli artisti premiati Michela Lucenti, Jhon Kalamandalam, Liubov Cherepakhina con gli artigiani musici e mascherai ore 16:30 Apertura MOSTRA DI ARTIGIANATO ARTISTICO Suoni e Sentimenti, Strumenti e Musica Con dolci artigianali per tutti Esposito",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4491,7 +4491,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-la-stella-dell-arlecchino-errante-2026-09-06",
-      "longDescription": "con le autorit&agrave;<br />Silvano Pascolo<br />con gli artisti premiati<br />Michela Lucenti, Jhon Kalamandalam, Liubov Cherepakhina<br />con gli artigiani musici e mascherai<br />ore 16:30<br />Apertura&nbsp;MOSTRA DI ARTIGIANATO ARTISTICO<br />Suoni e Sentimenti, Strumenti e Musica<br />Con dolci artigianali per tutti<br /><br />Espositori Mascherai:<br />Luigi Revelant (Tarcento)<br />Franco Desomaro (Tarcento)<br />Žan Skubin (Dre&scaron;nice Ravne)<br />Marijan Rejc (Cerkno)<br />Vid Prezelj (Cerkno)<br />Dejan Znideric&nbsp;(Lig)<br /><br />Espositori Strumentisti:<br />Christian Casse &ndash; organaro<br />Marco Cargnelutti &ndash; liutaio<br />Abel Arshakian &ndash; duduk<br />Ermes Viel &ndash; corni di montagna<br />Giuliana Basso e Bruno Girardi &ndash; strumenti musicali in gres<br /><br />Ore 18:00<br />PRESENTAZIONE DEI PREMIATI E INTERVISTE<br />Cerimonia di premiazione<br />Strenna di brevi omaggi d&rsquo;arte<br /><br />Ingresso Solidale<br />",
+      "longDescription": "con le autorità Silvano Pascolo con gli artisti premiati Michela Lucenti, Jhon Kalamandalam, Liubov Cherepakhina con gli artigiani musici e mascherai ore 16:30 Apertura MOSTRA DI ARTIGIANATO ARTISTICO Suoni e Sentimenti, Strumenti e Musica Con dolci artigianali per tutti Espositori Mascherai: Luigi Revelant (Tarcento) Franco Desomaro (Tarcento) Žan Skubin (Drešnice Ravne) Marijan Rejc (Cerkno) Vid Prezelj (Cerkno) Dejan Znideric (Lig) Espositori Strumentisti: Christian Casse – organaro Marco Cargnelutti – liutaio Abel Arshakian – duduk Ermes Viel – corni di montagna Giuliana Basso e Bruno Girardi – strumenti musicali in gres Ore 18:00 PRESENTAZIONE DEI PREMIATI E INTERVISTE Cerimonia di premiazione Strenna di brevi omaggi d’arte Ingresso Solidale",
       "detailParagraphs": [
         "Description con le autorità Silvano Pascolo con gli artisti premiati Michela Lucenti, Jhon Kalamandalam, Liubov Cherepakhina con gli artigiani musici e mascherai ore 16:30 Apertura MOSTRA DI ARTIGIANATO ARTISTICO Suoni e Sentimenti, Strumenti e Musica Con dolci artigianali per tutti Espositori Mascherai: Luigi Revelant (Tarcento) Franco Desomaro (Tarcento) Žan Skubin (Drešnice Ravne) Marijan Rejc (Cerkno) Vid Prezelj (Cerkno) Dejan Znideric (Lig) Espositori Strumentisti: Christian Casse – organaro Marco Cargnelutti – liutaio Abel Arshakian – duduk Ermes Viel – corni di montagna Giuliana Basso e Bruno Girardi – strumenti musicali in gres Ore 18:00 PRESENTAZIONE DEI PREMIATI E INTERVISTE Cerimonia di premiazione Strenna di brevi omaggi d’arte Ingresso Solidale",
         "ore 16:30 Apertura MOSTRA DI ARTIGIANATO ARTISTICO Suoni e Sentimenti, Strumenti e Musica Con dolci artigianali per tutti",
@@ -4537,7 +4537,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-la-stella-dell-arlecchino-errante-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:46+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "L'arlecchino Errante 30 - Open Workshop \"Corpi in ascolto\"",
@@ -4550,7 +4550,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "<br />con&nbsp;Michela Lucenti e Maurizio Camilli<br /><br />Lo studio del corpo del performer come ampliamento delle possibilit&agrave; di veicolo energetico. L&rsquo;azione come incipit per il movimento danzato. Lo studio della relazione fisica con l&rsquo;altro come forma nece",
+      "description": "con Michela Lucenti e Maurizio Camilli Lo studio del corpo del performer come ampliamento delle possibilità di veicolo energetico. L’azione come incipit per il movimento danzato. Lo studio della relazione fisica con l’altro come forma necessaria per comprendere il senso del teatr",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4575,7 +4575,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "l-arlecchino-errante-30-open-workshop-corpi-in-ascolto-2026-09-06",
-      "longDescription": "<br />con&nbsp;Michela Lucenti e Maurizio Camilli<br /><br />Lo studio del corpo del performer come ampliamento delle possibilit&agrave; di veicolo energetico. L&rsquo;azione come incipit per il movimento danzato. Lo studio della relazione fisica con l&rsquo;altro come forma necessaria per comprendere il senso del teatro.<br /><br />Singolo workshop:&nbsp;&euro; 20<br />Pi&ugrave; di un workshop:&nbsp;&euro; 10<br />Tutti i workshop :&nbsp;&euro; 100<br />Informazioni e prenotazioni: festival@arlecchinoerrante.com<br />",
+      "longDescription": "con Michela Lucenti e Maurizio Camilli Lo studio del corpo del performer come ampliamento delle possibilità di veicolo energetico. L’azione come incipit per il movimento danzato. Lo studio della relazione fisica con l’altro come forma necessaria per comprendere il senso del teatro. Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
       "detailParagraphs": [
         "Description con Michela Lucenti e Maurizio Camilli Lo studio del corpo del performer come ampliamento delle possibilità di veicolo energetico. L’azione come incipit per il movimento danzato. Lo studio della relazione fisica con l’altro come forma necessaria per comprendere il senso del teatro. Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
         "Lo studio del corpo del performer come ampliamento delle possibilità di veicolo energetico. L’azione come incipit per il movimento danzato. Lo studio della relazione fisica con l’altro come forma necessaria per comprendere il senso del teatro.",
@@ -4620,7 +4620,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=l-arlecchino-errante-30-open-workshop-corpi-in-ascolto-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:47+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "Terra & Acqua - Lettura scenica",
@@ -4633,7 +4633,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "Nasce a Ronchis&nbsp;Terra &amp; Acqua,&nbsp;un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.<br /><br />In occasione degli 800 anni dalla morte di San F",
+      "description": "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. In occasione degli 800 anni dalla morte di San Francesco, l'attore Massim",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4658,7 +4658,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "terra-acqua-lettura-scenica-2026-09-06",
-      "longDescription": "Nasce a Ronchis&nbsp;Terra &amp; Acqua,&nbsp;un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.<br /><br />In occasione degli 800 anni dalla morte di San Francesco, l&#39;attore Massimo Somaglino proporr&agrave; una lettura scenica di alcuni brani dell&#39;enciclica Laudato si&#39; di Papa Francesco, con accompagnamento musicale di Cristina Mauro e Stefano Montello<br />In caso di maltempo: Chiesa di Fraforeano<br /><br />Programma del festival<br /><br />&nbsp;",
+      "longDescription": "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. In occasione degli 800 anni dalla morte di San Francesco, l'attore Massimo Somaglino proporrà una lettura scenica di alcuni brani dell'enciclica Laudato si' di Papa Francesco, con accompagnamento musicale di Cristina Mauro e Stefano Montello In caso di maltempo: Chiesa di Fraforeano Programma del festival",
       "detailParagraphs": [
         "Description Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. In occasione degli 800 anni dalla morte di San Francesco, l'attore Massimo Somaglino proporrà una lettura scenica di alcuni brani dell'enciclica Laudato si' di Papa Francesco, con accompagnamento musicale di Cristina Mauro e Stefano Montello Ingresso libero In caso di maltempo, l' evento si terrà nella Chiesa di Fraforeano Programma del festival",
         "Organized by: Comune di Ronchis Tel. 0431 56014 Email: areaamministrativa@comune.ronchis.ud.it",
@@ -4701,7 +4701,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=terra-acqua-lettura-scenica-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:46+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "V Festival di Cas*Aupa",
@@ -4714,7 +4714,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Friuli Venezia Giulia",
       "venue": "Luogo indicato nella fonte",
-      "description": "6 settembre Parco del Torre | Salt di Povoletto<br /><br />Festeggiamo insieme i 17 anni con un ricco programma di musica e intrattenimento.<br /><br />Maggio informazioni sono pubblicate sulla pagina facebook",
+      "description": "6 settembre Parco del Torre | Salt di Povoletto Festeggiamo insieme i 17 anni con un ricco programma di musica e intrattenimento. Maggio informazioni sono pubblicate sulla pagina facebook",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4739,7 +4739,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 0,
       "slug": "v-festival-di-cas-aupa-2026-09-06",
-      "longDescription": "6 settembre Parco del Torre | Salt di Povoletto<br /><br />Festeggiamo insieme i 17 anni con un ricco programma di musica e intrattenimento.<br /><br />Maggio informazioni sono pubblicate sulla pagina facebook",
+      "longDescription": "6 settembre Parco del Torre | Salt di Povoletto Festeggiamo insieme i 17 anni con un ricco programma di musica e intrattenimento. Maggio informazioni sono pubblicate sulla pagina facebook",
       "detailParagraphs": [
         "Description Quattro progetti musicali, un dj set, una lotteria, la serigrafia live, tanti banchetti di associazioni local, l3 amic3, il chiosco, il campetto da basket, un parco intero tutto per noi dalle 17:00 fino a tarda sera. Maggio informazioni sono pubblicate sulla pagina facebook",
         "PromoTurismoFVG is not liable for the accuracy of any information included or for the total or partial non-fulfilment of the events proposed by the organiser. Further information can be obtained directly from the organiser, who can be found under the heading: “organised by”. PromoTurismoFVG is not liable in the event that the events, contents and images inserted may possibly damage the common sense of decency. PromoTurismoFVG also reserves the right, in its sole discretion, to obscure any content deemed to be ambiguous in nature, in advance or subsequent to any report, as well as proceeding with actions in the locations deemed most appropriate."
@@ -4781,7 +4781,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=v-festival-di-cas-aupa-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:46+00:00"
+      "checkedAt": "2026-09-03T19:42:12+00:00"
     },
     {
       "title": "Festa di Settembre a Collerumiz",
@@ -5612,7 +5612,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=nei-suoni-dei-luoghi-ritmi-incrociati-big-band-e-tap-dance-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:43+00:00"
+      "checkedAt": "2026-09-03T19:42:07+00:00"
     },
     {
       "title": "Il castello dei bambini e delle bambine",
@@ -5919,7 +5919,7 @@ window.EVENTS_DATA = {
       "zones": [
         "friuli"
       ],
-      "checkedAt": "2026-09-03T17:35:44+00:00",
+      "checkedAt": "2026-09-03T19:42:10+00:00",
       "sourceReachable": true
     },
     {
@@ -6662,7 +6662,7 @@ window.EVENTS_DATA = {
       "zones": [
         "friuli"
       ],
-      "checkedAt": "2026-09-03T17:35:47+00:00",
+      "checkedAt": "2026-09-03T19:42:12+00:00",
       "sourceReachable": true
     },
     {
@@ -6928,7 +6928,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=circolo-musicale-luigi-garzoni-arriva-la-banda-2026-06-25",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:15+00:00"
     },
     {
       "title": "FRESCO - Programma estivo di attività e laboratori nel nuovo rifugio climatico",
@@ -7017,7 +7017,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=fresco-programma-estivo-di-attivita-e-laboratori-nel-nuovo-rifugio-climatico-202",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:16+00:00"
     },
     {
       "title": "Incontri con l'autore e con il vino - Agosto e Settembre 2026",
@@ -7104,7 +7104,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=incontri-con-l-autore-e-con-il-vino-agosto-e-settembre-2026-2026-08-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:15+00:00"
     },
     {
       "title": "Cinema d'Estate – Rassegna di Cinema all'Aperto",
@@ -7195,7 +7195,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=cinema-d-estate-rassegna-di-cinema-all-aperto-2026-08-18",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:16+00:00"
     },
     {
       "title": "Yoga, Meditazione & Colazione",
@@ -7284,7 +7284,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=yoga-meditazione-colazione-2026-08-29",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:16+00:00"
     },
     {
       "title": "Lignano Noir 2026",
@@ -7376,7 +7376,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=lignano-noir-2026-2026-09-03",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:16+00:00"
     },
     {
       "title": "Laudes et Elementa- Le parole di Francesco, il canto degli elementi",
@@ -7457,7 +7457,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:16+00:00"
     },
     {
       "title": "2ª Fiera Europea",
@@ -7639,7 +7639,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=premio-scerbanenco-12-edizione-2026-09-05",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:16+00:00"
     },
     {
       "title": "Esterno Verde – Oltre Lignano",
@@ -7788,7 +7788,7 @@ window.EVENTS_DATA = {
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-03T17:35:49+00:00",
+      "checkedAt": "2026-09-03T19:42:16+00:00",
       "sourceReachable": true
     },
     {
@@ -7884,7 +7884,7 @@ window.EVENTS_DATA = {
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-03T17:35:49+00:00",
+      "checkedAt": "2026-09-03T19:42:16+00:00",
       "sourceReachable": true
     },
     {
@@ -7980,7 +7980,7 @@ window.EVENTS_DATA = {
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-03T17:35:49+00:00",
+      "checkedAt": "2026-09-03T19:42:16+00:00",
       "sourceReachable": true
     },
     {
@@ -8066,7 +8066,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=moda-d-autore-2026-2026-09-10",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:49+00:00"
+      "checkedAt": "2026-09-03T19:42:17+00:00"
     },
     {
       "title": "Armonie nella Natura con Glauco Venier",
@@ -8554,7 +8554,7 @@ window.EVENTS_DATA = {
       ]
     },
     {
-      "title": "Faaker Mercato contadino Jeden Donnerstag - Start 7. Mai geht bis zum 24. September 2026 Der Faaker See Mercato contadino lädt Gäste ein, regionale Produkte, traditionelle Spezialitäten und echtes Kärntner Marktflair zu entdecken. Gäste erleben bäuerliche Köstlichkeiten, handgemachte Produkte und persönliche Begegnungen mit Produzent:innen aus der Region. Die Veranstaltung verbindet Gastronomia, Handwerk und geselliges Beisammensein zu einem authentischen Genusserlebnis am Faaker See. Erfahre mehr",
+      "title": "Mercato contadino al Faaker See",
       "startDate": "2026-05-07",
       "endDate": "2026-09-24",
       "occurrenceDates": [
@@ -8589,7 +8589,7 @@ window.EVENTS_DATA = {
       ],
       "image": "",
       "imageRemoteUrl": "",
-      "imageAlt": "Immagine ufficiale di Faaker Mercato contadino Jeden Donnerstag - Start 7. Mai geht bis zum 24. September 2026 Der Faaker See Mercato contadino lädt Gäste ein, regionale Produkte, traditionelle Spezialitäten und echtes Kärntner Marktflair zu entdecken. Gäste erleben bäuerliche Köstlichkeiten, handgemachte Produkte und persönliche Begegnungen mit Produzent:innen aus der Region. Die Veranstaltung verbindet Gastronomia, Handwerk und geselliges Beisammensein zu einem authentischen Genusserlebnis am Faaker See. Erfahre mehr",
+      "imageAlt": "Immagine ufficiale di Mercato contadino al Faaker See",
       "imageSourceName": "Kärnten Werbung",
       "imageSourceUrl": "https://www.kaernten.at/service/events/events/KTN/a4eded25-929f-4f54-aa57-3e4f31127113/faaker-bauernmarkt",
       "locationLabel": "Faak · luogo indicato dalla fonte",
@@ -8601,7 +8601,7 @@ window.EVENTS_DATA = {
         "austria"
       ],
       "distanceFromTarcentoKm": 97,
-      "slug": "faaker-mercato-contadino-jeden-donnerstag-start-7-mai-geht-bis-zum-24-september",
+      "slug": "mercato-contadino-al-faaker-see-2026-05-07",
       "longDescription": "Evento in Austria. Titolo e informazioni essenziali sono presentati in italiano; il programma originale resta consultabile alla fonte.",
       "detailParagraphs": [
         "Evento in Austria. Titolo e informazioni essenziali sono presentati in italiano; il programma originale resta consultabile alla fonte."
@@ -8640,10 +8640,10 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/?evento=faaker-mercato-contadino-jeden-donnerstag-start-7-mai-geht-bis-zum-24-september",
+      "detailPath": "dettaglio/?evento=mercato-contadino-al-faaker-see-2026-05-07",
       "sourceLanguage": "de",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:50+00:00",
+      "checkedAt": "2026-09-03T19:42:17+00:00",
       "originalTitle": "Faaker Bauernmarkt Jeden Donnerstag - Start 7. Mai geht bis zum 24. September 2026 Der Faaker See Bauernmarkt lädt Gäste ein, regionale Produkte, traditionelle Spezialitäten und echtes Kärntner Marktflair zu entdecken. Gäste erleben bäuerliche Köstlichkeiten, handgemachte Produkte und persönliche Begegnungen mit Produzent:innen aus der Region. Die Veranstaltung verbindet Kulinarik, Handwerk und geselliges Beisammensein zu einem authentischen Genusserlebnis am Faaker See. Erfahre mehr"
     },
     {
@@ -9039,7 +9039,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=la-luna-nel-pozzo-festival-internazionale-di-teatro-in-strada-2026-09-02",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:50+00:00"
+      "checkedAt": "2026-09-03T19:42:17+00:00"
     },
     {
       "title": "Finale Campionato Italiano Beach Volley",
@@ -9118,7 +9118,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=finale-campionato-italiano-beach-volley-2026-09-04",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:50+00:00"
+      "checkedAt": "2026-09-03T19:42:17+00:00"
     },
     {
       "title": "Corsa solidale La Caorlina",
@@ -9197,7 +9197,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/?evento=corsa-solidale-la-caorlina-2026-09-06",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-03T17:35:50+00:00"
+      "checkedAt": "2026-09-03T19:42:17+00:00"
     },
     {
       "title": "Giornate della cucina Alpe-Adria",
@@ -9410,6 +9410,7 @@ window.EVENTS_DATA = {
     "discoveredInWindow": 90,
     "matched": 19,
     "added": 71,
+    "removedImages": 0,
     "total": 102
   }
 };
