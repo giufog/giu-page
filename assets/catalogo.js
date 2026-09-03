@@ -3,6 +3,7 @@ const CATEGORY_DEFINITIONS = [
   { id: 'medicina', name: 'Medicina', icon: 'stethoscope', color: '#167d83', description: 'Salute, prevenzione e confronti informativi organizzati per tema.' },
   { id: 'legale', name: 'Legale', icon: 'scale', color: '#4f5a9a', description: 'Documenti, quesiti e riferimenti giuridici raccolti in un unico spazio.' },
   { id: 'lavoro', name: 'Lavoro', icon: 'briefcase-business', color: '#b7791f', description: 'Attività, strumenti e documenti operativi per progetti professionali.' },
+  { id: 'eventi', name: 'Eventi', icon: 'calendar-days', color: '#b44672', description: 'Appuntamenti delle prossime due settimane in Friuli, al mare e nell’Austria vicina.' },
   { id: 'varie', name: 'Varie', icon: 'layout-grid', color: '#7a5c99', description: 'Contenuti trasversali che non appartengono a una sezione specifica.' }
 ];
 
