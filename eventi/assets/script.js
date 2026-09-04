@@ -123,10 +123,13 @@ function clearSearchResult() {
 }
 
 function clearSearchMarks() {
+  const parents = new Set();
   searchMatches.forEach((mark) => {
     if (!mark.isConnected) return;
+    parents.add(mark.parentNode);
     mark.replaceWith(document.createTextNode(mark.textContent));
   });
+  parents.forEach((parent) => parent?.normalize());
   searchMatches = [];
   searchIndex = -1;
 }

@@ -127,7 +127,13 @@
   }
 
   function clearMarks() {
-    activeMarks.forEach(mark => mark.replaceWith(document.createTextNode(mark.textContent)));
+    const parents = new Set();
+    activeMarks.forEach(mark => {
+      if (!mark.isConnected) return;
+      parents.add(mark.parentNode);
+      mark.replaceWith(document.createTextNode(mark.textContent));
+    });
+    parents.forEach(parent => parent?.normalize());
     activeMarks = [];
     activeSearchIndex = -1;
   }
