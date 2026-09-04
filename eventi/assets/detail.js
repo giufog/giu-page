@@ -6,11 +6,9 @@ function escapeHtml(value = '') {
   return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
 }
 
-function sourceImage(item) {
-  const value = item.imageServiceUrl || item.imageRemoteUrl || item.image || '';
-  if (!value) return '';
-  if (/^https?:/i.test(value)) return value;
-  return `../${value.replace(/^\.\//, '')}`;
+function sourceImages(item) {
+  return [...new Set([item.image, item.imageServiceUrl, item.imageRemoteUrl].filter(Boolean))]
+    .map(value => /^https?:/i.test(value) ? value : `../${value.replace(/^\.\//, '')}`);
 }
 
 function dateLabel(value) {
@@ -56,13 +54,14 @@ function renderRating(item) {
 }
 
 function render(item) {
-  const image = sourceImage(item);
+  const imageCandidates = sourceImages(item);
+  const image = imageCandidates.shift();
   const dates = compactDateRange(item);
   const original = item.originalTitle ? `<p class="detail-original">Titolo originale: ${escapeHtml(item.originalTitle)}</p>` : '';
   document.title = `${item.title} | Giu Page`;
   document.body.classList.add(`detail-page--${item.zone || 'friuli'}`);
   target.innerHTML = `
-    ${image ? `<div class="event-detail__media"><img src="${escapeHtml(image)}" alt="${escapeHtml(item.imageAlt || item.title)}"></div>` : ''}
+    ${image ? `<div class="event-detail__media"><img src="${escapeHtml(image)}" data-image-fallbacks="${encodeURIComponent(JSON.stringify(imageCandidates))}" alt="${escapeHtml(item.imageAlt || item.title)}"></div>` : ''}
     <div class="event-detail__intro">
       <span class="detail-zone">${escapeHtml(({friuli:'Friuli',mare:'Mare',austria:'Austria'})[item.zone] || item.zone)}</span>
       <p class="detail-date">${escapeHtml(dates)}</p><h1>${escapeHtml(item.title)}</h1>${original}${renderRating(item)}
@@ -87,6 +86,16 @@ function render(item) {
   target.querySelectorAll('[data-share]').forEach(button => button.addEventListener('click', async () => {
     try { if (navigator.share) await navigator.share({title:item.title,text:item.description,url:location.href}); else { await navigator.clipboard.writeText(location.href); button.textContent='Link copiato'; } } catch (_) {}
   }));
+  target.querySelector('.event-detail__media img')?.addEventListener('error', event => {
+    const failedImage = event.currentTarget;
+    let candidates = [];
+    try { candidates = JSON.parse(decodeURIComponent(failedImage.dataset.imageFallbacks || '[]')); } catch (_) {}
+    const next = candidates.shift();
+    if (next) {
+      failedImage.dataset.imageFallbacks = encodeURIComponent(JSON.stringify(candidates));
+      failedImage.src = next;
+    } else failedImage.closest('.event-detail__media')?.remove();
+  });
 }
 
 async function loadData() {

@@ -546,9 +546,10 @@ function renderEvents() {
       ['In caso di maltempo', item.weatherPlan || 'Nessuna indicazione specifica pubblicata.'],
       ['Note', eventNotes(item)]
     ].map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join('');
-    const imageUrl = item.imageServiceUrl || item.imageRemoteUrl || item.image;
+    const imageCandidates = eventImageCandidates(item);
+    const imageUrl = imageCandidates.shift();
     const image = imageUrl ? `<a class="event-card__media" href="${escapeHtml(item.detailPath)}" aria-label="Apri pagina: ${escapeHtml(item.title)}">
-      <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" width="640" height="360" loading="${index === 0 ? 'eager' : 'lazy'}" fetchpriority="${index === 0 ? 'high' : 'low'}" decoding="async">
+      <img src="${escapeHtml(imageUrl)}" data-image-fallbacks="${encodeURIComponent(JSON.stringify(imageCandidates))}" alt="${escapeHtml(item.imageAlt || item.title)}" width="640" height="360" loading="${index === 0 ? 'eager' : 'lazy'}" fetchpriority="${index === 0 ? 'high' : 'low'}" decoding="async">
     </a>` : '';
     return `<article class="event-card event-card--${escapeHtml(zone)}" data-searchable>
       <div class="event-card__date"><span>${days}</span>${startTime ? `<span>dalle ${startTime}</span>` : ''}</div>
@@ -604,7 +605,15 @@ eventList?.addEventListener('click', (event) => {
   if (shareButton) shareContent(shareButton);
 });
 eventList?.addEventListener('error', (event) => {
-  if (event.target.matches('.event-card__media img')) event.target.closest('.event-card__media')?.remove();
+  if (!event.target.matches('.event-card__media img')) return;
+  const image = event.target;
+  let candidates = [];
+  try { candidates = JSON.parse(decodeURIComponent(image.dataset.imageFallbacks || '[]')); } catch (_) {}
+  const next = candidates.shift();
+  if (next) {
+    image.dataset.imageFallbacks = encodeURIComponent(JSON.stringify(candidates));
+    image.src = next;
+  } else image.closest('.event-card__media')?.remove();
 }, true);
 
 let activeEventsDataSignature = '';
@@ -620,6 +629,10 @@ function eventHasEnded(item, now = new Date()) {
   const hasExplicitEndTime = Boolean(item.endDate && item.endDate.length > 10);
   const end = new Date(hasExplicitEndTime ? rawEnd : `${rawEnd.slice(0, 10)}T23:59:59`);
   return !Number.isNaN(end.getTime()) && end < now;
+}
+
+function eventImageCandidates(item) {
+  return [...new Set([item.image, item.imageServiceUrl, item.imageRemoteUrl].filter(Boolean))];
 }
 
 function applyEventsData(data) {
