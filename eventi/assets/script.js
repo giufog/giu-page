@@ -261,6 +261,7 @@ let activeArea = 'all';
 let activePeriod = 'all';
 const eventsServiceBase = 'https://giu-page-eventi-update.docile-aspen-8173.chatgpt.site';
 const eventSearch = document.querySelector('[data-event-search]');
+const eventSearchTextCache = new WeakMap();
 let eventPeriods = {
   weekday1: ['2026-08-31', '2026-09-04'],
   sat1: ['2026-09-05', '2026-09-05'],
@@ -282,10 +283,11 @@ function configureEventPeriods(data) {
 }
 
 function configureFreshness(data) {
-  const lead = document.querySelector('[data-event-lead]');
+  const title = document.querySelector('#titolo-pagina');
   const meta = document.querySelector('[data-event-meta]');
-  if (lead && data?.range) {
-    lead.textContent = `Appuntamenti dal ${shortDate(data.range.from)} al ${shortDate(data.range.to)}, ordinati da Tarcento verso le altre zone.`;
+  if (title && data?.range) {
+    title.textContent = `Eventi dal ${longDate(data.range.from)} a ${longDate(data.range.to)}`;
+    document.title = `${title.textContent} | Giu Page`;
   }
   if (meta) {
     const checked = data?.generatedAt ? new Intl.DateTimeFormat('it-IT', { dateStyle: 'long', timeStyle: 'short' }).format(new Date(data.generatedAt)) : 'non indicato';
@@ -324,12 +326,18 @@ function shortDate(value) {
     .format(date).replace('.', '');
 }
 
+function longDate(value) {
+  const date = new Date(`${value}T12:00:00+02:00`);
+  return new Intl.DateTimeFormat('it-IT', { weekday: 'long', day: 'numeric', month: 'long' }).format(date);
+}
+
 function eventDateLabel(item) {
   if (item.dateLabel) return item.dateLabel;
-  if (item.occurrenceDates?.length) return item.occurrenceDates.map(shortDate).join(' · ');
-  const start = item.startDate?.slice(0, 10);
-  const end = item.endDate?.slice(0, 10) || start;
-  return start === end ? shortDate(start) : `${shortDate(start)} – ${shortDate(end)}`;
+  const occurrences = item.occurrenceDates || [];
+  const start = occurrences[0] || item.startDate?.slice(0, 10);
+  const end = occurrences[occurrences.length - 1] || item.endDate?.slice(0, 10) || start;
+  if (!start) return '';
+  return start === end ? shortDate(start) : `da ${shortDate(start)} a ${shortDate(end)}`;
 }
 
 function eventOccursInPeriod(item, period) {
@@ -350,14 +358,132 @@ function normalizeSearch(value) {
   return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it');
 }
 
+function normalizedEventTitle(value) {
+  return normalizeSearch(value).replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+function normalizedEventTitleBase(value) {
+  const base = String(value || '').split(/\s[-–—]\s|:\s|\.\s/)[0];
+  return normalizedEventTitle(base);
+}
+
+function eventSourceHost(item) {
+  try {
+    return new URL(item.sourceUrl).hostname.replace(/^www\./, '');
+  } catch (_) {
+    return '';
+  }
+}
+
+function eventLocationsAreCompatible(first, second) {
+  const firstCity = normalizeSearch(first.city).trim();
+  const secondCity = normalizeSearch(second.city).trim();
+  if (!firstCity || !secondCity) return false;
+  if (firstCity === secondCity) return true;
+
+  const genericCity = 'friuli venezia giulia';
+  const genericItem = firstCity === genericCity ? first : secondCity === genericCity ? second : null;
+  const specificCity = firstCity === genericCity ? secondCity : secondCity === genericCity ? firstCity : '';
+  if (!genericItem || !specificCity) return false;
+  const placeName = specificCity.split(' ')[0];
+  const genericText = normalizeSearch([
+    genericItem.title, genericItem.locationLabel, genericItem.venue, genericItem.description,
+    ...(genericItem.detailParagraphs || [])
+  ].join(' '));
+  return placeName.length >= 4 && genericText.includes(placeName);
+}
+
+function eventDates(item) {
+  const occurrences = item.occurrenceDates || [];
+  if (occurrences.length) return occurrences;
+  const start = item.startDate?.slice(0, 10);
+  const end = item.endDate?.slice(0, 10) || start;
+  return start ? [start, end] : [];
+}
+
+function eventDateRangesOverlap(first, second) {
+  const firstDates = eventDates(first);
+  const secondDates = eventDates(second);
+  if (!firstDates.length || !secondDates.length) return false;
+  if (first.occurrenceDates?.length && second.occurrenceDates?.length) {
+    const secondDateSet = new Set(secondDates);
+    return firstDates.some((date) => secondDateSet.has(date));
+  }
+  const firstStart = firstDates[0];
+  const firstEnd = firstDates[firstDates.length - 1];
+  const secondStart = secondDates[0];
+  const secondEnd = secondDates[secondDates.length - 1];
+  return firstStart <= secondEnd && secondStart <= firstEnd;
+}
+
+function isGenericImportedEvent(item) {
+  return /^(evento pubblicato da|evento in austria\b)/i.test(String(item.description || '').trim());
+}
+
+function areDuplicateEvents(first, second) {
+  if (!eventLocationsAreCompatible(first, second) || !eventDateRangesOverlap(first, second)) return false;
+
+  const firstTitle = normalizedEventTitle(first.title);
+  const secondTitle = normalizedEventTitle(second.title);
+  if (!firstTitle || !secondTitle) return false;
+  if (firstTitle === secondTitle) return true;
+
+  const titleContainsOther = firstTitle.includes(secondTitle) || secondTitle.includes(firstTitle);
+  if (titleContainsOther && isGenericImportedEvent(first) !== isGenericImportedEvent(second)) return true;
+
+  const firstBase = normalizedEventTitleBase(first.title);
+  const secondBase = normalizedEventTitleBase(second.title);
+  const matchingBase = firstBase.length >= 10 && secondBase.length >= 10
+    && (firstBase.includes(secondBase) || secondBase.includes(firstBase));
+  const firstHost = eventSourceHost(first);
+  const secondHost = eventSourceHost(second);
+  return matchingBase && firstHost && secondHost && firstHost !== secondHost;
+}
+
+function eventQualityScore(item) {
+  const programItems = (item.program || []).reduce((total, group) => total + (group.items || []).length, 0);
+  return (item.image || item.imageRemoteUrl || item.imageServiceUrl ? 5 : 0)
+    + Math.min((item.sources || []).length, 4)
+    + Math.min((item.detailParagraphs || []).length, 6)
+    + Math.min(programItems, 5)
+    + (isGenericImportedEvent(item) ? 0 : 4);
+}
+
+function mergeDuplicateEvents(first, second) {
+  const primary = eventQualityScore(first) >= eventQualityScore(second) ? first : second;
+  const secondary = primary === first ? second : first;
+  const sourcesByUrl = new Map([...(primary.sources || []), ...(secondary.sources || [])]
+    .filter((source) => source?.url)
+    .map((source) => [source.url, source]));
+  return {
+    ...primary,
+    occurrenceDates: [...new Set([...eventDates(first), ...eventDates(second)])].sort(),
+    zones: [...new Set([...(primary.zones || [primary.zone]), ...(secondary.zones || [secondary.zone])].filter(Boolean))],
+    sources: [...sourcesByUrl.values()]
+  };
+}
+
+function deduplicateEvents(events) {
+  return events.reduce((unique, item) => {
+    const duplicateIndex = unique.findIndex((candidate) => areDuplicateEvents(candidate, item));
+    if (duplicateIndex < 0) unique.push(item);
+    else unique[duplicateIndex] = mergeDuplicateEvents(unique[duplicateIndex], item);
+    return unique;
+  }, []);
+}
+
 function eventMatchesText(item) {
   const terms = normalizeSearch(eventSearch?.value).trim().split(/\s+/).filter(Boolean);
   if (!terms.length) return true;
-  const searchable = normalizeSearch([
-    item.title, item.originalTitle, item.description, item.longDescription, item.city,
-    item.venue, ...(item.tags || []), ...(item.detailParagraphs || []),
-    ...(item.program || []).flatMap((day) => day.items || [])
-  ].join(' '));
+  let searchable = eventSearchTextCache.get(item);
+  if (!searchable) {
+    searchable = normalizeSearch([
+      item.title, item.originalTitle, item.description, item.longDescription, item.city,
+      item.venue, ...(item.tags || []), ...(item.detailParagraphs || []),
+      ...(item.program || []).flatMap((day) => day.items || [])
+    ].join(' '));
+    eventSearchTextCache.set(item, searchable);
+  }
   return terms.every((term) => searchable.includes(term));
 }
 
@@ -410,7 +536,7 @@ function renderEvents() {
   const visible = allEvents.filter((item) =>
     eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, activePeriod) && eventMatchesText(item)
   ).sort((a, b) => (a.distanceFromTarcentoKm ?? 9999) - (b.distanceFromTarcentoKm ?? 9999));
-  eventList.innerHTML = visible.map((item) => {
+  eventList.innerHTML = visible.map((item, index) => {
     const days = eventDateLabel(item);
     const startTime = eventTimeLabel(item.startDate);
     const zone = item.zone || 'friuli';
@@ -421,11 +547,11 @@ function renderEvents() {
       ['Note', eventNotes(item)]
     ].map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join('');
     const imageUrl = item.imageServiceUrl || item.imageRemoteUrl || item.image;
-    const image = imageUrl ? `<a class="event-card__media" href="${escapeHtml(item.detailPath)}" aria-label="Apri dettagli: ${escapeHtml(item.title)}">
-      <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" decoding="async">
+    const image = imageUrl ? `<a class="event-card__media" href="${escapeHtml(item.detailPath)}" aria-label="Apri pagina: ${escapeHtml(item.title)}">
+      <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" width="640" height="360" loading="${index === 0 ? 'eager' : 'lazy'}" fetchpriority="${index === 0 ? 'high' : 'low'}" decoding="async">
     </a>` : '';
     return `<article class="event-card event-card--${escapeHtml(zone)}" data-searchable>
-      <div class="event-card__date"><span>${days}</span><span>${startTime ? `dalle ${startTime}` : 'orario da verificare'}</span></div>
+      <div class="event-card__date"><span>${days}</span>${startTime ? `<span>dalle ${startTime}</span>` : ''}</div>
       ${image}
       <div class="event-card__body">
         <h3><a href="${escapeHtml(item.detailPath)}">${escapeHtml(item.title)}</a></h3>
@@ -438,18 +564,12 @@ function renderEvents() {
         </a>
         <dl class="event-card__info">${information}</dl>
         <div class="event-card__actions">
-          <a class="event-card__button event-card__button--primary" href="${escapeHtml(item.detailPath)}"><img src="https://api.iconify.design/lucide/file-text.svg?color=%23ffffff" alt="">Apri dettagli</a>
+          <a class="event-card__button event-card__button--primary" href="${escapeHtml(item.detailPath)}"><img src="https://api.iconify.design/lucide/file-text.svg?color=%23ffffff" alt="">Apri pagina</a>
           <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(item.detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
         </div>
       </div>
     </article>`;
   }).join('');
-  eventList.querySelectorAll('.event-card__media img').forEach((image) => {
-    image.addEventListener('error', () => image.closest('.event-card__media')?.remove(), { once: true });
-  });
-  eventList.querySelectorAll('[data-share-event]').forEach((button) => {
-    button.addEventListener('click', () => shareContent(button));
-  });
   if (eventCount) eventCount.textContent = `${visible.length} ${visible.length === 1 ? 'evento mostrato' : 'eventi mostrati'}`;
   updateFilterCounts();
   if (eventEmpty) {
@@ -473,24 +593,54 @@ function bindEventFilters(selector, dataName, onChange) {
 
 bindEventFilters('[data-area-filters] [data-area]', 'area', (value) => { activeArea = value; });
 bindEventFilters('[data-day-filters] [data-period]', 'period', (value) => { activePeriod = value; });
-eventSearch?.addEventListener('input', renderEvents);
+let eventSearchTimer;
+eventSearch?.addEventListener('input', () => {
+  window.clearTimeout(eventSearchTimer);
+  eventSearchTimer = window.setTimeout(renderEvents, 120);
+});
+
+eventList?.addEventListener('click', (event) => {
+  const shareButton = event.target.closest('[data-share-event]');
+  if (shareButton) shareContent(shareButton);
+});
+eventList?.addEventListener('error', (event) => {
+  if (event.target.matches('.event-card__media img')) event.target.closest('.event-card__media')?.remove();
+}, true);
+
+let activeEventsDataSignature = '';
+
+function eventsDataSignature(data) {
+  const events = data?.events || [];
+  return [data?.generatedAt || '', events.length, events[0]?.slug || '', events[events.length - 1]?.slug || ''].join('|');
+}
+
+function applyEventsData(data) {
+  if (!data?.events) throw new Error('Dati non disponibili');
+  allEvents = deduplicateEvents(data.events);
+  activeEventsDataSignature = eventsDataSignature(data);
+  configureEventPeriods(data);
+  configureFreshness({ ...data, events: allEvents });
+  renderEvents();
+}
 
 if (eventList) {
-  fetch(`${eventsServiceBase}/api/events-data`, { cache: 'no-store' })
+  if (window.EVENTS_DATA?.events) applyEventsData(window.EVENTS_DATA);
+
+  const eventsRequestController = new AbortController();
+  const eventsRequestTimeout = window.setTimeout(() => eventsRequestController.abort(), 5000);
+  fetch(`${eventsServiceBase}/api/events-data`, { cache: 'no-store', signal: eventsRequestController.signal })
     .then((response) => {
       if (!response.ok) throw new Error('Dati remoti non disponibili');
       return response.json();
     })
-    .catch(() => window.EVENTS_DATA)
     .then((data) => {
-      if (!data?.events) throw new Error('Dati non disponibili');
-      configureEventPeriods(data);
-      configureFreshness(data);
-      allEvents = data.events || [];
-      renderEvents();
+      if (eventsDataSignature(data) !== activeEventsDataSignature) applyEventsData(data);
     })
     .catch(() => {
-      eventList.innerHTML = '<div class="empty-state">Non è stato possibile caricare gli eventi.</div>';
-      if (eventCount) eventCount.textContent = 'Dati non disponibili';
-    });
+      if (!allEvents.length) {
+        eventList.innerHTML = '<div class="empty-state">Non è stato possibile caricare gli eventi.</div>';
+        if (eventCount) eventCount.textContent = 'Dati non disponibili';
+      }
+    })
+    .finally(() => window.clearTimeout(eventsRequestTimeout));
 }

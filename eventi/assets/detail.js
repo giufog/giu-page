@@ -18,6 +18,14 @@ function dateLabel(value) {
   return new Intl.DateTimeFormat('it-IT', { weekday: 'short', day: 'numeric', month: 'short' }).format(new Date(`${value.slice(0, 10)}T12:00:00`)).replace('.', '');
 }
 
+function compactDateRange(item) {
+  const occurrences = item.occurrenceDates || [];
+  const start = occurrences[0] || item.startDate?.slice(0, 10);
+  const end = occurrences[occurrences.length - 1] || item.endDate?.slice(0, 10) || start;
+  if (!start) return '';
+  return start === end ? dateLabel(start) : `da ${dateLabel(start)} a ${dateLabel(end)}`;
+}
+
 function renderProgram(item) {
   return (item.program || []).map(group => `<section class="schedule-day"><h3>${escapeHtml(group.label)}</h3><ul>${(group.items || []).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul></section>`).join('') || '<p>Il programma dettagliato non è ancora disponibile.</p>';
 }
@@ -36,7 +44,7 @@ function renderRating(item) {
 
 function render(item) {
   const image = sourceImage(item);
-  const dates = (item.occurrenceDates || []).map(dateLabel).join(' · ');
+  const dates = compactDateRange(item);
   const original = item.originalTitle ? `<p class="detail-original">Titolo originale: ${escapeHtml(item.originalTitle)}</p>` : '';
   document.title = `${item.title} | Giu Page`;
   document.body.classList.add(`detail-page--${item.zone || 'friuli'}`);

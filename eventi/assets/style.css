@@ -257,6 +257,8 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 10px 26px rgba(23,62,53,.06);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 720px;
 }
 
 .event-card--friuli { --zone-accent: var(--zone-friuli); --zone-soft: var(--zone-friuli-soft); }
@@ -399,6 +401,6 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
   flex-wrap: wrap;
 }
 .native-refresh[hidden] { display: none; }
-.native-refresh span { color: rgb(255 255 255 / 82%); font-size: .88rem; }
+.native-refresh span { color: var(--muted); font-size: .88rem; }
 .native-refresh .button:disabled { cursor: wait; opacity: .7; }
 .event-rating{display:flex;align-items:center;gap:.45rem;margin:.15rem 0 .55rem;color:#6b5a18}.event-rating span{color:#d49a18;letter-spacing:.06em}.event-rating b{font-size:.88rem}.event-rating small{color:var(--muted);font-size:.76rem}.event-rating--detail{margin:.55rem 0 0}

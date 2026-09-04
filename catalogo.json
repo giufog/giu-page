@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03",
+  "updatedAt": "2026-09-04",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -193,12 +193,12 @@
       "listed": true
     },
     {
-      "title": "Eventi delle prossime due settimane",
+      "title": "Eventi dal lunedì 31 agosto a domenica 13 settembre",
       "slug": "eventi",
       "category": "eventi",
       "description": "Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
       "createdAt": "2026-09-03",
-      "updatedAt": "2026-09-03",
+      "updatedAt": "2026-09-04",
       "url": "https://giufog.github.io/giu-page/eventi/",
       "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-whatsapp.jpg",
       "tags": [
