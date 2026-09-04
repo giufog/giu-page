@@ -135,7 +135,7 @@ loadData().then(data => {
   const item = (data.events || []).find(event => event.slug === wantedSlug);
   if (item && !eventHasEnded(item)) {
     if (location.search && wantedSlug) history.replaceState(null, '', `${encodeURIComponent(wantedSlug)}/index.html`);
-    document.querySelectorAll('.detail-page .brand, .detail-header-back, .detail-back').forEach(link => { link.href = '../../'; });
+    document.querySelectorAll('.detail-page .brand, .detail-header-back').forEach(link => { link.href = '../../'; });
     render(item);
   }
   else renderUnavailable(Boolean(item));

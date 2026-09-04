@@ -309,8 +309,6 @@ let allEvents = [];
 let activeArea = 'all';
 let activePeriod = 'all';
 const eventsServiceBase = 'https://giu-page-eventi-update.docile-aspen-8173.chatgpt.site';
-const eventSearch = document.querySelector('[data-event-search]');
-const eventSearchTextCache = new WeakMap();
 let eventPeriods = {
   weekday1: ['2026-08-31', '2026-09-04'],
   sat1: ['2026-09-05', '2026-09-05'],
@@ -521,23 +519,8 @@ function deduplicateEvents(events) {
   }, []);
 }
 
-function eventMatchesText(item) {
-  const terms = normalizeSearch(eventSearch?.value).trim().split(/\s+/).filter(Boolean);
-  if (!terms.length) return true;
-  let searchable = eventSearchTextCache.get(item);
-  if (!searchable) {
-    searchable = normalizeSearch([
-      item.title, item.originalTitle, item.description, item.longDescription, item.city,
-      item.venue, ...(item.tags || []), ...(item.detailParagraphs || []),
-      ...(item.program || []).flatMap((day) => day.items || [])
-    ].join(' '));
-    eventSearchTextCache.set(item, searchable);
-  }
-  return terms.every((term) => searchable.includes(term));
-}
-
 function updateFilterCounts() {
-  const searched = allEvents.filter(eventMatchesText);
+  const searched = allEvents;
   document.querySelectorAll('[data-area-filters] [data-area], [data-day-filters] [data-period]').forEach((button) => {
     const area = button.dataset.area;
     const count = searched.filter((item) => area
@@ -615,7 +598,7 @@ function applyAndroidMapLinks() {
 function renderEvents() {
   if (!eventList) return;
   const visible = allEvents.filter((item) =>
-    eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, activePeriod) && eventMatchesText(item)
+    eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, activePeriod)
   ).sort((a, b) => (a.distanceFromTarcentoKm ?? 9999) - (b.distanceFromTarcentoKm ?? 9999));
   eventList.innerHTML = visible.map((item, index) => {
     const days = eventDateLabel(item);
@@ -660,7 +643,7 @@ function renderEvents() {
     eventEmpty.hidden = visible.length !== 0;
     if (!visible.length) {
       const areaLabel = { all: 'le zone selezionate', friuli: 'il Friuli', mare: 'il Mare', austria: 'l’Austria' }[activeArea];
-      eventEmpty.textContent = `Nessun evento trovato per ${areaLabel}, il periodo e le parole cercate. Prova a cambiare un filtro o svuotare la ricerca.`;
+      eventEmpty.textContent = `Nessun evento trovato per ${areaLabel} e il periodo selezionato. Prova a cambiare un filtro.`;
     }
   }
 }
@@ -677,11 +660,6 @@ function bindEventFilters(selector, dataName, onChange) {
 
 bindEventFilters('[data-area-filters] [data-area]', 'area', (value) => { activeArea = value; });
 bindEventFilters('[data-day-filters] [data-period]', 'period', (value) => { activePeriod = value; });
-let eventSearchTimer;
-eventSearch?.addEventListener('input', () => {
-  window.clearTimeout(eventSearchTimer);
-  eventSearchTimer = window.setTimeout(renderEvents, 120);
-});
 
 eventList?.addEventListener('click', (event) => {
   const shareButton = event.target.closest('[data-share-event]');
