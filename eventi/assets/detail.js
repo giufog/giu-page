@@ -2,6 +2,56 @@ const SERVICE_BASE = 'https://giu-page-eventi-update.docile-aspen-8173.chatgpt.s
 const target = document.querySelector('[data-event-detail]');
 const wantedSlug = new URLSearchParams(location.search).get('evento') || '';
 
+const searchToggle = document.querySelector('[data-search-toggle]');
+const searchPanel = document.querySelector('#page-search');
+const searchInput = document.querySelector('#page-search-input');
+const searchPrevious = document.querySelector('[data-search-prev]');
+const searchNext = document.querySelector('[data-search-next]');
+const searchStatus = document.querySelector('.page-search__status');
+let searchMatches = [];
+let searchIndex = -1;
+
+function closeSearch() {
+  if (!searchPanel) return;
+  searchPanel.hidden = true;
+  searchToggle?.setAttribute('aria-expanded', 'false');
+  document.querySelector('.search-result')?.classList.remove('search-result');
+}
+
+function collectSearchResults() {
+  document.querySelector('.search-result')?.classList.remove('search-result');
+  const query = searchInput?.value.trim().toLocaleLowerCase('it') || '';
+  searchIndex = -1;
+  searchMatches = query.length < 2 ? [] : [...target.querySelectorAll('h1, h2, h3, p, li, dt, dd')]
+    .filter(element => element.textContent.toLocaleLowerCase('it').includes(query));
+  if (searchPrevious) searchPrevious.disabled = !searchMatches.length;
+  if (searchNext) searchNext.disabled = !searchMatches.length;
+  if (searchStatus) searchStatus.textContent = query.length < 2 ? 'Scrivi almeno due caratteri.' : searchMatches.length ? `${searchMatches.length} risultati. Usa le frecce per scorrerli.` : 'Nessun risultato.';
+}
+
+function showSearchResult(direction) {
+  if (!searchMatches.length) return;
+  document.querySelector('.search-result')?.classList.remove('search-result');
+  searchIndex = (searchIndex + direction + searchMatches.length) % searchMatches.length;
+  const result = searchMatches[searchIndex];
+  result.classList.add('search-result');
+  result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  if (searchStatus) searchStatus.textContent = `Risultato ${searchIndex + 1} di ${searchMatches.length}.`;
+}
+
+searchToggle?.addEventListener('click', () => {
+  const willOpen = Boolean(searchPanel?.hidden);
+  if (!searchPanel) return;
+  searchPanel.hidden = !willOpen;
+  searchToggle.setAttribute('aria-expanded', String(willOpen));
+  if (willOpen) searchInput?.focus();
+});
+searchInput?.addEventListener('input', collectSearchResults);
+searchPrevious?.addEventListener('click', () => showSearchResult(-1));
+searchNext?.addEventListener('click', () => showSearchResult(1));
+document.addEventListener('giu:close-search', closeSearch);
+document.addEventListener('keydown', event => { if (event.key === 'Escape') closeSearch(); });
+
 function escapeHtml(value = '') {
   return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
 }
@@ -17,29 +67,23 @@ function dateLabel(value) {
 }
 
 function compactDateRange(item) {
-  const occurrences = item.occurrenceDates || [];
-  const start = occurrences[0] || item.startDate?.slice(0, 10);
-  const end = occurrences[occurrences.length - 1] || item.endDate?.slice(0, 10) || start;
+  const start = item.startDate?.slice(0, 10);
+  const end = item.endDate?.slice(0, 10) || start;
   if (!start) return '';
   return start === end ? dateLabel(start) : `da ${dateLabel(start)} a ${dateLabel(end)}`;
 }
 
 function navigationUrl(item) {
   const raw = item.mapsUrl || '';
-  let webUrl = raw;
   try {
     const url = new URL(raw);
-    if (raw.includes('/maps/dir/')) {
-      url.searchParams.set('api', '1');
-      url.searchParams.set('travelmode', 'driving');
-      url.searchParams.set('dir_action', 'navigate');
-      webUrl = url.href;
-    }
-    if (/Android/i.test(navigator.userAgent)) {
-      const destination = url.searchParams.get('destination') || url.searchParams.get('query');
-      if (destination) return `google.navigation:q=${encodeURIComponent(destination)}&mode=d`;
-    }
-    return webUrl;
+    const destination = url.searchParams.get('destination') || url.searchParams.get('query');
+    if (!destination) return raw;
+    const directions = new URL('https://www.google.com/maps/dir/');
+    directions.searchParams.set('api', '1');
+    directions.searchParams.set('destination', destination);
+    directions.searchParams.set('travelmode', 'driving');
+    return directions.href;
   } catch (_) {
     return raw;
   }
@@ -59,7 +103,12 @@ function renderUnavailable(expired = false) {
 }
 
 function renderProgram(item) {
-  return (item.program || []).map(group => `<section class="schedule-day"><h3>${escapeHtml(group.label)}</h3><ul>${(group.items || []).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul></section>`).join('') || '<p>Il programma dettagliato non è ancora disponibile.</p>';
+  return (item.program || []).map(group => {
+    const location = group.location ? `<p class="schedule-location">${escapeHtml(group.location)}</p>` : '';
+    const map = group.mapsUrl ? `<a class="schedule-source" href="${escapeHtml(navigationUrl({mapsUrl:group.mapsUrl}))}" target="_blank" rel="noopener">Indicazioni per questa sede</a>` : '';
+    const source = group.sourceUrl ? `<a class="schedule-source" href="${escapeHtml(group.sourceUrl)}" target="_blank" rel="noopener">Apri il programma alla fonte</a>` : '';
+    return `<section class="schedule-day"><h3>${escapeHtml(group.label)}</h3>${location}<ul>${(group.items || []).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>${map}${source}</section>`;
+  }).join('') || '<p>Il programma dettagliato non è ancora disponibile.</p>';
 }
 
 function renderSources(item) {
@@ -135,7 +184,7 @@ loadData().then(data => {
   const item = (data.events || []).find(event => event.slug === wantedSlug);
   if (item && !eventHasEnded(item)) {
     if (location.search && wantedSlug) history.replaceState(null, '', `${encodeURIComponent(wantedSlug)}/index.html`);
-    document.querySelectorAll('.detail-page .brand, .detail-header-back').forEach(link => { link.href = '../../'; });
+    document.querySelectorAll('.detail-page .brand, .detail-header-back, .detail-back').forEach(link => { link.href = '../../'; });
     render(item);
   }
   else renderUnavailable(Boolean(item));

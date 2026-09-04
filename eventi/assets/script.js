@@ -89,7 +89,7 @@ document.addEventListener('pointerdown', (event) => {
   ) {
     searchPanel.hidden = true;
     searchToggle?.setAttribute('aria-expanded', 'false');
-    clearSearchMarks();
+    clearSearchResult();
   }
 });
 document.addEventListener('keydown', (event) => {
@@ -102,7 +102,6 @@ document.addEventListener('keydown', (event) => {
     if (searchPanel && !searchPanel.hidden) {
       searchPanel.hidden = true;
       searchToggle?.setAttribute('aria-expanded', 'false');
-      clearSearchMarks();
       searchToggle?.focus();
     }
   }
@@ -122,60 +121,19 @@ function clearSearchResult() {
   document.querySelector('.search-result')?.classList.remove('search-result');
 }
 
-function clearSearchMarks() {
-  const parents = new Set();
-  searchMatches.forEach((mark) => {
-    if (!mark.isConnected) return;
-    parents.add(mark.parentNode);
-    mark.replaceWith(document.createTextNode(mark.textContent));
-  });
-  parents.forEach((parent) => parent?.normalize());
-  searchMatches = [];
-  searchIndex = -1;
-}
-
 function collectSearchResults() {
-  const scrollPosition = { x: window.scrollX, y: window.scrollY };
-  clearSearchMarks();
-  activeQuery = searchInput.value.trim();
+  clearSearchResult();
+  activeQuery = searchInput.value.trim().toLocaleLowerCase('it');
+  searchIndex = -1;
   if (activeQuery.length < 2) {
+    searchMatches = [];
     if (searchPrevious) searchPrevious.disabled = true;
     if (searchNext) searchNext.disabled = true;
     searchStatus.textContent = 'Scrivi almeno due caratteri.';
     return;
   }
-  const pattern = new RegExp(activeQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-  const roots = [...document.querySelectorAll('.hero, .article, .event-detail')];
-  const nodes = [];
-  roots.forEach((root) => {
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-      acceptNode(node) {
-        return node.parentElement?.closest('[hidden], script, style, mark, button, summary, input, textarea')
-          ? NodeFilter.FILTER_REJECT
-          : NodeFilter.FILTER_ACCEPT;
-      }
-    });
-    while (walker.nextNode()) nodes.push(walker.currentNode);
-  });
-  nodes.forEach((node) => {
-    if (!pattern.test(node.nodeValue)) return;
-    pattern.lastIndex = 0;
-    const fragment = document.createDocumentFragment();
-    let last = 0;
-    node.nodeValue.replace(pattern, (match, offset) => {
-      fragment.append(document.createTextNode(node.nodeValue.slice(last, offset)));
-      const mark = document.createElement('mark');
-      mark.dataset.pageSearchMark = '';
-      mark.textContent = match;
-      searchMatches.push(mark);
-      fragment.append(mark);
-      last = offset + match.length;
-      return match;
-    });
-    fragment.append(document.createTextNode(node.nodeValue.slice(last)));
-    node.replaceWith(fragment);
-  });
-  window.scrollTo(scrollPosition.x, scrollPosition.y);
+  searchMatches = [...document.querySelectorAll('.article h2, .article h3, .article p, .article li, .article th, .article td, .event-detail h1, .event-detail h2, .event-detail h3, .event-detail p, .event-detail li, .event-detail dt, .event-detail dd')]
+    .filter((element) => element.textContent.toLocaleLowerCase('it').includes(activeQuery));
   if (searchPrevious) searchPrevious.disabled = searchMatches.length === 0;
   if (searchNext) searchNext.disabled = searchMatches.length === 0;
   searchStatus.textContent = searchMatches.length
@@ -186,7 +144,7 @@ function collectSearchResults() {
 }
 
 function showSearchResult(direction) {
-  if (searchInput.value.trim() !== activeQuery) {
+  if (searchInput.value.trim().toLocaleLowerCase('it') !== activeQuery) {
     collectSearchResults();
   }
   if (!searchMatches.length) return;
@@ -208,9 +166,9 @@ searchToggle?.addEventListener('click', () => {
     menu.removeAttribute('open');
   });
   if (willOpen) {
-    searchInput.focus({ preventScroll: true });
+    searchInput.focus();
   } else {
-    clearSearchMarks();
+    clearSearchResult();
   }
 });
 searchInput?.addEventListener('input', collectSearchResults);
@@ -223,10 +181,9 @@ searchInput?.addEventListener('keydown', (event) => {
 searchPrevious?.addEventListener('click', () => showSearchResult(-1));
 searchNext?.addEventListener('click', () => showSearchResult(1));
 document.addEventListener('giu:close-search', () => {
-  if (!searchPanel) return;
-  searchPanel.hidden = true;
+  if (searchPanel) searchPanel.hidden = true;
   searchToggle?.setAttribute('aria-expanded', 'false');
-  clearSearchMarks();
+  clearSearchResult();
 });
 
 function showToast(message) {
@@ -380,9 +337,8 @@ function longDate(value) {
 
 function eventDateLabel(item) {
   if (item.dateLabel) return item.dateLabel;
-  const occurrences = item.occurrenceDates || [];
-  const start = occurrences[0] || item.startDate?.slice(0, 10);
-  const end = occurrences[occurrences.length - 1] || item.endDate?.slice(0, 10) || start;
+  const start = item.startDate?.slice(0, 10);
+  const end = item.endDate?.slice(0, 10) || start;
   if (!start) return '';
   return start === end ? shortDate(start) : `da ${shortDate(start)} a ${shortDate(end)}`;
 }
@@ -520,10 +476,9 @@ function deduplicateEvents(events) {
 }
 
 function updateFilterCounts() {
-  const searched = allEvents;
   document.querySelectorAll('[data-area-filters] [data-area], [data-day-filters] [data-period]').forEach((button) => {
     const area = button.dataset.area;
-    const count = searched.filter((item) => area
+    const count = allEvents.filter((item) => area
       ? eventMatchesArea(item, area) && eventOccursInPeriod(item, activePeriod)
       : eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, button.dataset.period)
     ).length;
@@ -569,27 +524,21 @@ function eventDetailPath(item) {
 
 function eventMapsUrl(item) {
   const raw = item.mapsUrl || '';
-  let webUrl = raw;
   try {
     const url = new URL(raw);
-    if (raw.includes('/maps/dir/')) {
-      url.searchParams.set('api', '1');
-      url.searchParams.set('travelmode', 'driving');
-      url.searchParams.set('dir_action', 'navigate');
-      webUrl = url.href;
-    }
-    if (/Android/i.test(navigator.userAgent)) {
-      const destination = url.searchParams.get('destination') || url.searchParams.get('query');
-      if (destination) return `google.navigation:q=${encodeURIComponent(destination)}&mode=d`;
-    }
-    return webUrl;
+    const destination = url.searchParams.get('destination') || url.searchParams.get('query');
+    if (!destination) return raw;
+    const directions = new URL('https://www.google.com/maps/dir/');
+    directions.searchParams.set('api', '1');
+    directions.searchParams.set('destination', destination);
+    directions.searchParams.set('travelmode', 'driving');
+    return directions.href;
   } catch (_) {
     return raw;
   }
 }
 
 function applyAndroidMapLinks() {
-  if (!/Android/i.test(navigator.userAgent)) return;
   document.querySelectorAll('a[data-map-link]').forEach((link) => {
     link.href = eventMapsUrl({ mapsUrl: link.href });
   });
@@ -643,7 +592,7 @@ function renderEvents() {
     eventEmpty.hidden = visible.length !== 0;
     if (!visible.length) {
       const areaLabel = { all: 'le zone selezionate', friuli: 'il Friuli', mare: 'il Mare', austria: 'l’Austria' }[activeArea];
-      eventEmpty.textContent = `Nessun evento trovato per ${areaLabel} e il periodo selezionato. Prova a cambiare un filtro.`;
+      eventEmpty.textContent = `Nessun evento trovato per ${areaLabel} nel periodo selezionato. Prova a cambiare un filtro.`;
     }
   }
 }
@@ -678,10 +627,16 @@ eventList?.addEventListener('error', (event) => {
 }, true);
 
 let activeEventsDataSignature = '';
+let activeEventsDataTimestamp = 0;
 
 function eventsDataSignature(data) {
   const events = data?.events || [];
   return [data?.generatedAt || '', events.length, events[0]?.slug || '', events[events.length - 1]?.slug || ''].join('|');
+}
+
+function eventsDataTimestamp(data) {
+  const timestamp = Date.parse(data?.generatedAt || '');
+  return Number.isNaN(timestamp) ? 0 : timestamp;
 }
 
 function eventHasEnded(item, now = new Date()) {
@@ -700,6 +655,7 @@ function applyEventsData(data) {
   if (!data?.events) throw new Error('Dati non disponibili');
   allEvents = deduplicateEvents(data.events).filter((item) => !eventHasEnded(item));
   activeEventsDataSignature = eventsDataSignature(data);
+  activeEventsDataTimestamp = eventsDataTimestamp(data);
   configureEventPeriods(data);
   configureFreshness({ ...data, events: allEvents });
   renderEvents();
@@ -716,7 +672,9 @@ if (eventList) {
       return response.json();
     })
     .then((data) => {
-      if (eventsDataSignature(data) !== activeEventsDataSignature) applyEventsData(data);
+      const remoteTimestamp = eventsDataTimestamp(data);
+      if ((!allEvents.length || remoteTimestamp > activeEventsDataTimestamp)
+        && eventsDataSignature(data) !== activeEventsDataSignature) applyEventsData(data);
     })
     .catch(() => {
       if (!allEvents.length) {
