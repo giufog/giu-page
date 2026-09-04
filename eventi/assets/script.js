@@ -195,12 +195,13 @@ async function shareContent(button) {
   const url = configuredUrl ? new URL(configuredUrl, window.location.href).href : (canonical || window.location.href.split('#')[0]);
   const title = button.dataset.shareTitle || document.title;
   const text = button.dataset.shareText || '';
+  const message = [title, text, url].filter(Boolean).join('\n\n');
   try {
     if (navigator.share) {
-      await navigator.share({ title, text, url });
+      await navigator.share({ title, text: message });
       return;
     }
-    await navigator.clipboard.writeText(url);
+    await navigator.clipboard.writeText(message);
     showToast('Link copiato.');
   } catch (error) {
     if (error?.name !== 'AbortError') {
@@ -531,6 +532,24 @@ function eventRating(item) {
   return `<p class="event-rating" aria-label="Valutazione ${value.toFixed(1)} su 5, ${count} recensioni"><span>${stars}</span><b>${value.toFixed(1)}</b><small>${count} recensioni</small></p>`;
 }
 
+function eventDetailPath(item) {
+  return `dettaglio/${encodeURIComponent(item.slug)}/`;
+}
+
+function eventMapsUrl(item) {
+  const raw = item.mapsUrl || '';
+  if (!raw.includes('/maps/dir/')) return raw;
+  try {
+    const url = new URL(raw);
+    url.searchParams.set('api', '1');
+    url.searchParams.set('travelmode', 'driving');
+    url.searchParams.set('dir_action', 'navigate');
+    return url.href;
+  } catch (_) {
+    return raw;
+  }
+}
+
 function renderEvents() {
   if (!eventList) return;
   const visible = allEvents.filter((item) =>
@@ -548,25 +567,27 @@ function renderEvents() {
     ].map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join('');
     const imageCandidates = eventImageCandidates(item);
     const imageUrl = imageCandidates.shift();
-    const image = imageUrl ? `<a class="event-card__media" href="${escapeHtml(item.detailPath)}" aria-label="Apri pagina: ${escapeHtml(item.title)}">
+    const detailPath = eventDetailPath(item);
+    const mapsUrl = eventMapsUrl(item);
+    const image = imageUrl ? `<a class="event-card__media" href="${escapeHtml(detailPath)}" aria-label="Apri pagina: ${escapeHtml(item.title)}">
       <img src="${escapeHtml(imageUrl)}" data-image-fallbacks="${encodeURIComponent(JSON.stringify(imageCandidates))}" alt="${escapeHtml(item.imageAlt || item.title)}" width="640" height="360" loading="${index === 0 ? 'eager' : 'lazy'}" fetchpriority="${index === 0 ? 'high' : 'low'}" decoding="async">
     </a>` : '';
     return `<article class="event-card event-card--${escapeHtml(zone)}" data-searchable>
       <div class="event-card__date"><span>${days}</span>${startTime ? `<span>dalle ${startTime}</span>` : ''}</div>
       ${image}
       <div class="event-card__body">
-        <h3><a href="${escapeHtml(item.detailPath)}">${escapeHtml(item.title)}</a></h3>
+        <h3><a href="${escapeHtml(detailPath)}">${escapeHtml(item.title)}</a></h3>
         ${eventRating(item)}
         <p class="event-card__description">${escapeHtml(item.description)}</p>
-        <a class="event-card__location" href="${escapeHtml(item.mapsUrl)}" target="_blank" rel="noopener" aria-label="Apri su Google Maps: ${escapeHtml(item.locationLabel)}">
+        <a class="event-card__location" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener" aria-label="Apri su Google Maps: ${escapeHtml(item.locationLabel)}">
           <img src="https://api.iconify.design/lucide/map-pin.svg?color=%23173e35" alt="">
           <span>${escapeHtml(item.locationLabel)}</span>
           <b>Apri Maps</b>
         </a>
         <dl class="event-card__info">${information}</dl>
         <div class="event-card__actions">
-          <a class="event-card__button event-card__button--primary" href="${escapeHtml(item.detailPath)}"><img src="https://api.iconify.design/lucide/file-text.svg?color=%23ffffff" alt="">Apri pagina</a>
-          <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(item.detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
+          <a class="event-card__button event-card__button--primary" href="${escapeHtml(detailPath)}"><img src="https://api.iconify.design/lucide/file-text.svg?color=%23ffffff" alt="">Apri pagina</a>
+          <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
         </div>
       </div>
     </article>`;

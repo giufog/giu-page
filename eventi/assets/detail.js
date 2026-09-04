@@ -8,7 +8,7 @@ function escapeHtml(value = '') {
 
 function sourceImages(item) {
   return [...new Set([item.image, item.imageServiceUrl, item.imageRemoteUrl].filter(Boolean))]
-    .map(value => /^https?:/i.test(value) ? value : `../${value.replace(/^\.\//, '')}`);
+    .map(value => /^https?:/i.test(value) ? value : `../../${value.replace(/^\.\//, '')}`);
 }
 
 function dateLabel(value) {
@@ -22,6 +22,20 @@ function compactDateRange(item) {
   const end = occurrences[occurrences.length - 1] || item.endDate?.slice(0, 10) || start;
   if (!start) return '';
   return start === end ? dateLabel(start) : `da ${dateLabel(start)} a ${dateLabel(end)}`;
+}
+
+function navigationUrl(item) {
+  const raw = item.mapsUrl || '';
+  if (!raw.includes('/maps/dir/')) return raw;
+  try {
+    const url = new URL(raw);
+    url.searchParams.set('api', '1');
+    url.searchParams.set('travelmode', 'driving');
+    url.searchParams.set('dir_action', 'navigate');
+    return url.href;
+  } catch (_) {
+    return raw;
+  }
 }
 
 function eventHasEnded(item, now = new Date()) {
@@ -57,6 +71,7 @@ function render(item) {
   const imageCandidates = sourceImages(item);
   const image = imageCandidates.shift();
   const dates = compactDateRange(item);
+  const mapsUrl = navigationUrl(item);
   const original = item.originalTitle ? `<p class="detail-original">Titolo originale: ${escapeHtml(item.originalTitle)}</p>` : '';
   document.title = `${item.title} | Giu Page`;
   document.body.classList.add(`detail-page--${item.zone || 'friuli'}`);
@@ -66,7 +81,7 @@ function render(item) {
       <span class="detail-zone">${escapeHtml(({friuli:'Friuli',mare:'Mare',austria:'Austria'})[item.zone] || item.zone)}</span>
       <p class="detail-date">${escapeHtml(dates)}</p><h1>${escapeHtml(item.title)}</h1>${original}${renderRating(item)}
       <p class="detail-lead">${escapeHtml(item.description)}</p>
-      <div class="detail-actions"><a class="detail-button detail-button--maps" href="${escapeHtml(item.mapsUrl)}" target="_blank" rel="noopener">Indicazioni</a><button class="detail-button detail-button--share" type="button" data-share>Condividi</button></div>
+      <div class="detail-actions"><a class="detail-button detail-button--maps" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener"><img src="https://api.iconify.design/lucide/map-pin.svg?color=%23ffffff" alt="">Indicazioni</a><button class="detail-button detail-button--share" type="button" data-share><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button></div>
     </div>
     <dl class="detail-info" aria-label="Informazioni pratiche">
       <div><dt>Costi e prenotazioni</dt><dd>${escapeHtml(item.admission?.label || 'Costo non indicato')} · ${escapeHtml(item.booking?.label || 'Prenotazione non indicata')}</dd></div>
@@ -79,12 +94,13 @@ function render(item) {
       <section class="detail-section"><p class="eyebrow eyebrow--eventi">IL PROGRAMMA</p><h2>Programma e orari</h2><div class="schedule-list">${renderProgram(item)}</div></section>
       <section class="detail-section"><p class="eyebrow eyebrow--eventi">INFORMAZIONI UTILI</p><h2>Prima di partire</h2><ul class="detail-notes">${(item.practicalNotes || []).map(note => `<li>${escapeHtml(note)}</li>`).join('')}</ul></section>
     </div><aside class="detail-aside">
-      <section class="detail-place"><p class="eyebrow eyebrow--eventi">DOVE</p><h2>Luogo</h2><p>${escapeHtml(item.locationLabel)}</p><a href="${escapeHtml(item.mapsUrl)}" target="_blank" rel="noopener">Apri in Google Maps</a></section>
+      <section class="detail-place"><p class="eyebrow eyebrow--eventi">DOVE</p><h2>Luogo</h2><p>${escapeHtml(item.locationLabel)}</p><a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener">Apri in Google Maps</a></section>
       <section class="detail-sources"><p class="eyebrow eyebrow--eventi">VERIFICA</p><h2>Fonti</h2><ul>${renderSources(item)}</ul></section>
     </aside></div>
-    <footer class="detail-bottom-actions"><a class="detail-button detail-button--back" href="../">Torna agli eventi</a><button class="detail-button detail-button--share" type="button" data-share>Condividi</button></footer>`;
+    <footer class="detail-bottom-actions"><a class="detail-button detail-button--back" href="../../">Torna agli eventi</a><button class="detail-button detail-button--share" type="button" data-share><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button></footer>`;
   target.querySelectorAll('[data-share]').forEach(button => button.addEventListener('click', async () => {
-    try { if (navigator.share) await navigator.share({title:item.title,text:item.description,url:location.href}); else { await navigator.clipboard.writeText(location.href); button.textContent='Link copiato'; } } catch (_) {}
+    const message = [item.title, item.description, location.href].filter(Boolean).join('\n\n');
+    try { if (navigator.share) await navigator.share({title:item.title,text:message}); else { await navigator.clipboard.writeText(message); button.textContent='Link copiato'; } } catch (_) {}
   }));
   target.querySelector('.event-detail__media img')?.addEventListener('error', event => {
     const failedImage = event.currentTarget;
@@ -110,6 +126,10 @@ async function loadData() {
 
 loadData().then(data => {
   const item = (data.events || []).find(event => event.slug === wantedSlug);
-  if (item && !eventHasEnded(item)) render(item);
+  if (item && !eventHasEnded(item)) {
+    if (location.search && wantedSlug) history.replaceState(null, '', `${encodeURIComponent(wantedSlug)}/`);
+    document.querySelectorAll('.detail-page .brand, .detail-header-back, .detail-back').forEach(link => { link.href = '../../'; });
+    render(item);
+  }
   else renderUnavailable(Boolean(item));
 });
