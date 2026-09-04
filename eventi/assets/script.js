@@ -198,7 +198,7 @@ async function shareContent(button) {
   const message = [title, text, url].filter(Boolean).join('\n\n');
   try {
     if (navigator.share) {
-      await navigator.share({ title, text: message });
+      await navigator.share({ title, text: message, url });
       return;
     }
     await navigator.clipboard.writeText(message);

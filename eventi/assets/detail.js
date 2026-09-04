@@ -107,7 +107,7 @@ function render(item) {
     <footer class="detail-bottom-actions"><a class="detail-button detail-button--back" href="../../">Torna agli eventi</a><button class="detail-button detail-button--share" type="button" data-share><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button></footer>`;
   target.querySelectorAll('[data-share]').forEach(button => button.addEventListener('click', async () => {
     const message = [item.title, item.description, location.href].filter(Boolean).join('\n\n');
-    try { if (navigator.share) await navigator.share({title:item.title,text:message}); else { await navigator.clipboard.writeText(message); button.textContent='Link copiato'; } } catch (_) {}
+    try { if (navigator.share) await navigator.share({title:item.title,text:message,url:location.href}); else { await navigator.clipboard.writeText(message); button.textContent='Link copiato'; } } catch (_) {}
   }));
   target.querySelector('.event-detail__media img')?.addEventListener('error', event => {
     const failedImage = event.currentTarget;
