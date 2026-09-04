@@ -26,13 +26,20 @@ function compactDateRange(item) {
 
 function navigationUrl(item) {
   const raw = item.mapsUrl || '';
-  if (!raw.includes('/maps/dir/')) return raw;
+  let webUrl = raw;
   try {
     const url = new URL(raw);
-    url.searchParams.set('api', '1');
-    url.searchParams.set('travelmode', 'driving');
-    url.searchParams.set('dir_action', 'navigate');
-    return url.href;
+    if (raw.includes('/maps/dir/')) {
+      url.searchParams.set('api', '1');
+      url.searchParams.set('travelmode', 'driving');
+      url.searchParams.set('dir_action', 'navigate');
+      webUrl = url.href;
+    }
+    if (/Android/i.test(navigator.userAgent)) {
+      const destination = url.searchParams.get('destination') || url.searchParams.get('query');
+      if (destination) return `google.navigation:q=${encodeURIComponent(destination)}&mode=d`;
+    }
+    return webUrl;
   } catch (_) {
     return raw;
   }
