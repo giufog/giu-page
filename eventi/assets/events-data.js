@@ -94,7 +94,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/agosto-e-settembre-a-villa-dora-2026-05-06/",
+      "detailPath": "dettaglio/agosto-e-settembre-a-villa-dora-2026-05-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:19+00:00"
@@ -175,7 +175,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/le-giornate-della-luce-stelle-ritratti-nel-cinema-di-stefano-c-montesi-2026-06-0/",
+      "detailPath": "dettaglio/le-giornate-della-luce-stelle-ritratti-nel-cinema-di-stefano-c-montesi-2026-06-0/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:27+00:00"
@@ -263,7 +263,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/16a-ed-concerti-al-castello-2026-2026-06-14/",
+      "detailPath": "dettaglio/16a-ed-concerti-al-castello-2026-2026-06-14/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:29+00:00"
@@ -342,7 +342,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/musica-in-villa-2026-2026-07-09/",
+      "detailPath": "dettaglio/musica-in-villa-2026-2026-07-09/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:26+00:00"
@@ -423,7 +423,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/radici-festival-2026-2026-07-17/",
+      "detailPath": "dettaglio/radici-festival-2026-2026-07-17/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:26+00:00"
@@ -506,7 +506,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/753a-sagra-dei-osei-2026-08-02/",
+      "detailPath": "dettaglio/753a-sagra-dei-osei-2026-08-02/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:24+00:00"
@@ -589,7 +589,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/terra-acqua-2026-08-29/",
+      "detailPath": "dettaglio/terra-acqua-2026-08-29/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:20+00:00"
@@ -674,7 +674,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-anno-30-suoni-e-sentimenti-2026-09-01/",
+      "detailPath": "dettaglio/l-arlecchino-errante-anno-30-suoni-e-sentimenti-2026-09-01/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:28+00:00"
@@ -755,7 +755,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-segni-di-resistenza-2026-09-02/",
+      "detailPath": "dettaglio/in-visible-cities-2026-segni-di-resistenza-2026-09-02/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:28+00:00"
@@ -836,7 +836,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/home-per-tornare-assieme-nella-casa-del-mondo-2026-09-03/",
+      "detailPath": "dettaglio/home-per-tornare-assieme-nella-casa-del-mondo-2026-09-03/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:28+00:00"
@@ -916,7 +916,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/lignano-noir-2026-festival-omaggio-a-giorgio-scerbanenco-2026-09-03/",
+      "detailPath": "dettaglio/lignano-noir-2026-festival-omaggio-a-giorgio-scerbanenco-2026-09-03/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:26+00:00"
@@ -1004,7 +1004,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/29-simposio-internazionale-di-scultura-su-pietre-fvg-2026-09-04/",
+      "detailPath": "dettaglio/29-simposio-internazionale-di-scultura-su-pietre-fvg-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:28+00:00"
@@ -1085,7 +1085,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/2a-ed-mercato-europeo-2026-09-04/",
+      "detailPath": "dettaglio/2a-ed-mercato-europeo-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:27+00:00"
@@ -1166,7 +1166,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/hello-summer-fest-2026-2026-09-04/",
+      "detailPath": "dettaglio/hello-summer-fest-2026-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:28+00:00"
@@ -1249,7 +1249,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-angels-orders-the-rilke-project-2026-09-04/",
+      "detailPath": "dettaglio/in-visible-cities-2026-angels-orders-the-rilke-project-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:20+00:00"
@@ -1329,7 +1329,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-not-to-scale-gradisca-d-isonzo-2026-09-04/",
+      "detailPath": "dettaglio/in-visible-cities-2026-not-to-scale-gradisca-d-isonzo-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:26+00:00"
@@ -1417,7 +1417,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-pas-moi-2026-09-04/",
+      "detailPath": "dettaglio/in-visible-cities-2026-pas-moi-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:20+00:00",
@@ -1506,7 +1506,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-indian-beat-2026-09-04/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-indian-beat-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:19+00:00",
@@ -1590,7 +1590,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-open-workshop-il-corpo-del-suono-2026-09-04/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-open-workshop-il-corpo-del-suono-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:20+00:00"
@@ -1671,7 +1671,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/radici-festival-2026-campionati-mondiali-fisarmonica-diatonica-e-organetto-2026/",
+      "detailPath": "dettaglio/radici-festival-2026-campionati-mondiali-fisarmonica-diatonica-e-organetto-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:27+00:00"
@@ -1752,7 +1752,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/ridopoco-il-festival-che-ti-serviva-2026-09-04/",
+      "detailPath": "dettaglio/ridopoco-il-festival-che-ti-serviva-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:27+00:00"
@@ -1833,7 +1833,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/terra-acqua-terra-acqua-e-stelle-2026-09-04/",
+      "detailPath": "dettaglio/terra-acqua-terra-acqua-e-stelle-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:20+00:00"
@@ -1916,7 +1916,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/carniarmonie-opera-musical-55-secondi-2026-09-05/",
+      "detailPath": "dettaglio/carniarmonie-opera-musical-55-secondi-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:21+00:00"
@@ -1998,7 +1998,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/carniarmonie-tra-originali-e-trascrizioni-2026-09-05/",
+      "detailPath": "dettaglio/carniarmonie-tra-originali-e-trascrizioni-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:21+00:00"
@@ -2085,7 +2085,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/festival-diritti-in-festa-2026-09-05/",
+      "detailPath": "dettaglio/festival-diritti-in-festa-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:23+00:00"
@@ -2164,7 +2164,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/festival-in-contaminato-acquatrekking-sul-torrente-resia-2026-09-05/",
+      "detailPath": "dettaglio/festival-in-contaminato-acquatrekking-sul-torrente-resia-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:23+00:00"
@@ -2250,7 +2250,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/festival-in-contaminato-concerto-d-archi-2026-09-05/",
+      "detailPath": "dettaglio/festival-in-contaminato-concerto-d-archi-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:28+00:00",
@@ -2341,7 +2341,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/friuli-concertante-2026-09-05/",
+      "detailPath": "dettaglio/friuli-concertante-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:21+00:00",
@@ -2425,7 +2425,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-dad-or-alive-2026-09-05/",
+      "detailPath": "dettaglio/in-visible-cities-2026-dad-or-alive-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:23+00:00"
@@ -2513,7 +2513,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-macelleria-cosmica-2026-09-05/",
+      "detailPath": "dettaglio/in-visible-cities-2026-macelleria-cosmica-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:22+00:00",
@@ -2594,7 +2594,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-what-will-we-do-without-exile-2026-09-05/",
+      "detailPath": "dettaglio/in-visible-cities-2026-what-will-we-do-without-exile-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:28+00:00"
@@ -2677,7 +2677,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-hamlet-puppet-2026-09-05/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-hamlet-puppet-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:22+00:00"
@@ -2760,7 +2760,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-le-vie-di-carta-sul-viaggio-2026-09-05/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-le-vie-di-carta-sul-viaggio-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:22+00:00"
@@ -2843,7 +2843,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-movic-movie-is-music-2026-09-05/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-movic-movie-is-music-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:22+00:00"
@@ -2926,7 +2926,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-open-workshop-introduzione-al-teatro-danza-indiano-2026/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-open-workshop-introduzione-al-teatro-danza-indiano-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:23+00:00"
@@ -3008,7 +3008,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/premio-scerbanenco-lignano-cerimonia-di-premiazione-dei-vincitori-2026-09-05/",
+      "detailPath": "dettaglio/premio-scerbanenco-lignano-cerimonia-di-premiazione-dei-vincitori-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:21+00:00"
@@ -3090,7 +3090,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/terra-acqua-tagliamento-terra-e-acque-2026-09-05/",
+      "detailPath": "dettaglio/terra-acqua-tagliamento-terra-e-acque-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:22+00:00"
@@ -3170,7 +3170,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/underground-giovani-e-storie-in-festival-2026-09-05/",
+      "detailPath": "dettaglio/underground-giovani-e-storie-in-festival-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:23+00:00"
@@ -3251,7 +3251,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/concerto-omar-pedrini-dai-timoria-ad-oggi-2026-09-06/",
+      "detailPath": "dettaglio/concerto-omar-pedrini-dai-timoria-ad-oggi-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:24+00:00"
@@ -3330,7 +3330,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/festa-delluva-2026-09-06/",
+      "detailPath": "dettaglio/festa-delluva-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:26+00:00"
@@ -3415,7 +3415,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/friuli-concertante-2026-09-06/",
+      "detailPath": "dettaglio/friuli-concertante-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:24+00:00",
@@ -3499,7 +3499,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-asteroide-2026-09-06/",
+      "detailPath": "dettaglio/in-visible-cities-2026-asteroide-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:25+00:00"
@@ -3582,7 +3582,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/in-visible-cities-2026-i-offer-myself-to-you-2026-09-06/",
+      "detailPath": "dettaglio/in-visible-cities-2026-i-offer-myself-to-you-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:25+00:00"
@@ -3664,7 +3664,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-anime-leggere-2026-09-06/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-anime-leggere-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:25+00:00"
@@ -3747,7 +3747,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-india-passion-2026-09-06/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-india-passion-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:24+00:00"
@@ -3831,7 +3831,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-la-stella-dell-arlecchino-errante-2026-09-06/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-la-stella-dell-arlecchino-errante-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:24+00:00"
@@ -3914,7 +3914,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/l-arlecchino-errante-30-open-workshop-corpi-in-ascolto-2026-09-06/",
+      "detailPath": "dettaglio/l-arlecchino-errante-30-open-workshop-corpi-in-ascolto-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:25+00:00"
@@ -3995,7 +3995,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/terra-acqua-lettura-scenica-2026-09-06/",
+      "detailPath": "dettaglio/terra-acqua-lettura-scenica-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:25+00:00"
@@ -4075,7 +4075,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/v-festival-di-cas-aupa-2026-09-06/",
+      "detailPath": "dettaglio/v-festival-di-cas-aupa-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:25+00:00"
@@ -4179,7 +4179,7 @@ window.EVENTS_DATA = {
           "role": "Programma dalla locandina"
         }
       ],
-      "detailPath": "dettaglio/festa-settembre-collerumiz/",
+      "detailPath": "dettaglio/festa-settembre-collerumiz/index.html",
       "occurrenceDates": [
         "2026-09-04",
         "2026-09-05",
@@ -4283,7 +4283,7 @@ window.EVENTS_DATA = {
           "role": "Fonte Pro Loco"
         }
       ],
-      "detailPath": "dettaglio/antighe-sagre-campanelis-nimis/",
+      "detailPath": "dettaglio/antighe-sagre-campanelis-nimis/index.html",
       "occurrenceDates": [
         "2026-09-05",
         "2026-09-06"
@@ -4397,7 +4397,7 @@ window.EVENTS_DATA = {
           "role": "Programma dalla locandina"
         }
       ],
-      "detailPath": "dettaglio/sagre-dal-frico-fraelacco/",
+      "detailPath": "dettaglio/sagre-dal-frico-fraelacco/index.html",
       "occurrenceDates": [
         "2026-09-04",
         "2026-09-05",
@@ -4506,7 +4506,7 @@ window.EVENTS_DATA = {
           "role": "Riscontro territoriale"
         }
       ],
-      "detailPath": "dettaglio/madone-di-setembar-buja/",
+      "detailPath": "dettaglio/madone-di-setembar-buja/index.html",
       "occurrenceDates": [
         "2026-09-04",
         "2026-09-05",
@@ -4646,7 +4646,7 @@ window.EVENTS_DATA = {
           "role": "Prezzi e condizioni; orario di accesso discordante"
         }
       ],
-      "detailPath": "dettaglio/festival-oriente-udine-2026/",
+      "detailPath": "dettaglio/festival-oriente-udine-2026/index.html",
       "programNote": "Apertura 10:00–20:00 secondo PromoTurismoFVG. La biglietteria online per il 5 settembre indica invece 09:00: l’orario di accesso va confermato. L’elenco seguente presenta alcuni spettacoli del programma generale, senza attribuirli a una giornata o a un orario non verificati.",
       "zones": [
         "friuli"
@@ -4729,7 +4729,7 @@ window.EVENTS_DATA = {
           "role": "Fonte territoriale"
         }
       ],
-      "detailPath": "dettaglio/corsa-per-una-stella-gemona/",
+      "detailPath": "dettaglio/corsa-per-una-stella-gemona/index.html",
       "occurrenceDates": [
         "2026-09-05"
       ],
@@ -4817,7 +4817,7 @@ window.EVENTS_DATA = {
           "role": "Fonte regionale"
         }
       ],
-      "detailPath": "dettaglio/mercatino-pulci-libro-gemona/",
+      "detailPath": "dettaglio/mercatino-pulci-libro-gemona/index.html",
       "occurrenceDates": [
         "2026-09-06"
       ],
@@ -4914,7 +4914,7 @@ window.EVENTS_DATA = {
           "role": "Prenotazione"
         }
       ],
-      "detailPath": "dettaglio/castello-bambini-colloredo/",
+      "detailPath": "dettaglio/castello-bambini-colloredo/index.html",
       "occurrenceDates": [
         "2026-09-06"
       ],
@@ -5021,7 +5021,7 @@ window.EVENTS_DATA = {
           "role": "Riscontro del programma"
         }
       ],
-      "detailPath": "dettaglio/sagra-patate-godia/",
+      "detailPath": "dettaglio/sagra-patate-godia/index.html",
       "occurrenceDates": [
         "2026-09-04",
         "2026-09-05",
@@ -5123,7 +5123,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/festival-artisti-strada-udine/",
+      "detailPath": "dettaglio/festival-artisti-strada-udine/index.html",
       "occurrenceDates": [
         "2026-09-04",
         "2026-09-05"
@@ -5216,7 +5216,7 @@ window.EVENTS_DATA = {
           "role": "Museo e mostra"
         }
       ],
-      "detailPath": "dettaglio/quando-udine-cambio-bandiera/",
+      "detailPath": "dettaglio/quando-udine-cambio-bandiera/index.html",
       "occurrenceDates": [
         "2026-09-06"
       ],
@@ -5321,7 +5321,7 @@ window.EVENTS_DATA = {
           "role": "Programma ufficiale"
         }
       ],
-      "detailPath": "dettaglio/friuli-doc-concerti-2026/",
+      "detailPath": "dettaglio/friuli-doc-concerti-2026/index.html",
       "zones": [
         "friuli"
       ]
@@ -5426,7 +5426,7 @@ window.EVENTS_DATA = {
           "role": "Programma completo"
         }
       ],
-      "detailPath": "dettaglio/palma-alle-armi-2026/",
+      "detailPath": "dettaglio/palma-alle-armi-2026/index.html",
       "occurrenceDates": [
         "2026-09-04",
         "2026-09-05",
@@ -5545,7 +5545,7 @@ window.EVENTS_DATA = {
           "role": "Prezzi e prevendita"
         }
       ],
-      "detailPath": "dettaglio/medioevo-valvasone-2026/",
+      "detailPath": "dettaglio/medioevo-valvasone-2026/index.html",
       "occurrenceDates": [
         "2026-09-04",
         "2026-09-05",
@@ -5635,7 +5635,7 @@ window.EVENTS_DATA = {
           "role": "Organizzatore"
         }
       ],
-      "detailPath": "dettaglio/benny-benassi-droni-pordenone/",
+      "detailPath": "dettaglio/benny-benassi-droni-pordenone/index.html",
       "occurrenceDates": [
         "2026-09-04"
       ],
@@ -5736,7 +5736,7 @@ window.EVENTS_DATA = {
           "role": "Contesto e inaugurazione"
         }
       ],
-      "detailPath": "dettaglio/open-day-battirame/",
+      "detailPath": "dettaglio/open-day-battirame/index.html",
       "occurrenceDates": [
         "2026-09-05",
         "2026-09-06"
@@ -5866,7 +5866,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/pordenone-pensa-giallo/",
+      "detailPath": "dettaglio/pordenone-pensa-giallo/index.html",
       "occurrenceDates": [
         "2026-09-05",
         "2026-09-06"
@@ -5959,7 +5959,7 @@ window.EVENTS_DATA = {
           "role": "Sito dell’organizzatore"
         }
       ],
-      "detailPath": "dettaglio/pordenone-pedala-2026/",
+      "detailPath": "dettaglio/pordenone-pedala-2026/index.html",
       "occurrenceDates": [
         "2026-09-06"
       ],
@@ -6056,7 +6056,7 @@ window.EVENTS_DATA = {
           "role": "Organizzatore"
         }
       ],
-      "detailPath": "dettaglio/david-morales-pordenone-2026/",
+      "detailPath": "dettaglio/david-morales-pordenone-2026/index.html",
       "zones": [
         "friuli"
       ]
@@ -6141,7 +6141,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/fresco-programma-estivo-di-attivita-e-laboratori-nel-nuovo-rifugio-climatico-202/",
+      "detailPath": "dettaglio/fresco-programma-estivo-di-attivita-e-laboratori-nel-nuovo-rifugio-climatico-202/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:32+00:00"
@@ -6232,7 +6232,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/musike-windband-2026-2026-07-18/",
+      "detailPath": "dettaglio/musike-windband-2026-2026-07-18/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:32+00:00"
@@ -6319,7 +6319,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/cinema-d-estate-rassegna-di-cinema-all-aperto-2026-08-18/",
+      "detailPath": "dettaglio/cinema-d-estate-rassegna-di-cinema-all-aperto-2026-08-18/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:30+00:00"
@@ -6404,7 +6404,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/yoga-meditazione-colazione-2026-08-29/",
+      "detailPath": "dettaglio/yoga-meditazione-colazione-2026-08-29/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:31+00:00"
@@ -6495,7 +6495,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/lignano-noir-2026-2026-09-03/",
+      "detailPath": "dettaglio/lignano-noir-2026-2026-09-03/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:30+00:00"
@@ -6576,7 +6576,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi-2026-09-04/",
+      "detailPath": "dettaglio/laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:30+00:00"
@@ -6673,7 +6673,7 @@ window.EVENTS_DATA = {
           "role": "Portale turistico locale"
         }
       ],
-      "detailPath": "dettaglio/fiera-europea-lignano-2026/",
+      "detailPath": "dettaglio/fiera-europea-lignano-2026/index.html",
       "zones": [
         "friuli",
         "mare"
@@ -6758,7 +6758,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/premio-scerbanenco-12-edizione-2026-09-05/",
+      "detailPath": "dettaglio/premio-scerbanenco-12-edizione-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:31+00:00"
@@ -6904,7 +6904,7 @@ window.EVENTS_DATA = {
           "role": "Portale turistico"
         }
       ],
-      "detailPath": "dettaglio/esterno-verde-oltre-lignano-2026/",
+      "detailPath": "dettaglio/esterno-verde-oltre-lignano-2026/index.html",
       "programNote": "Le attività con prenotazione sono indicate con (P). I ritrovi completi sono nel programma ufficiale collegato sotto.",
       "zones": [
         "friuli",
@@ -7001,7 +7001,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/punta-faro-cup-2026/",
+      "detailPath": "dettaglio/punta-faro-cup-2026/index.html",
       "zones": [
         "friuli",
         "mare"
@@ -7097,7 +7097,7 @@ window.EVENTS_DATA = {
           "role": "Conferma automatica"
         }
       ],
-      "detailPath": "dettaglio/dinner-show-lignano-2026/",
+      "detailPath": "dettaglio/dinner-show-lignano-2026/index.html",
       "zones": [
         "friuli",
         "mare"
@@ -7185,7 +7185,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/moda-d-autore-2026-2026-09-10/",
+      "detailPath": "dettaglio/moda-d-autore-2026-2026-09-10/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:32+00:00"
@@ -7269,7 +7269,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12/",
+      "detailPath": "dettaglio/50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:33+00:00"
@@ -7354,7 +7354,7 @@ window.EVENTS_DATA = {
           "role": "Orari dettagliati"
         }
       ],
-      "detailPath": "dettaglio/armonie-natura-glauco-venier/",
+      "detailPath": "dettaglio/armonie-natura-glauco-venier/index.html",
       "endDate": "2026-09-05T18:30:00+02:00",
       "occurrenceDates": [
         "2026-09-05"
@@ -7447,7 +7447,7 @@ window.EVENTS_DATA = {
           "role": "Fonte turistica ufficiale"
         }
       ],
-      "detailPath": "dettaglio/after-work-market-villach-2026/",
+      "detailPath": "dettaglio/after-work-market-villach-2026/index.html",
       "originalTitle": "After Work Market | 70er & 80er",
       "sourceLanguage": "de",
       "translationLanguage": "it",
@@ -7529,7 +7529,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/friuli-concertante-2026-09-04/",
+      "detailPath": "dettaglio/friuli-concertante-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:19+00:00"
@@ -7620,7 +7620,7 @@ window.EVENTS_DATA = {
           "role": "Pagina ufficiale"
         }
       ],
-      "detailPath": "dettaglio/septemberfest-bibione-2026/",
+      "detailPath": "dettaglio/septemberfest-bibione-2026/index.html",
       "zones": [
         "mare"
       ]
@@ -7709,7 +7709,7 @@ window.EVENTS_DATA = {
           "role": "Scheda ufficiale"
         }
       ],
-      "detailPath": "dettaglio/tour-moto-faaker-see-2026/",
+      "detailPath": "dettaglio/tour-moto-faaker-see-2026/index.html",
       "originalTitle": "Geführte Motorradtour – European Bike Week 2026",
       "sourceLanguage": "de",
       "translationLanguage": "it",
@@ -7829,7 +7829,7 @@ window.EVENTS_DATA = {
           "role": "Calendario turistico ufficiale"
         }
       ],
-      "detailPath": "dettaglio/european-bike-week-2026/",
+      "detailPath": "dettaglio/european-bike-week-2026/index.html",
       "originalTitle": "European Bike Week 2026",
       "sourceLanguage": "en",
       "translationLanguage": "it",
@@ -7921,7 +7921,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/mercato-contadino-al-faaker-see-2026-05-07/",
+      "detailPath": "dettaglio/mercato-contadino-al-faaker-see-2026-05-07/index.html",
       "sourceLanguage": "de",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:33+00:00",
@@ -8019,7 +8019,7 @@ window.EVENTS_DATA = {
           "role": "Iscrizioni"
         }
       ],
-      "detailPath": "dettaglio/woerthersee-swim-2026/",
+      "detailPath": "dettaglio/woerthersee-swim-2026/index.html",
       "originalTitle": "WÖRTHERSEE SWIM Austria",
       "sourceLanguage": "de",
       "translationLanguage": "it",
@@ -8235,7 +8235,7 @@ window.EVENTS_DATA = {
           "role": "Portale turistico e immagine"
         }
       ],
-      "detailPath": "dettaglio/luna-nel-pozzo-caorle-2026/",
+      "detailPath": "dettaglio/luna-nel-pozzo-caorle-2026/index.html",
       "programNote": "Repliche ordinate per orario, con piazza e durata. Il programma di venerdì, sabato e domenica è stato ricostruito dalle schede ufficiali degli spettacoli; gli appuntamenti dei primi due giorni sono una selezione. Gli avvisi meteo del festival possono modificare le repliche.",
       "zones": [
         "mare"
@@ -8315,7 +8315,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/finale-campionato-italiano-beach-volley-2026-09-04/",
+      "detailPath": "dettaglio/finale-campionato-italiano-beach-volley-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:33+00:00"
@@ -8394,7 +8394,7 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/corsa-solidale-la-caorlina-2026-09-06/",
+      "detailPath": "dettaglio/corsa-solidale-la-caorlina-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-04T07:57:33+00:00"
@@ -8492,7 +8492,7 @@ window.EVENTS_DATA = {
           "role": "Sito turistico ufficiale"
         }
       ],
-      "detailPath": "dettaglio/cucina-alpe-adria-klagenfurt-2026/",
+      "detailPath": "dettaglio/cucina-alpe-adria-klagenfurt-2026/index.html",
       "originalTitle": "Tage der Alpen-Adria Küche",
       "sourceLanguage": "de",
       "translationLanguage": "it",

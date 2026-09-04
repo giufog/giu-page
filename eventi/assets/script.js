@@ -533,7 +533,7 @@ function eventRating(item) {
 }
 
 function eventDetailPath(item) {
-  return `dettaglio/${encodeURIComponent(item.slug)}/`;
+  return `dettaglio/${encodeURIComponent(item.slug)}/index.html`;
 }
 
 function eventMapsUrl(item) {
