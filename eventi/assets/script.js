@@ -614,9 +614,17 @@ function eventsDataSignature(data) {
   return [data?.generatedAt || '', events.length, events[0]?.slug || '', events[events.length - 1]?.slug || ''].join('|');
 }
 
+function eventHasEnded(item, now = new Date()) {
+  const rawEnd = item.endDate || item.startDate;
+  if (!rawEnd) return false;
+  const hasExplicitEndTime = Boolean(item.endDate && item.endDate.length > 10);
+  const end = new Date(hasExplicitEndTime ? rawEnd : `${rawEnd.slice(0, 10)}T23:59:59`);
+  return !Number.isNaN(end.getTime()) && end < now;
+}
+
 function applyEventsData(data) {
   if (!data?.events) throw new Error('Dati non disponibili');
-  allEvents = deduplicateEvents(data.events);
+  allEvents = deduplicateEvents(data.events).filter((item) => !eventHasEnded(item));
   activeEventsDataSignature = eventsDataSignature(data);
   configureEventPeriods(data);
   configureFreshness({ ...data, events: allEvents });

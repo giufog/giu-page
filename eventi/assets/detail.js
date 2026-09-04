@@ -26,6 +26,19 @@ function compactDateRange(item) {
   return start === end ? dateLabel(start) : `da ${dateLabel(start)} a ${dateLabel(end)}`;
 }
 
+function eventHasEnded(item, now = new Date()) {
+  const rawEnd = item.endDate || item.startDate;
+  if (!rawEnd) return false;
+  const hasExplicitEndTime = Boolean(item.endDate && item.endDate.length > 10);
+  const end = new Date(hasExplicitEndTime ? rawEnd : `${rawEnd.slice(0, 10)}T23:59:59`);
+  return !Number.isNaN(end.getTime()) && end < now;
+}
+
+function renderUnavailable(expired = false) {
+  document.title = `${expired ? 'Evento concluso' : 'Evento non disponibile'} | Giu Page`;
+  target.innerHTML = `<section class="empty-state"><h1>${expired ? 'Evento concluso' : 'Evento non trovato'}</h1><p>${expired ? 'La scheda è stata rimossa perché l’evento è terminato.' : 'La scheda potrebbe essere stata rimossa o aggiornata.'}</p><a href="../">Torna agli eventi</a></section>`;
+}
+
 function renderProgram(item) {
   return (item.program || []).map(group => `<section class="schedule-day"><h3>${escapeHtml(group.label)}</h3><ul>${(group.items || []).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul></section>`).join('') || '<p>Il programma dettagliato non è ancora disponibile.</p>';
 }
@@ -88,6 +101,6 @@ async function loadData() {
 
 loadData().then(data => {
   const item = (data.events || []).find(event => event.slug === wantedSlug);
-  if (item) render(item);
-  else target.innerHTML = '<section class="empty-state"><h1>Evento non trovato</h1><p>La scheda potrebbe essere scaduta o aggiornata.</p><a href="../">Torna agli eventi</a></section>';
+  if (item && !eventHasEnded(item)) render(item);
+  else renderUnavailable(Boolean(item));
 });
