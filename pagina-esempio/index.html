@@ -41,19 +41,7 @@
         <button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" aria-controls="page-search" data-search-toggle>
           <img src="https://api.iconify.design/lucide/search.svg?color=%23ffffff" alt="">
         </button>
-        <details class="menu">
-          <summary class="icon-button" aria-label="Apri indice della pagina">
-            <img src="https://api.iconify.design/lucide/list.svg?color=%23ffffff" alt="">
-          </summary>
-          <nav class="menu__panel" aria-label="Indice della pagina">
-            <a href="#argomenti"><span>01</span>Argomenti della Home</a>
-            <a href="#principi"><span>02</span>Principi visivi</a>
-            <a href="#navigazione"><span>03</span>Navigazione e menu app</a>
-            <a href="#componenti"><span>04</span>Pulsanti e controlli</a>
-            <a href="#contenuti"><span>05</span>Schede, dati e immagini</a>
-            <a href="#fonti"><span>06</span>Fonti e riferimenti</a>
-          </nav>
-        </details>
+        <span data-app-menu-slot></span>
       </div>
     </div>
     <div class="page-search" id="page-search" hidden>
@@ -132,7 +120,7 @@
             <p class="eyebrow eyebrow--green">03 · NAVIGAZIONE</p>
             <h2 id="titolo-navigazione">Menu pubblico e menu applicazione</h2>
           </div>
-          <div class="notice notice--info"><b>Sul web condiviso.</b> La singola pagina mostra soltanto ricerca e indice dei propri contenuti, senza collegamenti alle altre pagine.</div>
+          <div class="notice notice--info"><b>Sul web condiviso.</b> La barra mostra soltanto la ricerca, senza indice o collegamenti alle altre pagine.</div>
           <p>Nell’app compare invece un unico menu a due livelli. All’apertura è tutto chiuso; selezionando un argomento si chiudono gli altri e appaiono le pagine contenute.</p>
           <div class="menu-demo" data-menu-demo aria-label="Esempio di menu applicazione a due livelli">
             <details><summary><span><img src="https://api.iconify.design/lucide/cooking-pot.svg?color=%23c86432" alt="">Cucina</span><small>1</small></summary><nav><a href="#contenuti">Copette al mascarpone</a></nav></details>
@@ -197,7 +185,7 @@
             <p class="eyebrow eyebrow--green">06 · TRASPARENZA</p>
             <h2 id="titolo-fonti">Fonti e riferimenti</h2>
           </div>
-          <p>Le fonti stanno alla fine della pagina: non interrompono la lettura, ma restano sempre raggiungibili dall’indice. Su cellulare sono chiuse per non allungare inutilmente la pagina; chi vuole le apre.</p>
+          <p>Le fonti stanno alla fine della pagina e non interrompono la lettura. Su cellulare sono chiuse per non allungare inutilmente la pagina; chi vuole le apre.</p>
           <details class="sources">
             <summary><span><b>Fonti consultate</b><small>3 riferimenti · verificati il 25 luglio 2026</small></span><img class="chevron" src="https://api.iconify.design/lucide/chevron-down.svg?color=%23217a46" alt=""></summary>
             <ol class="source-list">
@@ -218,7 +206,7 @@
   <dialog id="dialog-elimina"><form method="dialog"><h2>Eliminare questo elemento?</h2><p>Questo è un esempio della conferma obbligatoria per un’azione irreversibile.</p><div class="dialog-actions"><button class="button button--secondary" value="annulla">Annulla</button><button class="button button--danger" value="conferma">Sì, elimina</button></div></form></dialog>
   <div class="toast" role="status" aria-live="polite"></div>
   <script src="script.js?v=20260801-9"></script>
-  <script src="../assets/page-theme.js?v=20260801-19" defer></script>
-<script src="../assets/app-shell.js?v=20260731-5" defer></script>
+  <script src="../assets/page-theme.js?v=20260904-1" defer></script>
+<script src="../assets/app-shell.js?v=20260904-1" defer></script>
 </body>
 </html>

@@ -41,7 +41,6 @@
         <span class="brand" aria-label="Giu Page"><img src="${new URL('assets/gp-icon.svg', siteRoot)}" alt=""><span>Giu Page</span></span>
         <div class="header-actions">
           <button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" data-gp-search-toggle><img src="${icon('search', '#ffffff')}" alt=""></button>
-          <details class="page-index-menu"><summary class="icon-button" aria-label="Indice della pagina"><img src="${icon('list', '#ffffff')}" alt=""></summary><nav class="gp-index-panel" aria-label="Indice della pagina"></nav></details>
           <span data-app-menu-slot></span>
         </div>
       </div>`;
@@ -99,37 +98,15 @@
     if (!actions) {
       actions = document.createElement('div');
       actions.className = 'header-actions';
-      actions.innerHTML = `<button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" data-gp-search-toggle><img src="${icon('search', '#ffffff')}" alt=""></button><details class="page-index-menu"><summary class="icon-button" aria-label="Indice della pagina"><img src="${icon('list', '#ffffff')}" alt=""></summary><nav class="gp-index-panel" aria-label="Indice della pagina"></nav></details><span data-app-menu-slot></span>`;
+      actions.innerHTML = `<button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" data-gp-search-toggle><img src="${icon('search', '#ffffff')}" alt=""></button><span data-app-menu-slot></span>`;
       header.querySelectorAll(':scope > .site-header__inner > [data-share], :scope > .site-header__inner > .share-button').forEach(button => button.remove());
       (header.querySelector('.site-header__inner') || header).append(actions);
     }
-    header.querySelectorAll('details.menu').forEach(menu => menu.classList.add('page-index-menu'));
     if (!actions.querySelector('[data-app-menu-slot]') && !actions.querySelector('.app-menu')) {
       const slot = document.createElement('span');
       slot.setAttribute('data-app-menu-slot', '');
       actions.append(slot);
     }
-  }
-
-  function buildIndex() {
-    const panel = document.querySelector('.gp-index-panel');
-    if (!panel) return;
-    const sections = [...document.querySelectorAll('main section[id]')].filter(section => section.id !== 'inizio');
-    sections.slice(0, 18).forEach(section => {
-      const title = section.querySelector('h2, h1, h3');
-      if (!title) return;
-      const link = document.createElement('a');
-      link.href = `#${section.id}`;
-      link.textContent = title.textContent.trim();
-      link.addEventListener('click', event => {
-        event.preventDefault();
-        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        history.replaceState(null, '', `#${section.id}`);
-        link.closest('details')?.removeAttribute('open');
-      });
-      panel.append(link);
-    });
-    document.querySelectorAll('main > nav[aria-label*="Indice"], main .internal-nav').forEach(nav => nav.classList.add('gp-inline-index'));
   }
 
   function addProgress(header) {
@@ -279,6 +256,7 @@
         toggle?.focus();
       }
     });
+    document.addEventListener('giu:close-search', closeSearch);
   }
 
   function enhanceSections() {
@@ -421,7 +399,6 @@
     const header = buildHeader();
     ensureSlots(header);
     ensureStandardHero(header);
-    buildIndex();
     ensureSearch(header);
     addProgress(header);
     enhanceSections();

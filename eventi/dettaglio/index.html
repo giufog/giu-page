@@ -7,14 +7,31 @@
   <meta name="color-scheme" content="light">
   <link rel="icon" href="../assets/gp-icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/style.css?v=20260904-14">
+  <link rel="stylesheet" href="../../assets/app-shell.css?v=20260904-1">
   <title>Dettaglio evento | Giu Page</title>
 </head>
 <body class="detail-page">
   <a class="skip-link" href="#contenuto">Salta al contenuto</a>
-  <header class="site-header"><div class="site-header__inner">
-    <a class="brand" href="../"><img class="brand__mark" src="../assets/gp-icon.svg" width="34" height="34" alt=""><span>Giu Page · Eventi</span></a>
-    <a class="detail-header-back" href="../">Tutti gli eventi</a>
-  </div></header>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <span class="brand" aria-label="Giu Page"><img class="brand__mark" src="../assets/gp-icon.svg" width="34" height="34" alt=""><span>Giu Page</span></span>
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" aria-controls="page-search" data-search-toggle><img src="https://api.iconify.design/lucide/search.svg?color=%23ffffff" alt=""></button>
+        <span data-app-menu-slot></span>
+      </div>
+    </div>
+    <div class="page-search" id="page-search" hidden>
+      <div class="page-search__inner">
+        <label for="page-search-input">Cerca nella pagina</label>
+        <div class="page-search__control">
+          <input id="page-search-input" type="search" placeholder="Scrivi almeno due caratteri" autocomplete="off">
+          <button type="button" data-search-prev aria-label="Risultato precedente" disabled><img src="https://api.iconify.design/lucide/arrow-up.svg?color=%23173e35" alt=""></button>
+          <button type="button" data-search-next aria-label="Risultato successivo" disabled><img src="https://api.iconify.design/lucide/arrow-down.svg?color=%23173e35" alt=""></button>
+        </div>
+        <p class="page-search__status" role="status" aria-live="polite">Scrivi almeno due caratteri.</p>
+      </div>
+    </div>
+  </header>
   <main id="contenuto" class="detail-shell">
     <a class="detail-back" href="../">← Torna all’elenco</a>
     <article class="event-detail" data-event-detail><p class="loading-state">Caricamento del dettaglio…</p></article>
@@ -22,6 +39,8 @@
   <footer class="site-footer"><div><b>Giu Page · Eventi</b><span>Informazioni raccolte dalle fonti indicate.</span></div></footer>
   <div class="toast" role="status" aria-live="polite"></div>
   <script src="../assets/events-data.js?v=20260904-10"></script>
+  <script src="../assets/script.js?v=20260904-19"></script>
   <script src="../assets/detail.js?v=20260904-14"></script>
+  <script src="../../assets/app-shell.js?v=20260904-1"></script>
 </body>
 </html>

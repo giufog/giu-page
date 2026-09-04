@@ -89,7 +89,7 @@ document.addEventListener('pointerdown', (event) => {
   ) {
     searchPanel.hidden = true;
     searchToggle?.setAttribute('aria-expanded', 'false');
-    clearSearchResult();
+    clearSearchMarks();
   }
 });
 document.addEventListener('keydown', (event) => {
@@ -102,6 +102,7 @@ document.addEventListener('keydown', (event) => {
     if (searchPanel && !searchPanel.hidden) {
       searchPanel.hidden = true;
       searchToggle?.setAttribute('aria-expanded', 'false');
+      clearSearchMarks();
       searchToggle?.focus();
     }
   }
@@ -121,19 +122,57 @@ function clearSearchResult() {
   document.querySelector('.search-result')?.classList.remove('search-result');
 }
 
-function collectSearchResults() {
-  clearSearchResult();
-  activeQuery = searchInput.value.trim().toLocaleLowerCase('it');
+function clearSearchMarks() {
+  searchMatches.forEach((mark) => {
+    if (!mark.isConnected) return;
+    mark.replaceWith(document.createTextNode(mark.textContent));
+  });
+  searchMatches = [];
   searchIndex = -1;
+}
+
+function collectSearchResults() {
+  const scrollPosition = { x: window.scrollX, y: window.scrollY };
+  clearSearchMarks();
+  activeQuery = searchInput.value.trim();
   if (activeQuery.length < 2) {
-    searchMatches = [];
     if (searchPrevious) searchPrevious.disabled = true;
     if (searchNext) searchNext.disabled = true;
     searchStatus.textContent = 'Scrivi almeno due caratteri.';
     return;
   }
-  searchMatches = [...document.querySelectorAll('.article h2, .article h3, .article p, .article li, .article th, .article td')]
-    .filter((element) => element.textContent.toLocaleLowerCase('it').includes(activeQuery));
+  const pattern = new RegExp(activeQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+  const roots = [...document.querySelectorAll('.hero, .article, .event-detail')];
+  const nodes = [];
+  roots.forEach((root) => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        return node.parentElement?.closest('[hidden], script, style, mark, button, summary, input, textarea')
+          ? NodeFilter.FILTER_REJECT
+          : NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+  });
+  nodes.forEach((node) => {
+    if (!pattern.test(node.nodeValue)) return;
+    pattern.lastIndex = 0;
+    const fragment = document.createDocumentFragment();
+    let last = 0;
+    node.nodeValue.replace(pattern, (match, offset) => {
+      fragment.append(document.createTextNode(node.nodeValue.slice(last, offset)));
+      const mark = document.createElement('mark');
+      mark.dataset.pageSearchMark = '';
+      mark.textContent = match;
+      searchMatches.push(mark);
+      fragment.append(mark);
+      last = offset + match.length;
+      return match;
+    });
+    fragment.append(document.createTextNode(node.nodeValue.slice(last)));
+    node.replaceWith(fragment);
+  });
+  window.scrollTo(scrollPosition.x, scrollPosition.y);
   if (searchPrevious) searchPrevious.disabled = searchMatches.length === 0;
   if (searchNext) searchNext.disabled = searchMatches.length === 0;
   searchStatus.textContent = searchMatches.length
@@ -144,7 +183,7 @@ function collectSearchResults() {
 }
 
 function showSearchResult(direction) {
-  if (searchInput.value.trim().toLocaleLowerCase('it') !== activeQuery) {
+  if (searchInput.value.trim() !== activeQuery) {
     collectSearchResults();
   }
   if (!searchMatches.length) return;
@@ -166,9 +205,9 @@ searchToggle?.addEventListener('click', () => {
     menu.removeAttribute('open');
   });
   if (willOpen) {
-    searchInput.focus();
+    searchInput.focus({ preventScroll: true });
   } else {
-    clearSearchResult();
+    clearSearchMarks();
   }
 });
 searchInput?.addEventListener('input', collectSearchResults);
@@ -180,6 +219,12 @@ searchInput?.addEventListener('keydown', (event) => {
 });
 searchPrevious?.addEventListener('click', () => showSearchResult(-1));
 searchNext?.addEventListener('click', () => showSearchResult(1));
+document.addEventListener('giu:close-search', () => {
+  if (!searchPanel) return;
+  searchPanel.hidden = true;
+  searchToggle?.setAttribute('aria-expanded', 'false');
+  clearSearchMarks();
+});
 
 function showToast(message) {
   if (!toast) return;

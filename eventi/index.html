@@ -24,6 +24,7 @@
   <link rel="icon" href="assets/gp-icon.svg" type="image/svg+xml">
   <title>Eventi dal lunedì 31 agosto a domenica 13 settembre | Giu Page</title>
   <link rel="stylesheet" href="assets/style.css?v=20260904-14">
+  <link rel="stylesheet" href="../assets/app-shell.css?v=20260904-1">
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Salta al contenuto</a>
@@ -38,16 +39,7 @@
         <button class="icon-button" type="button" aria-label="Cerca nella pagina" aria-expanded="false" aria-controls="page-search" data-search-toggle>
           <img src="https://api.iconify.design/lucide/search.svg?color=%23ffffff" alt="">
         </button>
-        <details class="menu">
-          <summary class="icon-button" aria-label="Apri indice della pagina">
-            <img src="https://api.iconify.design/lucide/list.svg?color=%23ffffff" alt="">
-          </summary>
-          <nav class="menu__panel" aria-label="Indice della pagina">
-            <a href="#eventi"><span>01</span>Eventi trovati</a>
-            <a href="#criteri"><span>02</span>Come sono scelti</a>
-            <a href="#fonti"><span>03</span>Fonti consultate</a>
-          </nav>
-        </details>
+        <span data-app-menu-slot></span>
       </div>
     </div>
     <div class="page-search" id="page-search" hidden>
@@ -179,6 +171,7 @@
   <button class="back-to-top" type="button" data-to-top aria-label="Torna all'inizio della pagina" title="Torna all'inizio"><img src="https://api.iconify.design/lucide/arrow-up.svg?color=%23173e35" alt=""></button>
   <div class="toast" role="status" aria-live="polite"></div>
   <script src="assets/events-data.js?v=20260904-10"></script>
-  <script src="assets/script.js?v=20260904-17"></script>
+  <script src="assets/script.js?v=20260904-19"></script>
+  <script src="../assets/app-shell.js?v=20260904-1"></script>
 </body>
 </html>

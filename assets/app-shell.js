@@ -27,6 +27,16 @@
     panel.querySelectorAll('.app-menu__submenu').forEach(list => { list.hidden = true; });
   }
 
+  function closeSearchPanels() {
+    document.querySelectorAll('.gp-search, .page-search, .home-search').forEach(panel => {
+      panel.hidden = true;
+    });
+    document.querySelectorAll('[data-gp-search-toggle], [data-search-toggle]').forEach(button => {
+      button.setAttribute('aria-expanded', 'false');
+    });
+    document.dispatchEvent(new CustomEvent('giu:close-search'));
+  }
+
   function buildMenu(pages) {
     const slot = document.querySelector('[data-app-menu-slot]') || document.querySelector('.header-actions') || document.querySelector('.site-header__inner');
     if (!slot || document.querySelector('.app-menu')) return false;
@@ -69,7 +79,14 @@
     else slot.append(menu);
 
     menu.addEventListener('toggle', () => {
-      if (!menu.open) closeCategories(panel);
+      if (menu.open) closeSearchPanels();
+      else closeCategories(panel);
+    });
+
+    document.addEventListener('click', event => {
+      if (!event.target.closest('[data-gp-search-toggle], [data-search-toggle]')) return;
+      closeMenu(menu);
+      closeCategories(panel);
     });
 
     document.addEventListener('pointerdown', event => {
