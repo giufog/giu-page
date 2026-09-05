@@ -115,7 +115,19 @@ h1 { max-width: 17ch; margin: 0; font-size: clamp(2.25rem, 8vw, 4.35rem); line-h
 summary { cursor: pointer; }
 .sources summary { display: flex; align-items: center; justify-content: space-between; min-height: 54px; padding: 14px 17px; font-weight: 800; }
 .summary-meta, .sources small { color: var(--muted); font-size: .79rem; font-weight: 600; }
-.search-result { outline: 3px solid rgb(33 122 70 / 34%); outline-offset: 5px; border-radius: 4px; scroll-margin-top: 150px; }
+.search-highlight {
+  padding: 0 .08em;
+  border-radius: .18em;
+  color: inherit;
+  background: #ffe975;
+  box-shadow: 0 0 0 1px rgb(129 86 10 / 18%);
+  scroll-margin-block: 170px;
+}
+.search-highlight--active {
+  color: #241700;
+  background: #ffb82e;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #217a46;
+}
 
 .token-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 .token { display: grid; grid-template-columns: 36px 1fr; column-gap: 10px; align-items: center; padding: 10px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); }

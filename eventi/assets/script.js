@@ -89,7 +89,8 @@ document.addEventListener('pointerdown', (event) => {
   ) {
     searchPanel.hidden = true;
     searchToggle?.setAttribute('aria-expanded', 'false');
-    clearSearchResult();
+    clearSearchHighlights();
+    activeQuery = '';
   }
 });
 document.addEventListener('keydown', (event) => {
@@ -103,6 +104,8 @@ document.addEventListener('keydown', (event) => {
       searchPanel.hidden = true;
       searchToggle?.setAttribute('aria-expanded', 'false');
       searchToggle?.focus();
+      clearSearchHighlights();
+      activeQuery = '';
     }
   }
 });
@@ -117,45 +120,102 @@ let searchMatches = [];
 let searchIndex = -1;
 let activeQuery = '';
 
-function clearSearchResult() {
-  document.querySelector('.search-result')?.classList.remove('search-result');
+function clearSearchHighlights() {
+  const parents = new Set();
+  document.querySelectorAll('mark.search-highlight').forEach((mark) => {
+    parents.add(mark.parentNode);
+    mark.replaceWith(document.createTextNode(mark.textContent || ''));
+  });
+  parents.forEach((parent) => parent?.normalize());
+  searchMatches = [];
+  searchIndex = -1;
 }
 
 function collectSearchResults() {
-  clearSearchResult();
-  activeQuery = searchInput.value.trim().toLocaleLowerCase('it');
-  searchIndex = -1;
+  clearSearchHighlights();
+  activeQuery = searchInput?.value.trim().toLocaleLowerCase('it') || '';
   if (activeQuery.length < 2) {
-    searchMatches = [];
     if (searchPrevious) searchPrevious.disabled = true;
     if (searchNext) searchNext.disabled = true;
-    searchStatus.textContent = 'Scrivi almeno due caratteri.';
+    if (searchStatus) searchStatus.textContent = 'Scrivi almeno due caratteri.';
     return;
   }
-  searchMatches = [...document.querySelectorAll('.article h2, .article h3, .article p, .article li, .article th, .article td, .event-detail h1, .event-detail h2, .event-detail h3, .event-detail p, .event-detail li, .event-detail dt, .event-detail dd')]
-    .filter((element) => element.textContent.toLocaleLowerCase('it').includes(activeQuery));
+
+  const root = document.querySelector('#contenuto');
+  if (!root) return;
+  const excluded = 'script, style, noscript, input, textarea, select, option, button, svg, mark.search-highlight, [hidden], [aria-hidden="true"]';
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      if (!node.nodeValue?.trim()) return NodeFilter.FILTER_REJECT;
+      const parent = node.parentElement;
+      return parent && !parent.closest(excluded) && node.nodeValue.toLocaleLowerCase('it').includes(activeQuery)
+        ? NodeFilter.FILTER_ACCEPT
+        : NodeFilter.FILTER_REJECT;
+    }
+  });
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+  textNodes.forEach((node) => {
+    const text = node.nodeValue;
+    const normalized = text.toLocaleLowerCase('it');
+    const fragment = document.createDocumentFragment();
+    let cursor = 0;
+    let foundAt = normalized.indexOf(activeQuery, cursor);
+    while (foundAt !== -1) {
+      if (foundAt > cursor) fragment.append(document.createTextNode(text.slice(cursor, foundAt)));
+      const highlight = document.createElement('mark');
+      highlight.className = 'search-highlight';
+      highlight.textContent = text.slice(foundAt, foundAt + activeQuery.length);
+      fragment.append(highlight);
+      cursor = foundAt + activeQuery.length;
+      foundAt = normalized.indexOf(activeQuery, cursor);
+    }
+    if (cursor < text.length) fragment.append(document.createTextNode(text.slice(cursor)));
+    node.replaceWith(fragment);
+  });
+
+  searchMatches = [...root.querySelectorAll('mark.search-highlight')];
   if (searchPrevious) searchPrevious.disabled = searchMatches.length === 0;
   if (searchNext) searchNext.disabled = searchMatches.length === 0;
-  searchStatus.textContent = searchMatches.length
-    ? searchMatches.length === 1
-      ? '1 risultato. Usa le frecce per raggiungerlo.'
-      : `${searchMatches.length} risultati. Usa le frecce per scorrerli.`
-    : 'Nessun risultato.';
+  if (!searchStatus) return;
+  if (!searchMatches.length) {
+    searchStatus.textContent = 'Nessun risultato.';
+    return;
+  }
+  searchIndex = 0;
+  activateSearchResult(false);
 }
 
-function showSearchResult(direction) {
-  if (searchInput.value.trim().toLocaleLowerCase('it') !== activeQuery) {
+function revealSearchResult(result) {
+  let details = result.closest('details');
+  while (details) {
+    details.open = true;
+    details = details.parentElement?.closest('details');
+  }
+}
+
+function activateSearchResult(shouldScroll = true) {
+  searchMatches.forEach((match, index) => {
+    match.classList.toggle('search-highlight--active', index === searchIndex);
+  });
+  const result = searchMatches[searchIndex];
+  if (!result) return;
+  revealSearchResult(result);
+  if (searchStatus) searchStatus.textContent = `Risultato ${searchIndex + 1} di ${searchMatches.length}.`;
+  if (shouldScroll) {
+    requestAnimationFrame(() => result.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' }));
+  }
+}
+
+function showSearchResult(direction, { closeKeyboard = false } = {}) {
+  if ((searchInput?.value.trim().toLocaleLowerCase('it') || '') !== activeQuery) {
     collectSearchResults();
   }
   if (!searchMatches.length) return;
-  clearSearchResult();
-  searchIndex = searchIndex < 0
-    ? direction < 0 ? searchMatches.length - 1 : 0
-    : (searchIndex + direction + searchMatches.length) % searchMatches.length;
-  const result = searchMatches[searchIndex];
-  result.classList.add('search-result');
-  result.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  searchStatus.textContent = `Risultato ${searchIndex + 1} di ${searchMatches.length}.`;
+  if (closeKeyboard) searchInput?.blur();
+  searchIndex = (searchIndex + direction + searchMatches.length) % searchMatches.length;
+  activateSearchResult();
 }
 
 searchToggle?.addEventListener('click', () => {
@@ -168,7 +228,8 @@ searchToggle?.addEventListener('click', () => {
   if (willOpen) {
     searchInput.focus();
   } else {
-    clearSearchResult();
+    clearSearchHighlights();
+    activeQuery = '';
   }
 });
 searchInput?.addEventListener('input', collectSearchResults);
@@ -178,12 +239,13 @@ searchInput?.addEventListener('keydown', (event) => {
     showSearchResult(event.shiftKey ? -1 : 1);
   }
 });
-searchPrevious?.addEventListener('click', () => showSearchResult(-1));
-searchNext?.addEventListener('click', () => showSearchResult(1));
+searchPrevious?.addEventListener('click', () => showSearchResult(-1, { closeKeyboard: true }));
+searchNext?.addEventListener('click', () => showSearchResult(1, { closeKeyboard: true }));
 document.addEventListener('giu:close-search', () => {
   if (searchPanel) searchPanel.hidden = true;
   searchToggle?.setAttribute('aria-expanded', 'false');
-  clearSearchResult();
+  clearSearchHighlights();
+  activeQuery = '';
 });
 
 function showToast(message) {
@@ -620,6 +682,7 @@ function renderEvents() {
       eventEmpty.textContent = `Nessun evento trovato per ${areaLabel} nel periodo selezionato. Prova a cambiare un filtro.`;
     }
   }
+  if (activeQuery.length >= 2 && searchInput) collectSearchResults();
 }
 
 function bindEventFilters(selector, dataName, onChange) {

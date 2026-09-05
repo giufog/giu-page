@@ -10,33 +10,97 @@ const searchNext = document.querySelector('[data-search-next]');
 const searchStatus = document.querySelector('.page-search__status');
 let searchMatches = [];
 let searchIndex = -1;
+let activeQuery = '';
 
 function closeSearch() {
   if (!searchPanel) return;
   searchPanel.hidden = true;
   searchToggle?.setAttribute('aria-expanded', 'false');
-  document.querySelector('.search-result')?.classList.remove('search-result');
+  clearSearchHighlights();
+  activeQuery = '';
+}
+
+function clearSearchHighlights() {
+  const parents = new Set();
+  document.querySelectorAll('mark.search-highlight').forEach((mark) => {
+    parents.add(mark.parentNode);
+    mark.replaceWith(document.createTextNode(mark.textContent || ''));
+  });
+  parents.forEach((parent) => parent?.normalize());
+  searchMatches = [];
+  searchIndex = -1;
 }
 
 function collectSearchResults() {
-  document.querySelector('.search-result')?.classList.remove('search-result');
-  const query = searchInput?.value.trim().toLocaleLowerCase('it') || '';
-  searchIndex = -1;
-  searchMatches = query.length < 2 ? [] : [...target.querySelectorAll('h1, h2, h3, p, li, dt, dd')]
-    .filter(element => element.textContent.toLocaleLowerCase('it').includes(query));
+  clearSearchHighlights();
+  activeQuery = searchInput?.value.trim().toLocaleLowerCase('it') || '';
+  if (activeQuery.length >= 2) {
+    const excluded = 'script, style, noscript, input, textarea, select, option, button, svg, mark.search-highlight, [hidden], [aria-hidden="true"]';
+    const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        if (!node.nodeValue?.trim()) return NodeFilter.FILTER_REJECT;
+        const parent = node.parentElement;
+        return parent && !parent.closest(excluded) && node.nodeValue.toLocaleLowerCase('it').includes(activeQuery)
+          ? NodeFilter.FILTER_ACCEPT
+          : NodeFilter.FILTER_REJECT;
+      }
+    });
+    const textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+    textNodes.forEach((node) => {
+      const text = node.nodeValue;
+      const normalized = text.toLocaleLowerCase('it');
+      const fragment = document.createDocumentFragment();
+      let cursor = 0;
+      let foundAt = normalized.indexOf(activeQuery, cursor);
+      while (foundAt !== -1) {
+        if (foundAt > cursor) fragment.append(document.createTextNode(text.slice(cursor, foundAt)));
+        const highlight = document.createElement('mark');
+        highlight.className = 'search-highlight';
+        highlight.textContent = text.slice(foundAt, foundAt + activeQuery.length);
+        fragment.append(highlight);
+        cursor = foundAt + activeQuery.length;
+        foundAt = normalized.indexOf(activeQuery, cursor);
+      }
+      if (cursor < text.length) fragment.append(document.createTextNode(text.slice(cursor)));
+      node.replaceWith(fragment);
+    });
+    searchMatches = [...target.querySelectorAll('mark.search-highlight')];
+  }
   if (searchPrevious) searchPrevious.disabled = !searchMatches.length;
   if (searchNext) searchNext.disabled = !searchMatches.length;
-  if (searchStatus) searchStatus.textContent = query.length < 2 ? 'Scrivi almeno due caratteri.' : searchMatches.length ? `${searchMatches.length} risultati. Usa le frecce per scorrerli.` : 'Nessun risultato.';
+  if (!searchStatus) return;
+  if (activeQuery.length < 2) searchStatus.textContent = 'Scrivi almeno due caratteri.';
+  else if (!searchMatches.length) searchStatus.textContent = 'Nessun risultato.';
+  else {
+    searchIndex = 0;
+    activateSearchResult(false);
+  }
 }
 
-function showSearchResult(direction) {
-  if (!searchMatches.length) return;
-  document.querySelector('.search-result')?.classList.remove('search-result');
-  searchIndex = (searchIndex + direction + searchMatches.length) % searchMatches.length;
+function revealSearchResult(result) {
+  let details = result.closest('details');
+  while (details) {
+    details.open = true;
+    details = details.parentElement?.closest('details');
+  }
+}
+
+function activateSearchResult(shouldScroll = true) {
+  searchMatches.forEach((match, index) => match.classList.toggle('search-highlight--active', index === searchIndex));
   const result = searchMatches[searchIndex];
-  result.classList.add('search-result');
-  result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  if (!result) return;
+  revealSearchResult(result);
   if (searchStatus) searchStatus.textContent = `Risultato ${searchIndex + 1} di ${searchMatches.length}.`;
+  if (shouldScroll) requestAnimationFrame(() => result.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' }));
+}
+
+function showSearchResult(direction, { closeKeyboard = false } = {}) {
+  if ((searchInput?.value.trim().toLocaleLowerCase('it') || '') !== activeQuery) collectSearchResults();
+  if (!searchMatches.length) return;
+  if (closeKeyboard) searchInput?.blur();
+  searchIndex = (searchIndex + direction + searchMatches.length) % searchMatches.length;
+  activateSearchResult();
 }
 
 searchToggle?.addEventListener('click', () => {
@@ -47,8 +111,14 @@ searchToggle?.addEventListener('click', () => {
   if (willOpen) searchInput?.focus();
 });
 searchInput?.addEventListener('input', collectSearchResults);
-searchPrevious?.addEventListener('click', () => showSearchResult(-1));
-searchNext?.addEventListener('click', () => showSearchResult(1));
+searchInput?.addEventListener('keydown', event => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    showSearchResult(event.shiftKey ? -1 : 1);
+  }
+});
+searchPrevious?.addEventListener('click', () => showSearchResult(-1, { closeKeyboard: true }));
+searchNext?.addEventListener('click', () => showSearchResult(1, { closeKeyboard: true }));
 document.addEventListener('giu:close-search', closeSearch);
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeSearch(); });
 
@@ -199,6 +269,7 @@ function render(item) {
       failedImage.src = next;
     } else failedImage.closest('.event-detail__media')?.remove();
   });
+  if (activeQuery.length >= 2 && searchInput) collectSearchResults();
 }
 
 async function loadData() {
