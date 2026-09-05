@@ -61,6 +61,7 @@
     });
     panel.append(home);
 
+    let settingsItem = null;
     if (typeof native.openSettings === 'function') {
       const settings = document.createElement('section');
       settings.className = 'app-menu__category';
@@ -84,6 +85,7 @@
         submenu.hidden = open;
       });
       panel.append(settings);
+      settingsItem = settings;
     }
 
     const status = document.createElement('p');
@@ -120,7 +122,7 @@
           submenu.hidden = false;
         }
       });
-      panel.append(item);
+      panel.insertBefore(item, settingsItem);
     });
     }).catch(() => {
       status.textContent = 'Argomenti non disponibili. Usa Ricarica per riprovare.';
