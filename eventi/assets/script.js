@@ -538,9 +538,23 @@ function eventMapsUrl(item) {
   }
 }
 
+function androidMapsIntentUrl(webUrl) {
+  try {
+    const url = new URL(webUrl);
+    if (url.protocol !== 'https:' || !url.hostname.endsWith('google.com')) return webUrl;
+    return `intent://${url.host}${url.pathname}${url.search}#Intent;scheme=https;package=com.google.android.apps.maps;S.browser_fallback_url=${encodeURIComponent(webUrl)};end`;
+  } catch (_) {
+    return webUrl;
+  }
+}
+
 function applyAndroidMapLinks() {
+  if (!/Android/i.test(navigator.userAgent)) return;
   document.querySelectorAll('a[data-map-link]').forEach((link) => {
-    link.href = eventMapsUrl({ mapsUrl: link.href });
+    const webUrl = link.dataset.webMapsUrl || eventMapsUrl({ mapsUrl: link.href });
+    link.dataset.webMapsUrl = webUrl;
+    link.href = androidMapsIntentUrl(webUrl);
+    link.removeAttribute('target');
   });
 }
 
@@ -573,7 +587,7 @@ function renderEvents() {
         <h3><a href="${escapeHtml(detailPath)}">${escapeHtml(item.title)}</a></h3>
         ${eventRating(item)}
         <p class="event-card__description">${escapeHtml(item.description)}</p>
-        <a class="event-card__location" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener" aria-label="Apri su Google Maps: ${escapeHtml(item.locationLabel)}">
+        <a class="event-card__location" href="${escapeHtml(mapsUrl)}" data-map-link target="_blank" rel="noopener" aria-label="Apri su Google Maps: ${escapeHtml(item.locationLabel)}">
           <img src="https://api.iconify.design/lucide/map-pin.svg?color=%23173e35" alt="">
           <span>${escapeHtml(item.locationLabel)}</span>
           <b>Apri Maps</b>
@@ -586,6 +600,7 @@ function renderEvents() {
       </div>
     </article>`;
   }).join('');
+  applyAndroidMapLinks();
   if (eventCount) eventCount.textContent = `${visible.length} ${visible.length === 1 ? 'evento mostrato' : 'eventi mostrati'}`;
   updateFilterCounts();
   if (eventEmpty) {

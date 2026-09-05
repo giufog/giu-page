@@ -384,7 +384,7 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
   .detail-bottom-actions { display: grid; grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 620px) {
-  .detail-page .site-header__inner { gap: 8px; }
+  .detail-page .site-header__inner { gap: 8px; padding-right: 68px; }
   .detail-page .brand { min-width: 0; }
   .detail-page .brand span { overflow: hidden; font-size: .88rem; text-overflow: ellipsis; white-space: nowrap; }
   .detail-header-back { flex: 0 0 auto; min-height: 36px; padding: .38rem .55rem; font-size: .76rem; }

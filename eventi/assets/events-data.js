@@ -1,6 +1,6 @@
 window.EVENTS_DATA = {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-04T18:07:58+00:00",
+  "generatedAt": "2026-09-05T14:35:26+00:00",
   "weekend": {
     "from": "2026-09-04",
     "to": "2026-09-13"
@@ -108,7 +108,6 @@ window.EVENTS_DATA = {
       ],
       "detailPath": "dettaglio/festa-settembre-collerumiz/index.html",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -326,7 +325,6 @@ window.EVENTS_DATA = {
       ],
       "detailPath": "dettaglio/sagre-dal-frico-fraelacco/index.html",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -435,7 +433,6 @@ window.EVENTS_DATA = {
       ],
       "detailPath": "dettaglio/madone-di-setembar-buja/index.html",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -764,7 +761,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-06-14",
       "endDate": "2026-10-16",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -849,7 +845,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/16a-ed-concerti-al-castello-2026-2026-06-14/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:53+00:00"
+      "checkedAt": "2026-09-05T14:35:20+00:00"
     },
     {
       "title": "Underground - giovani e storie in festival",
@@ -932,7 +928,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/underground-giovani-e-storie-in-festival-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:48+00:00"
+      "checkedAt": "2026-09-05T14:35:15+00:00"
     },
     {
       "title": "Friuli DOC 2026",
@@ -1046,7 +1042,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/friuli-doc-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:58+00:00",
+      "checkedAt": "2026-09-05T14:35:26+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
     },
     {
@@ -1240,7 +1236,6 @@ window.EVENTS_DATA = {
       ],
       "detailPath": "dettaglio/sagra-patate-godia/index.html",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -1331,18 +1326,12 @@ window.EVENTS_DATA = {
         },
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/festival-internazionale-degli-artisti-di-strada-499580",
-          "role": "Conferma automatica"
-        },
-        {
-          "name": "PromoTurismoFVG",
           "url": "https://www.turismofvg.it/eventi/festival-internazionale-degli-artisti-di-strada-499581",
           "role": "Conferma automatica"
         }
       ],
       "detailPath": "dettaglio/festival-artisti-strada-udine/index.html",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05"
       ],
       "weatherPlan": "Nessuna indicazione specifica pubblicata.",
@@ -1354,7 +1343,7 @@ window.EVENTS_DATA = {
       "zones": [
         "friuli"
       ],
-      "checkedAt": "2026-09-04T18:07:46+00:00",
+      "checkedAt": "2026-09-05T14:35:13+00:00",
       "sourceReachable": true
     },
     {
@@ -1453,7 +1442,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-04T21:00:00+02:00",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -1531,14 +1519,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/hello-summer-fest-2026-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:52+00:00"
+      "checkedAt": "2026-09-05T14:35:19+00:00"
     },
     {
       "title": "Friuli Concertante 2026",
       "startDate": "2026-06-23",
       "endDate": "2026-09-13",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -1551,9 +1538,9 @@ window.EVENTS_DATA = {
       ],
       "days": [],
       "area": "friuli",
-      "city": "Artegna, Arta Terme, Paluzza, Verzegnis, Tolmezzo, Zuglio",
+      "city": "Artegna, Paluzza, Verzegnis, Tolmezzo, Zuglio",
       "venue": "Più sedi",
-      "description": "Un’unica manifestazione con 7 appuntamenti raccolti e ordinati nel programma completo.",
+      "description": "Un’unica manifestazione con 6 appuntamenti raccolti e ordinati nel programma completo.",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -1578,7 +1565,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 37,
       "slug": "friuli-concertante-2026",
-      "longDescription": "Un’unica manifestazione con 7 appuntamenti raccolti e ordinati nel programma completo.",
+      "longDescription": "Un’unica manifestazione con 6 appuntamenti raccolti e ordinati nel programma completo.",
       "detailParagraphs": [
         "Ai mulini / Duo Estroverso Il Festival amici della musica FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
         "02.08.26 DOMENICA ore 06.00 Concerto all’Alba - Prato San Martino - Duo Salvador-Goch (vn e va)",
@@ -1587,13 +1574,13 @@ window.EVENTS_DATA = {
         "raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale,",
         "coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra,",
         "e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo.",
-        "PIEDIM 04.09.26 VENERDÌ ore 21.00 Chiesa del Sacro Cuore / Coro di Piedim / Trio ‘Classic and more’ (fl , fg, pf)",
-        "FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
         "PALUZZA 05.09.26 SABATO ore 11.00 Torre Moscarda / Chiara Bignozzi (fg)",
+        "FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684",
         "VILLA DI VERZEGNIS 05.09.26 SABATO ore 17.00 ‘Racconti sotto l’albero’ Duo Accordos",
         "VILLA DI VERZEGNIS 05.09.26 SABATO ore 18.00 Chiesa di San Martino / Golden Sound Flute Ensemble",
         "Casa Formeaso / Corazza - Della Bianca visita al Museo di Zuglio ore 15.00 (€ 4 prenotazione +39.043392562 museo.zuglio@libero.it).",
-        "Il Festival amici della musica Udine FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo."
+        "Il Festival amici della musica Udine FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo.",
+        "Casa Formeaso / Corazza - Della Bianca visita al Museo di Zuglio ore 15.00 (€ 4 prenotazione +39.043392562 museo.zuglio@libero.it). FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684 Il Festival amici della musica Udine FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo."
       ],
       "admission": {
         "type": "unknown",
@@ -1621,15 +1608,6 @@ window.EVENTS_DATA = {
           "location": "Artegna",
           "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Artegna&travelmode=driving",
           "sourceUrl": "https://www.turismofvg.it/eventi/festival-friuli-concertante-2026"
-        },
-        {
-          "label": "Venerdì 4 settembre · Friuli Concertante",
-          "items": [
-            "PIEDIM 04.09.26 VENERDÌ ore 21.00 Chiesa del Sacro Cuore / Coro di Piedim / Trio ‘Classic and more’ (fl , fg, pf) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684"
-          ],
-          "location": "Arta Terme · Piedim di Arta Terme, Chiesa del Sacro Cuore",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Piedim+di+Arta+Terme%2C+Chiesa+del+Sacro+Cuore%2C+Arta+Terme&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/friuli-concertante-493089"
         },
         {
           "label": "Sabato 5 settembre · Friuli Concertante",
@@ -1683,11 +1661,6 @@ window.EVENTS_DATA = {
       "sources": [
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/friuli-concertante-493089",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
           "url": "https://www.turismofvg.it/eventi/friuli-concertante-493090",
           "role": "Programma o conferma"
         },
@@ -1720,7 +1693,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/friuli-concertante-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:57+00:00",
+      "checkedAt": "2026-09-05T14:35:25+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
     },
     {
@@ -1728,7 +1701,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-07-03",
       "endDate": "2026-09-05",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05"
       ],
       "days": [],
@@ -1847,7 +1819,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/carniarmonie-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:57+00:00",
+      "checkedAt": "2026-09-05T14:35:24+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
     },
     {
@@ -1952,7 +1924,6 @@ window.EVENTS_DATA = {
       ],
       "detailPath": "dettaglio/palma-alle-armi-2026/index.html",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -2071,7 +2042,6 @@ window.EVENTS_DATA = {
       ],
       "detailPath": "dettaglio/medioevo-valvasone-2026/index.html",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -2090,7 +2060,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-01",
       "endDate": "2026-09-10",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -2102,7 +2071,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Pordenone",
       "venue": "Più sedi",
-      "description": "Un’unica manifestazione con 11 appuntamenti raccolti e ordinati nel programma completo.",
+      "description": "Un’unica manifestazione con 7 appuntamenti raccolti e ordinati nel programma completo.",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -2112,38 +2081,38 @@ window.EVENTS_DATA = {
         "evento",
         "friuli"
       ],
-      "image": "assets/images/l-arlecchino-errante-30-indian-beat-2026-09-04.webp",
-      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,thumb/r373097?v=458833&ext=.png",
+      "image": "assets/images/l-arlecchino-errante-30-hamlet-puppet-2026-09-05.webp",
+      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,thumb/r373113?v=458859&ext=.png",
       "imageAlt": "Immagine ufficiale di L'Arlecchino Errante 2026",
       "imageSourceName": "PromoTurismoFVG",
-      "imageSourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-indian-beat",
+      "imageSourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-hamlet-puppet",
       "locationLabel": "Più sedi · consulta il programma",
-      "address": "Casa della Musica E. Imelio Piazza della Motta, 4",
+      "address": "Ex Convento San Francesco - Chiesa",
       "mapsVerification": "sedi_nel_programma",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Casa+della+Musica+E.+Imelio+Piazza+della+Motta%2C+4%2C+Pordenone&travelmode=driving",
+      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Ex+Convento+San+Francesco+-+Chiesa%2C+Pordenone&travelmode=driving",
       "zone": "friuli",
       "zones": [
         "friuli"
       ],
       "distanceFromTarcentoKm": 67,
       "slug": "arlecchino-errante-2026",
-      "longDescription": "Un’unica manifestazione con 11 appuntamenti raccolti e ordinati nel programma completo.",
+      "longDescription": "Un’unica manifestazione con 7 appuntamenti raccolti e ordinati nel programma completo.",
       "detailParagraphs": [
         "Quest'anno l'edizione è storica, dal momento che il festival compirà trent'anni. Si continua sulla linea e la ricerca delle sonorità, e dopo l'edizione passata \"Lingue e silenzi\", quest'anno arriva \"Suoni e sentimenti\". Spettacoli, workshop, e performance programmati nelle vie del centro cittadino, presso l'ex convento di San Francesco, presso il Capitol e molti altri luoghi della città di Pordenone. Programma completo. Info festival https://arlecchinoerrante.com/",
         "Organized by: L'Arlecchino Errante - Scuola Sperimentale dell'Attore Tel: +39 3518392425 (info e Prenotazioni) E-mail: festival@arlecchinoerrante.com",
-        "Il Kathakali è la forma di teatro classico indiano più conosciuta in Occidente, la più studiata e la più ammirata. Da scoprire negli angoli della città per entrare in nuovi mondi visivi e sonori.",
+        "Una performance che unisce musica, recitazione e danza, fuse insieme e tese a un medesimo scopo: riflettere sull’essenza della vita e dell’arte. Hamlet Puppet trasforma il capolavoro di Shakespeare in uno spettacolo di teatro fisico pop e potente, dove i personaggi diventano marionette umane mosse da fili invisibili. Gli attori e i danzatori si muovono con la precisione drammatica e la frenesia di pupazzi meccanici, spezzati dai propri dubbi ed emozioni.",
+        ": € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente",
+        ": € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente",
+        ": € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente",
+        "Compagnia Balletto Civile / Italia di e con Michela Lucenti e con Michele Calcari immagini Giorgina Pi musiche Paolo Spaccamonti disegno sonoro Tiziano Scali supervisione sonora Valerio Vigliar assistente alla creazione Maurizio Camilli Una performance che unisce musica, recitazione e danza, fuse insieme e tese a un medesimo scopo: riflettere sull’essenza della vita e dell’arte. Hamlet Puppet trasforma il capolavoro di Shakespeare in uno spettacolo di teatro fisico pop e potente, dove i personaggi diventano marionette umane mosse da fili invisibili. Gli attori e i danzatori si muovono con la precisione drammatica e la frenesia di pupazzi meccanici, spezzati dai propri dubbi ed emozioni. Ingresso: Intero : € 15 Ridotto : € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente Super Ridotto : € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Extra Ridotto : € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente",
+        "Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo",
+        "è il miraggio di un giovane viaggiatore che esplora dentro di sé un nuovo racconto. Il progetto intende valorizzare le professionalità attive nei settori dell’editoria, della rilegatoria e delle arti affini, con un’attenzione particolare alla dimensione artigianale e manifatturiera.",
         "€ 1 per tutti, con procedimento “self” presso le casse volanti",
-        "Kalatharangini Kathakali Troupe / India voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Il Kathakali è la forma di teatro classico indiano più conosciuta in Occidente, la più studiata e la più ammirata. Da scoprire negli angoli della città per entrare in nuovi mondi visivi e sonori. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
-        "voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan",
-        "Il Kathakali è la forma di teatro classico indiano più conosciuta in Occidente, la più studiata e la più ammirata. Da scoprire negli angoli della città per entrare in nuovi mondi visivi e sonori. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
-        "… Soprattutto la Maschera che, consapevoli o inconsapevoli, interpretiamo con le forme del corpo. La ricerca nella Commedia dell’Arte della compagnia Hellequin assegna al corpo un ruolo di materiale d’Arte, vivo e sensibile: un buon terreno di esplorazione per esperti o neofiti, per attori della scena o della vita… Il resto, ovvero la danza e il canto, è una garanzia di benessere…",
-        "Informazioni e prenotazioni: festival@arlecchinoerrante.com",
-        "con: Lucia Zaghet e Daria Sadovskaia (Compagnia Hellequin) … Soprattutto la Maschera che, consapevoli o inconsapevoli, interpretiamo con le forme del corpo. La ricerca nella Commedia dell’Arte della compagnia Hellequin assegna al corpo un ruolo di materiale d’Arte, vivo e sensibile: un buon terreno di esplorazione per esperti o neofiti, per attori della scena o della vita… Il resto, ovvero la danza e il canto, è una garanzia di benessere… Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
-        "Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
-        "Kalamandalam Jhon e Kalatharangini Kathakali Troupe / India",
-        "Kottakkal Davadas (Dusasan), Kalatharangini Ruby K John (Draupadi), Kalamandalam John (Roudra Bhima)",
-        "Kalamandalam Sudheesh (Chanda), Kalamandalam Rajanarayanan (Madam)",
-        "La pièce intitolata Dussasana Vadham (“La mattanza di Dushasana”) è uno degli episodi più intensi, drammatici e celebri del repertorio Kathakali, il celebre teatro-danza indiano che fonde trucco monumentale, costumi scultorei, percussioni travolgenti e un linguaggio espressivo unico fatto di sguardi e gesti delle mani."
+        "Arearea / Italia Coreografia Marta Bevilacqua Danzatori Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo Musiche Anna Müller, Ceeys, Trinix & Mariana Froes, Weval Le vie di carta è il miraggio di un giovane viaggiatore che esplora dentro di sé un nuovo racconto. Il progetto intende valorizzare le professionalità attive nei settori dell’editoria, della rilegatoria e delle arti affini, con un’attenzione particolare alla dimensione artigianale e manifatturiera. Ingresso Solidale: € 1 per tutti, con procedimento “self” presso le casse volanti",
+        "Coreografia Marta Bevilacqua Danzatori Giovanni Consoli, Margherita Costantini, Luca Di Giusto, Angelica Margherita, Andrea Rizzo Musiche Anna Müller, Ceeys, Trinix & Mariana Froes, Weval",
+        "L’evento “MOVIC – Movie is Music” prevede la proiezione del documentario",
+        ", diretto da Ivan Gergolet, dedicato alla figura della ballerina e coreografa argentina Maria Fux, pioniera di un metodo che ha trasformato la danza in uno strumento di espressione, comunicazione e inclusione, aperto a persone di ogni età e abilità. Nel corso dell’evento è previsto un intervallo con brunch presso lo Spaziozero.",
+        "Posti limitati. Prenotazione obbligatoria, con ticket per il brunch € 15"
       ],
       "admission": {
         "type": "unknown",
@@ -2162,33 +2131,6 @@ window.EVENTS_DATA = {
       "notesSummary": "Le schede dei singoli appuntamenti sono state unite nella manifestazione principale.",
       "organizer": "PromoTurismoFVG",
       "program": [
-        {
-          "label": "Venerdì 4 settembre · L'arlecchino Errante 30 - Indian Beat",
-          "items": [
-            "Kalatharangini Kathakali Troupe / India voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Il Kathakali è la forma di teatro classico indiano più conosciuta in Occidente, la più studiata e la più ammirata. Da scoprire negli…"
-          ],
-          "location": "",
-          "mapsUrl": "",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-indian-beat"
-        },
-        {
-          "label": "Venerdì 4 settembre · L'arlecchino Errante 30 - Open Workshop “Il corpo del suono\"",
-          "items": [
-            "con Massimo Barilla, Luigi Polimeni e Aurora Galteri In una performance multidisciplinare che integra parola poetica, drammaturgie sonore e coreografiche, cosa guida l’atto creativo? Come i linguaggi, seppur potenzialmente autonomi, si intrecciano in maniera indissolubile…"
-          ],
-          "location": "Pordenone · Casa della Musica E. Imelio Piazza della Motta, 4",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Casa+della+Musica+E.+Imelio+Piazza+della+Motta%2C+4%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-il-corpo-del-suono"
-        },
-        {
-          "label": "Venerdì 4 settembre · L'arlecchino Errante 30 - Sdousavan Vadham",
-          "items": [
-            "Kalamandalam Jhon e Kalatharangini Kathakali Troupe / India con Kottakkal Davadas (Dusasan), Kalatharangini Ruby K John (Draupadi), Kalamandalam John (Roudra Bhima) voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh (Chanda), Kalamandalam Rajanarayanan…"
-          ],
-          "location": "Pordenone · P.zza della Motta (in caso di pioggia Ex Convento San Francesco - Chiesa)",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=P.zza+della+Motta+%28in+caso+di+pioggia+Ex+Convento+San+Francesco+-+Chiesa%29%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-sdousavan-vadham"
-        },
         {
           "label": "Sabato 5 settembre · L'arlecchino Errante 30 - Hamlet Puppet",
           "items": [
@@ -2226,15 +2168,6 @@ window.EVENTS_DATA = {
           "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-introduzione-al-teatro-danza-indiano"
         },
         {
-          "label": "Domenica 6 settembre · L'arlecchino Errante 30 - Anime leggere",
-          "items": [
-            "Quartetto Dekru / Ucraina scritto e diretto da Liubov Cherepakhina con Mykyta Cherepukhin, Viktor Sukhorukov, Inna Turik, Bohdan Baev Considerati tra i migliori eredi del mimo contemporaneo a livello internazionale, i virtuosi ucraini del Quartetto DEKRU trasformano il…"
-          ],
-          "location": "Pordenone · Capitol Event Hall",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Capitol+Event+Hall%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-anime-leggere"
-        },
-        {
           "label": "Domenica 6 settembre · L'arlecchino Errante 30 - India Passion",
           "items": [
             "Kalatharangini Kathakali Troupe / India danza Kalatharangini Ruby K John voce Kalamandalam Ajesh, Kalamandalam Jeevan percussioni Kalamandalam Sudheesh, Kalamandalam Rajanarayanan Ritmo potente di tamburi, grazia e precisione formale della danza, gesti ed espressività di rara…"
@@ -2269,21 +2202,6 @@ window.EVENTS_DATA = {
       "sources": [
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-indian-beat",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-sdousavan-vadham",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-il-corpo-del-suono",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
           "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-movic-movie-is-music",
           "role": "Programma o conferma"
         },
@@ -2314,11 +2232,6 @@ window.EVENTS_DATA = {
         },
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-anime-leggere",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
           "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-corpi-in-ascolto",
           "role": "Programma o conferma"
         },
@@ -2331,97 +2244,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/arlecchino-errante-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:53+00:00",
+      "checkedAt": "2026-09-05T14:35:19+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
-    },
-    {
-      "title": "Benny Benassi e spettacolo di 800 droni",
-      "startDate": "2026-09-04T21:00:00+02:00",
-      "days": [
-        "ven"
-      ],
-      "area": "pordenone",
-      "city": "Pordenone",
-      "venue": "Parco San Valentino",
-      "description": "DJ set di Benny Benassi e spettacolo gratuito con 800 droni luminosi.",
-      "price": "Ingresso gratuito",
-      "status": "attenzione_meteo",
-      "updateNote": "In caso di maltempo il recupero è previsto sabato 5 settembre; controllare gli aggiornamenti del Comune prima di partire.",
-      "sourceUrl": "https://www.comune.pordenone.it/it/novita/spettacoli-al-parco-di-san-valentino-a-inizio-settembre",
-      "sourceName": "Comune di Pordenone",
-      "tags": [
-        "musica",
-        "droni",
-        "gratuito",
-        "all_aperto",
-        "meteo"
-      ],
-      "image": "assets/images/benny-benassi.webp",
-      "imageAlt": "Locandina di Benny Benassi a Pordenone",
-      "imageSourceName": "Azalea, organizzatore",
-      "imageSourceUrl": "https://www.azalea.it/eventi/benny-benassi-kate-zubok/",
-      "locationLabel": "Pordenone · Parco San Valentino, ingresso da Via Interna 2",
-      "address": "Via Interna 2, 33170 Pordenone PN",
-      "mapsVerification": "indirizzo_verificato_sulla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Via%20Interna%202%2C%2033170%20Pordenone%20PN",
-      "zone": "friuli",
-      "distanceFromTarcentoKm": 75,
-      "slug": "benny-benassi-droni-pordenone",
-      "longDescription": "Ottocento droni luminosi raccontano nel cielo l’identità di Pordenone con immagini, musica e narrazione; a seguire è previsto il DJ set di Benny Benassi. L’appuntamento si svolge nell’area nord del Parco San Valentino.",
-      "admission": {
-        "type": "free",
-        "label": "Ingresso gratuito"
-      },
-      "booking": {
-        "type": "none",
-        "label": "Nessuna prenotazione indicata"
-      },
-      "programStatus": {
-        "type": "weather",
-        "label": "Confermato · recupero meteo previsto",
-        "note": "In caso di maltempo il recupero è previsto sabato 5 settembre; controllare gli aggiornamenti del Comune prima di partire."
-      },
-      "cardNote": "In caso di maltempo, recupero sabato 5 settembre.",
-      "organizer": "Comune di Pordenone e Azalea",
-      "program": [
-        {
-          "label": "Venerdì 4 settembre",
-          "items": [
-            "Dalle 21:00 · Drone show con 800 droni",
-            "A seguire · DJ set di Benny Benassi"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Ingresso esclusivamente da Via Interna 2, accanto all’Auditorium Concordia.",
-        "Non sono ammessi cani, sedie, sdraio, ombrelli, bastoni per selfie, treppiedi, vetro, lattine e borracce metalliche."
-      ],
-      "sources": [
-        {
-          "name": "Comune di Pordenone",
-          "url": "https://www.comune.pordenone.it/it/novita/benny-benassi-e-800-droni-venerdi-4-settembre-lo-spettacolo-al-parco-san-valentino",
-          "role": "Aggiornamento istituzionale"
-        },
-        {
-          "name": "Azalea",
-          "url": "https://www.azalea.it/eventi/benny-benassi-kate-zubok/",
-          "role": "Organizzatore"
-        }
-      ],
-      "detailPath": "dettaglio/benny-benassi-droni-pordenone/index.html",
-      "occurrenceDates": [
-        "2026-09-04"
-      ],
-      "weatherPlan": "In caso di maltempo il recupero è previsto sabato 5 settembre.",
-      "notesSummary": "In caso di maltempo, recupero sabato 5 settembre.",
-      "detailParagraphs": [
-        "Ottocento droni luminosi raccontano nel cielo l’identità di Pordenone con immagini, musica e narrazione; a seguire è previsto il DJ set di Benny Benassi. L’appuntamento si svolge nell’area nord del Parco San Valentino.",
-        "Ingresso esclusivamente da Via Interna 2, accanto all’Auditorium Concordia. Non sono ammessi cani, sedie, sdraio, ombrelli, bastoni per selfie, treppiedi, vetro, lattine e borracce metalliche."
-      ],
-      "endDate": "2026-09-04T21:00:00+02:00",
-      "zones": [
-        "friuli"
-      ]
     },
     {
       "title": "Open day al Battirame",
@@ -2653,7 +2477,7 @@ window.EVENTS_DATA = {
       "zones": [
         "friuli"
       ],
-      "checkedAt": "2026-09-04T18:07:50+00:00",
+      "checkedAt": "2026-09-05T14:35:17+00:00",
       "sourceReachable": true
     },
     {
@@ -2839,7 +2663,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-07-16",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -2917,14 +2740,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/fresco-programma-estivo-di-attivita-e-laboratori-nel-nuovo-rifugio-climatico-202/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:54+00:00"
+      "checkedAt": "2026-09-05T14:35:22+00:00"
     },
     {
       "title": "MUSIKE' WINDBAND 2026",
       "startDate": "2026-07-18",
       "endDate": "2026-09-11",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -3008,14 +2830,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/musike-windband-2026-2026-07-18/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:54+00:00"
+      "checkedAt": "2026-09-05T14:35:22+00:00"
     },
     {
       "title": "Cinema d'Estate – Rassegna di Cinema all'Aperto",
       "startDate": "2026-08-18",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -3095,14 +2916,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/cinema-d-estate-rassegna-di-cinema-all-aperto-2026-08-18/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:54+00:00"
+      "checkedAt": "2026-09-05T14:35:21+00:00"
     },
     {
       "title": "Yoga, Meditazione & Colazione",
       "startDate": "2026-08-29",
       "endDate": "2026-09-05",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05"
       ],
       "days": [],
@@ -3180,14 +3000,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/yoga-meditazione-colazione-2026-08-29/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:54+00:00"
+      "checkedAt": "2026-09-05T14:35:21+00:00"
     },
     {
       "title": "Lignano Noir 2026",
       "startDate": "2026-09-03",
       "endDate": "2026-09-05",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05"
       ],
       "days": [],
@@ -3230,7 +3049,7 @@ window.EVENTS_DATA = {
         "Il concorso letterario omaggia il grande scrittore Giorgio Scerbanenco, legato storicamente alla località friulana. Il premio è dedicato a racconti gialli e/o noir inediti in lingua italiana.",
         "Lignano Sabbiadoro è la città che Scerbanenco scelse, dopo averla scoperta da turista, come luogo di residenza per diversi anni, instaurando un forte legame che permane tuttora con la presenza della figlia Cecilia, curatrice dell’opera del padre e dell’",
         "(libri, oggetti, documenti, lettere, manoscritti) custodito nella Biblioteca Comunale.",
-        "Cerimonia di Premiazione dei vincitori della 12ª edizione del Premio Scerbanenco@Lignano . Il concorso letterario omaggia il grande scrittore Giorgio Scerbanenco, legato storicamente alla località friulana. Il premio è dedicato a racconti gialli e/o noir inediti in lingua italiana. Lignano Sabbiadoro è la città che Scerbanenco scelse, dopo averla scoperta da turista, come luogo di residenza per diversi anni, instaurando un forte legame che permane tuttora con la presenza della figlia Cecilia, curatrice dell’opera del padre e dell’ Archivio Giorgio Scerbanenco (libri, oggetti, documenti, lettere, manoscritti) custodito nella Biblioteca Comunale. Legge i racconti Massimo Somaglino Ingresso libero"
+        "Cerimonia di Premiazione dei vincitori della 12ª edizione del Premio Scerbanenco@Lignano . Il concorso letterario omaggia il grande scrittore Giorgio Scerbanenco, legato storicamente alla località friulana. Il premio è dedicato a racconti gialli e/o noir inediti in lingua italiana. Lignano Sabbiadoro è la città che Scerbanenco scelse, dopo averla scoperta da turista, come luogo di residenza per diversi anni, instaurando un forte legame che permane tuttora con la presenza della figlia Cecilia, curatrice dell’opera del padre e dell’ Archivio Giorgio Scerbanenco (libri, oggetti, documenti, lettere, manoscritti) custodito nella Biblioteca Comunale. Legge i racconti Massimo Somaglino. Ingresso libero."
       ],
       "admission": {
         "type": "unknown",
@@ -3296,97 +3115,15 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/lignano-noir-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:53+00:00",
+      "checkedAt": "2026-09-05T14:35:21+00:00",
       "sourceReachable": true,
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
-    },
-    {
-      "title": "Laudes et Elementa- Le parole di Francesco, il canto degli elementi",
-      "startDate": "2026-09-04",
-      "endDate": "2026-09-04",
-      "occurrenceDates": [
-        "2026-09-04"
-      ],
-      "days": [],
-      "area": "mare",
-      "city": "Lignano Sabbiadoro",
-      "venue": "Luogo indicato nella fonte",
-      "description": "Il 4 settembre al Duomo di Lignano non perderti \"Laudes et Elementa\": uno spettacolo di musica e recitazione ispirato al Cantico delle Creature. Scopri di più!",
-      "price": "Non indicato",
-      "status": "da_ricontrollare",
-      "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
-      "sourceUrl": "https://lignanosabbiadoro.it/it/eventi/laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi/",
-      "sourceName": "Lignano Sabbiadoro",
-      "tags": [
-        "evento",
-        "mare"
-      ],
-      "image": "assets/images/laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi-2026-09-04.webp",
-      "imageRemoteUrl": "http://lignanosabbiadoro.it/media/images/WhatsApp_Image_2026-06-24_at_08.28.2e16d0ba.fill-200x200.jpg",
-      "imageAlt": "Immagine ufficiale di Laudes et Elementa- Le parole di Francesco, il canto degli elementi",
-      "imageSourceName": "Lignano Sabbiadoro",
-      "imageSourceUrl": "https://lignanosabbiadoro.it/it/eventi/laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi/",
-      "locationLabel": "Lignano Sabbiadoro · Luogo indicato nella fonte",
-      "address": "Lignano Sabbiadoro",
-      "mapsVerification": "localita_dalla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Lignano+Sabbiadoro&travelmode=driving",
-      "zone": "mare",
-      "zones": [
-        "friuli",
-        "mare"
-      ],
-      "distanceFromTarcentoKm": 80,
-      "slug": "laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi-2026-09-04",
-      "longDescription": "Il 4 settembre al Duomo di Lignano non perderti \"Laudes et Elementa\": uno spettacolo di musica e recitazione ispirato al Cantico delle Creature. Scopri di più!",
-      "detailParagraphs": [
-        "Venerdì 4 settembre 2026 ore 20:30 si svolgerà il concerto musicale Laudes et Elementa - Le parole di Francesco, il canto degli elementi presso il Duomo di Lignano Sabbiadoro (Parco S. Giovanni Bosco, 35). Si tratta di uno spettacolo musicale e di recitazione in più date, che ruota attorno al Cantico delle Creature di San Francesco d'Assisi . Unisce canti ed elementi recitati per celebrare il creato e la natura.",
-        "Email: rudy.fantin@gmail.com Website: www.rudyfantin.it Instagram: https://www.instagram.com/rudyfantinpianist/ Facebook: https://www.facebook.com/rudy.fantin.9"
-      ],
-      "admission": {
-        "type": "unknown",
-        "label": "Costo non indicato"
-      },
-      "booking": {
-        "type": "unknown",
-        "label": "Prenotazione non indicata"
-      },
-      "programStatus": {
-        "type": "source_check",
-        "label": "Programma da verificare",
-        "note": "Apri la fonte ufficiale per orari e possibili aggiornamenti."
-      },
-      "weatherPlan": "Nessuna indicazione specifica pubblicata.",
-      "notesSummary": "Acquisito automaticamente dalla fonte.",
-      "organizer": "Lignano Sabbiadoro",
-      "program": [
-        {
-          "label": "Programma pubblicato",
-          "items": [
-            "Dal 2026-09-04 al 2026-09-04"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Controllare la fonte prima di partire."
-      ],
-      "sources": [
-        {
-          "name": "Lignano Sabbiadoro",
-          "url": "https://lignanosabbiadoro.it/it/eventi/laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi/",
-          "role": "Fonte di acquisizione"
-        }
-      ],
-      "detailPath": "dettaglio/laudes-et-elementa-le-parole-di-francesco-il-canto-degli-elementi-2026-09-04/index.html",
-      "sourceLanguage": "it",
-      "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:53+00:00"
     },
     {
       "title": "2ª Fiera Europea",
       "startDate": "2026-09-04T11:00:00+02:00",
       "endDate": "2026-09-06T23:59:00+02:00",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -3483,7 +3220,7 @@ window.EVENTS_DATA = {
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-04T18:07:51+00:00",
+      "checkedAt": "2026-09-05T14:35:18+00:00",
       "sourceReachable": true
     },
     {
@@ -3633,7 +3370,7 @@ window.EVENTS_DATA = {
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-04T18:07:54+00:00",
+      "checkedAt": "2026-09-05T14:35:21+00:00",
       "sourceReachable": true
     },
     {
@@ -3729,7 +3466,7 @@ window.EVENTS_DATA = {
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-04T18:07:54+00:00",
+      "checkedAt": "2026-09-05T14:35:22+00:00",
       "sourceReachable": true
     },
     {
@@ -3825,7 +3562,7 @@ window.EVENTS_DATA = {
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-04T18:07:54+00:00",
+      "checkedAt": "2026-09-05T14:35:22+00:00",
       "sourceReachable": true
     },
     {
@@ -3911,7 +3648,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/moda-d-autore-2026-2026-09-10/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:54+00:00"
+      "checkedAt": "2026-09-05T14:35:22+00:00"
     },
     {
       "title": "50° Anniversario del Terremoto del Friuli (1976 - 2026)",
@@ -3952,11 +3689,10 @@ window.EVENTS_DATA = {
       "slug": "50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12",
       "longDescription": "Il 12 settembre 2026 all'Arena Alpe Adria di Lignano un evento per il 50° anniversario del terremoto del Friuli: arte, mostra fotografica e concerto gospel.",
       "detailParagraphs": [
-        "Anlässlich des 50. Jahrestages des Erdbebens in Friaul veranstaltet die Arena Alpe Adria in Lignano Sabbiadoro eine große Gedenkveranstaltung, die der Erinnerung, der Gastfreundschaft und der Wiedergeburt unserer Gemeinschaften gewidmet ist.",
-        "Eine tiefe Verbindung, die in den dramatischen Monaten des Jahres 1976 entstand, als Lignano über 20.000 Evakuierte aus den vom Erdbeben betroffenen Gebieten – darunter viele Bürger aus Gemona del Friuli – an seiner Küste aufnahm und seine Gastfreundschaft in eine außergewöhnliche Solidaritätsleistung verwandelte.",
+        "In occasione del 50° anniversario del terremoto del Friuli , l' Arena Alpe Adria di Lignano Sabbiadoro ospiterà un grande evento dedicato alla memoria, all'accoglienza e alla rinascita delle nostre comunità.",
+        "Un legame profondo nato nei drammatici mesi del 1976, quando Lignano accolse sul proprio litorale oltre 20 mila sfollati giunti dai centri colpiti dal sisma – tra cui moltissimi cittadini di Gemona del Friuli – trasformando la propria vocazione all'ospitalità in una straordinaria ed esemplare prova di solidarietà.",
         "+39 0431409126 (Ufficio Turismo - Comune di Lignano Sabbiadoro)",
-        "Sand of Gospel email: sandofgospel@libero.it url: www.sandofgospel.it",
-        "In occasione del 50° anniversario del terremoto del Friuli , l' Arena Alpe Adria di Lignano Sabbiadoro ospiterà un grande evento dedicato alla memoria, all'accoglienza e alla rinascita delle nostre comunità."
+        "Sand of Gospel email: sandofgospel@libero.it url: www.sandofgospel.it"
       ],
       "admission": {
         "type": "unknown",
@@ -3978,9 +3714,6 @@ window.EVENTS_DATA = {
         {
           "label": "Programma pubblicato",
           "items": [
-            "20:00 Uhr | Einweihung des dauerhaften Kunstwerks",
-            "21:00 Uhr | Konzert-Event",
-            "20.00 Uhr",
             "Ore 20.00 | Inaugurazione dell'Opera Permanente",
             "Ore 21.00 | Concerto-Evento"
           ]
@@ -3999,7 +3732,88 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:54+00:00"
+      "checkedAt": "2026-09-05T14:35:22+00:00"
+    },
+    {
+      "title": "Regata del sole",
+      "startDate": "2026-09-13",
+      "endDate": "2026-09-13",
+      "occurrenceDates": [
+        "2026-09-13"
+      ],
+      "days": [],
+      "area": "mare",
+      "city": "Lignano Sabbiadoro",
+      "venue": "Presso Yacht Club Lignano ASD",
+      "description": "Partecipa alla Regata del Sole il 13 settembre 2026 a Lignano Sabbiadoro: emozionante gara di catamarani Hobie Cat tra sport, energia e tradizione.",
+      "price": "Non indicato",
+      "status": "da_ricontrollare",
+      "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
+      "sourceUrl": "https://lignanosabbiadoro.it/it/eventi/regata-del-sole/",
+      "sourceName": "Lignano Sabbiadoro",
+      "tags": [
+        "evento",
+        "mare"
+      ],
+      "image": "assets/images/regata-del-sole-2026-09-13.webp",
+      "imageRemoteUrl": "http://lignanosabbiadoro.it/media/images/regata_del_sole_2026.2e16d0ba.fill-200x200.jpg",
+      "imageAlt": "Immagine ufficiale di Regata del sole",
+      "imageSourceName": "Lignano Sabbiadoro",
+      "imageSourceUrl": "https://lignanosabbiadoro.it/it/eventi/regata-del-sole/",
+      "locationLabel": "Lignano Sabbiadoro · Presso Yacht Club Lignano ASD",
+      "address": "Presso Yacht Club Lignano ASD",
+      "mapsVerification": "sede_dalla_fonte",
+      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Presso+Yacht+Club+Lignano+ASD%2C+Lignano+Sabbiadoro&travelmode=driving",
+      "zone": "mare",
+      "zones": [
+        "friuli",
+        "mare"
+      ],
+      "distanceFromTarcentoKm": 80,
+      "slug": "regata-del-sole-2026-09-13",
+      "longDescription": "Partecipa alla Regata del Sole il 13 settembre 2026 a Lignano Sabbiadoro: emozionante gara di catamarani Hobie Cat tra sport, energia e tradizione.",
+      "detailParagraphs": [
+        "Tra le novità più significative del 2026 spicca il ritorno della storica Regata del Sole , dedicata ai catamarani Hobie Cat . L'appuntamento previsto per domenica 13 settembre 2026 è un ritorno al passato del Club, riportando in mare una classe spettacolare, dinamica e profondamente legata allo spirito delle spiagge di Lignano Sabbiadoro . Una giornata di sport ed energia che colorerà nuovamente il campo di regata con emozioni e tradizione.",
+        "YACHT CLUB LIGNANO tel 043173161 web: www.yclignano.it mail: info@yclignano.it Facebook: yachtclub lignano"
+      ],
+      "admission": {
+        "type": "unknown",
+        "label": "Costo non indicato"
+      },
+      "booking": {
+        "type": "unknown",
+        "label": "Prenotazione non indicata"
+      },
+      "programStatus": {
+        "type": "source_check",
+        "label": "Programma da verificare",
+        "note": "Apri la fonte ufficiale per orari e possibili aggiornamenti."
+      },
+      "weatherPlan": "Nessuna indicazione specifica pubblicata.",
+      "notesSummary": "Acquisito automaticamente dalla fonte.",
+      "organizer": "Lignano Sabbiadoro",
+      "program": [
+        {
+          "label": "Programma pubblicato",
+          "items": [
+            "Dal 2026-09-13 al 2026-09-13"
+          ]
+        }
+      ],
+      "practicalNotes": [
+        "Controllare la fonte prima di partire."
+      ],
+      "sources": [
+        {
+          "name": "Lignano Sabbiadoro",
+          "url": "https://lignanosabbiadoro.it/it/eventi/regata-del-sole/",
+          "role": "Fonte di acquisizione"
+        }
+      ],
+      "detailPath": "dettaglio/regata-del-sole-2026-09-13/index.html",
+      "sourceLanguage": "it",
+      "translationLanguage": "it",
+      "checkedAt": "2026-09-05T14:35:23+00:00"
     },
     {
       "title": "Armonie nella Natura con Glauco Venier",
@@ -4097,97 +3911,10 @@ window.EVENTS_DATA = {
       ]
     },
     {
-      "title": "Mercato del dopolavoro anni Settanta e Ottanta",
-      "startDate": "2026-09-04T17:00:00+02:00",
-      "endDate": "2026-09-04T22:00:00+02:00",
-      "occurrenceDates": [
-        "2026-09-04"
-      ],
-      "days": [],
-      "area": "austria",
-      "city": "Villach",
-      "venue": "Hans-Gasser-Platz, 9500",
-      "description": "Mercato serale con specialità regionali e atmosfera musicale dedicata agli anni Settanta e Ottanta.",
-      "price": "Accesso libero al mercato",
-      "status": "in_programma",
-      "updateNote": "Nuova data e orario di inizio confermati dal portale turistico ufficiale.",
-      "sourceUrl": "https://www.visitvillach.at/de/villach/events/after-work-market-70er-80er.html?date=04.09.2026",
-      "sourceName": "Visit Villach",
-      "tags": [
-        "mercato",
-        "enogastronomia",
-        "musica",
-        "austria"
-      ],
-      "image": "assets/images/after-work-market-villach.webp",
-      "imageAlt": "Immagine dell’evento Mercato del dopolavoro anni Settanta e Ottanta",
-      "imageSourceName": "Visit Villach",
-      "imageSourceUrl": "https://www.visitvillach.at/de/villach/events/after-work-market-70er-80er.html?date=04.09.2026",
-      "locationLabel": "Villach · Hans-Gasser-Platz, 9500",
-      "address": "Hans-Gasser-Platz, 9500, Villach",
-      "mapsVerification": "luogo_verificato_sulla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Hans-Gasser-Platz%2C%209500%2C%20Villach",
-      "zone": "austria",
-      "distanceFromTarcentoKm": 85,
-      "slug": "after-work-market-villach-2026",
-      "longDescription": "Il mercato serale di Villach porta in Hans-Gasser-Platz un appuntamento dopo il lavoro dedicato al gusto e alla musica degli anni Settanta e Ottanta. Tra Café Glück e Stern sono annunciate specialità regionali e un’atmosfera informale nel centro cittadino.",
-      "detailParagraphs": [
-        "Il mercato serale di Villach porta in Hans-Gasser-Platz un appuntamento dopo il lavoro dedicato al gusto e alla musica degli anni Settanta e Ottanta. Tra Café Glück e Stern sono annunciate specialità regionali e un’atmosfera informale nel centro cittadino.",
-        "L’appuntamento era previsto inizialmente per il 21 agosto ed è stato rinviato ufficialmente a venerdì 4 settembre. La pagina turistica di Villach conferma l’avvio alle 17:00.",
-        "Il programma pubblicato è sintetico e non specifica l’orario di chiusura o l’elenco completo degli espositori. È quindi consigliato controllare la pagina ufficiale prima della partenza."
-      ],
-      "admission": {
-        "type": "free",
-        "label": "Accesso libero al mercato"
-      },
-      "booking": {
-        "type": "none",
-        "label": "Nessuna prenotazione indicata"
-      },
-      "programStatus": {
-        "type": "confirmed",
-        "label": "Programma confermato",
-        "note": "Nuova data e orario di inizio confermati dal portale turistico ufficiale."
-      },
-      "weatherPlan": "Nessuna alternativa al coperto pubblicata.",
-      "notesSummary": "Evento rinviato dal 21 agosto al 4 settembre.",
-      "organizer": "Villacher Alpen-Adria After Work Market",
-      "contact": "Informazioni tramite Visit Villach",
-      "program": [
-        {
-          "label": "Venerdì 4 settembre",
-          "items": [
-            "17:00 · apertura del mercato",
-            "Specialità regionali tra Café Glück e Stern",
-            "Musica e atmosfera anni Settanta e Ottanta"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Evento rinviato dal 21 agosto al 4 settembre.",
-        "Testi tradotti in italiano dalla fonte tedesca."
-      ],
-      "sources": [
-        {
-          "name": "Visit Villach",
-          "url": "https://www.visitvillach.at/de/villach/events/after-work-market-70er-80er.html?date=04.09.2026",
-          "role": "Fonte turistica ufficiale"
-        }
-      ],
-      "detailPath": "dettaglio/after-work-market-villach-2026/index.html",
-      "originalTitle": "After Work Market | 70er & 80er",
-      "sourceLanguage": "de",
-      "translationLanguage": "it",
-      "zones": [
-        "austria"
-      ]
-    },
-    {
       "title": "Festival In-Contaminato 2026",
       "startDate": "2026-06-01",
       "endDate": "2026-09-30",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -4315,7 +4042,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/in-contaminato-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:53+00:00",
+      "checkedAt": "2026-09-05T14:35:20+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
     },
     {
@@ -4323,7 +4050,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-06-07",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -4400,96 +4126,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/le-giornate-della-luce-stelle-ritratti-nel-cinema-di-stefano-c-montesi-2026-06-0/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:51+00:00"
-    },
-    {
-      "title": "Musica in Villa® 2026",
-      "startDate": "2026-07-09",
-      "endDate": "2026-09-04",
-      "occurrenceDates": [
-        "2026-09-04"
-      ],
-      "days": [],
-      "area": "friuli",
-      "city": "Bertiolo, Codroipo, Sedegliano, Talmassons, Varmo",
-      "venue": "Medio Friuli",
-      "description": "Musica in Villa® 2026, la 26ª edizione della rassegna estiva del Progetto Integrato Cultura del Medio Friuli, quest’anno dedicata al tema dell’inclusione. Dal 9 luglio al 4 settembre, ville, chiese, corti e luoghi speciali del Medio Friuli tornano a ospitare la musica…",
-      "price": "Non indicato",
-      "status": "da_ricontrollare",
-      "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
-      "sourceUrl": "https://www.turismofvg.it/eventi/musica-in-villa-2026",
-      "sourceName": "PromoTurismoFVG",
-      "tags": [
-        "evento",
-        "friuli"
-      ],
-      "image": "assets/images/musica-in-villa-2026-2026-07-09.webp",
-      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,thumb/r367791?v=451195&ext=.jpg",
-      "imageAlt": "Immagine ufficiale di Musica in Villa® 2026",
-      "imageSourceName": "PromoTurismoFVG",
-      "imageSourceUrl": "https://www.turismofvg.it/eventi/musica-in-villa-2026",
-      "locationLabel": "Bertiolo, Codroipo, Sedegliano, Talmassons, Varmo · Medio Friuli",
-      "address": "Medio Friuli",
-      "mapsVerification": "sede_dalla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Medio+Friuli%2C+Bertiolo%2C+Codroipo%2C+Sedegliano%2C+Talmassons%2C+Varmo&travelmode=driving",
-      "zone": "friuli",
-      "zones": [
-        "friuli"
-      ],
-      "distanceFromTarcentoKm": 90,
-      "slug": "musica-in-villa-2026-2026-07-09",
-      "longDescription": "Musica in Villa® 2026, la 26ª edizione della rassegna estiva del Progetto Integrato Cultura del Medio Friuli, quest’anno dedicata al tema dell’inclusione. Dal 9 luglio al 4 settembre, ville, chiese, corti e luoghi speciali del Medio Friuli tornano a ospitare la musica dell’estate con 16 concerti a ingresso libero.",
-      "detailParagraphs": [
-        "Musica in Villa® 2026, la rassegna estiva del Progetto Integrato Cultura del Medio Friuli è giunta alla sua 26ª edizione; dal 9 luglio al 4 settembre 2026, il territorio del Medio Friuli torna ad accogliere un percorso musicale diffuso tra ville, chiese, corti, parchi e luoghi speciali, con 16 concerti a ingresso libero.",
-        "L’edizione 2026 è dedicata al tema dell’inclusione, intesa come possibilità di incontro tra linguaggi, sensibilità, luoghi e comunità attraverso la musica.",
-        "Musica in Villa® 2026, la rassegna estiva del Progetto Integrato Cultura del Medio Friuli è giunta alla sua 26ª edizione; dal 9 luglio al 4 settembre 2026, il territorio del Medio Friuli torna ad accogliere un percorso musicale diffuso tra ville, chiese, corti, parchi e luoghi speciali, con 16 concerti a ingresso libero. L’edizione 2026 è dedicata al tema dell’inclusione, intesa come possibilità di incontro tra linguaggi, sensibilità, luoghi e comunità attraverso la musica. PROGRAMMA",
-        "Organized by: Progetto Integrato Cultura del Medio Friuli"
-      ],
-      "admission": {
-        "type": "unknown",
-        "label": "Costo non indicato"
-      },
-      "booking": {
-        "type": "unknown",
-        "label": "Prenotazione non indicata"
-      },
-      "programStatus": {
-        "type": "source_check",
-        "label": "Programma da verificare",
-        "note": "Apri la fonte ufficiale per orari e possibili aggiornamenti."
-      },
-      "weatherPlan": "Nessuna indicazione specifica pubblicata.",
-      "notesSummary": "Acquisito automaticamente dalla fonte.",
-      "organizer": "PromoTurismoFVG",
-      "program": [
-        {
-          "label": "Programma pubblicato",
-          "items": [
-            "Dal 2026-07-09 al 2026-09-04"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Controllare la fonte prima di partire."
-      ],
-      "sources": [
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/musica-in-villa-2026",
-          "role": "Fonte di acquisizione"
-        }
-      ],
-      "detailPath": "dettaglio/musica-in-villa-2026-2026-07-09/index.html",
-      "sourceLanguage": "it",
-      "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:50+00:00"
+      "checkedAt": "2026-09-05T14:35:18+00:00"
     },
     {
       "title": "Radici Festival 2026",
       "startDate": "2026-07-17",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -4577,7 +4220,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/radici-festival-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:51+00:00",
+      "checkedAt": "2026-09-05T14:35:18+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
     },
     {
@@ -4585,7 +4228,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-08-08",
       "endDate": "2026-09-25",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -4670,14 +4312,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/agosto-e-settembre-a-villa-dora-2026-08-08/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:44+00:00"
+      "checkedAt": "2026-09-05T14:35:13+00:00"
     },
     {
       "title": "Terra & Acqua 2026",
       "startDate": "2026-08-29",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -4685,7 +4326,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Ronchis",
       "venue": "Più sedi",
-      "description": "Un’unica manifestazione con 3 appuntamenti raccolti e ordinati nel programma completo.",
+      "description": "Un’unica manifestazione con 2 appuntamenti raccolti e ordinati nel programma completo.",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4710,20 +4351,17 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 90,
       "slug": "terra-acqua-2026",
-      "longDescription": "Un’unica manifestazione con 3 appuntamenti raccolti e ordinati nel programma completo.",
+      "longDescription": "Un’unica manifestazione con 2 appuntamenti raccolti e ordinati nel programma completo.",
       "detailParagraphs": [
         "un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti.",
         "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Programma del festival Tutti gli appuntamenti sono a partecipazione libera",
         "Organized by: Comune di Ronchis Tel. 0431 56014 Email: areaamministrativa@comune.ronchis.ud.it",
-        "Il secondo appuntamento sarà una serata divulgativa con Fabrizio Cocetti, fisico delle astroparticelle,",
-        "Interventi musicali di Rachele Zanier e Flavio Zanier e Paolo Sgheri alla chitarra.",
-        "In caso di maltempo, l' evento si terrà nella Chiesa di Fraforeano.",
-        "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Il secondo appuntamento sarà una serata divulgativa con Fabrizio Cocetti, fisico delle astroparticelle, Interventi musicali di Rachele Zanier e Flavio Zanier e Paolo Sgheri alla chitarra. Ingresso libero In caso di maltempo, l' evento si terrà nella Chiesa di Fraforeano. Programma del festival",
         "Ore 7.30 – Ritrovo presso l'Azienda Agricola Montello (Via Massilute) per una passeggiata fino all'Ancona di Sante Sabide insieme al professor Luca De Clara.",
         "\", realizzata in collaborazione con UTE Latisana Bassa Friulana Occidentale e con l'insegnante Lucia Zamburlini.",
         "La mostra sarà visitabile dalle ore 9.00 fino al tramonto.",
         "In caso di maltempo, l' evento si terrà presso la Sala della Protezione Civile (Via Moross)",
         "In occasione degli 800 anni dalla morte di San Francesco, l'attore Massimo Somaglino proporrà una lettura scenica di alcuni brani dell'enciclica Laudato si' di Papa Francesco, con accompagnamento musicale di Cristina Mauro e Stefano Montello",
+        "In caso di maltempo, l' evento si terrà nella Chiesa di Fraforeano",
         "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. In occasione degli 800 anni dalla morte di San Francesco, l'attore Massimo Somaglino proporrà una lettura scenica di alcuni brani dell'enciclica Laudato si' di Papa Francesco, con accompagnamento musicale di Cristina Mauro e Stefano Montello Ingresso libero In caso di maltempo, l' evento si terrà nella Chiesa di Fraforeano Programma del festival"
       ],
       "admission": {
@@ -4743,15 +4381,6 @@ window.EVENTS_DATA = {
       "notesSummary": "Le schede dei singoli appuntamenti sono state unite nella manifestazione principale.",
       "organizer": "PromoTurismoFVG",
       "program": [
-        {
-          "label": "Venerdì 4 settembre · Terra & Acqua - Terra, acqua e... stelle",
-          "items": [
-            "Nasce a Ronchis Terra & Acqua, un festival per osservare, ascoltare e vivere il paesaggio con uno sguardo nuovo, attraverso incontri, musica, letture sceniche, esperienze e la presenza di autorevoli ospiti. Serata divulgativa con Fabrizio Cocetti, fisico delle astroparticelle…"
-          ],
-          "location": "Ronchis · Ancona di Sante Sabide Fraz. Fraforeano",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Ancona+di+Sante+Sabide+Fraz.+Fraforeano%2C+Ronchis&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/terra-acqua-terra-acqua-e-stelle"
-        },
         {
           "label": "Sabato 5 settembre · Terra & Acqua - Tagliamento: terra e acque",
           "items": [
@@ -4783,11 +4412,6 @@ window.EVENTS_DATA = {
         },
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/terra-acqua-terra-acqua-e-stelle",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
           "url": "https://www.turismofvg.it/eventi/terra-acqua-tagliamento-terra-e-acque",
           "role": "Programma o conferma"
         },
@@ -4800,7 +4424,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/terra-acqua-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:44+00:00",
+      "checkedAt": "2026-09-05T14:35:14+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
     },
     {
@@ -4808,7 +4432,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-02",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -4816,7 +4439,7 @@ window.EVENTS_DATA = {
       "area": "friuli",
       "city": "Gradisca d'Isonzo",
       "venue": "Più sedi",
-      "description": "Un’unica manifestazione con 11 appuntamenti raccolti e ordinati nel programma completo.",
+      "description": "Un’unica manifestazione con 8 appuntamenti raccolti e ordinati nel programma completo.",
       "price": "Non indicato",
       "status": "da_ricontrollare",
       "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
@@ -4841,23 +4464,23 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 90,
       "slug": "in-visible-cities-2026",
-      "longDescription": "Un’unica manifestazione con 11 appuntamenti raccolti e ordinati nel programma completo.",
+      "longDescription": "Un’unica manifestazione con 8 appuntamenti raccolti e ordinati nel programma completo.",
       "detailParagraphs": [
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA",
         "Segni di Resistenza è una mostra di opere artistiche che nasce da un contest creativo dedicato alle arti grafiche e alle opere artistiche in LIS, rivolto a persone Sorde*, udenti e segnanti, per raccontare la resistenza alle oppressioni. Perché riconoscere le ingiustizie e trasformarle in forma artistica è un atto collettivo: significa immaginare nuovi futuri possibili. L’ispirazione per il concorso arriva dallo spettacolo The Beat of Freedom. La Resistenza a fumetti, tratto dal libro Io sono l’ultimo: le lettere di partigiani e partigiane prendono forma sul palco attraverso il disegno dal vivo del fumettista Fabio Babich e la voce dell’attrice Marta Cuscunà, accompagnata dall’interprete LIS Elisa Verrando che le traduce in Lingua dei Segni Italiana.",
         "Da questa performance, nasce l’idea per un concorso creativo che invita a creare opere artistiche attorno al tema della resistenza alle oppressioni, partendo dalla Resistenza al fascismo fino alla resistenza messa in atto dalla comunità Sorda che continua a lottare per il riconoscimento, la valorizzazione e la tutela della propria lingua e cultura. Non solo Resistenza storica, quindi, ma anche la resistenza quotidiana contro le oppressioni: abiliste, sessiste, razziste o ideologiche.",
         "Prenotazioni tramite Whatsapp o SMS al numero +39 328 8535125 indicando: Nome, Cognome, Spettacolo, Numero di biglietti.",
         "In\\Visible Cities è un festival urbano e site specific che si svolge “nelle città visibili” , per lo più a cielo aperto: dalle piazze alle strade pedonali, dai parchi pubblici a quelli privati, dagli edifici dal grande valore storico-artistico alle aree dismesse, con l’obiettivo di valorizzare e far scoprire i territori attraverso esperienze artistiche e performative coinvolgenti. PROGRAMMA Segni di Resistenza /Etnorama CasaFestival Da mercoledì 2 a domenica 6 settembre ore 17.00 – 20.00",
-        "ANGELS’ ORDERS. The Rilke Project / Pablo Girolami / IVONA",
-        "ANGELS’ ORDERS. The Rilke Project / Pablo Girolami / IVONA Porta Nuova Venerdì 4 settembre ore 18.00",
         "Not to Scale è un’esperienza performativa immersiva. Ogni coppia di partecipanti, guidata da una traccia audio, intraprende un viaggio comune utilizzando soltanto una matita e alcuni fogli di carta bianca.",
         "Disegnare, cancellare, osservare, indicare, scambiarsi dei fogli: azioni minime che, intrecciandosi con la voce narrante, i suoni e la musica, danno vita a una drammaturgia invisibile in cui i partecipanti diventano al tempo stesso interpreti e spettatori.",
         "Priva di attori e di un pubblico esterno, l’opera si sviluppa interamente nell’immaginazione e nella relazione tra le persone coinvolte, invitando a riflettere sui meccanismi della percezione, della rappresentazione e della costruzione condivisa del significato.",
-        "Pas Moi conclude una ricerca documentaria e affettiva che esplora la rete di potere e dominio intessuta nella storiografia tradizionale. Dopo Je Vous Aime, che analizzava le prime proiezioni di immagini in movimento, Pas Moi segue un percorso parallelo e esplora la genesi dei primi dispositivi di registrazione, trasmissione e riproduzione del suono. Attraverso archivi minori, antistorie e saperi situate trasmessi corpo-a-corpo, i celebrati apparecchi all’origine della futura industria cinematografica e musicale si rivelano concepiti con un intento audista e fonocentrico: “guarire” la sordità.",
-        "Pas Moi è un dialogo performativo tra due persone Sorde condotto in lingua dei segni, la madre lingua (anche se non risiede nella bocca) di due dei tre artisti sordi in scena.",
-        "Massimo Silverio è uno dei nomi più rappresentativi del nuovo panorama musicale italiano, capace di crearsi una nicchia nella scena indipendente con il suo stile inconsueto e avanguardista, influenzato dal folklore della Carnia, dall’elettronica e da un personalissimo songwriting. Surtùm è un termine che dal friulano può essere tradotto come palude o come prato acquitrinoso.",
-        "Nel caso specifico di questo disco Surtùm è inteso e immaginato come un luogo dove si depositano canti e preghiere, nostre o di altri.",
-        "Surtùm è un viaggio di pace e grazia, una lenta discesa nella natura oscura dell’uomo, un album con cui Massimo Silverio cerca di esorcizzare i tempi oscuri di violenza e odio che stiamo vivendo."
+        "BALLETTI è un progetto di trasmissione fedele delle coreografie dei videoclip musicali degli anni Novanta/Duemila quando pop star come Britney Spears, Backstreet Boys, Spice Girls, Ricky Martin, Janet Jackson hanno combinato la propria musica con la danza costruendo delle performance coreografiche, da soli o con altri ballerini, diventate l’elemento ricorrente dei video e dei live di quegli anni.",
+        "Daria Greco ricrea una classe di danza moderna aperta a tutti e tutte, senza limiti di età e senza una preparazione pregressa, in cui tutto corrisponde all’estetica anni Novanta. Una lezione di danza moderna nello spazio pubblico in cui, dopo un breve riscaldamento del corpo, la trasmissione della coreografia avviene attraverso la spiegazione dei passi e l'assimilazione dei conteggi, in maniera frontale e per mezzo della ripetizione.",
+        "Mettere al mondo un figlio oggi è un atto di coraggio o di imprudenza?",
+        "Dad or Alive esplora il conflitto tra il desiderio di genitorialità e la paura di un futuro incerto: se trasmettere una parte di sé o mettere al mondo un'altra vita in un mondo in crisi.",
+        "Attraverso storie, dati e confessioni personali, parole, musica elettronica dal vivo e video mapping, la performance dà voce a coloro che si chiedono se diventare genitori oggi sia ancora un sogno realizzabile o una responsabilità insostenibile.",
+        "Eco-ansia, precarietà, desiderio, paura: un'indagine intima e politica rivolta a coloro che si chiedono non solo “voglio un figlio?”, ma soprattutto “in che tipo di mondo vivrà?”.",
+        "Il progetto performativo Macelleria Cosmica parte da una riflessione sul corpo umano, che, in quanto materia, è universalmente connesso più di quanto siamo abituati a credere. Il corpo umano è sempre la carne di qualcos'altro: un aggregato di atomi appartenuti ad altri esseri viventi, con un'unica origine: la fusione nucleare nelle stelle. Siamo una «macelleria cosmica», usando le parole di Emanuele Coccia. In scena, una performer dà voce a un monologo in uno spazio sospeso, mentre una camera riprende la sua immagine e la distorce in presa diretta. Un testo proiettato invita lo spettatore a riflettere sul proprio ruolo all'interno dell'ecosistema in cui tutto è costituito dalla stessa materia vibrante."
       ],
       "admission": {
         "type": "unknown",
@@ -4886,15 +4509,6 @@ window.EVENTS_DATA = {
           "sourceUrl": "https://www.turismofvg.it/eventi/in-visible-cities-2026-segni-di-resistenza"
         },
         {
-          "label": "Venerdì 4 settembre · In\\Visible Cities 2026 - ANGELS’ ORDERS. The Rilke Project",
-          "items": [
-            "ore 18.00"
-          ],
-          "location": "Gradisca d'Isonzo · Porta Nuova",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Porta+Nuova%2C+Gradisca+d%27Isonzo&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/in-visible-cities-2026-angels-orders-the-rilke-project"
-        },
-        {
           "label": "Da Venerdì 4 settembre a Sabato 5 settembre · In\\Visible Cities 2026 - Not to scale - Gradisca d'Isonzo",
           "items": [
             "ore 16.00, 17.00, 18.00",
@@ -4903,24 +4517,6 @@ window.EVENTS_DATA = {
           "location": "Gradisca d'Isonzo · Casa Maccari - Via della Campagnola, 18",
           "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Casa+Maccari+-+Via+della+Campagnola%2C+18%2C+Gradisca+d%27Isonzo&travelmode=driving",
           "sourceUrl": "https://www.turismofvg.it/eventi/in-visible-cities-2026-not-to-scale-gradisca-d-isonzo"
-        },
-        {
-          "label": "Venerdì 4 settembre · In\\Visible Cities 2026 - Pas moi",
-          "items": [
-            "ore 19.00"
-          ],
-          "location": "Gradisca d'Isonzo · Sala Bergamas, Via A. Bergamas, 3",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Sala+Bergamas%2C+Via+A.+Bergamas%2C+3%2C+Gradisca+d%27Isonzo&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/in-visible-cities-2026-pas-moi"
-        },
-        {
-          "label": "Venerdì 4 settembre · In\\Visible Cities 2026 - Surtùm",
-          "items": [
-            "ore 21.00"
-          ],
-          "location": "Gradisca d'Isonzo · Teatro Nuovo - Via Marziano Ciotti, 1",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Teatro+Nuovo+-+Via+Marziano+Ciotti%2C+1%2C+Gradisca+d%27Isonzo&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/in-visible-cities-2026-surtum"
         },
         {
           "label": "Sabato 5 settembre · In\\Visible Cities 2026 -Balletti",
@@ -4983,21 +4579,6 @@ window.EVENTS_DATA = {
       "sources": [
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/in-visible-cities-2026-angels-orders-the-rilke-project",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/in-visible-cities-2026-pas-moi",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/in-visible-cities-2026-surtum",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
           "url": "https://www.turismofvg.it/eventi/in-visible-cities-2026-macelleria-cosmica",
           "role": "Programma o conferma"
         },
@@ -5040,7 +4621,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/in-visible-cities-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:52+00:00",
+      "checkedAt": "2026-09-05T14:35:19+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
     },
     {
@@ -5048,7 +4629,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-03",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -5126,14 +4706,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/home-per-tornare-assieme-nella-casa-del-mondo-2026-09-03/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:52+00:00"
+      "checkedAt": "2026-09-05T14:35:19+00:00"
     },
     {
       "title": "29th International Stone Sculpture Symposium Friuli Venezia Giulia",
       "startDate": "2026-09-04",
       "endDate": "2026-09-20",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -5217,14 +4796,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/29th-international-stone-sculpture-symposium-friuli-venezia-giulia-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:53+00:00"
+      "checkedAt": "2026-09-05T14:35:20+00:00"
     },
     {
       "title": "Ridopoco – Il Festival che ti serviva",
       "startDate": "2026-09-04",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -5302,7 +4880,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/ridopoco-il-festival-che-ti-serviva-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:52+00:00"
+      "checkedAt": "2026-09-05T14:35:18+00:00"
     },
     {
       "title": "Festival Diritti in festa",
@@ -5389,7 +4967,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/festival-diritti-in-festa-2026-09-05/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:48+00:00"
+      "checkedAt": "2026-09-05T14:35:15+00:00"
     },
     {
       "title": "753ª Sagra Dei Osei",
@@ -5470,7 +5048,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/753a-sagra-dei-osei-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:48+00:00"
+      "checkedAt": "2026-09-05T14:35:15+00:00"
     },
     {
       "title": "Concerto Omar Pedrini - Dai Timoria ad Oggi",
@@ -5550,7 +5128,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/concerto-omar-pedrini-dai-timoria-ad-oggi-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:49+00:00"
+      "checkedAt": "2026-09-05T14:35:16+00:00"
     },
     {
       "title": "V Festival di Cas*Aupa",
@@ -5630,7 +5208,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/v-festival-di-cas-aupa-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:49+00:00"
+      "checkedAt": "2026-09-05T14:35:16+00:00"
     },
     {
       "title": "Festa dell’uva",
@@ -5713,7 +5291,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/festa-delluva-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:50+00:00"
+      "checkedAt": "2026-09-05T14:35:17+00:00"
     },
     {
       "title": "Septemberfest – Festa dell’uva e del vino",
@@ -5938,7 +5516,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-05-07",
       "endDate": "2026-09-24",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -6019,7 +5596,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/mercato-contadino-al-faaker-see-2026-05-07/index.html",
       "sourceLanguage": "de",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:57+00:00",
+      "checkedAt": "2026-09-05T14:35:24+00:00",
       "originalTitle": "Faaker Bauernmarkt Jeden Donnerstag - Start 7. Mai geht bis zum 24. September 2026 Der Faaker See Bauernmarkt lädt Gäste ein, regionale Produkte, traditionelle Spezialitäten und echtes Kärntner Marktflair zu entdecken. Gäste erleben bäuerliche Köstlichkeiten, handgemachte Produkte und persönliche Begegnungen mit Produzent:innen aus der Region. Die Veranstaltung verbindet Kulinarik, Handwerk und geselliges Beisammensein zu einem authentischen Genusserlebnis am Faaker See. Erfahre mehr"
     },
     {
@@ -6027,7 +5604,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-04T07:00:00+02:00",
       "endDate": "2026-09-05T18:00:00+02:00",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05"
       ],
       "days": [],
@@ -6127,7 +5703,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-02",
       "endDate": "2026-09-06",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06"
       ],
@@ -6337,85 +5912,6 @@ window.EVENTS_DATA = {
       ]
     },
     {
-      "title": "Finale Campionato Italiano Beach Volley",
-      "startDate": "2026-09-04",
-      "endDate": "2026-09-04",
-      "occurrenceDates": [
-        "2026-09-04"
-      ],
-      "days": [],
-      "area": "mare",
-      "city": "Caorle",
-      "venue": "Luogo indicato nella fonte",
-      "description": "04 09 2026 Finale Campionato Italiano Beach Volley:",
-      "price": "Non indicato",
-      "status": "da_ricontrollare",
-      "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
-      "sourceUrl": "https://www.caorle.com/it/news-caorle/04-09-2026-finale-campionato-italiano-beach-volley-3835.html",
-      "sourceName": "Caorle.com",
-      "tags": [
-        "evento",
-        "mare"
-      ],
-      "image": "assets/images/finale-campionato-italiano-beach-volley-2026-09-04.webp",
-      "imageRemoteUrl": "https://www.caorle.com/photo_news/04-09-2026-finale-campionato-italiano-beach-volley_251.jpg",
-      "imageAlt": "Immagine ufficiale di Finale Campionato Italiano Beach Volley",
-      "imageSourceName": "Caorle.com",
-      "imageSourceUrl": "https://www.caorle.com/it/news-caorle/04-09-2026-finale-campionato-italiano-beach-volley-3835.html",
-      "locationLabel": "Caorle · Luogo indicato nella fonte",
-      "address": "Caorle",
-      "mapsVerification": "localita_dalla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Caorle&travelmode=driving",
-      "zone": "mare",
-      "zones": [
-        "mare"
-      ],
-      "distanceFromTarcentoKm": 117,
-      "slug": "finale-campionato-italiano-beach-volley-2026-09-04",
-      "longDescription": "04 09 2026 Finale Campionato Italiano Beach Volley:",
-      "detailParagraphs": [
-        "Caorle, dal 4 al 6 settembre ospita la finale scudetto del Campionato Italiano di Beach Volley. Spiaggia di Levante (white oasis)"
-      ],
-      "admission": {
-        "type": "unknown",
-        "label": "Costo non indicato"
-      },
-      "booking": {
-        "type": "unknown",
-        "label": "Prenotazione non indicata"
-      },
-      "programStatus": {
-        "type": "source_check",
-        "label": "Programma da verificare",
-        "note": "Apri la fonte ufficiale per orari e possibili aggiornamenti."
-      },
-      "weatherPlan": "Nessuna indicazione specifica pubblicata.",
-      "notesSummary": "Acquisito automaticamente dalla fonte.",
-      "organizer": "Caorle.com",
-      "program": [
-        {
-          "label": "Programma pubblicato",
-          "items": [
-            "Dal 2026-09-04 al 2026-09-04"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Controllare la fonte prima di partire."
-      ],
-      "sources": [
-        {
-          "name": "Caorle.com",
-          "url": "https://www.caorle.com/it/news-caorle/04-09-2026-finale-campionato-italiano-beach-volley-3835.html",
-          "role": "Fonte di acquisizione"
-        }
-      ],
-      "detailPath": "dettaglio/finale-campionato-italiano-beach-volley-2026-09-04/index.html",
-      "sourceLanguage": "it",
-      "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:56+00:00"
-    },
-    {
       "title": "Corsa solidale La Caorlina",
       "startDate": "2026-09-06",
       "endDate": "2026-09-06",
@@ -6492,14 +5988,13 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/corsa-solidale-la-caorlina-2026-09-06/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-04T18:07:56+00:00"
+      "checkedAt": "2026-09-05T14:35:24+00:00"
     },
     {
       "title": "Giornate della cucina Alpe-Adria",
       "startDate": "2026-09-04T12:00:00+02:00",
       "endDate": "2026-09-13T23:00:00+02:00",
       "occurrenceDates": [
-        "2026-09-04",
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
@@ -6673,7 +6168,7 @@ window.EVENTS_DATA = {
       "id": "promoturismo-fvg",
       "name": "PromoTurismoFVG",
       "status": "ok",
-      "found": 65
+      "found": 54
     },
     {
       "id": "lignano-ufficiale",
@@ -6701,12 +6196,12 @@ window.EVENTS_DATA = {
     }
   ],
   "statistics": {
-    "seedInWindow": 31,
-    "discoveredInWindow": 83,
-    "matched": 14,
-    "added": 69,
+    "seedInWindow": 29,
+    "discoveredInWindow": 71,
+    "matched": 13,
+    "added": 58,
     "copiedImages": 0,
-    "removedImages": 34,
-    "total": 62
+    "removedImages": 30,
+    "total": 58
   }
 };

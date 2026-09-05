@@ -89,6 +89,26 @@ function navigationUrl(item) {
   }
 }
 
+function androidMapsIntentUrl(webUrl) {
+  try {
+    const url = new URL(webUrl);
+    if (url.protocol !== 'https:' || !url.hostname.endsWith('google.com')) return webUrl;
+    return `intent://${url.host}${url.pathname}${url.search}#Intent;scheme=https;package=com.google.android.apps.maps;S.browser_fallback_url=${encodeURIComponent(webUrl)};end`;
+  } catch (_) {
+    return webUrl;
+  }
+}
+
+function applyAndroidMapLinks(root = document) {
+  if (!/Android/i.test(navigator.userAgent)) return;
+  root.querySelectorAll('a[data-map-link]').forEach(link => {
+    const webUrl = link.dataset.webMapsUrl || navigationUrl({mapsUrl: link.href});
+    link.dataset.webMapsUrl = webUrl;
+    link.href = androidMapsIntentUrl(webUrl);
+    link.removeAttribute('target');
+  });
+}
+
 function eventHasEnded(item, now = new Date()) {
   const rawEnd = item.endDate || item.startDate;
   if (!rawEnd) return false;
@@ -105,7 +125,7 @@ function renderUnavailable(expired = false) {
 function renderProgram(item) {
   return (item.program || []).map(group => {
     const location = group.location ? `<p class="schedule-location">${escapeHtml(group.location)}</p>` : '';
-    const map = group.mapsUrl ? `<a class="schedule-source" href="${escapeHtml(navigationUrl({mapsUrl:group.mapsUrl}))}" target="_blank" rel="noopener">Indicazioni per questa sede</a>` : '';
+    const map = group.mapsUrl ? `<a class="schedule-source" href="${escapeHtml(navigationUrl({mapsUrl:group.mapsUrl}))}" data-map-link target="_blank" rel="noopener">Indicazioni per questa sede</a>` : '';
     const source = group.sourceUrl ? `<a class="schedule-source" href="${escapeHtml(group.sourceUrl)}" target="_blank" rel="noopener">Apri il programma alla fonte</a>` : '';
     return `<section class="schedule-day"><h3>${escapeHtml(group.label)}</h3>${location}<ul>${(group.items || []).map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>${map}${source}</section>`;
   }).join('') || '<p>Il programma dettagliato non è ancora disponibile.</p>';
@@ -137,7 +157,7 @@ function render(item) {
       <span class="detail-zone">${escapeHtml(({friuli:'Friuli',mare:'Mare',austria:'Austria'})[item.zone] || item.zone)}</span>
       <p class="detail-date">${escapeHtml(dates)}</p><h1>${escapeHtml(item.title)}</h1>${original}${renderRating(item)}
       <p class="detail-lead">${escapeHtml(item.description)}</p>
-      <div class="detail-actions"><a class="detail-button detail-button--maps" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener"><img src="https://api.iconify.design/lucide/map-pin.svg?color=%23ffffff" alt="">Indicazioni</a><button class="detail-button detail-button--share" type="button" data-share><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button></div>
+      <div class="detail-actions"><a class="detail-button detail-button--maps" href="${escapeHtml(mapsUrl)}" data-map-link target="_blank" rel="noopener"><img src="https://api.iconify.design/lucide/map-pin.svg?color=%23ffffff" alt="">Indicazioni</a><button class="detail-button detail-button--share" type="button" data-share><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button></div>
     </div>
     <dl class="detail-info" aria-label="Informazioni pratiche">
       <div><dt>Costi e prenotazioni</dt><dd>${escapeHtml(item.admission?.label || 'Costo non indicato')} · ${escapeHtml(item.booking?.label || 'Prenotazione non indicata')}</dd></div>
@@ -150,10 +170,11 @@ function render(item) {
       <section class="detail-section"><p class="eyebrow eyebrow--eventi">IL PROGRAMMA</p><h2>Programma e orari</h2><div class="schedule-list">${renderProgram(item)}</div></section>
       <section class="detail-section"><p class="eyebrow eyebrow--eventi">INFORMAZIONI UTILI</p><h2>Prima di partire</h2><ul class="detail-notes">${(item.practicalNotes || []).map(note => `<li>${escapeHtml(note)}</li>`).join('')}</ul></section>
     </div><aside class="detail-aside">
-      <section class="detail-place"><p class="eyebrow eyebrow--eventi">DOVE</p><h2>Luogo</h2><p>${escapeHtml(item.locationLabel)}</p><a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener">Apri in Google Maps</a></section>
+      <section class="detail-place"><p class="eyebrow eyebrow--eventi">DOVE</p><h2>Luogo</h2><p>${escapeHtml(item.locationLabel)}</p><a href="${escapeHtml(mapsUrl)}" data-map-link target="_blank" rel="noopener">Apri in Google Maps</a></section>
       <section class="detail-sources"><p class="eyebrow eyebrow--eventi">VERIFICA</p><h2>Fonti</h2><ul>${renderSources(item)}</ul></section>
     </aside></div>
     <footer class="detail-bottom-actions"><a class="detail-button detail-button--back" href="../../">Torna agli eventi</a><button class="detail-button detail-button--share" type="button" data-share><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button></footer>`;
+  applyAndroidMapLinks(target);
   target.querySelectorAll('[data-share]').forEach(button => button.addEventListener('click', async () => {
     const message = [item.title, item.description, location.href].filter(Boolean).join('\n\n');
     try { if (navigator.share) await navigator.share({title:item.title,text:message,url:location.href}); else { await navigator.clipboard.writeText(message); button.textContent='Link copiato'; } } catch (_) {}
