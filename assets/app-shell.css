@@ -1,4 +1,7 @@
 .app-menu { position: relative; }
+.site-header .header-actions { gap: 8px; }
+[data-app-menu-slot]:empty { display: none; }
+.app-menu:not([open]) > .app-menu__panel { display: none; }
 .app-menu > summary { list-style: none; }
 .app-menu > summary::-webkit-details-marker { display: none; }
 .app-menu__panel { position: absolute; top: calc(100% + 8px); right: 0; display: grid; width: min(340px, calc(100vw - 24px)); max-height: min(72vh, 580px); overflow-y: auto; gap: 4px; padding: 8px; border: 1px solid var(--line, #d8e5dc); border-radius: 12px; color: var(--forest, #173e35); background: #fff; box-shadow: 0 18px 42px rgb(23 62 53 / 22%); }
@@ -12,10 +15,15 @@
 .app-menu__toggle[aria-expanded="true"] .app-menu__chevron { transform: rotate(90deg); }
 .app-menu__submenu { display: grid; padding: 0 8px 7px 53px; }
 .app-menu__submenu[hidden] { display: none !important; }
-.app-menu__submenu a { display: flex; min-height: 42px; align-items: center; padding: 8px 10px; border-top: 1px solid #edf2ee; border-radius: 8px; color: inherit; text-decoration: none; }
-.app-menu__submenu a:hover { background: var(--soft, #e5f0e8); }
+.app-menu__submenu a, .app-menu__submenu button { display: flex; width: 100%; min-height: 44px; align-items: center; padding: 8px 10px; border: 0; border-top: 1px solid #edf2ee; border-radius: 8px; color: #173e35; background: transparent; font: inherit; text-align: left; text-decoration: none; cursor: pointer; }
+.app-menu__submenu a:hover, .app-menu__submenu button:hover, .app-menu__action:hover { background: var(--soft, #e5f0e8); }
+.app-menu__action { display: flex; min-height: 48px; align-items: center; gap: 23px; padding: 9px 8px; border-radius: 8px; color: #173e35; text-decoration: none; font-weight: 820; }
+.app-menu__action img { width: 22px; height: 22px; }
+.app-menu__status { margin: 8px; color: #64756b; font-size: .9rem; }
 [data-giu-app] .page-index-menu { display: none !important; }
 
 @media (max-width: 620px) {
+  /* No space for the removed native overlay, including older Eventi styles. */
+  .detail-page .site-header .site-header__inner { padding-right: 16px; }
   .app-menu__panel { position: fixed; top: 58px; right: 12px; left: 12px; width: auto; }
 }

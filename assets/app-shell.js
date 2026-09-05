@@ -37,14 +37,62 @@
     document.dispatchEvent(new CustomEvent('giu:close-search'));
   }
 
-  function buildMenu(pages) {
+  function buildMenu(catalog) {
     const slot = document.querySelector('[data-app-menu-slot]') || document.querySelector('.header-actions') || document.querySelector('.site-header__inner');
     if (!slot || document.querySelector('.app-menu')) return false;
 
     const menu = document.createElement('details');
     menu.className = 'app-menu';
-    menu.innerHTML = `<summary class="icon-button" aria-label="Apri argomenti e pagine"><img src="${icon('menu', '#ffffff')}" alt=""></summary><nav class="app-menu__panel" aria-label="Argomenti e pagine"></nav>`;
+    menu.innerHTML = `<summary class="icon-button" aria-label="Apri menu"><img src="${icon('menu', '#ffffff')}" alt=""></summary><nav class="app-menu__panel" aria-label="Navigazione e impostazioni"></nav>`;
     const panel = menu.querySelector('.app-menu__panel');
+
+    // Reuse the native actions without introducing a second popup or toolbar.
+    const native = window.GiuPageNative;
+    const home = document.createElement('a');
+    home.className = 'app-menu__action';
+    home.href = siteRoot.href;
+    home.innerHTML = `<img src="${icon('house', '#173e35')}" alt=""><span>Home</span>`;
+    home.addEventListener('click', event => {
+      closeMenu(menu);
+      if (typeof native.goHome === 'function') {
+        event.preventDefault();
+        native.goHome();
+      }
+    });
+    panel.append(home);
+
+    if (typeof native.openSettings === 'function') {
+      const settings = document.createElement('section');
+      settings.className = 'app-menu__category';
+      settings.innerHTML = `<button class="app-menu__toggle" type="button" aria-expanded="false" aria-controls="app-settings"><span class="app-menu__main"><img src="${icon('settings', '#173e35')}" alt=""><span class="app-menu__name">Impostazioni</span><span></span><img class="app-menu__chevron" src="${icon('chevron-right', '#173e35')}" alt=""></span></button><div class="app-menu__submenu" id="app-settings" hidden></div>`;
+      const toggle = settings.querySelector('button');
+      const submenu = settings.querySelector('.app-menu__submenu');
+      [['Ricarica', 'reloadPage'], ['Apri nel browser', 'openInBrowser'], ['Indirizzo iniziale', 'openSettings']].forEach(([label, method]) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = label;
+        button.addEventListener('click', () => {
+          closeMenu(menu);
+          native[method]();
+        });
+        submenu.append(button);
+      });
+      toggle.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') === 'true';
+        closeCategories(panel);
+        toggle.setAttribute('aria-expanded', String(!open));
+        submenu.hidden = open;
+      });
+      panel.append(settings);
+    }
+
+    const status = document.createElement('p');
+    status.className = 'app-menu__status';
+    status.setAttribute('role', 'status');
+    status.textContent = 'Caricamento argomenti…';
+    panel.append(status);
+    catalog.then(pages => {
+    status.remove();
 
     definitions.forEach(category => {
       const categoryPages = pages.filter(page => page.listed !== false && (page.category || 'varie') === category.id);
@@ -74,6 +122,9 @@
       });
       panel.append(item);
     });
+    }).catch(() => {
+      status.textContent = 'Argomenti non disponibili. Usa Ricarica per riprovare.';
+    });
 
     if (slot.hasAttribute('data-app-menu-slot')) slot.replaceWith(menu);
     else slot.append(menu);
@@ -98,16 +149,13 @@
     return true;
   }
 
-  fetch(new URL('catalogo.json', siteRoot), { cache: 'no-store' })
+  const catalog = fetch(new URL('catalogo.json', siteRoot), { cache: 'no-store' })
     .then(response => response.ok ? response.json() : Promise.reject(new Error('catalogo')))
-    .then(data => {
-      const pages = Array.isArray(data.pages) ? data.pages : [];
-      const install = () => {
-        if (!document.querySelector('.app-menu')) buildMenu(pages);
-      };
-      document.addEventListener('giu:page-ready', install, { once: true });
-      const usesSharedTheme = Boolean(document.querySelector('script[src*="/assets/page-theme.js"], script[src^="../assets/page-theme.js"]'));
-      if (document.body.classList.contains('gp-page') || !usesSharedTheme) install();
-    })
-    .catch(() => {});
+    .then(data => Array.isArray(data.pages) ? data.pages : []);
+  // Home and settings remain available even if the catalog cannot be downloaded.
+  catalog.catch(() => {});
+  const install = () => buildMenu(catalog);
+  document.addEventListener('giu:page-ready', install);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', install, { once: true });
+  else install();
 })();
