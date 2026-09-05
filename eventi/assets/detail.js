@@ -99,12 +99,22 @@ function androidMapsIntentUrl(webUrl) {
   }
 }
 
+function androidGeoUrl(webUrl) {
+  try {
+    const destination = new URL(webUrl).searchParams.get('destination');
+    return destination ? `geo:0,0?q=${encodeURIComponent(destination)}` : webUrl;
+  } catch (_) {
+    return webUrl;
+  }
+}
+
 function applyAndroidMapLinks(root = document) {
   if (!/Android/i.test(navigator.userAgent)) return;
+  const inGiuPageApp = Boolean(window.GiuPageNative);
   root.querySelectorAll('a[data-map-link]').forEach(link => {
     const webUrl = link.dataset.webMapsUrl || navigationUrl({mapsUrl: link.href});
     link.dataset.webMapsUrl = webUrl;
-    link.href = androidMapsIntentUrl(webUrl);
+    link.href = inGiuPageApp ? androidGeoUrl(webUrl) : androidMapsIntentUrl(webUrl);
     link.removeAttribute('target');
   });
 }
