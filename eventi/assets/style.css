@@ -292,7 +292,9 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
 .event-card__media img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .2s ease; }
 .event-card__media:hover img { transform: scale(1.025); }
 .event-card__media:focus-visible { outline: 3px solid rgba(180,70,114,.35); outline-offset: -3px; }
-.filter-count { margin-left: .3rem; font-variant-numeric: tabular-nums; font-weight: 850; }
+/* Preserve the original count's footprint so buttons keep their dimensions. */
+.filter-count { position: relative; margin-left: .3rem; font-variant-numeric: tabular-nums; font-weight: 850; visibility: hidden; }
+.filter-count::after { content: attr(data-count); position: absolute; top: -.45em; right: 0; visibility: visible; font-size: .72em; font-weight: 400; line-height: 1; }
 .filter-help { margin: 0; color: #64756b; font-size: .78rem; line-height: 1.5; }
 .event-card h3 a { color: inherit; text-decoration: none; }
 .event-card h3 a:hover { text-decoration: underline; }
@@ -396,7 +398,7 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
   .detail-bottom-actions { display: grid; grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 620px) {
-  .detail-page .site-header__inner { gap: 8px; padding-right: 68px; }
+  .detail-page .site-header__inner { gap: 8px; }
   .detail-page .brand { min-width: 0; }
   .detail-page .brand span { overflow: hidden; font-size: .88rem; text-overflow: ellipsis; white-space: nowrap; }
   .detail-header-back { flex: 0 0 auto; min-height: 36px; padding: .38rem .55rem; font-size: .76rem; }

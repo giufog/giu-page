@@ -545,7 +545,8 @@ function updateFilterCounts() {
       : eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, button.dataset.period)
     ).length;
     button.dataset.label ||= button.textContent.trim();
-    button.innerHTML = `${escapeHtml(button.dataset.label)} <span class="filter-count">${count}</span>`;
+    button.innerHTML = `${escapeHtml(button.dataset.label)} <span class="filter-count" data-count="${count}" aria-hidden="true">${count}</span>`;
+    button.setAttribute('aria-label', `${button.dataset.label}, ${count} ${count === 1 ? 'evento' : 'eventi'}`);
     button.setAttribute('aria-pressed', String(area ? area === activeArea : button.dataset.period === activePeriod));
   });
 }
