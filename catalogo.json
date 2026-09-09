@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08",
+  "updatedAt": "2026-09-09",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -193,23 +193,6 @@
       "listed": true
     },
     {
-      "title": "Eventi dal lunedì 31 agosto a domenica 13 settembre",
-      "slug": "eventi",
-      "category": "eventi",
-      "description": "Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
-      "createdAt": "2026-09-03",
-      "updatedAt": "2026-09-04",
-      "url": "https://giufog.github.io/giu-page/eventi/",
-      "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-eventi-20260904-v2.jpg",
-      "tags": [
-        "eventi",
-        "friuli",
-        "mare",
-        "austria"
-      ],
-      "listed": true
-    },
-    {
       "title": "Villetta a Bibione: valore e confronto di mercato",
       "slug": "villetta-a-bibione-valore-e-confronto-di-mercato",
       "category": "varie",
@@ -223,6 +206,23 @@
         "immobili",
         "villetta",
         "stima"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Eventi dal lunedì 31 agosto a domenica 13 settembre",
+      "slug": "eventi",
+      "category": "eventi",
+      "description": "Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
+      "createdAt": "2026-09-03",
+      "updatedAt": "2026-09-04",
+      "url": "https://giufog.github.io/giu-page/eventi/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-eventi-20260904-v2.jpg",
+      "tags": [
+        "eventi",
+        "friuli",
+        "mare",
+        "austria"
       ],
       "listed": true
     }
