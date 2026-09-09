@@ -132,7 +132,8 @@ window.EVENTS_DATA = {
       "programNote": "Apertura 10:00–20:00 secondo PromoTurismoFVG. La biglietteria online per il 5 settembre indica invece 09:00: l’orario di accesso va confermato. L’elenco seguente presenta alcuni spettacoli del programma generale, senza attribuirli a una giornata o a un orario non verificati.",
       "zones": [
         "friuli"
-      ]
+      ],
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/festival-oriente-udine-2026/index.html?s=03f3d04467"
     },
     {
       "title": "16a Ed. Concerti al Castello 2026",
@@ -227,7 +228,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/16a-ed-concerti-al-castello-2026-2026-06-14/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:18+00:00"
+      "checkedAt": "2026-09-08T09:37:18+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/16a-ed-concerti-al-castello-2026-2026-06-14/index.html?s=2e955c2fe9"
     },
     {
       "title": "Friuli DOC 2026",
@@ -342,7 +344,8 @@ window.EVENTS_DATA = {
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-08T09:37:23+00:00",
-      "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
+      "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni.",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/friuli-doc-2026/index.html?s=150c64e31a"
     },
     {
       "title": "Festival della canzone friulana",
@@ -423,7 +426,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/festival-della-canzone-friulana-2026-09-10/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:15+00:00"
+      "checkedAt": "2026-09-08T09:37:15+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/festival-della-canzone-friulana-2026-09-10/index.html?s=8bc80217f5"
     },
     {
       "title": "Anteprima Festival de \"La Città Ideale\" - Viers la lagune",
@@ -505,7 +509,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/anteprima-festival-de-la-citta-ideale-viers-la-lagune-2026-09-11/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:15+00:00"
+      "checkedAt": "2026-09-08T09:37:15+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/anteprima-festival-de-la-citta-ideale-viers-la-lagune-2026-09-11/index.html?s=37141bc344"
     },
     {
       "title": "L'Arlecchino Errante 2026",
@@ -735,7 +740,8 @@ window.EVENTS_DATA = {
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-08T09:37:17+00:00",
-      "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
+      "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni.",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/arlecchino-errante-2026/index.html?s=74610ebe0c"
     },
     {
       "title": "David Morales DJ set – Festa di fine estate",
@@ -822,7 +828,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/david-morales-pordenone-2026/index.html",
       "zones": [
         "friuli"
-      ]
+      ],
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/david-morales-pordenone-2026/index.html?s=9e0e7bf0c2"
     },
     {
       "title": "MUSIKE' WINDBAND 2026",
@@ -909,7 +916,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/musike-windband-2026-2026-07-18/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00"
+      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/musike-windband-2026-2026-07-18/index.html?s=3e143d9579"
     },
     {
       "title": "Esterno Verde – Oltre Lignano",
@@ -1056,7 +1064,8 @@ window.EVENTS_DATA = {
         "mare"
       ],
       "checkedAt": "2026-09-08T09:37:19+00:00",
-      "sourceReachable": true
+      "sourceReachable": true,
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/esterno-verde-oltre-lignano-2026/index.html?s=52e8a0611e"
     },
     {
       "title": "Biker Fest - 41^ edizione",
@@ -1141,7 +1150,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/biker-fest-41-edizione-2026-09-08/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00"
+      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/biker-fest-41-edizione-2026-09-08/index.html?s=ed1d6573bd"
     },
     {
       "title": "Dinner Show Friuli Venezia Giulia Via dei Sapori",
@@ -1237,7 +1247,8 @@ window.EVENTS_DATA = {
         "mare"
       ],
       "checkedAt": "2026-09-08T09:37:18+00:00",
-      "sourceReachable": true
+      "sourceReachable": true,
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/dinner-show-lignano-2026/index.html?s=2a0c81ae58"
     },
     {
       "title": "Moda d'autore 2026",
@@ -1322,7 +1333,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/moda-d-autore-2026-2026-09-10/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:18+00:00"
+      "checkedAt": "2026-09-08T09:37:18+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/moda-d-autore-2026-2026-09-10/index.html?s=bc03884b93"
     },
     {
       "title": "50° Anniversario del Terremoto del Friuli (1976 - 2026)",
@@ -1406,7 +1418,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00"
+      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12/index.html?s=5ea4b61015"
     },
     {
       "title": "Regata del sole",
@@ -1487,7 +1500,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/regata-del-sole-2026-09-13/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00"
+      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/regata-del-sole-2026-09-13/index.html?s=4c8807d16b"
     },
     {
       "title": "Italian Bike Week 2026",
@@ -1574,7 +1588,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/italian-bike-week-2026-2026-09-17/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00"
+      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/italian-bike-week-2026-2026-09-17/index.html?s=195683e076"
     },
     {
       "title": "FESTIVAL “IN-CONTAMINATO\"",
@@ -1672,7 +1687,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/festival-in-contaminato-2026-06-01/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:18+00:00"
+      "checkedAt": "2026-09-08T09:37:18+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/festival-in-contaminato-2026-06-01/index.html?s=47c435c73b"
     },
     {
       "title": "Friuli Concertante 2026",
@@ -1812,7 +1828,8 @@ window.EVENTS_DATA = {
       "sourceLanguage": "it",
       "translationLanguage": "it",
       "checkedAt": "2026-09-08T09:37:16+00:00",
-      "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni."
+      "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni.",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/friuli-concertante-2026/index.html?s=5d4da19717"
     },
     {
       "title": "Andar per Ville&Castelli del FVG 2026",
@@ -1907,7 +1924,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/andar-per-ville-castelli-del-fvg-2026-2026-07-19/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00"
+      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/andar-per-ville-castelli-del-fvg-2026-2026-07-19/index.html?s=8ad7b7f5be"
     },
     {
       "title": "αTipico - Musica in Villa 2026",
@@ -1994,7 +2012,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/tipico-musica-in-villa-2026-2026-08-20/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00"
+      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/tipico-musica-in-villa-2026-2026-08-20/index.html?s=47a5019908"
     },
     {
       "title": "ESTIVAL - Rapsodie nel Parco: tra cultura e natura",
@@ -2078,7 +2097,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/estival-rapsodie-nel-parco-tra-cultura-e-natura-2026-09-03/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:14+00:00"
+      "checkedAt": "2026-09-08T09:37:14+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/estival-rapsodie-nel-parco-tra-cultura-e-natura-2026-09-03/index.html?s=c4cd1797ef"
     },
     {
       "title": "29° Simposio Internazionale di Scultura su Pietre FVG",
@@ -2172,7 +2192,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/29-simposio-internazionale-di-scultura-su-pietre-fvg-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:18+00:00"
+      "checkedAt": "2026-09-08T09:37:18+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/29-simposio-internazionale-di-scultura-su-pietre-fvg-2026-09-04/index.html?s=a53359f61e"
     },
     {
       "title": "La strada dei libri passa da...",
@@ -2252,7 +2273,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/la-strada-dei-libri-passa-da-2026-09-09/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:14+00:00"
+      "checkedAt": "2026-09-08T09:37:14+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/la-strada-dei-libri-passa-da-2026-09-09/index.html?s=457856c7f2"
     },
     {
       "title": "Septemberfest – Festa dell’uva e del vino",
@@ -2343,7 +2365,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/septemberfest-bibione-2026/index.html",
       "zones": [
         "mare"
-      ]
+      ],
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/septemberfest-bibione-2026/index.html?s=dfd1937a1d"
     },
     {
       "title": "Jazz River - Roberto Gatto 4tet \"Around Miles\"",
@@ -2424,7 +2447,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/jazz-river-roberto-gatto-4tet-around-miles-2026-09-11/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:15+00:00"
+      "checkedAt": "2026-09-08T09:37:15+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/jazz-river-roberto-gatto-4tet-around-miles-2026-09-11/index.html?s=da06142fa7"
     },
     {
       "title": "Anteprima Festival de \"La Città Ideale\" - Echi di Donna, la figura femminile nella musica",
@@ -2505,7 +2529,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/anteprima-festival-de-la-citta-ideale-echi-di-donna-la-figura-femminile-nella-mu/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00"
+      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/anteprima-festival-de-la-citta-ideale-echi-di-donna-la-figura-femminile-nella-mu/index.html?s=60ed268d0c"
     },
     {
       "title": "Jazz River - Eleonora Strino Trio \"Matilde\"",
@@ -2587,7 +2612,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/jazz-river-eleonora-strino-trio-matilde-2026-09-12/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00"
+      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/jazz-river-eleonora-strino-trio-matilde-2026-09-12/index.html?s=85648883d2"
     },
     {
       "title": "Cori in festa 2026",
@@ -2670,7 +2696,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/cori-in-festa-2026-2026-09-13/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:17+00:00"
+      "checkedAt": "2026-09-08T09:37:17+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/cori-in-festa-2026-2026-09-13/index.html?s=ee56f24e34"
     },
     {
       "title": "Fosar Indipendenti Festival",
@@ -2750,7 +2777,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/fosar-indipendenti-festival-2026-09-13/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:17+00:00"
+      "checkedAt": "2026-09-08T09:37:17+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/fosar-indipendenti-festival-2026-09-13/index.html?s=7bd5b4d468"
     },
     {
       "title": "Jazz River - Raphael Gualazzi",
@@ -2831,7 +2859,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/jazz-river-raphael-gualazzi-2026-09-13/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:17+00:00"
+      "checkedAt": "2026-09-08T09:37:17+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/jazz-river-raphael-gualazzi-2026-09-13/index.html?s=48241f46d1"
     },
     {
       "title": "European Bike Week 2026",
@@ -2955,7 +2984,8 @@ window.EVENTS_DATA = {
         "austria"
       ],
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni.",
-      "imageRemoteUrl": ""
+      "imageRemoteUrl": "",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/european-bike-week-2026/index.html?s=27c2fa13f6"
     },
     {
       "title": "Mercato contadino al Faaker See",
@@ -3047,7 +3077,8 @@ window.EVENTS_DATA = {
       "sourceLanguage": "de",
       "translationLanguage": "it",
       "checkedAt": "2026-09-08T09:37:22+00:00",
-      "originalTitle": "Faaker Bauernmarkt Jeden Donnerstag - Start 7. Mai geht bis zum 24. September 2026 Der Faaker See Bauernmarkt lädt Gäste ein, regionale Produkte, traditionelle Spezialitäten und echtes Kärntner Marktflair zu entdecken. Gäste erleben bäuerliche Köstlichkeiten, handgemachte Produkte und persönliche Begegnungen mit Produzent:innen aus der Region. Die Veranstaltung verbindet Kulinarik, Handwerk und geselliges Beisammensein zu einem authentischen Genusserlebnis am Faaker See. Erfahre mehr"
+      "originalTitle": "Faaker Bauernmarkt Jeden Donnerstag - Start 7. Mai geht bis zum 24. September 2026 Der Faaker See Bauernmarkt lädt Gäste ein, regionale Produkte, traditionelle Spezialitäten und echtes Kärntner Marktflair zu entdecken. Gäste erleben bäuerliche Köstlichkeiten, handgemachte Produkte und persönliche Begegnungen mit Produzent:innen aus der Region. Die Veranstaltung verbindet Kulinarik, Handwerk und geselliges Beisammensein zu einem authentischen Genusserlebnis am Faaker See. Erfahre mehr",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/mercato-contadino-al-faaker-see-2026-05-07/index.html?s=2ed806575a"
     },
     {
       "title": "Caorle Independent Film Festival",
@@ -3128,7 +3159,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/caorle-independent-film-festival-2026-09-15/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:22+00:00"
+      "checkedAt": "2026-09-08T09:37:22+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/caorle-independent-film-festival-2026-09-15/index.html?s=d6f1c2a893"
     },
     {
       "title": "Festa del Pesce",
@@ -3210,7 +3242,8 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/festa-del-pesce-2026-09-18/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:21+00:00"
+      "checkedAt": "2026-09-08T09:37:21+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/festa-del-pesce-2026-09-18/index.html?s=05c030041a"
     },
     {
       "title": "Giornate della cucina Alpe-Adria",
@@ -3307,7 +3340,8 @@ window.EVENTS_DATA = {
       "translationLanguage": "it",
       "zones": [
         "austria"
-      ]
+      ],
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/cucina-alpe-adria-klagenfurt-2026/index.html?s=5a52f47b3e"
     }
   ],
   "sortOrigin": "Tarcento",

@@ -260,15 +260,12 @@ async function shareContent(button) {
   const configuredUrl = button.dataset.shareUrl;
   const canonical = document.querySelector('link[rel="canonical"]')?.href;
   const url = configuredUrl ? new URL(configuredUrl, window.location.href).href : (canonical || window.location.href.split('#')[0]);
-  const title = button.dataset.shareTitle || document.title;
-  const text = button.dataset.shareText || '';
-  const message = [title, text, url].filter(Boolean).join('\n\n');
   try {
     if (navigator.share) {
-      await navigator.share({ title, text: message, url });
+      await navigator.share({ url });
       return;
     }
-    await navigator.clipboard.writeText(message);
+    await navigator.clipboard.writeText(url);
     showToast('Link copiato.');
   } catch (error) {
     if (error?.name !== 'AbortError') {
@@ -668,7 +665,7 @@ function renderEvents() {
         <dl class="event-card__info">${information}</dl>
         <div class="event-card__actions">
           <a class="event-card__button event-card__button--primary" href="${escapeHtml(detailPath)}"><img src="https://api.iconify.design/lucide/file-text.svg?color=%23ffffff" alt="">Apri pagina</a>
-          <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
+          <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(item.shareUrl || detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
         </div>
       </div>
     </article>`;
