@@ -261,6 +261,7 @@ async function shareContent(button) {
   const canonical = document.querySelector('link[rel="canonical"]')?.href;
   const url = configuredUrl ? new URL(configuredUrl, window.location.href).href : (canonical || window.location.href.split('#')[0]);
   try {
+    window.EventCounts?.share(url);
     if (navigator.share) {
       await navigator.share({ url });
       return;
@@ -663,6 +664,7 @@ function renderEvents() {
           <b>Apri Maps</b>
         </a>
         <dl class="event-card__info">${information}</dl>
+        ${window.EventCounts?.markup(item.slug) || ''}
         <div class="event-card__actions">
           <a class="event-card__button event-card__button--primary" href="${escapeHtml(detailPath)}"><img src="https://api.iconify.design/lucide/file-text.svg?color=%23ffffff" alt="">Apri pagina</a>
           <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(item.shareUrl || detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
@@ -671,6 +673,7 @@ function renderEvents() {
     </article>`;
   }).join('');
   applyAndroidMapLinks();
+  window.EventCounts?.refresh();
   if (eventCount) eventCount.textContent = `${visible.length} ${visible.length === 1 ? 'evento mostrato' : 'eventi mostrati'}`;
   updateFilterCounts();
   if (eventEmpty) {

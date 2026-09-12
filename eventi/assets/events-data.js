@@ -1,6 +1,6 @@
 window.EVENTS_DATA = {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-08T09:37:23+00:00",
+  "generatedAt": "2026-09-10T13:38:38+00:00",
   "weekend": {
     "from": "2026-09-11",
     "to": "2026-09-20"
@@ -12,8 +12,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-05T10:00:00+02:00",
       "endDate": "2026-09-13T20:00:00+02:00",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -140,8 +138,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-06-14",
       "endDate": "2026-10-16",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -228,7 +224,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/16a-ed-concerti-al-castello-2026-2026-06-14/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:18+00:00",
+      "checkedAt": "2026-09-10T13:38:31+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/16a-ed-concerti-al-castello-2026-2026-06-14/index.html?s=2e955c2fe9"
     },
     {
@@ -270,7 +266,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 22,
       "slug": "friuli-doc-2026",
-      "longDescription": "Friuli DOC è l’occasione per scoprire, in un concentrato di emozioni, l’anima di un territorio autentico e fedele alla propria natura. Udine, la capitale del Friuli, è la sede naturale di questa grande festa e le osterie udinesi il cuore del suo spirito. Oltre ai vini friulani, al San Daniele, al Montasio, alla Gubana e a tutte le altre eccellenze friulane, Friuli DOC è anche un pretesto per visitare Udine, la città del Tiepolo, con i suoi scorci, i suoi palazzi ricchi di storia e il suo raffinato Castello.\n\nLe linee 1, 2, 3, 7, 8, 9 e 10 cambieranno percorso in direzione stazione. Le linee C e la navetta per il Castello sono sospese.\n\nLe linee 81 e 82 modificate in Piazzetta S.Cristoforo e Via Aquileia verranno istituite delle fermate temporanee per sostituire quelle soppresse.\n\nLa giornata inaugurale ti aspetta con grandi eventi e ospiti d’eccezione\n\nDal mattino fino a sera, gli stand di Friuli Doc ti aspettano per provare le eccellenze della Regione\n\nPiazza Libertà ospita le tre serate musicali principali di Friuli DOC 2026. Il cartellone unisce pop, canzone italiana, rap ed elettronica con ingresso gratuito.\n\nVenerdì sale sul palco Francesco Renga; sabato Fabio Rovazzi, preceduto da Angie e Chanel Dilecta; domenica chiude Dargen D’Amico. Tutti i concerti iniziano alle 21:00.\n\nLe serate si svolgono nel centro storico durante Friuli DOC. Sono prevedibili affollamento, chiusure al traffico e controlli agli accessi: conviene raggiungere il centro con anticipo.",
+      "longDescription": "Friuli DOC è l’occasione per scoprire, in un concentrato di emozioni, l’anima di un territorio autentico e fedele alla propria natura. Udine, la capitale del Friuli, è la sede naturale di questa grande festa e le osterie udinesi il cuore del suo spirito. Oltre ai vini friulani, al San Daniele, al Montasio, alla Gubana e a tutte le altre eccellenze friulane, Friuli DOC è anche un pretesto per visitare Udine, la città del Tiepolo, con i suoi scorci, i suoi palazzi ricchi di storia e il suo raffinato Castello. Le linee 1, 2, 3, 7, 8, 9 e 10 cambieranno percorso in direzione stazione. Le linee C e la navetta per il Castello sono sospese. Le linee 81 e 82 modificate in Piazzetta S.Cristoforo e Via Aquileia verranno istituite delle fermate temporanee per sostituire quelle soppresse. La giornata inaugurale ti aspetta con grandi eventi e ospiti d’eccezione Dal mattino fino a sera, gli stand di Friuli Doc ti aspettano per provare le eccellenze della Regione Piazza Libertà ospita le tre serate musicali principali di Friuli DOC 2026. Il cartellone unisce pop, canzone italiana, rap ed elettronica con ingresso gratuito. Venerdì sale sul palco Francesco Renga; sabato Fabio Rovazzi, preceduto da Angie e Chanel Dilecta; domenica chiude Dargen D’Amico. Tutti i concerti iniziano alle 21:00. Le serate si svolgono nel centro storico durante Friuli DOC. Sono prevedibili affollamento, chiusure al traffico e controlli agli accessi: conviene raggiungere il centro con anticipo.",
       "detailParagraphs": [
         "Friuli DOC è l’occasione per scoprire, in un concentrato di emozioni, l’anima di un territorio autentico e fedele alla propria natura. Udine, la capitale del Friuli, è la sede naturale di questa grande festa e le osterie udinesi il cuore del suo spirito. Oltre ai vini friulani, al San Daniele, al Montasio, alla Gubana e a tutte le altre eccellenze friulane, Friuli DOC è anche un pretesto per visitare Udine, la città del Tiepolo, con i suoi scorci, i suoi palazzi ricchi di storia e il suo raffinato Castello.",
         "Le linee 1, 2, 3, 7, 8, 9 e 10 cambieranno percorso in direzione stazione. Le linee C e la navetta per il Castello sono sospese.",
@@ -343,7 +339,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/friuli-doc-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:23+00:00",
+      "checkedAt": "2026-09-10T13:38:38+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni.",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/friuli-doc-2026/index.html?s=150c64e31a"
     },
@@ -357,7 +353,7 @@ window.EVENTS_DATA = {
       "days": [],
       "area": "friuli",
       "city": "Udine",
-      "venue": "Piazza Libertà",
+      "venue": "Teatro Palamostre piazza Paolo Diaconio 21",
       "description": "10 settembre ore 21 piazza Libertà A 6 anni dall'ultima edizione ritorna il Festival della canzone friulana. Ingresso libero",
       "price": "Non indicato",
       "status": "da_ricontrollare",
@@ -369,14 +365,14 @@ window.EVENTS_DATA = {
         "friuli"
       ],
       "image": "assets/images/festival-della-canzone-friulana-2026-09-10.webp",
-      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,thumb/r358307?v=437732&ext=.png",
+      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,image/r358307?v=437732&ext=.png",
       "imageAlt": "Immagine ufficiale di Festival della canzone friulana",
       "imageSourceName": "PromoTurismoFVG",
       "imageSourceUrl": "https://www.turismofvg.it/eventi/festival-della-canzone-friulana-483006",
-      "locationLabel": "Udine · Piazza Libertà",
-      "address": "Piazza Libertà",
+      "locationLabel": "Udine · Teatro Palamostre piazza Paolo Diaconio 21",
+      "address": "Teatro Palamostre piazza Paolo Diaconio 21",
       "mapsVerification": "sede_dalla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Piazza+Libert%C3%A0%2C+Udine&travelmode=driving",
+      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Teatro+Palamostre+piazza+Paolo+Diaconio+21%2C+Udine&travelmode=driving",
       "zone": "friuli",
       "zones": [
         "friuli"
@@ -385,9 +381,11 @@ window.EVENTS_DATA = {
       "slug": "festival-della-canzone-friulana-2026-09-10",
       "longDescription": "10 settembre ore 21 piazza Libertà A 6 anni dall'ultima edizione ritorna il Festival della canzone friulana. Ingresso libero",
       "detailParagraphs": [
-        "A 6 anni dall'ultima edizione ritorna il Festival della canzone friulana. Ingresso libero",
-        "Organized by: Associazione Musicale e Culturale Armonie APS e Pregi srl Con il contributo di Regione Autonoma Friuli Venezia Giulia e ACLIF – La Assemblee de Comunitât Linguistiche Furlane Main Sponsor Banca 360 Credito Cooperativo FVG Società Cooperativa Con la partecipazione del Comune di Udine, ARLeF, Agjenzie Regionâl pe lenghe furlane, Arte e Libro Società Cooperativa Sociale E.T.S,USCI FVG APS e Ente Friuli nel Mondo Media Partner Telefriuli, Il Friuli, Il Paîs, Radio Studio Nord, Radio Spazio 103 e Radio Punto Zero",
-        "PHOTO CREDIT: Associazione Musicale e Culturale Armonie APS"
+        "Sei anni di attesa, circa cinquanta brani inediti arrivati alla segreteria del Festival e, ora, quindici canzoni pronte a riportare la marilenghe sotto i riflettori.",
+        "Giovedì 10 settembre alle 21, sul prestigioso palco principale di piazza Libertà a Udine, torna il Festival della Canzone Friulana",
+        ", e lo fa nel modo più importante, davanti al grande pubblico della 32ª edizione di Friuli Doc.",
+        "È questa la vetrina scelta per il ritorno di una manifestazione che ha attraversato la storia della musica regionale e che, dopo sei anni di pausa, ritrova finalmente il proprio pubblico. Una ripartenza che nasce sotto i migliori auspici, a partire dalla risposta arrivata al bando. Sono stati infatti circa cinquanta i brani inediti sottoposti alla selezione, espressione di generi, sensibilità e linguaggi differenti e capaci di raccontare una produzione musicale in lingua friulana tutt’altro che sopita.",
+        "A contendersi la vittoria saranno quindici brani, selezionati dalla giuria del Festival e proposti dal vivo con l’accompagnamento dell’orchestra diretta dal maestro Rudy Fantin, affiancato nella direzione artistica da Marco Bianchi. Una serata che unisce così musica, lingua e identità e che trova nel palco centrale di Friuli Doc una vetrina particolarmente significativa."
       ],
       "admission": {
         "type": "unknown",
@@ -426,7 +424,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/festival-della-canzone-friulana-2026-09-10/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:15+00:00",
+      "checkedAt": "2026-09-10T13:38:26+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/festival-della-canzone-friulana-2026-09-10/index.html?s=8bc80217f5"
     },
     {
@@ -509,17 +507,16 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/anteprima-festival-de-la-citta-ideale-viers-la-lagune-2026-09-11/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:15+00:00",
+      "checkedAt": "2026-09-10T13:38:27+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/anteprima-festival-de-la-citta-ideale-viers-la-lagune-2026-09-11/index.html?s=37141bc344"
     },
     {
       "title": "L'Arlecchino Errante 2026",
       "startDate": "2026-09-01",
-      "endDate": "2026-09-10",
+      "endDate": "2026-09-11",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ],
       "days": [],
       "area": "friuli",
@@ -535,11 +532,11 @@ window.EVENTS_DATA = {
         "evento",
         "friuli"
       ],
-      "image": "assets/images/l-arlecchino-errante-30-klank-dicht-2026-09-08.webp",
-      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,thumb/r373126?v=458884&ext=.png",
+      "image": "assets/images/l-arlecchino-errante-30-desde-el-azul-2026-09-10.webp",
+      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,thumb/r373148?v=458922&ext=.png",
       "imageAlt": "Immagine ufficiale di L'Arlecchino Errante 2026",
       "imageSourceName": "PromoTurismoFVG",
-      "imageSourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-klank-dicht",
+      "imageSourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-desde-el-azul",
       "locationLabel": "Più sedi · consulta il programma",
       "address": "Ex Convento di San Francesco - Chiesa",
       "mapsVerification": "sedi_nel_programma",
@@ -550,23 +547,22 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 67,
       "slug": "arlecchino-errante-2026",
-      "longDescription": "Quest'anno l'edizione è storica, dal momento che il festival compirà trent'anni. Si continua sulla linea e la ricerca delle sonorità, e dopo l'edizione passata \"Lingue e silenzi\", quest'anno arriva \"Suoni e sentimenti\". Spettacoli, workshop, e performance programmati nelle vie del centro cittadino, presso l'ex convento di San Francesco, presso il Capitol e molti altri luoghi della città di Pordenone. Programma completo. Info festival https://arlecchinoerrante.com/\n\nOrganized by: L'Arlecchino Errante - Scuola Sperimentale dell'Attore Tel: +39 3518392425 (info e Prenotazioni) E-mail: festival@arlecchinoerrante.com\n\nKlank Dicht invita il pubblico ad ascoltare consapevolmente il paesaggio sonoro che lo circonda e a partecipare attivamente alla sua creazione. Lettera dopo lettera, suono dopo suono, gli spettatori si immergono sempre più profondamente in un mondo in cui il significato assoluto e la radicale inutilità dell’arte si incontrano.\n\n: € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente\n\n: € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente\n\n: € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente\n\nV.A.D.A. / Austria d i e con Yulia Izmaylova & Felix Strasser Klank Dicht invita il pubblico ad ascoltare consapevolmente il paesaggio sonoro che lo circonda e a partecipare attivamente alla sua creazione. Lettera dopo lettera, suono dopo suono, gli spettatori si immergono sempre più profondamente in un mondo in cui il significato assoluto e la radicale inutilità dell’arte si incontrano. Ingresso: Intero : € 15 Ridotto : € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente Super Ridotto : € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Extra Ridotto : € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente\n\nPHOTO CREDIT: L'Arlecchino Errante - Scuola Sperimentale dell'Attore\n\nAttraverso il Flamenco dal vivo, si lavorerà su quel ritmo interiore necessario per arrivare alla composizione del personaggio, grazie agli spunti accesi dallo spettacolo\n\nin cui Juan Luis Corrientes e Beatriz Prior hanno unito le loro rispettive competenze in Commedia dell’Arte\n\ne in canto, percussione e danza flamenca, accanto a Julio Castell, chitarrista dello spettacolo. Attraverso i diversi stili del Flamenco, si esploreranno il ritmo e l’emozione propri di ciascuno per costruire il personaggio.\n\nInformazioni e prenotazioni: festival@arlecchinoerrante.com\n\ncon Juan Luis Corrientes e Beatriz Prior Attraverso il Flamenco dal vivo, si lavorerà su quel ritmo interiore necessario per arrivare alla composizione del personaggio, grazie agli spunti accesi dallo spettacolo Fetén. Una produzione in cui Juan Luis Corrientes e Beatriz Prior hanno unito le loro rispettive competenze in Commedia dell’Arte e in canto, percussione e danza flamenca, accanto a Julio Castell, chitarrista dello spettacolo. Attraverso i diversi stili del Flamenco, si esploreranno il ritmo e l’emozione propri di ciascuno per costruire il personaggio. Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com\n\nElsa Morante: un canto per gli ultimi nasce come un attraversamento appassionato dell’opera e della visione del mondo di una delle voci più radicali del Novecento italiano. In scena, la sua parola diventa materia viva, corpo che pulsa, canto che tenta di dare volto e dignità a tutte le creature marginali che popolano i suoi libri: bambini fragili, madri ferite, amanti senza patria, sognatori incalliti.\n\nTeatro Nucleo / Italia regia e drammaturgia Natasha Czertok con Natasha Czertok, Frida Falvo, Chiara Parolo voci, canti e supervisione musicale Bruno de Franceschi musiche originali e sound design Luca Venturini dramaturgia Michele Pascarella Elsa Morante: un canto per gli ultimi nasce come un attraversamento appassionato dell’opera e della visione del mondo di una delle voci più radicali del Novecento italiano. In scena, la sua parola diventa materia viva, corpo che pulsa, canto che tenta di dare volto e dignità a tutte le creature marginali che popolano i suoi libri: bambini fragili, madri ferite, amanti senza patria, sognatori incalliti. Ingresso: Intero : € 15 Ridotto : € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente Super Ridotto : € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Extra Ridotto : € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente",
+      "longDescription": "Quest'anno l'edizione è storica, dal momento che il festival compirà trent'anni. Si continua sulla linea e la ricerca delle sonorità, e dopo l'edizione passata \"Lingue e silenzi\", quest'anno arriva \"Suoni e sentimenti\". Spettacoli, workshop, e performance programmati nelle vie del centro cittadino, presso l'ex convento di San Francesco, presso il Capitol e molti altri luoghi della città di Pordenone. Quest'anno l'edizione è storica, dal momento che il festival compirà trent'anni. Si continua sulla linea e la ricerca delle sonorità, e dopo l'edizione passata \"Lingue e silenzi\", quest'anno arriva \"Suoni e sentimenti\". Spettacoli, workshop, e performance programmati nelle vie del centro cittadino, presso l'ex convento di San Francesco, presso il Capitol e molti altri luoghi della città di Pordenone. Programma completo. Info festival https://arlecchinoerrante.com/ Organized by: L'Arlecchino Errante - Scuola Sperimentale dell'Attore Tel: +39 3518392425 (info e Prenotazioni) E-mail: festival@arlecchinoerrante.com Desde el Azul è una delle creazioni più poetiche di Gaia Teatro, compagnia di culto del teatro visivo internazionale fondata dall’artista bosniaco-peruviana Ines Pasic. La performance magica e immersiva fonde teatro di figura, animazione a vista e pupazzi a grandezza naturale. Con una maestria tecnica straordinaria, i corpi dell’attrice si fonde con stoffe, maschere e pupazzi creati con arte, dando vita a creature marine e personaggi indimenticabili che sembrano respirare e muoversi da soli. : € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente : € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Un lavoro sul teatro fisico come luogo di ascolto: del proprio corpo, dell’emozione che lo attraversa, dello spazio che lo accoglie. Partendo dalla pratica di Teatro Nucleo, l’incontro esplora come il movimento diventi linguaggio condiviso, e come il gruppo, nel suo stare insieme in scena, costruisca una grammatica comune fatta di presenza, rischio e fiducia reciproca Informazioni e prenotazioni: festival@arlecchinoerrante.com con Natasha Czertok Un lavoro sul teatro fisico come luogo di ascolto: del proprio corpo, dell’emozione che lo attraversa, dello spazio che lo accoglie. Partendo dalla pratica di Teatro Nucleo, l’incontro esplora come il movimento diventi linguaggio condiviso, e come il gruppo, nel suo stare insieme in scena, costruisca una grammatica comune fatta di presenza, rischio e fiducia reciproca Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com con Natasha Czertok Un lavoro sul teatro fisico come luogo di ascolto: del proprio corpo, dell’emozione che lo attraversa, dello spazio che lo accoglie. Partendo dalla pratica di Teatro Nucleo, l’incontro esplora come il movimento diventi linguaggio condiviso, e come il gruppo, nel suo stare insieme in scena, costruisca una grammatica comune fatta di presenza, rischio e fiducia reciproca Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com Alina Bachara, Mateusz Barczyk, Daniel Dyniszuk, Maciej Dziaczko, Dawid Kozak, Cezary Kruszyna, Anna Swoboda, Monika Wachowicz Uno spettacolo intenso, crudo e immensamente poetico, uno degli spettacoli più iconici e acclamati del teatro visivo ed espressivo europeo. Senza l’uso del testo recitato, lo spettacolo affida l’intera narrazione all’incredibile presenza fisica delle attrici, al gesto, all’uso simbolico degli oggetti e a una colonna sonora avvolgente.",
       "detailParagraphs": [
         "Quest'anno l'edizione è storica, dal momento che il festival compirà trent'anni. Si continua sulla linea e la ricerca delle sonorità, e dopo l'edizione passata \"Lingue e silenzi\", quest'anno arriva \"Suoni e sentimenti\". Spettacoli, workshop, e performance programmati nelle vie del centro cittadino, presso l'ex convento di San Francesco, presso il Capitol e molti altri luoghi della città di Pordenone. Programma completo. Info festival https://arlecchinoerrante.com/",
         "Organized by: L'Arlecchino Errante - Scuola Sperimentale dell'Attore Tel: +39 3518392425 (info e Prenotazioni) E-mail: festival@arlecchinoerrante.com",
-        "Klank Dicht invita il pubblico ad ascoltare consapevolmente il paesaggio sonoro che lo circonda e a partecipare attivamente alla sua creazione. Lettera dopo lettera, suono dopo suono, gli spettatori si immergono sempre più profondamente in un mondo in cui il significato assoluto e la radicale inutilità dell’arte si incontrano.",
+        "Desde el Azul è una delle creazioni più poetiche di Gaia Teatro, compagnia di culto del teatro visivo internazionale fondata dall’artista bosniaco-peruviana Ines Pasic.",
+        "La performance magica e immersiva fonde teatro di figura, animazione a vista e pupazzi a grandezza naturale.",
+        "Con una maestria tecnica straordinaria, i corpi dell’attrice si fonde con stoffe, maschere e pupazzi creati con arte, dando vita a creature marine e personaggi indimenticabili che sembrano respirare e muoversi da soli.",
         ": € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente",
         ": € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente",
-        ": € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente",
-        "V.A.D.A. / Austria d i e con Yulia Izmaylova & Felix Strasser Klank Dicht invita il pubblico ad ascoltare consapevolmente il paesaggio sonoro che lo circonda e a partecipare attivamente alla sua creazione. Lettera dopo lettera, suono dopo suono, gli spettatori si immergono sempre più profondamente in un mondo in cui il significato assoluto e la radicale inutilità dell’arte si incontrano. Ingresso: Intero : € 15 Ridotto : € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente Super Ridotto : € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Extra Ridotto : € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente",
-        "PHOTO CREDIT: L'Arlecchino Errante - Scuola Sperimentale dell'Attore",
-        "Attraverso il Flamenco dal vivo, si lavorerà su quel ritmo interiore necessario per arrivare alla composizione del personaggio, grazie agli spunti accesi dallo spettacolo",
-        "in cui Juan Luis Corrientes e Beatriz Prior hanno unito le loro rispettive competenze in Commedia dell’Arte",
-        "e in canto, percussione e danza flamenca, accanto a Julio Castell, chitarrista dello spettacolo. Attraverso i diversi stili del Flamenco, si esploreranno il ritmo e l’emozione propri di ciascuno per costruire il personaggio.",
+        "con Natasha Czertok Un lavoro sul teatro fisico come luogo di ascolto: del proprio corpo, dell’emozione che lo attraversa, dello spazio che lo accoglie. Partendo dalla pratica di Teatro Nucleo, l’incontro esplora come il movimento diventi linguaggio condiviso, e come il gruppo, nel suo stare insieme in scena, costruisca una grammatica comune fatta di presenza, rischio e fiducia reciproca",
         "Informazioni e prenotazioni: festival@arlecchinoerrante.com",
-        "con Juan Luis Corrientes e Beatriz Prior Attraverso il Flamenco dal vivo, si lavorerà su quel ritmo interiore necessario per arrivare alla composizione del personaggio, grazie agli spunti accesi dallo spettacolo Fetén. Una produzione in cui Juan Luis Corrientes e Beatriz Prior hanno unito le loro rispettive competenze in Commedia dell’Arte e in canto, percussione e danza flamenca, accanto a Julio Castell, chitarrista dello spettacolo. Attraverso i diversi stili del Flamenco, si esploreranno il ritmo e l’emozione propri di ciascuno per costruire il personaggio. Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
-        "Elsa Morante: un canto per gli ultimi nasce come un attraversamento appassionato dell’opera e della visione del mondo di una delle voci più radicali del Novecento italiano. In scena, la sua parola diventa materia viva, corpo che pulsa, canto che tenta di dare volto e dignità a tutte le creature marginali che popolano i suoi libri: bambini fragili, madri ferite, amanti senza patria, sognatori incalliti.",
-        "Teatro Nucleo / Italia regia e drammaturgia Natasha Czertok con Natasha Czertok, Frida Falvo, Chiara Parolo voci, canti e supervisione musicale Bruno de Franceschi musiche originali e sound design Luca Venturini dramaturgia Michele Pascarella Elsa Morante: un canto per gli ultimi nasce come un attraversamento appassionato dell’opera e della visione del mondo di una delle voci più radicali del Novecento italiano. In scena, la sua parola diventa materia viva, corpo che pulsa, canto che tenta di dare volto e dignità a tutte le creature marginali che popolano i suoi libri: bambini fragili, madri ferite, amanti senza patria, sognatori incalliti. Ingresso: Intero : € 15 Ridotto : € 10 – under 25, over 60, possessori del biglietto intero di uno spettacolo precedente Super Ridotto : € 5 – under 12, soci titolati scuola sperimentale dell’attore, possessori di un biglietto ridotto di uno spettacolo precedente Extra Ridotto : € 1 – colleghi teatranti e artisti in genere, disoccupati, persone diversamente abili e possessori di un biglietto super ridotto di uno spettacolo precedente"
+        "con Natasha Czertok Un lavoro sul teatro fisico come luogo di ascolto: del proprio corpo, dell’emozione che lo attraversa, dello spazio che lo accoglie. Partendo dalla pratica di Teatro Nucleo, l’incontro esplora come il movimento diventi linguaggio condiviso, e come il gruppo, nel suo stare insieme in scena, costruisca una grammatica comune fatta di presenza, rischio e fiducia reciproca Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
+        "Singolo workshop: € 20 Più di un workshop: € 10 Tutti i workshop : € 100 Informazioni e prenotazioni: festival@arlecchinoerrante.com",
+        "Alina Bachara, Mateusz Barczyk, Daniel Dyniszuk, Maciej Dziaczko, Dawid Kozak, Cezary Kruszyna, Anna Swoboda, Monika Wachowicz",
+        "Uno spettacolo intenso, crudo e immensamente poetico, uno degli spettacoli più iconici e acclamati del teatro visivo ed espressivo europeo.",
+        "Senza l’uso del testo recitato, lo spettacolo affida l’intera narrazione all’incredibile presenza fisica delle attrici, al gesto, all’uso simbolico degli oggetti e a una colonna sonora avvolgente."
       ],
       "admission": {
         "type": "unknown",
@@ -586,69 +582,6 @@ window.EVENTS_DATA = {
       "organizer": "PromoTurismoFVG",
       "program": [
         {
-          "label": "Martedì 8 settembre · L'arlecchino Errante 30 - Klank dicht",
-          "items": [
-            "V.A.D.A. / Austria di e con Yulia Izmaylova & Felix Strasser Klank Dicht invita il pubblico ad ascoltare consapevolmente il paesaggio sonoro che lo circonda e a partecipare attivamente alla sua creazione. Lettera dopo lettera, suono dopo suono, gli spettatori si immergono sempre…"
-          ],
-          "location": "Pordenone · Ex Convento di San Francesco - Chiesa",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Ex+Convento+di+San+Francesco+-+Chiesa%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-klank-dicht"
-        },
-        {
-          "label": "Martedì 8 settembre · L'arlecchino Errante 30 - La dì che lis pantianis a son sparidis",
-          "items": [
-            "Teatri Stabil Furlan / Italia di e con Federico Scridel e Michele Polo Capitolo III della grande storia delle Pantegane in Friuli: questa volta però è finita. Estinti. Basta pantegane. Basta code e dentini che rosicchiano formaggio. Basta Racli, Tramai e Velen, non servono più…"
-          ],
-          "location": "Pordenone · Ex Convento San Francesco - Chiostro (in caso di pioggia Chiesa)",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Ex+Convento+San+Francesco+-+Chiostro+%28in+caso+di+pioggia+Chiesa%29%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-la-di-che-lis-pantianis-a-son-sparidis"
-        },
-        {
-          "label": "Martedì 8 settembre · L'arlecchino Errante 30 - Open Workshop \"Maschera + flamenco = ritmo interiore\"",
-          "items": [
-            "con Juan Luis Corrientes e Beatriz Prior Attraverso il Flamenco dal vivo, si lavorerà su quel ritmo interiore necessario per arrivare alla composizione del personaggio, grazie agli spunti accesi dallo spettacolo Fetén. Una produzione in cui Juan Luis Corrientes e Beatriz Prior…"
-          ],
-          "location": "Pordenone · Palazzo Gregoris, sede della Società Operaia di Mutuo Soccorso e Istruzione Corso Vittorio Emanuele, 44",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Palazzo+Gregoris%2C+sede+della+Societ%C3%A0+Operaia+di+Mutuo+Soccorso+e+Istruzione+Corso+Vittorio+Emanuele%2C+44%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-maschera-+-flamenco-ritmo-interiore"
-        },
-        {
-          "label": "Mercoledì 9 settembre · L'arlecchino Errante 30 - Elsa Morante. Un canto per gli ultimi",
-          "items": [
-            "Teatro Nucleo / Italia regia e drammaturgia Natasha Czertok con Natasha Czertok, Frida Falvo, Chiara Parolo voci, canti e supervisione musicale Bruno de Franceschi musiche originali e sound design Luca Venturini dramaturgia Michele Pascarella Elsa Morante: un canto per gli ultimi…"
-          ],
-          "location": "Pordenone · Ex Convento di San Francesco - Chiesa",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Ex+Convento+di+San+Francesco+-+Chiesa%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-elsa-morante-un-canto-per-gli-ultimi"
-        },
-        {
-          "label": "Mercoledì 9 settembre · L'arlecchino Errante 30 - Gli ultimi",
-          "items": [
-            "Film di Vito Pandolfi e David Maria Turoldo (1963) Ispirato al racconto autobiografico di Padre David Maria Turoldo, “Gli ultimi” è una delle pietre miliari del cinema etno-antropologico e sociale italiano. Ambientato nel Friuli contadino degli anni ’30, il film racconta con…"
-          ],
-          "location": "Pordenone · Mediateca Cinemazero",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Mediateca+Cinemazero%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-gli-ultimi"
-        },
-        {
-          "label": "Mercoledì 9 settembre · L'arlecchino Errante 30 - Open Workshop \"Spiare gli embrioni che cantano\"",
-          "items": [
-            "con Serena Di Biasio e Federico Scridel, Yulia Izmaylova e Felix Strasser, Miha Nemec e con i musicisti di Zerorchestra Didier Ortolan, Alessandro Turchet, Luigi Vitale Ovvero quello che c’è prima della nascita di un evento sperimentale tra Suoni, Parole e Sentimenti.…"
-          ],
-          "location": "Pordenone · Casa della Musica E. Imelio Piazza della Motta, 4",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Casa+della+Musica+E.+Imelio+Piazza+della+Motta%2C+4%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-spiare-gli-embrioni-che-cantano"
-        },
-        {
-          "label": "Mercoledì 9 settembre · L'arlecchino Errante 30 - Transborder reading",
-          "items": [
-            "V.A.D.A., Teater Na Konfini, Teatri Stabil Furlan, Zerorchestra in trio / Austria, Slovenia, Italia TREADING MULTILINGUE CON ORCHESTRA Parole in libertà, dove ciò che conta sono soprattutto suono, ritmo e metrica. La poesia come agone di confronto e interccio di nuove trame…"
-          ],
-          "location": "Pordenone · Auditorium Casa della Musica",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Auditorium+Casa+della+Musica%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-transborder-reading"
-        },
-        {
           "label": "Giovedì 10 settembre · L'arlecchino Errante 30 - Desde el azul",
           "items": [
             "Gaia Teatro / Bosnia – Perù regia Ines Pasic e Hugo Suarez con Ines Pasic Desde el Azul è una delle creazioni più poetiche di Gaia Teatro, compagnia di culto del teatro visivo internazionale fondata dall’artista bosniaco-peruviana Ines Pasic. La performance magica e immersiva…"
@@ -658,15 +591,6 @@ window.EVENTS_DATA = {
           "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-desde-el-azul"
         },
         {
-          "label": "Giovedì 10 settembre · L'arlecchino Errante 30 - Femina",
-          "items": [
-            "Teatr a Part / Polonia regia Marcin Herich con Alina Bachara, Mateusz Barczyk, Daniel Dyniszuk, Maciej Dziaczko, Dawid Kozak, Cezary Kruszyna, Anna Swoboda, Monika Wachowicz Uno spettacolo intenso, crudo e immensamente poetico, uno degli spettacoli più iconici e acclamati del…"
-          ],
-          "location": "Pordenone · P.tta Pescheria (in caso di pioggia lo spettacolo viene rinviato al giorno successivo 11 settembre)",
-          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=P.tta+Pescheria+%28in+caso+di+pioggia+lo+spettacolo+viene+rinviato+al+giorno+successivo+11+settembre%29%2C+Pordenone&travelmode=driving",
-          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-femina"
-        },
-        {
           "label": "Giovedì 10 settembre · L'arlecchino Errante 30 - Open Workshop \"Il corpo che ascolta\"",
           "items": [
             "con Natasha Czertok Un lavoro sul teatro fisico come luogo di ascolto: del proprio corpo, dell’emozione che lo attraversa, dello spazio che lo accoglie. Partendo dalla pratica di Teatro Nucleo, l’incontro esplora come il movimento diventi linguaggio condiviso, e come il gruppo…"
@@ -674,6 +598,15 @@ window.EVENTS_DATA = {
           "location": "Pordenone · Palazzo Gregoris, sede della Società Operaia di Mutuo Soccorso e Istruzione Corso Vittorio Emanuele, 44",
           "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Palazzo+Gregoris%2C+sede+della+Societ%C3%A0+Operaia+di+Mutuo+Soccorso+e+Istruzione+Corso+Vittorio+Emanuele%2C+44%2C+Pordenone&travelmode=driving",
           "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-il-corpo-che-ascolta"
+        },
+        {
+          "label": "Venerdì 11 settembre · L'arlecchino Errante 30 - Femina",
+          "items": [
+            "Teatr a Part / Polonia regia Marcin Herich con Alina Bachara, Mateusz Barczyk, Daniel Dyniszuk, Maciej Dziaczko, Dawid Kozak, Cezary Kruszyna, Anna Swoboda, Monika Wachowicz Uno spettacolo intenso, crudo e immensamente poetico, uno degli spettacoli più iconici e acclamati del…"
+          ],
+          "location": "Pordenone · Area esterna Auditorium Borgo Meduna via Giambattista Tiepolo 1",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Area+esterna+Auditorium+Borgo+Meduna+via+Giambattista+Tiepolo+1%2C+Pordenone&travelmode=driving",
+          "sourceUrl": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-femina"
         }
       ],
       "practicalNotes": [
@@ -682,52 +615,17 @@ window.EVENTS_DATA = {
       "sources": [
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-la-di-che-lis-pantianis-a-son-sparidis",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-klank-dicht",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-maschera-+-flamenco-ritmo-interiore",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-transborder-reading",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-elsa-morante-un-canto-per-gli-ultimi",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-gli-ultimi",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-spiare-gli-embrioni-che-cantano",
-          "role": "Programma o conferma"
-        },
-        {
-          "name": "PromoTurismoFVG",
           "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-desde-el-azul",
           "role": "Programma o conferma"
         },
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-femina",
+          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-il-corpo-che-ascolta",
           "role": "Programma o conferma"
         },
         {
           "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-open-workshop-il-corpo-che-ascolta",
+          "url": "https://www.turismofvg.it/eventi/l-arlecchino-errante-30-femina",
           "role": "Programma o conferma"
         },
         {
@@ -739,105 +637,15 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/arlecchino-errante-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:17+00:00",
+      "checkedAt": "2026-09-10T13:38:30+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni.",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/arlecchino-errante-2026/index.html?s=74610ebe0c"
-    },
-    {
-      "title": "David Morales DJ set – Festa di fine estate",
-      "startDate": "2026-09-09T19:00:00+02:00",
-      "endDate": "2026-09-09T23:59:00+02:00",
-      "occurrenceDates": [
-        "2026-09-09"
-      ],
-      "days": [],
-      "area": "friuli",
-      "city": "Pordenone",
-      "venue": "Piazza XX Settembre",
-      "description": "Serata gratuita di musica house con David Morales, apertura di Stefano Mango e Mookie, chioschi e food truck.",
-      "price": "Ingresso gratuito",
-      "status": "in_programma",
-      "updateNote": "Data, orario, artisti e formula della serata pubblicati dal Comune.",
-      "sourceUrl": "https://www.turismofvg.it/eventi/david-morales-djset-end-of-summer-celebration?LangSetCMS=it",
-      "sourceName": "PromoTurismoFVG",
-      "tags": [
-        "dj_set",
-        "musica",
-        "friuli"
-      ],
-      "image": "assets/images/david-morales-pordenone.webp",
-      "imageAlt": "Immagine dell’evento David Morales DJ set – Festa di fine estate",
-      "imageSourceName": "Comune di Pordenone",
-      "imageSourceUrl": "https://www.turismofvg.it/eventi/david-morales-djset-end-of-summer-celebration?LangSetCMS=it",
-      "locationLabel": "Pordenone · Piazza XX Settembre",
-      "address": "Piazza XX Settembre, Pordenone",
-      "mapsVerification": "luogo_verificato_sulla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Piazza%20XX%20Settembre%2C%20Pordenone",
-      "zone": "friuli",
-      "distanceFromTarcentoKm": 75,
-      "slug": "david-morales-pordenone-2026",
-      "longDescription": "Piazza XX Settembre saluta l’estate con David Morales, DJ e produttore vincitore di un Grammy e figura storica della house music internazionale. La serata è a ingresso gratuito.",
-      "detailParagraphs": [
-        "Piazza XX Settembre saluta l’estate con David Morales, DJ e produttore vincitore di un Grammy e figura storica della house music internazionale. La serata è a ingresso gratuito.",
-        "Dalle 19:00 il centro si anima con DJ set, food truck e chioschi. Stefano Mango e Mookie aprono la serata prima dell’esibizione principale di Morales.",
-        "L’evento si svolge all’aperto nel cuore di Pordenone. Per eventuali variazioni dovute al meteo è necessario controllare il portale dell’estate del Comune."
-      ],
-      "admission": {
-        "type": "free",
-        "label": "Ingresso gratuito"
-      },
-      "booking": {
-        "type": "none",
-        "label": "Nessuna prenotazione indicata"
-      },
-      "programStatus": {
-        "type": "confirmed",
-        "label": "Programma confermato",
-        "note": "Data, orario, artisti e formula della serata pubblicati dal Comune."
-      },
-      "weatherPlan": "Nessun piano alternativo pubblicato; controllare il portale comunale.",
-      "notesSummary": "Food truck e chioschi attivi dalle 19:00.",
-      "organizer": "Comune di Pordenone",
-      "contact": "estate.comune.pordenone.it",
-      "program": [
-        {
-          "label": "Mercoledì 9 settembre",
-          "items": [
-            "19:00 · apertura chioschi e food truck",
-            "DJ set di Stefano Mango e Mookie",
-            "A seguire · David Morales DJ set"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Food truck e chioschi attivi dalle 19:00.",
-        "Evento in piazza, accesso libero."
-      ],
-      "sources": [
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/david-morales-djset-end-of-summer-celebration?LangSetCMS=it",
-          "role": "Scheda completa"
-        },
-        {
-          "name": "Estate Pordenone",
-          "url": "https://estate.comune.pordenone.it/",
-          "role": "Organizzatore"
-        }
-      ],
-      "detailPath": "dettaglio/david-morales-pordenone-2026/index.html",
-      "zones": [
-        "friuli"
-      ],
-      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/david-morales-pordenone-2026/index.html?s=9e0e7bf0c2"
     },
     {
       "title": "MUSIKE' WINDBAND 2026",
       "startDate": "2026-07-18",
       "endDate": "2026-09-11",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11"
       ],
@@ -916,7 +724,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/musike-windband-2026-2026-07-18/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "checkedAt": "2026-09-10T13:38:32+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/musike-windband-2026-2026-07-18/index.html?s=3e143d9579"
     },
     {
@@ -924,8 +732,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-05T07:30:00+02:00",
       "endDate": "2026-09-13",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -1063,17 +869,17 @@ window.EVENTS_DATA = {
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "checkedAt": "2026-09-10T13:38:32+00:00",
       "sourceReachable": true,
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/esterno-verde-oltre-lignano-2026/index.html?s=52e8a0611e"
     },
     {
       "title": "Biker Fest - 41^ edizione",
-      "startDate": "2026-09-08",
-      "endDate": "2026-09-09",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-11",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09"
+        "2026-09-10",
+        "2026-09-11"
       ],
       "days": [],
       "area": "mare",
@@ -1089,7 +895,7 @@ window.EVENTS_DATA = {
         "evento",
         "mare"
       ],
-      "image": "assets/images/biker-fest-41-edizione-2026-09-08.webp",
+      "image": "assets/images/biker-fest-41-edizione-2026-09-10.webp",
       "imageRemoteUrl": "http://lignanosabbiadoro.it/media/images/Bikerfest.2e16d0ba.fill-200x200.jpg",
       "imageAlt": "Immagine ufficiale di Biker Fest - 41^ edizione",
       "imageSourceName": "Lignano Sabbiadoro",
@@ -1104,7 +910,7 @@ window.EVENTS_DATA = {
         "mare"
       ],
       "distanceFromTarcentoKm": 80,
-      "slug": "biker-fest-41-edizione-2026-09-08",
+      "slug": "biker-fest-41-edizione-2026-09-10",
       "longDescription": "Biker Fest International a Lignano Sabbiadoro dal 20 al 23 maggio 2027: 41ª edizione con bike show, concerti, auto americane, e-mobility e freestyle!",
       "detailParagraphs": [
         "La Biker Fest International torna a Lignano Sabbiadoro dal 20 al 23 maggio 2027 per celebrare la sua 41ª edizione , un traguardo straordinario per uno degli eventi motociclistici più longevi e iconici d’Europa.",
@@ -1133,7 +939,7 @@ window.EVENTS_DATA = {
         {
           "label": "Programma pubblicato",
           "items": [
-            "Dal 2026-09-08 al 2026-09-09"
+            "Dal 2026-09-10 al 2026-09-11"
           ]
         }
       ],
@@ -1147,108 +953,106 @@ window.EVENTS_DATA = {
           "role": "Fonte di acquisizione"
         }
       ],
-      "detailPath": "dettaglio/biker-fest-41-edizione-2026-09-08/index.html",
+      "detailPath": "dettaglio/biker-fest-41-edizione-2026-09-10/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00",
-      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/biker-fest-41-edizione-2026-09-08/index.html?s=ed1d6573bd"
+      "checkedAt": "2026-09-10T13:38:33+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/biker-fest-41-edizione-2026-09-10/index.html?s=5c6d257b69"
     },
     {
-      "title": "Dinner Show Friuli Venezia Giulia Via dei Sapori",
-      "startDate": "2026-09-08T19:00:00+02:00",
-      "endDate": "2026-09-08T23:30:00+02:00",
+      "title": "Laura Pausini - Io Canto World Tour 2026/27",
+      "startDate": "2026-09-10",
+      "endDate": "2026-11-27",
       "occurrenceDates": [
-        "2026-09-08"
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20"
       ],
       "days": [],
       "area": "mare",
       "city": "Lignano Sabbiadoro",
-      "venue": "Spiaggia vicino alla Terrazza a Mare, Ufficio Spiaggia 5",
-      "description": "Percorso gourmet sulla spiaggia con 27 chef, vignaioli, artigiani del gusto, dessert, vini e distillati.",
-      "price": "Biglietto €90",
-      "status": "in_programma",
-      "updateNote": "Orario, prezzo, partecipanti e modalità di acquisto pubblicati.",
-      "sourceUrl": "https://www.turismofvg.it/eventi/dinner-show-2026-lignano",
-      "sourceName": "PromoTurismoFVG",
+      "venue": "Presso Stadio Comunale G. Teghil",
+      "description": "Laura Pausini in concerto a Lignano Sabbiadoro il 2 giugno 2027 allo Stadio G.Teghil: la prima tappa italiana del tour IO CANTO.",
+      "price": "Non indicato",
+      "status": "da_ricontrollare",
+      "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
+      "sourceUrl": "https://lignanosabbiadoro.it/it/eventi/laura-pausini-io-canto-world-tour/",
+      "sourceName": "Lignano Sabbiadoro",
       "tags": [
-        "enogastronomia",
-        "mare",
-        "prenotazione"
+        "evento",
+        "mare"
       ],
-      "image": "assets/images/dinner-show-lignano.webp",
-      "imageAlt": "Immagine dell’evento Dinner Show Friuli Venezia Giulia Via dei Sapori",
-      "imageSourceName": "PromoTurismoFVG",
-      "imageSourceUrl": "https://www.turismofvg.it/eventi/dinner-show-2026-lignano",
-      "locationLabel": "Lignano Sabbiadoro · Spiaggia vicino alla Terrazza a Mare, Ufficio Spiaggia 5",
-      "address": "Spiaggia vicino alla Terrazza a Mare, Ufficio Spiaggia 5, Lignano Sabbiadoro",
-      "mapsVerification": "luogo_verificato_sulla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Spiaggia%20vicino%20alla%20Terrazza%20a%20Mare%2C%20Ufficio%20Spiaggia%205%2C%20Lignano%20Sabbiadoro",
+      "image": "assets/images/laura-pausini-io-canto-world-tour-2026-27-2026-09-10.webp",
+      "imageRemoteUrl": "http://lignanosabbiadoro.it/media/images/Artwork_LAURA_PAUSINI_LIGNANO_2027.2e16d0ba.fill-200x200.jpg",
+      "imageAlt": "Immagine ufficiale di Laura Pausini - Io Canto World Tour 2026/27",
+      "imageSourceName": "Lignano Sabbiadoro",
+      "imageSourceUrl": "https://lignanosabbiadoro.it/it/eventi/laura-pausini-io-canto-world-tour/",
+      "locationLabel": "Lignano Sabbiadoro · Presso Stadio Comunale G. Teghil",
+      "address": "Presso Stadio Comunale G. Teghil",
+      "mapsVerification": "sede_dalla_fonte",
+      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Presso+Stadio+Comunale+G.+Teghil%2C+Lignano+Sabbiadoro&travelmode=driving",
       "zone": "mare",
-      "distanceFromTarcentoKm": 80,
-      "slug": "dinner-show-lignano-2026",
-      "longDescription": "Il Dinner Show chiude il tour 2026 di Friuli Venezia Giulia Via dei Sapori con un grande percorso gastronomico sulla spiaggia di Lignano. Ventisette chef e numerosi produttori presentano assaggi, vini, dessert, caffè e distillati.",
-      "detailParagraphs": [
-        "Il Dinner Show chiude il tour 2026 di Friuli Venezia Giulia Via dei Sapori con un grande percorso gastronomico sulla spiaggia di Lignano. Ventisette chef e numerosi produttori presentano assaggi, vini, dessert, caffè e distillati.",
-        "La serata inizia alle 19:00 e il biglietto costa 90 euro. I tagliandi sono disponibili presso i ristoranti del gruppo e la segreteria del consorzio; la fonte elenca anche alcuni punti vendita a Lignano.",
-        "Il menu completo è pubblicato sul sito del consorzio. La formula è itinerante: gli ospiti si muovono tra le postazioni allestite sulla spiaggia vicino alla Terrazza a Mare."
-      ],
-      "admission": {
-        "type": "paid",
-        "label": "Biglietto €90"
-      },
-      "booking": {
-        "type": "required",
-        "label": "Acquisto anticipato presso consorzio e punti vendita"
-      },
-      "programStatus": {
-        "type": "confirmed",
-        "label": "Programma confermato",
-        "note": "Orario, prezzo, partecipanti e modalità di acquisto pubblicati."
-      },
-      "weatherPlan": "In caso di maltempo la serata viene recuperata mercoledì 9 settembre.",
-      "notesSummary": "Evento gastronomico in spiaggia con percorso a postazioni.",
-      "organizer": "Friuli Venezia Giulia Via dei Sapori con Lisagest",
-      "contact": "0432 530052, ore 09:00–12:00 · info@friuliviadeisapori.it",
-      "program": [
-        {
-          "label": "Martedì 8 settembre",
-          "items": [
-            "19:00 · apertura del Dinner Show",
-            "Percorso di degustazione tra chef, vignaioli e artigiani",
-            "Finale con dessert, caffè e distillati"
-          ]
-        },
-        {
-          "label": "Mercoledì 9 settembre",
-          "items": [
-            "Data di recupero esclusivamente in caso di maltempo"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Evento gastronomico in spiaggia con percorso a postazioni.",
-        "Menu completo sul sito Friuli Venezia Giulia Via dei Sapori."
-      ],
-      "sources": [
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/dinner-show-2026-lignano",
-          "role": "Scheda completa"
-        },
-        {
-          "name": "Lignano Sabbiadoro",
-          "url": "https://lignanosabbiadoro.it/it/eventi/friuli-venezia-giulia-via-dei-sapori-dinner-show/",
-          "role": "Conferma automatica"
-        }
-      ],
-      "detailPath": "dettaglio/dinner-show-lignano-2026/index.html",
       "zones": [
         "friuli",
         "mare"
       ],
-      "checkedAt": "2026-09-08T09:37:18+00:00",
-      "sourceReachable": true,
-      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/dinner-show-lignano-2026/index.html?s=2a0c81ae58"
+      "distanceFromTarcentoKm": 80,
+      "slug": "laura-pausini-io-canto-world-tour-2026-27-2026-09-10",
+      "longDescription": "Laura Pausini in concerto a Lignano Sabbiadoro il 2 giugno 2027 allo Stadio G.Teghil: la prima tappa italiana del tour IO CANTO.",
+      "detailParagraphs": [
+        "Lignano Sabbiadoro sarà la prima tappa italiana del grande tour estivo di Laura Pausini , che il 2 giugno 2027 porterà allo Stadio Teghil uno spettacolo imperdibile, parte dello straordinario IO CANTO / YO CANTO World Tour 2026/27 .",
+        "Dopo un lungo viaggio internazionale che toccherà Europa, Americhe e Brasile, la cantautrice italiana più premiata al mondo torna in Italia con un live emozionante che unirà i suoi successi più celebri ai brani del nuovo album IO CANTO 2 .",
+        "Il concerto di Lignano è prodotto da Friends & Partners e organizzato con FVG Music Live e VignaPR , in collaborazione con Regione Friuli Venezia Giulia , PromoTurismoFVG e Città di Lignano Sabbiadoro .",
+        "Biglietti in vendita dalle ore 11:00 di giovedì 27 novembre su Ticketone.it .",
+        "FVG Music Live info@fvgmusiclive.it | www.fvgmusiclive.it VignaPR info@vignapr.it | www.vignapr.it"
+      ],
+      "admission": {
+        "type": "unknown",
+        "label": "Costo non indicato"
+      },
+      "booking": {
+        "type": "unknown",
+        "label": "Prenotazione non indicata"
+      },
+      "programStatus": {
+        "type": "source_check",
+        "label": "Programma da verificare",
+        "note": "Apri la fonte ufficiale per orari e possibili aggiornamenti."
+      },
+      "weatherPlan": "Nessuna indicazione specifica pubblicata.",
+      "notesSummary": "Acquisito automaticamente dalla fonte.",
+      "organizer": "Lignano Sabbiadoro",
+      "program": [
+        {
+          "label": "Programma pubblicato",
+          "items": [
+            "Dal 2026-09-10 al 2026-11-27"
+          ]
+        }
+      ],
+      "practicalNotes": [
+        "Controllare la fonte prima di partire."
+      ],
+      "sources": [
+        {
+          "name": "Lignano Sabbiadoro",
+          "url": "https://lignanosabbiadoro.it/it/eventi/laura-pausini-io-canto-world-tour/",
+          "role": "Fonte di acquisizione"
+        }
+      ],
+      "detailPath": "dettaglio/laura-pausini-io-canto-world-tour-2026-27-2026-09-10/index.html",
+      "sourceLanguage": "it",
+      "translationLanguage": "it",
+      "checkedAt": "2026-09-10T13:38:34+00:00",
+      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/laura-pausini-io-canto-world-tour-2026-27-2026-09-10/index.html?s=384c760e2c"
     },
     {
       "title": "Moda d'autore 2026",
@@ -1333,7 +1137,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/moda-d-autore-2026-2026-09-10/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:18+00:00",
+      "checkedAt": "2026-09-10T13:38:32+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/moda-d-autore-2026-2026-09-10/index.html?s=bc03884b93"
     },
     {
@@ -1375,10 +1179,11 @@ window.EVENTS_DATA = {
       "slug": "50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12",
       "longDescription": "Il 12 settembre 2026 all'Arena Alpe Adria di Lignano un evento per il 50° anniversario del terremoto del Friuli: arte, mostra fotografica e concerto gospel.",
       "detailParagraphs": [
-        "In occasione del 50° anniversario del terremoto del Friuli , l' Arena Alpe Adria di Lignano Sabbiadoro ospiterà un grande evento dedicato alla memoria, all'accoglienza e alla rinascita delle nostre comunità.",
-        "Un legame profondo nato nei drammatici mesi del 1976, quando Lignano accolse sul proprio litorale oltre 20 mila sfollati giunti dai centri colpiti dal sisma – tra cui moltissimi cittadini di Gemona del Friuli – trasformando la propria vocazione all'ospitalità in una straordinaria ed esemplare prova di solidarietà.",
+        "On the occasion of the 50th anniversary of the Friuli earthquake , the Arena Alpe Adria in Lignano Sabbiadoro will host a major event dedicated to memory, hospitality, and the rebirth of our communities.",
+        "This deep bond was forged during the tragic months of 1976, when Lignano welcomed over 20,000 displaced people onto its shores from the areas hit by the earthquake – including many citizens of Gemona del Friuli – turning its spirit of hospitality into an extraordinary act of solidarity.",
         "+39 0431409126 (Ufficio Turismo - Comune di Lignano Sabbiadoro)",
-        "Sand of Gospel email: sandofgospel@libero.it url: www.sandofgospel.it"
+        "Sand of Gospel email: sandofgospel@libero.it url: www.sandofgospel.it",
+        "In occasione del 50° anniversario del terremoto del Friuli , l' Arena Alpe Adria di Lignano Sabbiadoro ospiterà un grande evento dedicato alla memoria, all'accoglienza e alla rinascita delle nostre comunità."
       ],
       "admission": {
         "type": "unknown",
@@ -1400,6 +1205,8 @@ window.EVENTS_DATA = {
         {
           "label": "Programma pubblicato",
           "items": [
+            "8:00 PM | Inauguration of the Permanent Art Sculpture",
+            "9:00 PM | Concert Event",
             "Ore 20.00 | Inaugurazione dell'Opera Permanente",
             "Ore 21.00 | Concerto-Evento"
           ]
@@ -1418,7 +1225,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "checkedAt": "2026-09-10T13:38:32+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/50-anniversario-del-terremoto-del-friuli-1976-2026-2026-09-12/index.html?s=5ea4b61015"
     },
     {
@@ -1500,7 +1307,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/regata-del-sole-2026-09-13/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "checkedAt": "2026-09-10T13:38:33+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/regata-del-sole-2026-09-13/index.html?s=4c8807d16b"
     },
     {
@@ -1588,7 +1395,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/italian-bike-week-2026-2026-09-17/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:19+00:00",
+      "checkedAt": "2026-09-10T13:38:33+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/italian-bike-week-2026-2026-09-17/index.html?s=195683e076"
     },
     {
@@ -1596,8 +1403,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-06-01",
       "endDate": "2026-09-30",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -1687,7 +1492,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/festival-in-contaminato-2026-06-01/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:18+00:00",
+      "checkedAt": "2026-09-10T13:38:31+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/festival-in-contaminato-2026-06-01/index.html?s=47c435c73b"
     },
     {
@@ -1695,8 +1500,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-06-23",
       "endDate": "2026-09-13",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -1731,7 +1534,7 @@ window.EVENTS_DATA = {
       ],
       "distanceFromTarcentoKm": 90,
       "slug": "friuli-concertante-2026",
-      "longDescription": "Sala Polifunzionale / Trio Intango (vn, vc, fi sa) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684 Il Festival amici della musica Udine FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo.\n\n02.08.26 DOMENICA ore 06.00 Concerto all’Alba - Prato San Martino - Duo Salvador-Goch (vn e va)\n\n12.09.26 SABATO ore 20.30 Pieve di San Martino / Duo Hata Palamidessi (2 chitarre)\n\nIl Festival FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. 02.08.26 DOMENICA ore 06.00 Concerto all’Alba - Prato San Martino - Duo Salvador-Goch (vn e va) 12.09.26 SABATO ore 20.30 Pieve di San Martino / Duo Hata Palamidessi (2 chitarre) Programma completo in allegato Info e contatti info.amicimusica@amicimusica.ud.it | www.amicimusica.ud.it\n\nEscursione ‘Una Bibbia a cielo aperto’(ore 16-18), segue concerto; Eduard Basha (chitarra).\n\nFESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684\n\nEscursione ‘Una Bibbia a cielo aperto’(ore 16-18), segue concerto; Eduard Basha (chitarra). FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684 Il Festival amici della musica FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo.\n\nLa mozartina 2, Sant’Antonio / Jess Duo Wien (vn, pf) visita Mozartina ore 16.00\n\nFESTIVAL DARTE prenotazioni La Mozartina +39.328.4186585 www.lamozartina.it / museomozartina@libero.it\n\nLa mozartina 2, Sant’Antonio / Jess Duo Wien (vn, pf) visita Mozartina ore 16.00 FESTIVAL DARTE prenotazioni La Mozartina +39.328.4186585 www.lamozartina.it / museomozartina@libero.it Il Festival amici della musica FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo.",
+      "longDescription": "Il Festival FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. 02.08.26 DOMENICA ore 06.00 Concerto all’Alba - Prato San Martino - Duo Salvador-Goch (vn e va) 12.09.26 SABATO ore 20.30 Pieve di San Martino / Duo Hata Palamidessi (2 chitarre) Il Festival FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. 02.08.26 DOMENICA ore 06.00 Concerto all’Alba - Prato San Martino - Duo Salvador-Goch (vn e va) 12.09.26 SABATO ore 20.30 Pieve di San Martino / Duo Hata Palamidessi (2 chitarre) Programma completo in allegato Info e contatti info.amicimusica@amicimusica.ud.it | www.amicimusica.ud.it Escursione ‘Una Bibbia a cielo aperto’(ore 16-18), segue concerto; Eduard Basha (chitarra). FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684 Il Festival amici della musica FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. Escursione ‘Una Bibbia a cielo aperto’(ore 16-18), segue concerto; Eduard Basha (chitarra). FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684 Il Festival amici della musica FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. La mozartina 2, Sant’Antonio / Jess Duo Wien (vn, pf) visita Mozartina ore 16.00 FESTIVAL DARTE prenotazioni La Mozartina +39.328.4186585 www.lamozartina.it / museomozartina@libero.it La mozartina 2, Sant’Antonio / Jess Duo Wien (vn, pf) visita Mozartina ore 16.00 FESTIVAL DARTE prenotazioni La Mozartina +39.328.4186585 www.lamozartina.it / museomozartina@libero.it Il Festival amici della musica FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. Il Festival amici della musica Udine FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo. Sala Polifunzionale / Trio Intango (vn, vc, fi sa) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684 Il Festival amici della musica Udine FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo.",
       "detailParagraphs": [
         "Sala Polifunzionale / Trio Intango (vn, vc, fi sa) FESTIVAL DARTE escursioni info@carniagreeters.it +39.340.1609684 Il Festival amici della musica Udine FRIULI CONCERTANTE raggiunge quei luoghi unici che il territorio offre sia al turismo estivo sia al pubblico locale, coinvolgendo località del Friuli, dal mare alla montagna, senza trascurare luoghi di rara bellezza dell’entroterra, e presenta al pubblico scenari naturalistici e architettonici, accanto a programmi musicali pensati per la specifi cità dei palcoscenici naturali in cui hanno luogo.",
         "02.08.26 DOMENICA ore 06.00 Concerto all’Alba - Prato San Martino - Duo Salvador-Goch (vn e va)",
@@ -1827,7 +1630,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/friuli-concertante-2026/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "checkedAt": "2026-09-10T13:38:28+00:00",
       "programNote": "Le singole date appartengono alla stessa manifestazione. Ogni sede verificata dispone delle proprie indicazioni.",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/friuli-concertante-2026/index.html?s=5d4da19717"
     },
@@ -1836,8 +1639,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-07-19",
       "endDate": "2026-09-20",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -1924,7 +1725,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/andar-per-ville-castelli-del-fvg-2026-2026-07-19/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "checkedAt": "2026-09-10T13:38:28+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/andar-per-ville-castelli-del-fvg-2026-2026-07-19/index.html?s=8ad7b7f5be"
     },
     {
@@ -1932,8 +1733,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-08-20T21:00:00+02:00",
       "endDate": "2026-09-12",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12"
@@ -2012,101 +1811,14 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/tipico-musica-in-villa-2026-2026-08-20/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "checkedAt": "2026-09-10T13:38:28+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/tipico-musica-in-villa-2026-2026-08-20/index.html?s=47a5019908"
-    },
-    {
-      "title": "ESTIVAL - Rapsodie nel Parco: tra cultura e natura",
-      "startDate": "2026-09-03T18:30:00+02:00",
-      "endDate": "2026-09-09",
-      "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09"
-      ],
-      "days": [],
-      "area": "friuli",
-      "city": "Pasian di Prato",
-      "venue": "Arena del Parco di via Missio",
-      "description": "La Pro Loco di Pasian di Prato APS organizza “ESTIVAL - Rapsodie nel Parco: tra cultura e natura”, rassegna di due appuntamenti serali dedicati allo spettacolo e alla musica, realizzata con il patrocinio del Comune di Pasian di Prato. Giovedì 3 settembre andrà in scena “Charlot…",
-      "price": "Non indicato",
-      "status": "da_ricontrollare",
-      "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
-      "sourceUrl": "https://www.turismofvg.it/eventi/estival-rapsodie-nel-parco-tra-cultura-e-natura-501604",
-      "sourceName": "PromoTurismoFVG",
-      "tags": [
-        "evento",
-        "friuli"
-      ],
-      "image": "assets/images/estival-rapsodie-nel-parco-tra-cultura-e-natura-2026-09-03.webp",
-      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,thumb/r374364?v=460885&ext=.jpg",
-      "imageAlt": "Immagine ufficiale di ESTIVAL - Rapsodie nel Parco: tra cultura e natura",
-      "imageSourceName": "PromoTurismoFVG",
-      "imageSourceUrl": "https://www.turismofvg.it/eventi/estival-rapsodie-nel-parco-tra-cultura-e-natura-501604",
-      "locationLabel": "Pasian di Prato · Arena del Parco di via Missio",
-      "address": "Arena del Parco di via Missio",
-      "mapsVerification": "sede_dalla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Arena+del+Parco+di+via+Missio%2C+Pasian+di+Prato&travelmode=driving",
-      "zone": "friuli",
-      "zones": [
-        "friuli"
-      ],
-      "distanceFromTarcentoKm": 90,
-      "slug": "estival-rapsodie-nel-parco-tra-cultura-e-natura-2026-09-03",
-      "longDescription": "La Pro Loco di Pasian di Prato APS organizza “ESTIVAL - Rapsodie nel Parco: tra cultura e natura”, rassegna di due appuntamenti serali dedicati allo spettacolo e alla musica, realizzata con il patrocinio del Comune di Pasian di Prato. Giovedì 3 settembre andrà in scena “Charlot in concerto”, nuovo spettacolo dell’artista Natalia Ratti dedicato al genio e alla comicità di Charlie Chaplin. Mercoledì 9 settembre sarà invece protagonista la musica dei “Nosisà”, con un concerto di musica tradizionale friulana rivisitata in chiave rock, preceduto dalla lettura di poesie in lingua friulana dell’autore e docente Fausto Zof. In caso di maltempo gli spettacoli si terranno all’Auditorium “E. Venier” di via Roma. L’ingresso è gratuito. Informazioni: Pro Loco di Pasian di Prato APS – 338 4505366 prolocoaps.pasiandiprato@gmail.com – www.prolocopasiandiprato.it",
-      "detailParagraphs": [
-        "La Pro Loco di Pasian di Prato APS organizza “ESTIVAL - Rapsodie nel Parco: tra cultura e natura”, rassegna di due appuntamenti serali dedicati allo spettacolo e alla musica, realizzata con il patrocinio del Comune di Pasian di Prato.",
-        "Giovedì 3 settembre andrà in scena “Charlot in concerto”, nuovo spettacolo dell’artista Natalia Ratti dedicato al genio e alla comicità di Charlie Chaplin.",
-        "Mercoledì 9 settembre sarà invece protagonista la musica dei “Nosisà”, con un concerto di musica tradizionale friulana rivisitata in chiave rock, preceduto dalla lettura di poesie in lingua friulana dell’autore e docente Fausto Zof.",
-        "In caso di maltempo gli spettacoli si terranno all’Auditorium “E. Venier” di via Roma.",
-        "Informazioni: Pro Loco di Pasian di Prato APS – 338 4505366"
-      ],
-      "admission": {
-        "type": "unknown",
-        "label": "Costo non indicato"
-      },
-      "booking": {
-        "type": "unknown",
-        "label": "Prenotazione non indicata"
-      },
-      "programStatus": {
-        "type": "source_check",
-        "label": "Programma da verificare",
-        "note": "Apri la fonte ufficiale per orari e possibili aggiornamenti."
-      },
-      "weatherPlan": "Nessuna indicazione specifica pubblicata.",
-      "notesSummary": "Acquisito automaticamente dalla fonte.",
-      "organizer": "PromoTurismoFVG",
-      "program": [
-        {
-          "label": "Programma pubblicato",
-          "items": [
-            "Dal 2026-09-03 al 2026-09-09"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Controllare la fonte prima di partire."
-      ],
-      "sources": [
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/estival-rapsodie-nel-parco-tra-cultura-e-natura-501604",
-          "role": "Fonte di acquisizione"
-        }
-      ],
-      "detailPath": "dettaglio/estival-rapsodie-nel-parco-tra-cultura-e-natura-2026-09-03/index.html",
-      "sourceLanguage": "it",
-      "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:14+00:00",
-      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/estival-rapsodie-nel-parco-tra-cultura-e-natura-2026-09-03/index.html?s=c4cd1797ef"
     },
     {
       "title": "29° Simposio Internazionale di Scultura su Pietre FVG",
       "startDate": "2026-09-04",
       "endDate": "2026-09-20",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -2192,96 +1904,14 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/29-simposio-internazionale-di-scultura-su-pietre-fvg-2026-09-04/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:18+00:00",
+      "checkedAt": "2026-09-10T13:38:30+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/29-simposio-internazionale-di-scultura-su-pietre-fvg-2026-09-04/index.html?s=a53359f61e"
-    },
-    {
-      "title": "La strada dei libri passa da...",
-      "startDate": "2026-09-09T17:30:00+02:00",
-      "endDate": "2026-09-09",
-      "occurrenceDates": [
-        "2026-09-09"
-      ],
-      "days": [],
-      "area": "friuli",
-      "city": "Sequals",
-      "venue": "Casa Museo di Primo Carnera via Roma 12 Sequals",
-      "description": "La Strada dei Libri passa da... Sequals Don Chisciotte e Sancho Panza. Rassegna rivolta a bambini e famiglie che unisce spettacoli teatrali, letture sceniche, laboratori musicali, visite speciali dentro ai musei e altre proposte curiose",
-      "price": "Non indicato",
-      "status": "da_ricontrollare",
-      "updateNote": "Scheda acquisita automaticamente; verificare alla fonte eventuali variazioni.",
-      "sourceUrl": "https://www.turismofvg.it/eventi/la-strada-dei-libri-passa-da-491178",
-      "sourceName": "PromoTurismoFVG",
-      "tags": [
-        "evento",
-        "friuli"
-      ],
-      "image": "assets/images/la-strada-dei-libri-passa-da-2026-09-09.webp",
-      "imageRemoteUrl": "https://www.turismofvg.it/proxyvfs.axd/main,thumb/r365348?v=447584&ext=.jpg",
-      "imageAlt": "Immagine ufficiale di La strada dei libri passa da...",
-      "imageSourceName": "PromoTurismoFVG",
-      "imageSourceUrl": "https://www.turismofvg.it/eventi/la-strada-dei-libri-passa-da-491178",
-      "locationLabel": "Sequals · Casa Museo di Primo Carnera via Roma 12 Sequals",
-      "address": "Casa Museo di Primo Carnera via Roma 12 Sequals",
-      "mapsVerification": "sede_dalla_fonte",
-      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Casa+Museo+di+Primo+Carnera+via+Roma+12+Sequals%2C+Sequals&travelmode=driving",
-      "zone": "friuli",
-      "zones": [
-        "friuli"
-      ],
-      "distanceFromTarcentoKm": 90,
-      "slug": "la-strada-dei-libri-passa-da-2026-09-09",
-      "longDescription": "La Strada dei Libri passa da... Sequals Don Chisciotte e Sancho Panza. Rassegna rivolta a bambini e famiglie che unisce spettacoli teatrali, letture sceniche, laboratori musicali, visite speciali dentro ai musei e altre proposte curiose",
-      "detailParagraphs": [
-        "che unisce spettacoli teatrali, letture sceniche, laboratori musicali, visite speciali dentro ai musei e altre proposte curiose",
-        "La Strada dei Libri passa da... Sequals Don Chisciotte e Sancho Panza. Rassegna rivolta a bambini e famiglie che unisce spettacoli teatrali, letture sceniche, laboratori musicali, visite speciali dentro ai musei e altre proposte curiose"
-      ],
-      "admission": {
-        "type": "unknown",
-        "label": "Costo non indicato"
-      },
-      "booking": {
-        "type": "unknown",
-        "label": "Prenotazione non indicata"
-      },
-      "programStatus": {
-        "type": "source_check",
-        "label": "Programma da verificare",
-        "note": "Apri la fonte ufficiale per orari e possibili aggiornamenti."
-      },
-      "weatherPlan": "Nessuna indicazione specifica pubblicata.",
-      "notesSummary": "Acquisito automaticamente dalla fonte.",
-      "organizer": "PromoTurismoFVG",
-      "program": [
-        {
-          "label": "Programma pubblicato",
-          "items": [
-            "Dal 2026-09-09 al 2026-09-09"
-          ]
-        }
-      ],
-      "practicalNotes": [
-        "Controllare la fonte prima di partire."
-      ],
-      "sources": [
-        {
-          "name": "PromoTurismoFVG",
-          "url": "https://www.turismofvg.it/eventi/la-strada-dei-libri-passa-da-491178",
-          "role": "Fonte di acquisizione"
-        }
-      ],
-      "detailPath": "dettaglio/la-strada-dei-libri-passa-da-2026-09-09/index.html",
-      "sourceLanguage": "it",
-      "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:14+00:00",
-      "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/la-strada-dei-libri-passa-da-2026-09-09/index.html?s=457856c7f2"
     },
     {
       "title": "Septemberfest – Festa dell’uva e del vino",
       "startDate": "2026-09-09T18:00:00+02:00",
       "endDate": "2026-09-10T23:30:00+02:00",
       "occurrenceDates": [
-        "2026-09-09",
         "2026-09-10"
       ],
       "days": [],
@@ -2447,7 +2077,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/jazz-river-roberto-gatto-4tet-around-miles-2026-09-11/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:15+00:00",
+      "checkedAt": "2026-09-10T13:38:27+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/jazz-river-roberto-gatto-4tet-around-miles-2026-09-11/index.html?s=da06142fa7"
     },
     {
@@ -2529,7 +2159,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/anteprima-festival-de-la-citta-ideale-echi-di-donna-la-figura-femminile-nella-mu/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "checkedAt": "2026-09-10T13:38:28+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/anteprima-festival-de-la-citta-ideale-echi-di-donna-la-figura-femminile-nella-mu/index.html?s=60ed268d0c"
     },
     {
@@ -2612,7 +2242,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/jazz-river-eleonora-strino-trio-matilde-2026-09-12/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:16+00:00",
+      "checkedAt": "2026-09-10T13:38:29+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/jazz-river-eleonora-strino-trio-matilde-2026-09-12/index.html?s=85648883d2"
     },
     {
@@ -2696,7 +2326,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/cori-in-festa-2026-2026-09-13/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:17+00:00",
+      "checkedAt": "2026-09-10T13:38:29+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/cori-in-festa-2026-2026-09-13/index.html?s=ee56f24e34"
     },
     {
@@ -2777,7 +2407,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/fosar-indipendenti-festival-2026-09-13/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:17+00:00",
+      "checkedAt": "2026-09-10T13:38:30+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/fosar-indipendenti-festival-2026-09-13/index.html?s=7bd5b4d468"
     },
     {
@@ -2859,7 +2489,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/jazz-river-raphael-gualazzi-2026-09-13/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:17+00:00",
+      "checkedAt": "2026-09-10T13:38:30+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/jazz-river-raphael-gualazzi-2026-09-13/index.html?s=48241f46d1"
     },
     {
@@ -2867,8 +2497,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-05",
       "endDate": "2026-09-13",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -2900,7 +2528,7 @@ window.EVENTS_DATA = {
       "zone": "austria",
       "distanceFromTarcentoKm": 95,
       "slug": "european-bike-week-2026",
-      "longDescription": "Le guide di Harry’s Bike Tours accompagnano ogni giorno i motociclisti su itinerari panoramici attraverso la Carinzia e le regioni confinanti. Le partenze dal Faaker See anticipano e accompagnano la settimana del grande raduno motociclistico.\n\nI tour si svolgono dal 5 al 12 settembre con partenza alle 09:30. Per gli ospiti con Erlebnis CARD la guida è gratuita; senza card il prezzo indicato è 59 euro. Carburante, pedaggi e pasti restano a carico del partecipante.\n\nLa prenotazione è obbligatoria entro le 15:00 del giorno precedente per telefono o e-mail. Il percorso giornaliero può variare in funzione del meteo e delle condizioni stradali.\n\nEuropean Bike Week è uno dei maggiori raduni motociclistici europei e trasforma l’area del Faaker See in un punto d’incontro internazionale. Il cuore dell’evento è l’Harley Village a Faak am See, affiancato da iniziative diffuse attorno al lago e a Villach.\n\nL’edizione 2026 è annunciata dall’8 al 13 settembre. Oltre al villaggio, il programma ufficiale presenta prove di moto, concerti, una parata e una mostra di motociclette personalizzate.",
+      "longDescription": "Le guide di Harry’s Bike Tours accompagnano ogni giorno i motociclisti su itinerari panoramici attraverso la Carinzia e le regioni confinanti. Le partenze dal Faaker See anticipano e accompagnano la settimana del grande raduno motociclistico. I tour si svolgono dal 5 al 12 settembre con partenza alle 09:30. Per gli ospiti con Erlebnis CARD la guida è gratuita; senza card il prezzo indicato è 59 euro. Carburante, pedaggi e pasti restano a carico del partecipante. La prenotazione è obbligatoria entro le 15:00 del giorno precedente per telefono o e-mail. Il percorso giornaliero può variare in funzione del meteo e delle condizioni stradali. European Bike Week è uno dei maggiori raduni motociclistici europei e trasforma l’area del Faaker See in un punto d’incontro internazionale. Il cuore dell’evento è l’Harley Village a Faak am See, affiancato da iniziative diffuse attorno al lago e a Villach. L’edizione 2026 è annunciata dall’8 al 13 settembre. Oltre al villaggio, il programma ufficiale presenta prove di moto, concerti, una parata e una mostra di motociclette personalizzate.",
       "detailParagraphs": [
         "Le guide di Harry’s Bike Tours accompagnano ogni giorno i motociclisti su itinerari panoramici attraverso la Carinzia e le regioni confinanti. Le partenze dal Faaker See anticipano e accompagnano la settimana del grande raduno motociclistico.",
         "I tour si svolgono dal 5 al 12 settembre con partenza alle 09:30. Per gli ospiti con Erlebnis CARD la guida è gratuita; senza card il prezzo indicato è 59 euro. Carburante, pedaggi e pasti restano a carico del partecipante.",
@@ -2992,8 +2620,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-05-07",
       "endDate": "2026-09-24",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -3076,7 +2702,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/mercato-contadino-al-faaker-see-2026-05-07/index.html",
       "sourceLanguage": "de",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:22+00:00",
+      "checkedAt": "2026-09-10T13:38:37+00:00",
       "originalTitle": "Faaker Bauernmarkt Jeden Donnerstag - Start 7. Mai geht bis zum 24. September 2026 Der Faaker See Bauernmarkt lädt Gäste ein, regionale Produkte, traditionelle Spezialitäten und echtes Kärntner Marktflair zu entdecken. Gäste erleben bäuerliche Köstlichkeiten, handgemachte Produkte und persönliche Begegnungen mit Produzent:innen aus der Region. Die Veranstaltung verbindet Kulinarik, Handwerk und geselliges Beisammensein zu einem authentischen Genusserlebnis am Faaker See. Erfahre mehr",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/mercato-contadino-al-faaker-see-2026-05-07/index.html?s=2ed806575a"
     },
@@ -3159,7 +2785,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/caorle-independent-film-festival-2026-09-15/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:22+00:00",
+      "checkedAt": "2026-09-10T13:38:36+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/caorle-independent-film-festival-2026-09-15/index.html?s=d6f1c2a893"
     },
     {
@@ -3242,7 +2868,7 @@ window.EVENTS_DATA = {
       "detailPath": "dettaglio/festa-del-pesce-2026-09-18/index.html",
       "sourceLanguage": "it",
       "translationLanguage": "it",
-      "checkedAt": "2026-09-08T09:37:21+00:00",
+      "checkedAt": "2026-09-10T13:38:36+00:00",
       "shareUrl": "https://giufog.github.io/giu-page/eventi/dettaglio/festa-del-pesce-2026-09-18/index.html?s=05c030041a"
     },
     {
@@ -3250,8 +2876,6 @@ window.EVENTS_DATA = {
       "startDate": "2026-09-04T12:00:00+02:00",
       "endDate": "2026-09-13T23:00:00+02:00",
       "occurrenceDates": [
-        "2026-09-08",
-        "2026-09-09",
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
@@ -3421,7 +3045,7 @@ window.EVENTS_DATA = {
       "id": "promoturismo-fvg",
       "name": "PromoTurismoFVG",
       "status": "ok",
-      "found": 30
+      "found": 21
     },
     {
       "id": "lignano-ufficiale",
@@ -3449,12 +3073,12 @@ window.EVENTS_DATA = {
     }
   ],
   "statistics": {
-    "seedInWindow": 9,
-    "discoveredInWindow": 42,
-    "matched": 2,
-    "added": 40,
+    "seedInWindow": 7,
+    "discoveredInWindow": 33,
+    "matched": 1,
+    "added": 32,
     "copiedImages": 0,
-    "removedImages": 12,
-    "total": 34
+    "removedImages": 11,
+    "total": 31
   }
 };

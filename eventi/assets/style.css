@@ -421,3 +421,9 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
 .native-refresh span { color: rgb(255 255 255 / 82%); font-size: .88rem; }
 .native-refresh .button:disabled { cursor: wait; opacity: .7; }
 .event-rating{display:flex;align-items:center;gap:.45rem;margin:.15rem 0 .55rem;color:#6b5a18}.event-rating span{color:#d49a18;letter-spacing:.06em}.event-rating b{font-size:.88rem}.event-rating small{color:var(--muted);font-size:.76rem}.event-rating--detail{margin:.55rem 0 0}
+.event-counts { display:flex; flex-wrap:wrap; align-items:center; gap:8px 18px; margin:14px 0; color:#51646b; font-size:.76rem; line-height:1.5; }
+.event-counts > span { display:inline-flex; align-items:center; gap:5px; }
+.event-counts svg { width:19px; height:19px; flex-shrink:0; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+.event-counts b { font-weight:400; font-variant-numeric:tabular-nums; }
+.hero .event-counts { color:inherit; opacity:.85; }
+@media print { .event-counts { display:none; } }
