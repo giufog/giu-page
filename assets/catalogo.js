@@ -109,7 +109,7 @@ function pageCard(page) {
   const article = document.createElement('article');
   article.className = 'page-card';
   article.innerHTML = `
-    <div class="page-cover"><img src="${page.coverImageUrl || './assets/gp-icon.svg'}" alt="Copertina di ${page.title}" loading="lazy"></div>
+    <a class="page-cover" href="${page.url}"><img src="${page.coverImageUrl || './assets/gp-icon.svg'}" alt="Apri pagina: ${page.title}" loading="lazy" draggable="false"></a>
     <div class="page-body">
       <time datetime="${page.createdAt || ''}">${formatDate(page.createdAt || page.updatedAt)}</time>
       <h2>${page.title}</h2>
