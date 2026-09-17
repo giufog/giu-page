@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "title": "Catalogo Stili Immagini",
+  "slug": "catalogo-stili-immagini",
+  "category": "varie",
+  "description": "296 stili numerati con anteprime, filtri, prompt riutilizzabili e riferimenti alle fonti.",
+  "createdAt": "2026-09-17",
+  "updatedAt": "2026-09-17",
+  "pageCount": 26,
+  "readingMinutes": 18,
+  "coverImage": "assets/share-whatsapp.jpg",
+  "tags": ["immagini", "stili", "prompt", "catalogo"],
+  "listed": true
+}
