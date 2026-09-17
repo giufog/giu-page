@@ -9,6 +9,7 @@
 .vehicle-card .event-card__description { overflow-wrap: anywhere; white-space: normal; }
 .vehicle-plate { margin: 0; color: #217a46; font-size: .95rem; font-weight: 800; letter-spacing: .08em; }
 .vehicle-poster { display: grid; place-items: center; width: 100%; aspect-ratio: 3 / 2; padding: 20px; background: #e5f0e8; color: #36594a; text-align: center; }
+.vehicle-poster:focus-visible { outline: 3px solid #217a46; outline-offset: -3px; }
 .vehicle-poster img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .vehicle-illustration { margin: 0; min-width: 0; }
 .vehicle-illustration figcaption { padding: 10px 14px; color: #50655b; font-size: .82rem; line-height: 1.45; }
@@ -27,7 +28,7 @@
 .vehicle-sources { padding: 16px; overflow-wrap: anywhere; }
 .vehicle-sources > p, .vehicle-sources > ol, .vehicle-sources > ul { max-width: 72ch; }
 .mezzi-garage { margin: 0 0 24px; }
-.mezzi-garage img { display: block; width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #194d3d; border-radius: 18px; }
+.mezzi-garage img { display: block; width: 100%; height: auto; max-height: 360px; object-fit: contain; background: #173e35; border-radius: 18px; }
 .mezzi-garage figcaption { color: #50655b; font-size: .85rem; padding-top: 8px; }
 .mezzi-page button:disabled { cursor: not-allowed; opacity: .6; }
 .mezzi-page .detail-bottom-actions { margin-top: 24px; border-radius: 12px; }
