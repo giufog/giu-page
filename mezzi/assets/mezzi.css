@@ -47,7 +47,8 @@
   .mezzi-page .table-wrap, .mezzi-page .sources { break-inside: auto; }
   .mezzi-page .vehicle-dossier th, .mezzi-page .vehicle-dossier td { font-size: 9pt; padding: 5px; }
   .mezzi-page .vehicle-dossier h2 { margin: 14px 0 8px; font-size: 15pt; }
-  .mezzi-page .vehicle-sources { padding: 10px 0; }
+  .mezzi-page .vehicle-sources { padding: 10px 0; font-size: 10pt; line-height: 1.45; }
+  .mezzi-page .vehicle-sources p { margin-block: 10px; line-height: 1.45; }
   .mezzi-page .vehicle-sources > p, .mezzi-page .vehicle-sources > ol, .mezzi-page .vehicle-sources > ul { max-width: none; }
   .mezzi-page .event-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .mezzi-page .event-card__body { padding: 9px; gap: 8px; }

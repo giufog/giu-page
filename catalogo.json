@@ -227,22 +227,6 @@
       "listed": true
     },
     {
-      "title": "Mezzi",
-      "slug": "mezzi",
-      "category": "varie",
-      "description": "Schede tecniche, dati e verifiche raccolti per tre mezzi.",
-      "createdAt": "2026-09-16",
-      "updatedAt": "2026-09-17",
-      "url": "https://giufog.github.io/giu-page/mezzi/",
-      "coverImageUrl": "https://giufog.github.io/giu-page/mezzi/assets/share-whatsapp-v2.jpg",
-      "tags": [
-        "mezzi",
-        "auto",
-        "moto"
-      ],
-      "listed": true
-    },
-    {
       "title": "Catalogo Stili Immagini",
       "slug": "catalogo-stili-immagini",
       "category": "varie",
@@ -256,6 +240,22 @@
         "stili",
         "prompt",
         "catalogo"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Mezzi",
+      "slug": "mezzi",
+      "category": "varie",
+      "description": "Schede tecniche, dati e verifiche raccolti per tre mezzi.",
+      "createdAt": "2026-09-16",
+      "updatedAt": "2026-09-17",
+      "url": "https://giufog.github.io/giu-page/mezzi/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/mezzi/assets/share-whatsapp-v2.jpg",
+      "tags": [
+        "mezzi",
+        "auto",
+        "moto"
       ],
       "listed": true
     }
