@@ -7273,1041 +7273,961 @@
   {
     "id": 257,
     "title": "Logo a ruota cromatica",
-    "description": "Logo a ruota cromatica. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Logo a ruota cromatica. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Logo a ruota cromatica. Descrizione visiva: Logo a ruota cromatica. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Logo a ruota cromatica». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Eight overlapping translucent pastel glass petals form a symmetrical circular color-wheel emblem, delicate refracted overlaps, white studio background, clean premium3D logo, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Eight overlapping translucent pastel glass petals form a symmetrical circular color-wheel emblem, delicate refracted overlaps, white studio background, clean premium3D logo, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-1",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/color-wheel.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/257.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 258,
     "title": "Monogramma in rilievo",
-    "description": "Monogramma in rilievo. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Monogramma in rilievo. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Monogramma in rilievo. Descrizione visiva: Monogramma in rilievo. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Monogramma in rilievo». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Macro photograph of a thick warm ivory cotton business card with a single GI monogram blind-embossed in relief, raking soft light reveals raised paper fibers, sophisticated minimal branding, no other text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Macro photograph of a thick warm ivory cotton business card with a single GI monogram blind-embossed in relief, raking soft light reveals raised paper fibers, sophisticated minimal branding, no other text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-2",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/business-card-result.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/258.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 259,
     "title": "Fotografia minimale di arredi",
-    "description": "Fotografia minimale di arredi. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Fotografia minimale di arredi. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Fotografia minimale di arredi. Descrizione visiva: Fotografia minimale di arredi. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Fotografia minimale di arredi». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Studio photograph of a minimalist Japanese oak lounge chair, honest natural wood grain, simple comfortable sculptural joinery, white seamless backdrop, soft shadow.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Studio photograph of a minimalist Japanese oak lounge chair, honest natural wood grain, simple comfortable sculptural joinery, white seamless backdrop, soft shadow.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-3",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/furniture-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/259.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 260,
     "title": "Borsa coordinata all’outfit",
-    "description": "Borsa coordinata all’outfit. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Borsa coordinata all’outfit. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Borsa coordinata all’outfit. Descrizione visiva: Borsa coordinata all’outfit. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Borsa coordinata all’outfit». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Editorial flat lay of a coordinated fashion outfit: cream linen blouse, camel trousers and sage scarf, beside a newly designed small camel leather handbag with sage strap. Bag is dominant, color harmony obvious, ivory background, no branding.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Editorial flat lay of a coordinated fashion outfit: cream linen blouse, camel trousers and sage scarf, beside a newly designed small camel leather handbag with sage strap. Bag is dominant, color harmony obvious, ivory background, no branding.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-4",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/handbag-output.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/260.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 261,
     "title": "Pubblicità di speaker",
-    "description": "Pubblicità di speaker. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Pubblicità di speaker. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Pubblicità di speaker. Descrizione visiva: Pubblicità di speaker. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Pubblicità di speaker». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Premium compact home bluetooth speaker on oak shelf against concrete wall in a serene Japanese minimalist interior with tiny plant and ceramic bowl. Product centered, natural light, discreet small typography 'suono' bottom right.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Premium compact home bluetooth speaker on oak shelf against concrete wall in a serene Japanese minimalist interior with tiny plant and ceramic bowl. Product centered, natural light, discreet small typography 'suono' bottom right.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-5",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/speaker-output.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/261.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 262,
     "title": "Materiali alternativi per sneaker",
-    "description": "Materiali alternativi per sneaker. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Materiali alternativi per sneaker. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Materiali alternativi per sneaker. Descrizione visiva: Materiali alternativi per sneaker. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Materiali alternativi per sneaker». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Experimental sneaker concept sculpted from translucent frosted sea glass with flowing organic sole and woven glass-fiber laces. Realistic high-end industrial design render, white backdrop, innovative material study, unbranded.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Experimental sneaker concept sculpted from translucent frosted sea glass with flowing organic sole and woven glass-fiber laces. Realistic high-end industrial design render, white backdrop, innovative material study, unbranded.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-6",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/sneakers-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/262.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 263,
     "title": "Città isometrica simulata",
-    "description": "Città isometrica simulata. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Città isometrica simulata. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Città isometrica simulata. Descrizione visiva: Città isometrica simulata. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Città isometrica simulata». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Detailed photorealistic isometric3D miniature coastal city island with coherent rectangular street grid, offices, small police and fire stations, working port, tiny cars and people, palm trees and parks, sunny midday, entire island in frame.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Detailed photorealistic isometric3D miniature coastal city island with coherent rectangular street grid, offices, small police and fire stations, working port, tiny cars and people, palm trees and parks, sunny midday, entire island in frame.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-7",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/3d-city.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/263.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 264,
     "title": "Speaker di vetro soffiato",
-    "description": "Speaker di vetro soffiato. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Speaker di vetro soffiato. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Speaker di vetro soffiato. Descrizione visiva: Speaker di vetro soffiato. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Speaker di vetro soffiato». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Organic blown-glass home speaker: translucent asymmetric clear glass bulb reveals speaker driver and wiring, on slender waist-high floor stand, white room and concrete floor. Photorealistic experimental product design.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Organic blown-glass home speaker: translucent asymmetric clear glass bulb reveals speaker driver and wiring, on slender waist-high floor stand, white room and concrete floor. Photorealistic experimental product design.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-8",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/glass-speaker.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/264.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 265,
     "title": "Variazione di confezione di cioccolato",
-    "description": "Variazione di confezione di cioccolato. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Variazione di confezione di cioccolato. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Variazione di confezione di cioccolato. Descrizione visiva: Variazione di confezione di cioccolato. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Variazione di confezione di cioccolato». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Letterpress craft chocolate wrapper for orange and sea salt flavor. Cream peach paper, dark burnt-orange typography 'ARANCIA E SALE', subtle debossed botanical orange-fruit illustration, single elegant wrapped bar on pale peach tabletop. Fictional brand 'ORO'.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Letterpress craft chocolate wrapper for orange and sea salt flavor. Cream peach paper, dark burnt-orange typography 'ARANCIA E SALE', subtle debossed botanical orange-fruit illustration, single elegant wrapped bar on pale peach tabletop. Fictional brand 'ORO'.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-9",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/chocolate-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/265.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 266,
     "title": "Copertina di guida di Kyoto",
-    "description": "Copertina di guida di Kyoto. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Copertina di guida di Kyoto. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Copertina di guida di Kyoto. Descrizione visiva: Copertina di guida di Kyoto. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Copertina di guida di Kyoto». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Beautiful editorial travel guide cover, title 'Discover Kyoto', smaller subtitle 'Temples, gardens and quiet streets'. Illustrated traditional wooden street, pagoda and cherry blossoms, sophisticated dusty pink deep indigo and cream palette, legible typography.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Beautiful editorial travel guide cover, title 'Discover Kyoto', smaller subtitle 'Temples, gardens and quiet streets'. Illustrated traditional wooden street, pagoda and cherry blossoms, sophisticated dusty pink deep indigo and cream palette, legible typography.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-10",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/kyoto-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/266.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 267,
     "title": "Biglietto di compleanno illustrato",
-    "description": "Biglietto di compleanno illustrato. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Biglietto di compleanno illustrato. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Biglietto di compleanno illustrato. Descrizione visiva: Biglietto di compleanno illustrato. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Biglietto di compleanno illustrato». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Elegant white birthday card, single black ink line drawing connecting a bouquet, scarf, book and wrapped perfume gift, flowing black calligraphy exact 'Happy 50th Birthday, Mom!', generous space, photographed flat.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Elegant white birthday card, single black ink line drawing connecting a bouquet, scarf, book and wrapped perfume gift, flowing black calligraphy exact 'Happy 50th Birthday, Mom!', generous space, photographed flat.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-11",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/gift-basket.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/267.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 268,
     "title": "Copertina lifestyle Urban Pulse",
-    "description": "Copertina lifestyle Urban Pulse. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Copertina lifestyle Urban Pulse. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Copertina lifestyle Urban Pulse. Descrizione visiva: Copertina lifestyle Urban Pulse. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Copertina lifestyle Urban Pulse». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Contemporary lifestyle magazine cover named 'Urban Pulse', fashionable fictional adult woman in vivid city street photograph, carefully set cover lines 'Hidden Cafés', 'Small Spaces, Big Ideas', 'Indie Sounds', professional editorial hierarchy.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Contemporary lifestyle magazine cover named 'Urban Pulse', fashionable fictional adult woman in vivid city street photograph, carefully set cover lines 'Hidden Cafés', 'Small Spaces, Big Ideas', 'Indie Sounds', professional editorial hierarchy.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-12",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/magazine-cover.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/268.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 269,
     "title": "Nuova grafica di un food truck",
-    "description": "Nuova grafica di un food truck. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Nuova grafica di un food truck. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Nuova grafica di un food truck. Descrizione visiva: Nuova grafica di un food truck. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Nuova grafica di un food truck». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic street food truck redesigned in vivid Jamaican green gold black, original flame and tropical spice graphics, bold title 'JERK KITCHEN', inviting service window, three-quarter full vehicle view, no unrelated logos.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic street food truck redesigned in vivid Jamaican green gold black, original flame and tropical spice graphics, bold title 'JERK KITCHEN', inviting service window, three-quarter full vehicle view, no unrelated logos.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-13",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/food-truck-output.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/269.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 270,
     "title": "Menu di caffetteria italiana",
-    "description": "Menu di caffetteria italiana. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Menu di caffetteria italiana. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Menu di caffetteria italiana. Descrizione visiva: Menu di caffetteria italiana. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Menu di caffetteria italiana». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Charming illustrated Italian cafe menu headed 'Caffè Roma', five clearly separated dishes with hand-painted watercolor pictures: Pizza Margherita, Carbonara, Caprese, Tiramisù, Affogato. Cream paper olive-green vine border and muted red accents, readable names and simple prices, polished menu layout.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Charming illustrated Italian cafe menu headed 'Caffè Roma', five clearly separated dishes with hand-painted watercolor pictures: Pizza Margherita, Carbonara, Caprese, Tiramisù, Affogato. Cream paper olive-green vine border and muted red accents, readable names and simple prices, polished menu layout.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-14",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/italian-menu.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/270.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 271,
     "title": "Pattern applicato a colonne",
-    "description": "Pattern applicato a colonne. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Pattern applicato a colonne. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Pattern applicato a colonne. Descrizione visiva: Pattern applicato a colonne. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Pattern applicato a colonne». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Architectural photograph of a clean concrete parking garage with three pillars painted in a coordinated teal ochre and coral geometric pattern, pigment follows concrete surfaces and perspective accurately, playful environmental graphic design, daylight.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Architectural photograph of a clean concrete parking garage with three pillars painted in a coordinated teal ochre and coral geometric pattern, pigment follows concrete surfaces and perspective accurately, playful environmental graphic design, daylight.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-15",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/parking-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/271.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 272,
     "title": "Ingredienti disposti dall’alto",
-    "description": "Ingredienti disposti dall’alto. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Ingredienti disposti dall’alto. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Ingredienti disposti dall’alto. Descrizione visiva: Ingredienti disposti dall’alto. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Ingredienti disposti dall’alto». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic overhead flat lay of fresh guacamole ingredients on pale stone: ripe avocados one halved, lime wedges, tomato, red onion, cilantro, chili and small bowl of salt, beautifully separated and recognizable, natural daylight.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic overhead flat lay of fresh guacamole ingredients on pale stone: ripe avocados one halved, lime wedges, tomato, red onion, cilantro, chili and small bowl of salt, beautifully separated and recognizable, natural daylight.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-16",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/guacamole-recipe.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/272.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 273,
     "title": "Sprite di guerriero ed equipaggiamento",
-    "description": "Sprite di guerriero ed equipaggiamento. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Sprite di guerriero ed equipaggiamento. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Sprite di guerriero ed equipaggiamento. Descrizione visiva: Sprite di guerriero ed equipaggiamento. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Sprite di guerriero ed equipaggiamento». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Square pixel-art game sprite sheet, exactly3rows6columns with same fantasy warrior in six action poses per row: standing, sword attack, spell, shield block, running, victory. Row1brown leather gear, row2silver-blue knight, row3gold-crimson mythical armor. Consistent scale, crisp pixels, light neutral background, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Square pixel-art game sprite sheet, exactly3rows6columns with same fantasy warrior in six action poses per row: standing, sword attack, spell, shield block, running, victory. Row1brown leather gear, row2silver-blue knight, row3gold-crimson mythical armor. Consistent scale, crisp pixels, light neutral background, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-17",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/sprites.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/273.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 274,
     "title": "Ridisegno di un interno",
-    "description": "Ridisegno di un interno. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Ridisegno di un interno. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Ridisegno di un interno. Descrizione visiva: Ridisegno di un interno. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Ridisegno di un interno». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Interior redesign demonstration as tasteful before-and-after diptych: identical living room architecture and camera position, left sparse plain room, right warm Japandi oak furnishings, cream linen sofa, paper lamp and green plant. Photorealistic, matching window/walls perspective, no labels.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Interior redesign demonstration as tasteful before-and-after diptych: identical living room architecture and camera position, left sparse plain room, right warm Japandi oak furnishings, cream linen sofa, paper lamp and green plant. Photorealistic, matching window/walls perspective, no labels.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-18",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/interior-design-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/274.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 275,
     "title": "Prova di outfit",
-    "description": "Prova di outfit. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Prova di outfit. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Prova di outfit. Descrizione visiva: Prova di outfit. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Prova di outfit». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Fashion outfit replacement example: two side-by-side full-body views of same fictional adult woman same pose studio background, left simple jeans and tee, right refined emerald suit and ivory blouse, consistent face body and camera. Realistic editorial photography, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Fashion outfit replacement example: two side-by-side full-body views of same fictional adult woman same pose studio background, left simple jeans and tee, right refined emerald suit and ivory blouse, consistent face body and camera. Realistic editorial photography, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-19",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/tryon-output.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/275.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 276,
     "title": "Pianta trasformata in render 3D",
-    "description": "Pianta trasformata in render 3D. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Pianta trasformata in render 3D. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Pianta trasformata in render 3D. Descrizione visiva: Pianta trasformata in render 3D. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Pianta trasformata in render 3D». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Architectural concept comparison, left small clean black-line apartment floor plan, right larger photorealistic top-down3D cutaway of exactly matching layout with furnished living room, kitchen, bedroom and bathroom. Coherent wall placement, warm material finishes, white background, no measurements or text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Architectural concept comparison, left small clean black-line apartment floor plan, right larger photorealistic top-down3D cutaway of exactly matching layout with furnished living room, kitchen, bedroom and bathroom. Coherent wall placement, warm material finishes, white background, no measurements or text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-20",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/floorplan-output.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/276.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 277,
     "title": "Poster didattico di balene",
-    "description": "Poster didattico di balene. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Poster didattico di balene. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Poster didattico di balene. Descrizione visiva: Poster didattico di balene. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Poster didattico di balene». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Cute ocean educational poster, five distinct charming whale illustrations clearly labeled 'Blue whale', 'Humpback', 'Sperm whale', 'Beluga', 'Orca'. Believable species silhouettes in friendly animated style, ocean blue background, tiny bubbles coral and fish, legible labels, harmonious infographic.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Cute ocean educational poster, five distinct charming whale illustrations clearly labeled 'Blue whale', 'Humpback', 'Sperm whale', 'Beluga', 'Orca'. Believable species silhouettes in friendly animated style, ocean blue background, tiny bubbles coral and fish, legible labels, harmonious infographic.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-21",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/whales-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/277.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 278,
     "title": "Confezione di barretta proteica",
-    "description": "Confezione di barretta proteica. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Confezione di barretta proteica. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Confezione di barretta proteica. Descrizione visiva: Confezione di barretta proteica. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Confezione di barretta proteica». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Realistic protein snack packaging mockup 'GPU Crunch', cobalt-blue wrapper with black Swiss-modern typography and thin icons of almonds oats chocolate, fictional sample text '12g Protein' '4g Sugar' '20g Carbs'. Bar beside bottle towel earbuds on white, clear attractive product photo.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Realistic protein snack packaging mockup 'GPU Crunch', cobalt-blue wrapper with black Swiss-modern typography and thin icons of almonds oats chocolate, fictional sample text '12g Protein' '4g Sugar' '20g Carbs'. Bar beside bottle towel earbuds on white, clear attractive product photo.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-22",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/ad-gpu-crunch.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/278.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 279,
     "title": "Copertina di album indie",
-    "description": "Copertina di album indie. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Copertina di album indie. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Copertina di album indie. Descrizione visiva: Copertina di album indie. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Copertina di album indie». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Indie electronic album cover title 'Neon Dusk' with smaller 'Echo District', 1980s sports car neon Miami skyline and flamingos foreground, magenta cyan sunset, dreamy retrofuturist ambience, geometric ligature-rich sans typography, original album art.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Indie electronic album cover title 'Neon Dusk' with smaller 'Echo District', 1980s sports car neon Miami skyline and flamingos foreground, magenta cyan sunset, dreamy retrofuturist ambience, geometric ligature-rich sans typography, original album art.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-23",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/album-cover.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/279.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 280,
     "title": "Creatura aliena 3D",
-    "description": "Creatura aliena 3D. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Creatura aliena 3D. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Creatura aliena 3D. Descrizione visiva: Creatura aliena 3D. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Creatura aliena 3D». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Adorable realistic3D alien blob of iridescent lavender translucent jelly, four asymmetrical floating eyes inside, glowing aqua and pink veins, tiny pseudopods and curious crescent smile, soft studio lighting shows goo subsurface scattering, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Adorable realistic3D alien blob of iridescent lavender translucent jelly, four asymmetrical floating eyes inside, glowing aqua and pink veins, tiny pseudopods and curious crescent smile, soft studio lighting shows goo subsurface scattering, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-24",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/alien.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/280.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 281,
     "title": "Esplorazione di forme per borracce",
-    "description": "Esplorazione di forme per borracce. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Esplorazione di forme per borracce. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Esplorazione di forme per borracce. Descrizione visiva: Esplorazione di forme per borracce. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Esplorazione di forme per borracce». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Industrial design exploration: three transparent water bottle concepts inspired by twisting ocean waves, each filled with water, ergonomic flowing sculptural forms, realistic3D product render on white, subtle cool highlights, no logos.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Industrial design exploration: three transparent water bottle concepts inspired by twisting ocean waves, each filled with water, ergonomic flowing sculptural forms, realistic3D product render on white, subtle cool highlights, no logos.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-25",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/bottle-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/281.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 282,
     "title": "Paesaggio fantastico onirico",
-    "description": "Paesaggio fantastico onirico. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Paesaggio fantastico onirico. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Paesaggio fantastico onirico. Descrizione visiva: Paesaggio fantastico onirico. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Paesaggio fantastico onirico». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Hyper-detailed painterly dreamscape: enormous ancient tree with luminous emerald sapphire leaves and glowing bark symbols reflected in a still circular pool, floating lanterns, ivy-covered stone portal with indigo-cloaked traveler, distant floating islands and flying whale, peach-violet twilight and jewel-tone magical light, rich coherent fantasy composition.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Hyper-detailed painterly dreamscape: enormous ancient tree with luminous emerald sapphire leaves and glowing bark symbols reflected in a still circular pool, floating lanterns, ivy-covered stone portal with indigo-cloaked traveler, distant floating islands and flying whale, peach-violet twilight and jewel-tone magical light, rich coherent fantasy composition.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-26",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/game-design.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/282.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 283,
     "title": "Mockup di maglietta tipografica",
-    "description": "Mockup di maglietta tipografica. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Mockup di maglietta tipografica. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Mockup di maglietta tipografica. Descrizione visiva: Mockup di maglietta tipografica. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Mockup di maglietta tipografica». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Fashion product mockup with two fictional adult models male and female wearing same playful typographic t-shirt design in cream and charcoal. Readable slogan 'I judge fonts quietly', subtle type punctuation motif, studio photograph, shirt fronts fully visible.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Fashion product mockup with two fictional adult models male and female wearing same playful typographic t-shirt design in cream and charcoal. Readable slogan 'I judge fonts quietly', subtle type punctuation motif, studio photograph, shirt fronts fully visible.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-27",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/t-shirts.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/283.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 284,
     "title": "Grafica per racchetta",
-    "description": "Grafica per racchetta. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Grafica per racchetta. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Grafica per racchetta. Descrizione visiva: Grafica per racchetta. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Grafica per racchetta». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Bold graphic design study of pickleball paddle 'DILL CLUB', colorful playful lime magenta geometric pattern, full front view beside narrow side view showing grip edge guard and surface texture, professional product render on neutral backdrop.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Bold graphic design study of pickleball paddle 'DILL CLUB', colorful playful lime magenta geometric pattern, full front view beside narrow side view showing grip edge guard and surface texture, professional product render on neutral backdrop.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-28",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/ad-pickle.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/284.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 285,
     "title": "Biglietto per concerto punk",
-    "description": "Biglietto per concerto punk. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Biglietto per concerto punk. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Biglietto per concerto punk. Descrizione visiva: Biglietto per concerto punk. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Biglietto per concerto punk». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Tall punk concert ticket design displayed entirely in square studio shot. Fictional musician 'JAX BENNETT', one-color silkscreen side-profile illustration, torn-paper zine texture, irregular typography 'ECHOES TOUR', 'SEATTLE', '17 AUG · 20:00', 'SAMPLE', black and orange ink, original expressive design.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Tall punk concert ticket design displayed entirely in square studio shot. Fictional musician 'JAX BENNETT', one-color silkscreen side-profile illustration, torn-paper zine texture, irregular typography 'ECHOES TOUR', 'SEATTLE', '17 AUG · 20:00', 'SAMPLE', black and orange ink, original expressive design.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-29",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/concert-ticket.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/285.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 286,
     "title": "Fotogrammi di un cavallo al salto",
-    "description": "Fotogrammi di un cavallo al salto. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Fotogrammi di un cavallo al salto. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Fotogrammi di un cavallo al salto. Descrizione visiva: Fotogrammi di un cavallo al salto. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Fotogrammi di un cavallo al salto». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Minimal pencil animation study of a horse jumping in exactly four panels2x2 on white. First horse takes off, second at apex, third forehooves landing, fourth standing after landing. Same horse proportions, elegant accurate anatomy, clean continuous pencil contours, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Minimal pencil animation study of a horse jumping in exactly four panels2x2 on white. First horse takes off, second at apex, third forehooves landing, fourth standing after landing. Same horse proportions, elegant accurate anatomy, clean continuous pencil contours, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-30",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/animation.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/286.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 287,
     "title": "Pattern tessile ripetibile",
-    "description": "Pattern tessile ripetibile. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Pattern tessile ripetibile. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Pattern tessile ripetibile. Descrizione visiva: Pattern tessile ripetibile. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Pattern tessile ripetibile». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Seamless-looking textile swatch of intricate folk-inspired botanical block-print pattern, stylized indigo flowers and coral leaves on warm cream, rhythmically repeating motifs reaching edges, visible fabric weave, flat overhead view, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Seamless-looking textile swatch of intricate folk-inspired botanical block-print pattern, stylized indigo flowers and coral leaves on warm cream, rhythmically repeating motifs reaching edges, visible fabric weave, flat overhead view, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-31",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/patterns-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/287.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 288,
     "title": "Vaso di sfere ambrate",
-    "description": "Vaso di sfere ambrate. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Vaso di sfere ambrate. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Vaso di sfere ambrate. Descrizione visiva: Vaso di sfere ambrate. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Vaso di sfere ambrate». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic amber-orange glass vase formed by stacked fused spheres decreasing in size upward to a very narrow mouth, elegant bottle-like vertical proportions, white studio background, beautiful refraction and soft shadow, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic amber-orange glass vase formed by stacked fused spheres decreasing in size upward to a very narrow mouth, elegant bottle-like vertical proportions, white studio background, beautiful refraction and soft shadow, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-32",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/vase.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/288.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 289,
     "title": "Edifici voxel medievali",
-    "description": "Edifici voxel medievali. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Edifici voxel medievali. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Edifici voxel medievali. Descrizione visiva: Edifici voxel medievali. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Edifici voxel medievali». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Four detailed isometric voxel medieval buildings2x2 on clean pale background: stone church, wooden windmill, fortified castle, busy market. Distinct cubes visible but realistic lighting/depth, earthy warm palette, coherent game asset collection, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Four detailed isometric voxel medieval buildings2x2 on clean pale background: stone church, wooden windmill, fortified castle, busy market. Distinct cubes visible but realistic lighting/depth, earthy warm palette, coherent game asset collection, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-33",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/buildings-sprite.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/289.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 290,
     "title": "Copertina heavy metal",
-    "description": "Copertina heavy metal. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Copertina heavy metal. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Copertina heavy metal. Descrizione visiva: Copertina heavy metal. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Copertina heavy metal». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Heavy metal record sleeve black background, huge intricate white thorn-like almost illegible band lettering 'TOKEN SOUNDS', small 'ABC RECORDS' lower left, decorative barcode lower right, photorealistic sleeve on dark tabletop, fierce original typography.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Heavy metal record sleeve black background, huge intricate white thorn-like almost illegible band lettering 'TOKEN SOUNDS', small 'ABC RECORDS' lower left, decorative barcode lower right, photorealistic sleeve on dark tabletop, fierce original typography.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-34",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/vinyl-output.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/290.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 291,
     "title": "Packshot pubblicitario di ketchup",
-    "description": "Packshot pubblicitario di ketchup. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Packshot pubblicitario di ketchup. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Packshot pubblicitario di ketchup. Descrizione visiva: Packshot pubblicitario di ketchup. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Packshot pubblicitario di ketchup». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Ketchup advertising packshot on white: open unbranded ketchup bottle tilted from bottom-right toward center, flowing glossy red ketchup forms script words 'The king of tomatoes' suspended in air, playful premium food photography.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Ketchup advertising packshot on white: open unbranded ketchup bottle tilted from bottom-right toward center, flowing glossy red ketchup forms script words 'The king of tomatoes' suspended in air, playful premium food photography.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-35",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/ketchup-ad.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/291.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 292,
     "title": "Tutorial di ricamo vintage",
-    "description": "Tutorial di ricamo vintage. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Tutorial di ricamo vintage. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Tutorial di ricamo vintage. Descrizione visiva: Tutorial di ricamo vintage. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Tutorial di ricamo vintage». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Vintage instructional embroidery poster in cream muted red and navy wartime British graphic style, four clear step-by-step backstitch diagrams showing needle thread and cloth, numbered1–4 and short captions 'UP', 'BACK', 'FORWARD', 'REPEAT', legible educational illustration.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Vintage instructional embroidery poster in cream muted red and navy wartime British graphic style, four clear step-by-step backstitch diagrams showing needle thread and cloth, numbered1–4 and short captions 'UP', 'BACK', 'FORWARD', 'REPEAT', legible educational illustration.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-36",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/backstitch-tutorial.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/292.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 293,
     "title": "Aggiunta a un soggiorno",
-    "description": "Aggiunta a un soggiorno. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Aggiunta a un soggiorno. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Aggiunta a un soggiorno. Descrizione visiva: Aggiunta a un soggiorno. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Aggiunta a un soggiorno». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic cozy living-room styling result: neutral sofa enriched with rust and mustard cushions, knitted throw, oak side table, ceramic lamp, leafy plant and framed botanical art, warm evening light, tasteful comfortable coherent arrangement, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic cozy living-room styling result: neutral sofa enriched with rust and mustard cushions, knitted throw, oak side table, ceramic lamp, leafy plant and framed botanical art, warm evening light, tasteful comfortable coherent arrangement, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-37",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/living-room-output-b.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/293.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 294,
     "title": "Icona 3D trasparente",
-    "description": "Icona 3D trasparente. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Icona 3D trasparente. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Icona 3D trasparente. Descrizione visiva: Icona 3D trasparente. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Icona 3D trasparente». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Hyperrealistic transparent glass3D cloud icon floating on white, recognizable rounded cloud silhouette, crystal clear material with gentle cyan edge refraction, delicate soft shadow, premium minimal app-icon concept, no text.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Hyperrealistic transparent glass3D cloud icon floating on white, recognizable rounded cloud silhouette, crystal clear material with gentle cyan edge refraction, delicate soft shadow, premium minimal app-icon concept, no text.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-38",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/icons-poster.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/294.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 295,
     "title": "Inserimento di bottiglia d’olio",
-    "description": "Inserimento di bottiglia d’olio. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Inserimento di bottiglia d’olio. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Inserimento di bottiglia d’olio. Descrizione visiva: Inserimento di bottiglia d’olio. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Inserimento di bottiglia d’olio». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Traditional painterly still life of olive oil bottle, olives, rustic bread and ceramic bowl, all consistently rendered in warm oil-paint brushwork with chiaroscuro, small classic serif words 'timeless taste' bottom-left, square composition.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Traditional painterly still life of olive oil bottle, olives, rustic bread and ceramic bowl, all consistently rendered in warm oil-paint brushwork with chiaroscuro, small classic serif words 'timeless taste' bottom-left, square composition.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-39",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/ad-olive-oil.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/295.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   },
   {
     "id": 296,
     "title": "Composizione di cesto regalo",
-    "description": "Composizione di cesto regalo. Esempio storico GPT Image 1 conservato dalla raccolta archivistica.",
+    "description": "Composizione di cesto regalo. Anteprima originale che illustra le caratteristiche dello stile con un nuovo soggetto dimostrativo.",
     "category": "OpenAI — archivio 2025",
-    "era": "OpenAI · archivio 2025",
-    "prompt": "Crea [SOGGETTO] nello stile Composizione di cesto regalo. Descrizione visiva: Composizione di cesto regalo. Esempio storico GPT Image 1 conservato dalla raccolta archivistica. Applica queste variazioni: [MODIFICHE]. Questo è un adattamento generico, non il prompt originale della fonte.",
-    "originalPrompt": "Consulta il prompt originale attraverso il collegamento alla fonte.",
+    "era": "Origine 2025 · esempio rigenerato",
+    "prompt": "Crea [SOGGETTO] nello stile «Composizione di cesto regalo». Mantieni materiali, composizione e trattamento visivo dell’esempio seguente; sostituisci soggetto, nomi e testi soltanto come richiesto. Modifiche: [MODIFICHE].\n\nSpecifica visiva della nuova anteprima da adattare:\nGenerate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic luxury relaxation gift basket on white: woven wicker holds tea tin, ceramic mug, candle, lavender sachet, soft folded towel and small bath-salt jar, linen ribbon and handwritten tag 'Relax & Unwind', all items clearly arranged.",
+    "originalPrompt": "Generate one original square1024x1024 image as a high-quality visual preview for an image-style catalog. Photorealistic luxury relaxation gift basket on white: woven wicker holds tea tin, ceramic mug, candle, lavender sachet, soft folded towel and small bath-salt jar, linen ribbon and handwritten tag 'Relax & Unwind', all items clearly arranged.",
     "source": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/gpt-image-1-en.md#example-40",
-    "sourceTitle": "Esempi OpenAI 2025 — archivio Jamez Bondos",
+    "sourceTitle": "Fonte storica dello stile: archivio OpenAI 2025; anteprima attuale del progetto",
     "authors": [
       {
-        "name": "OpenAI — fonte originaria indicata dall’archivio",
-        "url": "https://platform.openai.com/docs/guides/image-generation"
+        "name": "OpenAI — fonte storica dello stile",
+        "url": "https://github.com/jamez-bondos/awesome-gpt4o-images/blob/main/gpt-image-1/NOTICE-openai.md"
       }
     ],
     "remoteImage": "",
-    "referenceImages": [
-      "https://raw.githubusercontent.com/jamez-bondos/awesome-gpt4o-images/main/gpt-image-1/examples/bath-set-result.png"
-    ],
-    "image": "",
-    "note": "Esempio storico consultabile alla fonte. Immagine e prompt originale non ripubblicati: il relativo NOTICE indica uso di documentazione interna.",
-    "license": "© OpenAI. Escluso dalla CC BY del repository. Vedere ricerca/NOTICE-openai.md; uso di documentazione interna.",
-    "kind": "OpenAI — esempio storico archiviato",
-    "downloadStatus": "ok"
+    "referenceImages": [],
+    "image": "anteprime/296.webp",
+    "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
+    "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
+    "kind": "Esempio originale rigenerato",
+    "downloadStatus": "generated"
   }
 ]

@@ -56,11 +56,12 @@ body:has(#modal[open]) { overflow:hidden; }
  .catalogo-page .hero * { color:#173e35!important; }
  .catalogo-page .page-shell { padding:0; }
  .catalog-grid { display:block; columns:3; column-gap:5mm; }
- .style-card { break-inside:avoid; margin:0 0 5mm; }
+ .style-card { display:inline-block; vertical-align:top; width:100%; break-inside:avoid; margin:0 0 5mm; }
  .preview { aspect-ratio:3/2; border-radius:0; }
  .number { font-size:8pt; }
  .style-card h2 { font-size:9pt; margin:3mm 0 1mm; }
+ .style-card h2,.style-card .sub { padding-inline:1mm; }
  .sub { display:block; font-size:7pt; }
  .sub span + span::before { content:" · "; }
- .catalogo-page .sources { break-inside:auto; }
+ .catalogo-page .sources { break-inside:avoid; }
 }

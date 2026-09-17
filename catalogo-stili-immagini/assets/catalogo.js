@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const response=await fetch('assets/catalogo.json');
+const response=await fetch('assets/catalogo.json?v=20260917-2');
 if(!response.ok)throw new Error('Catalogo non disponibile');
 const styles=(await response.json()).map(s=>({...s,image:s.image?'assets/'+s.image:'',attributionFile:s.attributionFile?'assets/'+s.attributionFile:''}));
 const $=id=>document.getElementById(id);let category='Tutti',selected=null;
