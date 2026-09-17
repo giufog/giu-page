@@ -1,0 +1,69 @@
+.mezzi-page { --site: 1600px; --detail-accent: #217a46; }
+.mezzi-page .site-header__inner { max-width: 1600px; }
+.mezzi-page .page-shell { display: block; width: min(1600px, 100%); margin: auto; }
+.preview-notice { padding: 12px 16px; border: 1px solid #dfc587; border-radius: 12px; color: #68480d; background: #fff8e8; }
+.vehicle-card { content-visibility: visible; contain-intrinsic-size: none; border-radius: 18px; }
+.vehicle-card h2 { margin: 0; color: #173e35; font-size: 1.35rem; line-height: 1.25; }
+.vehicle-card .event-card__button { min-height: 44px; border-radius: 12px; }
+.vehicle-card .event-card__body { min-width: 0; }
+.vehicle-card .event-card__description { overflow-wrap: anywhere; white-space: normal; }
+.vehicle-plate { margin: 0; color: #217a46; font-size: .95rem; font-weight: 800; letter-spacing: .08em; }
+.vehicle-poster { display: grid; place-items: center; width: 100%; aspect-ratio: 3 / 2; padding: 20px; background: #e5f0e8; color: #36594a; text-align: center; }
+.vehicle-poster img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.vehicle-illustration { margin: 0; min-width: 0; }
+.vehicle-illustration figcaption { padding: 10px 14px; color: #50655b; font-size: .82rem; line-height: 1.45; }
+.vehicle-poster.vehicle-poster--ready { padding: 0; overflow: hidden; }
+.vehicle-overview .vehicle-poster--ready { border-radius: 18px; }
+.vehicle-overview, .vehicle-data-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start; }
+.vehicle-overview { margin: 24px 0; }
+.vehicle-overview > .vehicle-poster { border: 1px solid #d8e5dc; border-radius: 18px; }
+.vehicle-dossier { padding: 24px; border: 1px solid #d8e5dc; border-radius: 18px; background: #fff; }
+.vehicle-dossier h2 { margin-top: 24px; font-size: 1.45rem; }
+.vehicle-dossier table { width: 100%; min-width: 0; border-collapse: collapse; table-layout: fixed; }
+.vehicle-dossier th, .vehicle-dossier td { padding: 10px 8px; text-align: left; vertical-align: top; border-bottom: 1px solid #d8e5dc; overflow-wrap: anywhere; font-size: .93rem; }
+.vehicle-dossier th { color: #465e52; font-weight: 650; }
+.vehicle-status { padding: 12px 16px; border-left: 4px solid #217a46; color: #173e35; background: #e5f0e8; }
+.vehicle-note { color: #50655b; font-size: .88rem; }
+.vehicle-sources { padding: 16px; overflow-wrap: anywhere; }
+.vehicle-sources > p, .vehicle-sources > ol, .vehicle-sources > ul { max-width: 72ch; }
+.mezzi-garage { margin: 0 0 24px; }
+.mezzi-garage img { display: block; width: 100%; max-height: 360px; object-fit: contain; background: #194d3d; border-radius: 18px; }
+.mezzi-garage figcaption { color: #50655b; font-size: .85rem; padding-top: 8px; }
+.mezzi-page button:disabled { cursor: not-allowed; opacity: .6; }
+.mezzi-page .detail-bottom-actions { margin-top: 24px; border-radius: 12px; }
+@media(max-width:760px) {
+  .vehicle-overview, .vehicle-data-grid { grid-template-columns: 1fr; gap: 16px; }
+  .vehicle-dossier { padding: 16px; border-radius: 14px; }
+  .vehicle-dossier th, .vehicle-dossier td { padding: 8px 5px; font-size: .88rem; }
+  .vehicle-poster { padding: 16px; }
+}
+@media print {
+  html { background: #fff !important; }
+  .mezzi-page, .mezzi-page main, .mezzi-page .page-shell { background: #fff !important; min-height: 0; }
+  .skip-link { display: none !important; }
+  .mezzi-page .hero { padding-bottom: 4mm; background: #fff; }
+  .mezzi-page .vehicle-overview { margin: 10px 0; }
+  .mezzi-page .table-wrap, .mezzi-page .sources { break-inside: auto; }
+  .mezzi-page .vehicle-dossier th, .mezzi-page .vehicle-dossier td { font-size: 9pt; padding: 5px; }
+  .mezzi-page .vehicle-dossier h2 { margin: 14px 0 8px; font-size: 15pt; }
+  .mezzi-page .vehicle-sources { padding: 10px 0; }
+  .mezzi-page .vehicle-sources > p, .mezzi-page .vehicle-sources > ol, .mezzi-page .vehicle-sources > ul { max-width: none; }
+  .mezzi-page .event-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .mezzi-page .event-card__body { padding: 9px; gap: 8px; }
+  .mezzi-page .vehicle-card h2 { font-size: 12pt; }
+  .mezzi-page .vehicle-card p, .mezzi-page .vehicle-card figcaption { font-size: 9pt; }
+  .preview-notice { background: none; border-color: #777; color: #111; }
+  .vehicle-overview { grid-template-columns: 1fr 1fr; }
+  .vehicle-data-grid { display: block; }
+  .vehicle-dossier { border: 0; padding: 0; }
+  .vehicle-poster { max-height: 55mm; }
+  .vehicle-dossier table { break-inside: auto; }
+  .vehicle-illustration { break-inside: avoid; }
+  .vehicle-poster--ready img { max-height: 55mm; }
+  .mezzi-garage img { max-height: 65mm; }
+  .vehicle-card { min-height: 0; break-inside: avoid; box-shadow: none; }
+  .event-card__actions { display: none; }
+  .vehicle-dossier tr { break-inside: avoid; }
+  .vehicle-dossier h2 { break-after: avoid; }
+  .detail-bottom-actions { display: none; }
+}

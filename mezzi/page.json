@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "title": "Mezzi",
+  "slug": "mezzi",
+  "category": "varie",
+  "description": "Schede tecniche, dati e verifiche raccolti per tre mezzi.",
+  "createdAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
+  "pageCount": 1,
+  "readingMinutes": 1,
+  "coverImage": "assets/share-whatsapp.jpg",
+  "listed": true,
+  "tags": [
+    "mezzi",
+    "auto",
+    "moto"
+  ]
+}
