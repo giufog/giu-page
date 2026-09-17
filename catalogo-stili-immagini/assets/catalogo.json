@@ -23,7 +23,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/001.webp"
   },
   {
     "id": 2,
@@ -54,7 +55,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/002.webp"
   },
   {
     "id": 3,
@@ -72,7 +74,8 @@
     "image": "anteprime/003.webp",
     "note": "Esempio generato per questo progetto con image_gen. Il prompt completo descrive il soggetto dell’anteprima.",
     "license": "Immagine generata per il progetto",
-    "kind": "Esempio originale"
+    "kind": "Esempio originale",
+    "thumbnail": "miniature/003.webp"
   },
   {
     "id": 4,
@@ -103,7 +106,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-40.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/004.webp"
   },
   {
     "id": 5,
@@ -134,7 +138,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-100.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/005.webp"
   },
   {
     "id": 6,
@@ -165,7 +170,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-99.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/006.webp"
   },
   {
     "id": 7,
@@ -196,7 +202,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-98.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/007.webp"
   },
   {
     "id": 8,
@@ -227,7 +234,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-97.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/008.webp"
   },
   {
     "id": 9,
@@ -258,7 +266,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-96.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/009.webp"
   },
   {
     "id": 10,
@@ -289,7 +298,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-95.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/010.webp"
   },
   {
     "id": 11,
@@ -320,7 +330,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-94.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/011.webp"
   },
   {
     "id": 12,
@@ -351,7 +362,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-93.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/012.webp"
   },
   {
     "id": 13,
@@ -382,7 +394,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-92.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/013.webp"
   },
   {
     "id": 14,
@@ -413,7 +426,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-91.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/014.webp"
   },
   {
     "id": 15,
@@ -444,7 +458,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-90.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/015.webp"
   },
   {
     "id": 16,
@@ -475,7 +490,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-89.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/016.webp"
   },
   {
     "id": 17,
@@ -506,7 +522,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-88.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/017.webp"
   },
   {
     "id": 18,
@@ -537,7 +554,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-87.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/018.webp"
   },
   {
     "id": 19,
@@ -568,7 +586,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-86.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/019.webp"
   },
   {
     "id": 20,
@@ -599,7 +618,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-83.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/020.webp"
   },
   {
     "id": 21,
@@ -630,7 +650,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-82.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/021.webp"
   },
   {
     "id": 22,
@@ -661,7 +682,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-79.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/022.webp"
   },
   {
     "id": 23,
@@ -692,7 +714,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-77.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/023.webp"
   },
   {
     "id": 24,
@@ -723,7 +746,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-76.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/024.webp"
   },
   {
     "id": 25,
@@ -754,7 +778,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-74.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/025.webp"
   },
   {
     "id": 26,
@@ -785,7 +810,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-73.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/026.webp"
   },
   {
     "id": 27,
@@ -816,7 +842,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-72.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/027.webp"
   },
   {
     "id": 28,
@@ -838,7 +865,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-71.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/028.webp"
   },
   {
     "id": 29,
@@ -869,7 +897,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-69.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/029.webp"
   },
   {
     "id": 30,
@@ -900,7 +929,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-68.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/030.webp"
   },
   {
     "id": 31,
@@ -931,7 +961,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-66.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/031.webp"
   },
   {
     "id": 32,
@@ -962,7 +993,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-65.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/032.webp"
   },
   {
     "id": 33,
@@ -984,7 +1016,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-64.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/033.webp"
   },
   {
     "id": 34,
@@ -1015,7 +1048,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-62.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/034.webp"
   },
   {
     "id": 35,
@@ -1046,7 +1080,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-60.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/035.webp"
   },
   {
     "id": 36,
@@ -1077,7 +1112,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-59.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/036.webp"
   },
   {
     "id": 37,
@@ -1108,7 +1144,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-58.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/037.webp"
   },
   {
     "id": 38,
@@ -1139,7 +1176,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-57.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/038.webp"
   },
   {
     "id": 39,
@@ -1170,7 +1208,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-56.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/039.webp"
   },
   {
     "id": 40,
@@ -1201,7 +1240,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-55.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/040.webp"
   },
   {
     "id": 41,
@@ -1232,7 +1272,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-53.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/041.webp"
   },
   {
     "id": 42,
@@ -1263,7 +1304,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-52.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/042.webp"
   },
   {
     "id": 43,
@@ -1298,7 +1340,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-51.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/043.webp"
   },
   {
     "id": 44,
@@ -1329,7 +1372,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-49.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/044.webp"
   },
   {
     "id": 45,
@@ -1364,7 +1408,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-48.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/045.webp"
   },
   {
     "id": 46,
@@ -1395,7 +1440,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-47.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/046.webp"
   },
   {
     "id": 47,
@@ -1426,7 +1472,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-44.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/047.webp"
   },
   {
     "id": 48,
@@ -1457,7 +1504,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-42.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/048.webp"
   },
   {
     "id": 49,
@@ -1488,7 +1536,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-39.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/049.webp"
   },
   {
     "id": 50,
@@ -1519,7 +1568,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-38.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/050.webp"
   },
   {
     "id": 51,
@@ -1550,7 +1600,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-37.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/051.webp"
   },
   {
     "id": 52,
@@ -1581,7 +1632,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-32.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/052.webp"
   },
   {
     "id": 53,
@@ -1612,7 +1664,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-31.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/053.webp"
   },
   {
     "id": 54,
@@ -1643,7 +1696,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-30.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/054.webp"
   },
   {
     "id": 55,
@@ -1674,7 +1728,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-28.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/055.webp"
   },
   {
     "id": 56,
@@ -1705,7 +1760,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-25.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/056.webp"
   },
   {
     "id": 57,
@@ -1736,7 +1792,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-24.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/057.webp"
   },
   {
     "id": 58,
@@ -1767,7 +1824,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-19.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/058.webp"
   },
   {
     "id": 59,
@@ -1798,7 +1856,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-17.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/059.webp"
   },
   {
     "id": 60,
@@ -1829,7 +1888,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-9.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/060.webp"
   },
   {
     "id": 61,
@@ -1860,7 +1920,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-7.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/061.webp"
   },
   {
     "id": 62,
@@ -1882,7 +1943,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-5.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/062.webp"
   },
   {
     "id": 63,
@@ -1913,7 +1975,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-3.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/063.webp"
   },
   {
     "id": 64,
@@ -1944,7 +2007,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "attributionFile": "ricerca/attribuzioni/case-2.yml",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/064.webp"
   },
   {
     "id": 65,
@@ -1971,7 +2035,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/065.webp"
   },
   {
     "id": 66,
@@ -1998,7 +2063,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/066.webp"
   },
   {
     "id": 67,
@@ -2024,7 +2090,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/067.webp"
   },
   {
     "id": 68,
@@ -2053,7 +2120,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/068.webp"
   },
   {
     "id": 69,
@@ -2074,7 +2142,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/069.webp"
   },
   {
     "id": 70,
@@ -2111,7 +2180,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/070.webp"
   },
   {
     "id": 71,
@@ -2137,7 +2207,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/071.webp"
   },
   {
     "id": 72,
@@ -2169,7 +2240,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/072.webp"
   },
   {
     "id": 73,
@@ -2196,7 +2268,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/073.webp"
   },
   {
     "id": 74,
@@ -2223,7 +2296,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/074.webp"
   },
   {
     "id": 75,
@@ -2250,7 +2324,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/075.webp"
   },
   {
     "id": 76,
@@ -2277,7 +2352,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/076.webp"
   },
   {
     "id": 77,
@@ -2307,7 +2383,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/077.webp"
   },
   {
     "id": 78,
@@ -2334,7 +2411,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/078.webp"
   },
   {
     "id": 79,
@@ -2361,7 +2439,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/079.webp"
   },
   {
     "id": 80,
@@ -2388,7 +2467,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/080.webp"
   },
   {
     "id": 81,
@@ -2415,7 +2495,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/081.webp"
   },
   {
     "id": 82,
@@ -2444,7 +2525,8 @@
     "inputImages": [
       "https://raw.githubusercontent.com/openai/openai-cookbook/main/images/pixels.png"
     ],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/082.webp"
   },
   {
     "id": 83,
@@ -2476,7 +2558,8 @@
       "https://raw.githubusercontent.com/openai/openai-cookbook/main/images/tank_top.png",
       "https://raw.githubusercontent.com/openai/openai-cookbook/main/images/boots.png"
     ],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/083.webp"
   },
   {
     "id": 84,
@@ -2505,7 +2588,8 @@
     "inputImages": [
       "https://raw.githubusercontent.com/openai/openai-cookbook/main/images/drawings.png"
     ],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/084.webp"
   },
   {
     "id": 85,
@@ -2534,7 +2618,8 @@
     "inputImages": [
       "https://raw.githubusercontent.com/openai/openai-cookbook/main/images/shampoo.png"
     ],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/085.webp"
   },
   {
     "id": 86,
@@ -2563,7 +2648,8 @@
     "inputImages": [
       "https://raw.githubusercontent.com/openai/openai-cookbook/main/images/shampoo.png"
     ],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/086.webp"
   },
   {
     "id": 87,
@@ -2590,7 +2676,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/087.webp"
   },
   {
     "id": 88,
@@ -2617,7 +2704,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/088.webp"
   },
   {
     "id": 89,
@@ -2648,7 +2736,8 @@
       "https://raw.githubusercontent.com/openai/openai-cookbook/main/images/test_woman_2.png",
       "https://raw.githubusercontent.com/openai/openai-cookbook/main/images/test_woman_with_dog_gpt-image-2.png"
     ],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/089.webp"
   },
   {
     "id": 90,
@@ -2675,7 +2764,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "inputImages": [],
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/090.webp"
   },
   {
     "id": 91,
@@ -2706,7 +2796,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-1.yml"
+    "attributionFile": "ricerca/attribuzioni/case-1.yml",
+    "thumbnail": "miniature/091.webp"
   },
   {
     "id": 92,
@@ -2737,7 +2828,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-4.yml"
+    "attributionFile": "ricerca/attribuzioni/case-4.yml",
+    "thumbnail": "miniature/092.webp"
   },
   {
     "id": 93,
@@ -2768,7 +2860,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-6.yml"
+    "attributionFile": "ricerca/attribuzioni/case-6.yml",
+    "thumbnail": "miniature/093.webp"
   },
   {
     "id": 94,
@@ -2799,7 +2892,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-8.yml"
+    "attributionFile": "ricerca/attribuzioni/case-8.yml",
+    "thumbnail": "miniature/094.webp"
   },
   {
     "id": 95,
@@ -2830,7 +2924,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-10.yml"
+    "attributionFile": "ricerca/attribuzioni/case-10.yml",
+    "thumbnail": "miniature/095.webp"
   },
   {
     "id": 96,
@@ -2861,7 +2956,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-11.yml"
+    "attributionFile": "ricerca/attribuzioni/case-11.yml",
+    "thumbnail": "miniature/096.webp"
   },
   {
     "id": 97,
@@ -2892,7 +2988,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-12.yml"
+    "attributionFile": "ricerca/attribuzioni/case-12.yml",
+    "thumbnail": "miniature/097.webp"
   },
   {
     "id": 98,
@@ -2923,7 +3020,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-13.yml"
+    "attributionFile": "ricerca/attribuzioni/case-13.yml",
+    "thumbnail": "miniature/098.webp"
   },
   {
     "id": 99,
@@ -2954,7 +3052,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-14.yml"
+    "attributionFile": "ricerca/attribuzioni/case-14.yml",
+    "thumbnail": "miniature/099.webp"
   },
   {
     "id": 100,
@@ -2985,7 +3084,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-15.yml"
+    "attributionFile": "ricerca/attribuzioni/case-15.yml",
+    "thumbnail": "miniature/100.webp"
   },
   {
     "id": 101,
@@ -3016,7 +3116,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-16.yml"
+    "attributionFile": "ricerca/attribuzioni/case-16.yml",
+    "thumbnail": "miniature/101.webp"
   },
   {
     "id": 102,
@@ -3038,7 +3139,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-18.yml"
+    "attributionFile": "ricerca/attribuzioni/case-18.yml",
+    "thumbnail": "miniature/102.webp"
   },
   {
     "id": 103,
@@ -3069,7 +3171,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-20.yml"
+    "attributionFile": "ricerca/attribuzioni/case-20.yml",
+    "thumbnail": "miniature/103.webp"
   },
   {
     "id": 104,
@@ -3100,7 +3203,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-21.yml"
+    "attributionFile": "ricerca/attribuzioni/case-21.yml",
+    "thumbnail": "miniature/104.webp"
   },
   {
     "id": 105,
@@ -3131,7 +3235,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-22.yml"
+    "attributionFile": "ricerca/attribuzioni/case-22.yml",
+    "thumbnail": "miniature/105.webp"
   },
   {
     "id": 106,
@@ -3162,7 +3267,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-23.yml"
+    "attributionFile": "ricerca/attribuzioni/case-23.yml",
+    "thumbnail": "miniature/106.webp"
   },
   {
     "id": 107,
@@ -3193,7 +3299,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-26.yml"
+    "attributionFile": "ricerca/attribuzioni/case-26.yml",
+    "thumbnail": "miniature/107.webp"
   },
   {
     "id": 108,
@@ -3224,7 +3331,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-27.yml"
+    "attributionFile": "ricerca/attribuzioni/case-27.yml",
+    "thumbnail": "miniature/108.webp"
   },
   {
     "id": 109,
@@ -3255,7 +3363,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-29.yml"
+    "attributionFile": "ricerca/attribuzioni/case-29.yml",
+    "thumbnail": "miniature/109.webp"
   },
   {
     "id": 110,
@@ -3286,7 +3395,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-33.yml"
+    "attributionFile": "ricerca/attribuzioni/case-33.yml",
+    "thumbnail": "miniature/110.webp"
   },
   {
     "id": 111,
@@ -3317,7 +3427,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-34.yml"
+    "attributionFile": "ricerca/attribuzioni/case-34.yml",
+    "thumbnail": "miniature/111.webp"
   },
   {
     "id": 112,
@@ -3352,7 +3463,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-35.yml"
+    "attributionFile": "ricerca/attribuzioni/case-35.yml",
+    "thumbnail": "miniature/112.webp"
   },
   {
     "id": 113,
@@ -3383,7 +3495,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-36.yml"
+    "attributionFile": "ricerca/attribuzioni/case-36.yml",
+    "thumbnail": "miniature/113.webp"
   },
   {
     "id": 114,
@@ -3414,7 +3527,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-41.yml"
+    "attributionFile": "ricerca/attribuzioni/case-41.yml",
+    "thumbnail": "miniature/114.webp"
   },
   {
     "id": 115,
@@ -3445,7 +3559,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-43.yml"
+    "attributionFile": "ricerca/attribuzioni/case-43.yml",
+    "thumbnail": "miniature/115.webp"
   },
   {
     "id": 116,
@@ -3476,7 +3591,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-45.yml"
+    "attributionFile": "ricerca/attribuzioni/case-45.yml",
+    "thumbnail": "miniature/116.webp"
   },
   {
     "id": 117,
@@ -3507,7 +3623,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-46.yml"
+    "attributionFile": "ricerca/attribuzioni/case-46.yml",
+    "thumbnail": "miniature/117.webp"
   },
   {
     "id": 118,
@@ -3542,7 +3659,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-50.yml"
+    "attributionFile": "ricerca/attribuzioni/case-50.yml",
+    "thumbnail": "miniature/118.webp"
   },
   {
     "id": 119,
@@ -3573,7 +3691,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-54.yml"
+    "attributionFile": "ricerca/attribuzioni/case-54.yml",
+    "thumbnail": "miniature/119.webp"
   },
   {
     "id": 120,
@@ -3604,7 +3723,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-61.yml"
+    "attributionFile": "ricerca/attribuzioni/case-61.yml",
+    "thumbnail": "miniature/120.webp"
   },
   {
     "id": 121,
@@ -3635,7 +3755,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-63.yml"
+    "attributionFile": "ricerca/attribuzioni/case-63.yml",
+    "thumbnail": "miniature/121.webp"
   },
   {
     "id": 122,
@@ -3666,7 +3787,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-67.yml"
+    "attributionFile": "ricerca/attribuzioni/case-67.yml",
+    "thumbnail": "miniature/122.webp"
   },
   {
     "id": 123,
@@ -3697,7 +3819,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-70.yml"
+    "attributionFile": "ricerca/attribuzioni/case-70.yml",
+    "thumbnail": "miniature/123.webp"
   },
   {
     "id": 124,
@@ -3728,7 +3851,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-75.yml"
+    "attributionFile": "ricerca/attribuzioni/case-75.yml",
+    "thumbnail": "miniature/124.webp"
   },
   {
     "id": 125,
@@ -3759,7 +3883,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-78.yml"
+    "attributionFile": "ricerca/attribuzioni/case-78.yml",
+    "thumbnail": "miniature/125.webp"
   },
   {
     "id": 126,
@@ -3798,7 +3923,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-80.yml"
+    "attributionFile": "ricerca/attribuzioni/case-80.yml",
+    "thumbnail": "miniature/126.webp"
   },
   {
     "id": 127,
@@ -3829,7 +3955,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-81.yml"
+    "attributionFile": "ricerca/attribuzioni/case-81.yml",
+    "thumbnail": "miniature/127.webp"
   },
   {
     "id": 128,
@@ -3860,7 +3987,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-84.yml"
+    "attributionFile": "ricerca/attribuzioni/case-84.yml",
+    "thumbnail": "miniature/128.webp"
   },
   {
     "id": 129,
@@ -3891,7 +4019,8 @@
     "license": "CC BY 4.0 — vedere attribuzione della singola immagine",
     "kind": "Esempio della fonte",
     "downloadStatus": "ok",
-    "attributionFile": "ricerca/attribuzioni/case-85.yml"
+    "attributionFile": "ricerca/attribuzioni/case-85.yml",
+    "thumbnail": "miniature/129.webp"
   },
   {
     "id": 130,
@@ -3917,7 +4046,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/130.webp"
   },
   {
     "id": 131,
@@ -3943,7 +4073,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/131.webp"
   },
   {
     "id": 132,
@@ -3969,7 +4100,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/132.webp"
   },
   {
     "id": 133,
@@ -3999,7 +4131,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/133.webp"
   },
   {
     "id": 134,
@@ -4025,7 +4158,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/134.webp"
   },
   {
     "id": 135,
@@ -4051,7 +4185,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/135.webp"
   },
   {
     "id": 136,
@@ -4077,7 +4212,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/136.webp"
   },
   {
     "id": 137,
@@ -4107,7 +4243,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/137.webp"
   },
   {
     "id": 138,
@@ -4133,7 +4270,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/138.webp"
   },
   {
     "id": 139,
@@ -4159,7 +4297,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/139.webp"
   },
   {
     "id": 140,
@@ -4181,7 +4320,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/140.webp"
   },
   {
     "id": 141,
@@ -4208,7 +4348,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/141.webp"
   },
   {
     "id": 142,
@@ -4241,7 +4382,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/142.webp"
   },
   {
     "id": 143,
@@ -4267,7 +4409,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/143.webp"
   },
   {
     "id": 144,
@@ -4293,7 +4436,8 @@
     "note": "La fonte dichiara questo prompt ricostruito dal risultato visibile, non il prompt originale. La versione italiana è un ulteriore adattamento.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Ricostruzione della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/144.webp"
   },
   {
     "id": 145,
@@ -4322,7 +4466,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/145.webp"
   },
   {
     "id": 146,
@@ -4349,7 +4494,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/146.webp"
   },
   {
     "id": 147,
@@ -4375,7 +4521,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/147.webp"
   },
   {
     "id": 148,
@@ -4401,7 +4548,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/148.webp"
   },
   {
     "id": 149,
@@ -4422,7 +4570,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/149.webp"
   },
   {
     "id": 150,
@@ -4448,7 +4597,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/150.webp"
   },
   {
     "id": 151,
@@ -4476,7 +4626,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/151.webp"
   },
   {
     "id": 152,
@@ -4502,7 +4653,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/152.webp"
   },
   {
     "id": 153,
@@ -4535,7 +4687,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/153.webp"
   },
   {
     "id": 154,
@@ -4562,7 +4715,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/154.webp"
   },
   {
     "id": 155,
@@ -4589,7 +4743,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/155.webp"
   },
   {
     "id": 156,
@@ -4615,7 +4770,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/156.webp"
   },
   {
     "id": 157,
@@ -4641,7 +4797,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/157.webp"
   },
   {
     "id": 158,
@@ -4667,7 +4824,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/158.webp"
   },
   {
     "id": 159,
@@ -4693,7 +4851,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/159.webp"
   },
   {
     "id": 160,
@@ -4719,7 +4878,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/160.webp"
   },
   {
     "id": 161,
@@ -4745,7 +4905,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/161.webp"
   },
   {
     "id": 162,
@@ -4771,7 +4932,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/162.webp"
   },
   {
     "id": 163,
@@ -4797,7 +4959,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/163.webp"
   },
   {
     "id": 164,
@@ -4823,7 +4986,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/164.webp"
   },
   {
     "id": 165,
@@ -4849,7 +5013,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/165.webp"
   },
   {
     "id": 166,
@@ -4878,7 +5043,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/166.webp"
   },
   {
     "id": 167,
@@ -4899,7 +5065,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/167.webp"
   },
   {
     "id": 168,
@@ -4925,7 +5092,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/168.webp"
   },
   {
     "id": 169,
@@ -4951,7 +5119,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/169.webp"
   },
   {
     "id": 170,
@@ -4977,7 +5146,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/170.webp"
   },
   {
     "id": 171,
@@ -4998,7 +5168,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/171.webp"
   },
   {
     "id": 172,
@@ -5027,7 +5198,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/172.webp"
   },
   {
     "id": 173,
@@ -5064,7 +5236,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/173.webp"
   },
   {
     "id": 174,
@@ -5097,7 +5270,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/174.webp"
   },
   {
     "id": 175,
@@ -5130,7 +5304,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/175.webp"
   },
   {
     "id": 176,
@@ -5163,7 +5338,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/176.webp"
   },
   {
     "id": 177,
@@ -5194,7 +5370,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima. Esempio di impaginazione fittizia, non documento autentico o indicazione sanitaria.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/177.webp"
   },
   {
     "id": 178,
@@ -5220,7 +5397,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/178.webp"
   },
   {
     "id": 179,
@@ -5253,7 +5431,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/179.webp"
   },
   {
     "id": 180,
@@ -5279,7 +5458,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/180.webp"
   },
   {
     "id": 181,
@@ -5305,7 +5485,8 @@
     "note": "La fonte dichiara questo prompt ricostruito dal risultato visibile, non il prompt originale. La versione italiana è un ulteriore adattamento.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Ricostruzione della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/181.webp"
   },
   {
     "id": 182,
@@ -5331,7 +5512,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/182.webp"
   },
   {
     "id": 183,
@@ -5364,7 +5546,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/183.webp"
   },
   {
     "id": 184,
@@ -5397,7 +5580,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima. Esempio di impaginazione fittizia, non documento autentico o indicazione sanitaria.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/184.webp"
   },
   {
     "id": 185,
@@ -5423,7 +5607,8 @@
     "note": "La fonte dichiara questo prompt ricostruito dal risultato visibile, non il prompt originale. La versione italiana è un ulteriore adattamento.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Ricostruzione della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/185.webp"
   },
   {
     "id": 186,
@@ -5449,7 +5634,8 @@
     "note": "La fonte dichiara questo prompt ricostruito dal risultato visibile, non il prompt originale. La versione italiana è un ulteriore adattamento.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Ricostruzione della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/186.webp"
   },
   {
     "id": 187,
@@ -5475,7 +5661,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/187.webp"
   },
   {
     "id": 188,
@@ -5508,7 +5695,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/188.webp"
   },
   {
     "id": 189,
@@ -5535,7 +5723,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/189.webp"
   },
   {
     "id": 190,
@@ -5562,7 +5751,8 @@
     "note": "La fonte dichiara questo prompt ricostruito dal risultato visibile, non il prompt originale. La versione italiana è un ulteriore adattamento.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Ricostruzione della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/190.webp"
   },
   {
     "id": 191,
@@ -5585,7 +5775,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/191.webp"
   },
   {
     "id": 192,
@@ -5608,7 +5799,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "Discrepanza: LICENSE MIT, README CC BY 4.0; immagini esterne dei rispettivi autori.",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/192.webp"
   },
   {
     "id": 193,
@@ -5634,7 +5826,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/193.webp"
   },
   {
     "id": 194,
@@ -5660,7 +5853,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/194.webp"
   },
   {
     "id": 195,
@@ -5686,7 +5880,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/195.webp"
   },
   {
     "id": 196,
@@ -5712,7 +5907,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/196.webp"
   },
   {
     "id": 197,
@@ -5738,7 +5934,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/197.webp"
   },
   {
     "id": 198,
@@ -5764,7 +5961,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/198.webp"
   },
   {
     "id": 199,
@@ -5790,7 +5988,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/199.webp"
   },
   {
     "id": 200,
@@ -5816,7 +6015,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/200.webp"
   },
   {
     "id": 201,
@@ -5842,7 +6042,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/201.webp"
   },
   {
     "id": 202,
@@ -5868,7 +6069,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/202.webp"
   },
   {
     "id": 203,
@@ -5894,7 +6096,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/203.webp"
   },
   {
     "id": 204,
@@ -5920,7 +6123,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/204.webp"
   },
   {
     "id": 205,
@@ -5946,7 +6150,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/205.webp"
   },
   {
     "id": 206,
@@ -5972,7 +6177,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/206.webp"
   },
   {
     "id": 207,
@@ -5998,7 +6204,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/207.webp"
   },
   {
     "id": 208,
@@ -6024,7 +6231,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/208.webp"
   },
   {
     "id": 209,
@@ -6050,7 +6258,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/209.webp"
   },
   {
     "id": 210,
@@ -6076,7 +6285,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/210.webp"
   },
   {
     "id": 211,
@@ -6102,7 +6312,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/211.webp"
   },
   {
     "id": 212,
@@ -6128,7 +6339,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/212.webp"
   },
   {
     "id": 213,
@@ -6154,7 +6366,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/213.webp"
   },
   {
     "id": 214,
@@ -6180,7 +6393,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/214.webp"
   },
   {
     "id": 215,
@@ -6206,7 +6420,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/215.webp"
   },
   {
     "id": 216,
@@ -6232,7 +6447,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/216.webp"
   },
   {
     "id": 217,
@@ -6258,7 +6474,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/217.webp"
   },
   {
     "id": 218,
@@ -6284,7 +6501,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/218.webp"
   },
   {
     "id": 219,
@@ -6310,7 +6528,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/219.webp"
   },
   {
     "id": 220,
@@ -6336,7 +6555,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/220.webp"
   },
   {
     "id": 221,
@@ -6362,7 +6582,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/221.webp"
   },
   {
     "id": 222,
@@ -6388,7 +6609,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/222.webp"
   },
   {
     "id": 223,
@@ -6414,7 +6636,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/223.webp"
   },
   {
     "id": 224,
@@ -6440,7 +6663,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/224.webp"
   },
   {
     "id": 225,
@@ -6466,7 +6690,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/225.webp"
   },
   {
     "id": 226,
@@ -6492,7 +6717,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/226.webp"
   },
   {
     "id": 227,
@@ -6518,7 +6744,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/227.webp"
   },
   {
     "id": 228,
@@ -6544,7 +6771,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/228.webp"
   },
   {
     "id": 229,
@@ -6570,7 +6798,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/229.webp"
   },
   {
     "id": 230,
@@ -6596,7 +6825,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/230.webp"
   },
   {
     "id": 231,
@@ -6622,7 +6852,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/231.webp"
   },
   {
     "id": 232,
@@ -6648,7 +6879,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/232.webp"
   },
   {
     "id": 233,
@@ -6674,7 +6906,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/233.webp"
   },
   {
     "id": 234,
@@ -6700,7 +6933,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/234.webp"
   },
   {
     "id": 235,
@@ -6726,7 +6960,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/235.webp"
   },
   {
     "id": 236,
@@ -6752,7 +6987,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/236.webp"
   },
   {
     "id": 237,
@@ -6778,7 +7014,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/237.webp"
   },
   {
     "id": 238,
@@ -6804,7 +7041,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/238.webp"
   },
   {
     "id": 239,
@@ -6830,7 +7068,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/239.webp"
   },
   {
     "id": 240,
@@ -6856,7 +7095,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/240.webp"
   },
   {
     "id": 241,
@@ -6882,7 +7122,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/241.webp"
   },
   {
     "id": 242,
@@ -6908,7 +7149,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/242.webp"
   },
   {
     "id": 243,
@@ -6934,7 +7176,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/243.webp"
   },
   {
     "id": 244,
@@ -6960,7 +7203,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/244.webp"
   },
   {
     "id": 245,
@@ -6986,7 +7230,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/245.webp"
   },
   {
     "id": 246,
@@ -7012,7 +7257,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/246.webp"
   },
   {
     "id": 247,
@@ -7038,7 +7284,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/247.webp"
   },
   {
     "id": 248,
@@ -7064,7 +7311,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/248.webp"
   },
   {
     "id": 249,
@@ -7090,7 +7338,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/249.webp"
   },
   {
     "id": 250,
@@ -7116,7 +7365,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/250.webp"
   },
   {
     "id": 251,
@@ -7137,7 +7387,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/251.webp"
   },
   {
     "id": 252,
@@ -7163,7 +7414,8 @@
     "note": "Anteprima della fonte; il prompt italiano è un adattamento riutilizzabile, non il prompt esatto dell’anteprima.",
     "license": "MIT del repository; diritti delle immagini dei rispettivi autori",
     "kind": "Esempio della fonte",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/252.webp"
   },
   {
     "id": 253,
@@ -7189,7 +7441,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "prompt": "Usa questo procedimento per [SOGGETTO / FOTO ALLEGATA], adattando i soggetti nominati e i testi al mio caso. Conserva lo stile e i vincoli. Modifiche richieste: [MODIFICHE].\n\nSpecifica dettagliata della fonte:\nPlace the dog from the second image into the setting of image 1, right next to the woman, use the same style of lighting, composition and background. Do not change anything else.",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/253.webp"
   },
   {
     "id": 254,
@@ -7215,7 +7468,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "prompt": "Usa questo procedimento per [SOGGETTO / FOTO ALLEGATA], adattando i soggetti nominati e i testi al mio caso. Conserva lo stile e i vincoli. Modifiche richieste: [MODIFICHE].\n\nSpecifica dettagliata della fonte:\nIn this room photo, replace ONLY white with chairs made of wood.\nPreserve camera angle, room lighting, floor shadows, and surrounding objects.\nKeep all other aspects of the image unchanged.\nPhotorealistic contact shadows and fabric texture.",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/254.webp"
   },
   {
     "id": 255,
@@ -7241,7 +7495,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "prompt": "Usa questo procedimento per [SOGGETTO / FOTO ALLEGATA], adattando i soggetti nominati e i testi al mio caso. Conserva lo stile e i vincoli. Modifiche richieste: [MODIFICHE].\n\nSpecifica dettagliata della fonte:\nCreate a collectible action figure of a vintage-style toy propeller airplane with rounded wings, a front-mounted spinning propeller, slightly worn paint edges, classic childhood proportions, designed as a nostalgic holiday collectible, in blister packaging.\n\nConcept:\nA nostalgic holiday collectible inspired by the simple toy airplanes\nchildren used to play with during winter holidays.\nEvokes warmth, imagination, and childhood wonder.\n\nStyle:\nPremium toy photography, realistic plastic and painted metal textures,\nstudio lighting, shallow depth of field,\nsharp label printing, high-end retail presentation.\n\nConstraints:\n- Original design only\n- No trademarks\n- No watermarks\n- No logos\n\nInclude ONLY this packaging text (verbatim):\n\"Christmas Memories Edition\"",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/255.webp"
   },
   {
     "id": 256,
@@ -7268,7 +7523,8 @@
     "license": "MIT — Copyright (c) 2025 OpenAI; ricerca/LICENZA-cookbook.txt",
     "kind": "Guida ufficiale OpenAI",
     "prompt": "Usa questo procedimento per [SOGGETTO / FOTO ALLEGATA], adattando i soggetti nominati e i testi al mio caso. Conserva lo stile e i vincoli. Modifiche richieste: [MODIFICHE].\n\nSpecifica dettagliata della fonte:\nCreate a children’s book illustration introducing a main character.\n\nCharacter:\nA young, storybook-style hero inspired by a little forest outlaw,\nwearing a simple green hooded tunic, soft brown boots, and a small belt pouch.\nThe character has a kind expression, gentle eyes, and a brave but warm demeanor.\nCarries a small wooden bow used only for helping, never harming.\n\nTheme:\nThe character protects and rescues small forest animals like squirrels, birds, and rabbits.\n\nStyle:\nChildren’s book illustration, hand-painted watercolor look,\nsoft outlines, warm earthy colors, whimsical and friendly.\nProportions suitable for picture books (slightly oversized head, expressive face).\n\nConstraints:\n- Original character (no copyrighted characters)\n- No text\n- No watermarks\n- Plain forest background to clearly showcase the character\n\n--- Passaggio successivo ---\n\nContinue the children’s book story using the same character.\n\nScene:\nThe same young forest hero is gently helping a frightened squirrel\nout of a fallen tree after a winter storm.\nThe character kneels beside the squirrel, offering reassurance.\n\nCharacter Consistency:\n- Same green hooded tunic\n- Same facial features, proportions, and color palette\n- Same gentle, heroic personality\n\nStyle:\nChildren’s book watercolor illustration,\nsoft lighting, snowy forest environment,\nwarm and comforting mood.\n\nConstraints:\n- Do not redesign the character\n- No text\n- No watermarks",
-    "downloadStatus": "ok"
+    "downloadStatus": "ok",
+    "thumbnail": "miniature/256.webp"
   },
   {
     "id": 257,
@@ -7292,7 +7548,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/257.webp"
   },
   {
     "id": 258,
@@ -7316,7 +7573,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/258.webp"
   },
   {
     "id": 259,
@@ -7340,7 +7598,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/259.webp"
   },
   {
     "id": 260,
@@ -7364,7 +7623,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/260.webp"
   },
   {
     "id": 261,
@@ -7388,7 +7648,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/261.webp"
   },
   {
     "id": 262,
@@ -7412,7 +7673,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/262.webp"
   },
   {
     "id": 263,
@@ -7436,7 +7698,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/263.webp"
   },
   {
     "id": 264,
@@ -7460,7 +7723,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/264.webp"
   },
   {
     "id": 265,
@@ -7484,7 +7748,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/265.webp"
   },
   {
     "id": 266,
@@ -7508,7 +7773,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/266.webp"
   },
   {
     "id": 267,
@@ -7532,7 +7798,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/267.webp"
   },
   {
     "id": 268,
@@ -7556,7 +7823,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/268.webp"
   },
   {
     "id": 269,
@@ -7580,7 +7848,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/269.webp"
   },
   {
     "id": 270,
@@ -7604,7 +7873,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/270.webp"
   },
   {
     "id": 271,
@@ -7628,7 +7898,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/271.webp"
   },
   {
     "id": 272,
@@ -7652,7 +7923,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/272.webp"
   },
   {
     "id": 273,
@@ -7676,7 +7948,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/273.webp"
   },
   {
     "id": 274,
@@ -7700,7 +7973,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/274.webp"
   },
   {
     "id": 275,
@@ -7724,7 +7998,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/275.webp"
   },
   {
     "id": 276,
@@ -7748,7 +8023,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/276.webp"
   },
   {
     "id": 277,
@@ -7772,7 +8048,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/277.webp"
   },
   {
     "id": 278,
@@ -7796,7 +8073,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/278.webp"
   },
   {
     "id": 279,
@@ -7820,7 +8098,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/279.webp"
   },
   {
     "id": 280,
@@ -7844,7 +8123,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/280.webp"
   },
   {
     "id": 281,
@@ -7868,7 +8148,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/281.webp"
   },
   {
     "id": 282,
@@ -7892,7 +8173,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/282.webp"
   },
   {
     "id": 283,
@@ -7916,7 +8198,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/283.webp"
   },
   {
     "id": 284,
@@ -7940,7 +8223,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/284.webp"
   },
   {
     "id": 285,
@@ -7964,7 +8248,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/285.webp"
   },
   {
     "id": 286,
@@ -7988,7 +8273,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/286.webp"
   },
   {
     "id": 287,
@@ -8012,7 +8298,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/287.webp"
   },
   {
     "id": 288,
@@ -8036,7 +8323,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/288.webp"
   },
   {
     "id": 289,
@@ -8060,7 +8348,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/289.webp"
   },
   {
     "id": 290,
@@ -8084,7 +8373,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/290.webp"
   },
   {
     "id": 291,
@@ -8108,7 +8398,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/291.webp"
   },
   {
     "id": 292,
@@ -8132,7 +8423,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/292.webp"
   },
   {
     "id": 293,
@@ -8156,7 +8448,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/293.webp"
   },
   {
     "id": 294,
@@ -8180,7 +8473,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/294.webp"
   },
   {
     "id": 295,
@@ -8204,7 +8498,8 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/295.webp"
   },
   {
     "id": 296,
@@ -8228,6 +8523,7 @@
     "note": "Anteprima originale generata il 17/09/2026 con image_gen da un nuovo prompt adattato. Non è l’immagine OpenAI storica né una prova del risultato del modello 2025. Il prompt completo qui riportato è quello effettivamente usato per questa anteprima. Per gli esempi di modifica, le scene sono dimostrazioni sintetiche, non prove di editing di una foto fornita.",
     "license": "Anteprima e prompt dimostrativo generati per questo progetto. Fonte storica OpenAI: materiale distinto, non ripubblicato; vedere ricerca/NOTICE-openai.md.",
     "kind": "Esempio originale rigenerato",
-    "downloadStatus": "generated"
+    "downloadStatus": "generated",
+    "thumbnail": "miniature/296.webp"
   }
 ]

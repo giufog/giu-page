@@ -8,7 +8,12 @@
   "updatedAt": "2026-09-17",
   "pageCount": 26,
   "readingMinutes": 17,
-  "coverImage": "assets/share-whatsapp.jpg",
-  "tags": ["immagini", "stili", "prompt", "catalogo"],
+  "coverImage": "assets/share-whatsapp-v3.jpg",
+  "tags": [
+    "immagini",
+    "stili",
+    "prompt",
+    "catalogo"
+  ],
   "listed": true
 }

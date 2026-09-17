@@ -227,23 +227,6 @@
       "listed": true
     },
     {
-      "title": "Catalogo Stili Immagini",
-      "slug": "catalogo-stili-immagini",
-      "category": "varie",
-      "description": "296 stili numerati con anteprime, filtri, prompt riutilizzabili e riferimenti alle fonti.",
-      "createdAt": "2026-09-17",
-      "updatedAt": "2026-09-17",
-      "url": "https://giufog.github.io/giu-page/catalogo-stili-immagini/",
-      "coverImageUrl": "https://giufog.github.io/giu-page/catalogo-stili-immagini/assets/share-whatsapp.jpg",
-      "tags": [
-        "immagini",
-        "stili",
-        "prompt",
-        "catalogo"
-      ],
-      "listed": true
-    },
-    {
       "title": "Mezzi",
       "slug": "mezzi",
       "category": "varie",
@@ -256,6 +239,23 @@
         "mezzi",
         "auto",
         "moto"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Catalogo Stili Immagini",
+      "slug": "catalogo-stili-immagini",
+      "category": "varie",
+      "description": "296 stili numerati con anteprime, filtri, prompt riutilizzabili e riferimenti alle fonti.",
+      "createdAt": "2026-09-17",
+      "updatedAt": "2026-09-17",
+      "url": "https://giufog.github.io/giu-page/catalogo-stili-immagini/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/catalogo-stili-immagini/assets/share-whatsapp-v3.jpg",
+      "tags": [
+        "immagini",
+        "stili",
+        "prompt",
+        "catalogo"
       ],
       "listed": true
     }
