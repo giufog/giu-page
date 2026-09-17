@@ -71,6 +71,8 @@ button { cursor: pointer; }
 .page-cover { min-height: 180px; overflow: hidden; background: var(--soft); }
 .page-cover img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .24s ease; }
 .page-card:hover .page-cover img { transform: scale(1.025); }
+.page-cover img[src*="/mezzi/assets/share-whatsapp.jpg"] { object-fit: contain; background: #194d3d; }
+.page-card:hover .page-cover img[src*="/mezzi/assets/share-whatsapp.jpg"] { transform: none; }
 .page-body { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-content: center; align-items: end; gap: 8px 18px; padding: 18px; }
 .page-body time { grid-column: 1 / -1; color: var(--muted); font-size: .8rem; }
 .page-body h2 { margin: 0; font-size: 1.28rem; line-height: 1.25; }
