@@ -323,6 +323,14 @@ const eventList = document.querySelector('[data-events-list]');
 const eventCount = document.querySelector('[data-results-count]');
 const eventEmpty = document.querySelector('[data-empty-state]');
 let allEvents = [];
+const categoryNames=['Cinema','Convegni','Danza','Enogastronomia','Feste tradizionali','Festival','Fiere e mercatini','Interesse locale','Laboratori didattici','Manifestazioni sportive','Manifestazioni veliche','Mostre','Musica','Rievocazioni','Spettacoli teatrali','Sostenibile','Storia','Strada del vino e dei sapori','Motoraduni','Altri eventi'];
+const selectedCategories=new Set(categoryNames);
+function eventCategories(item){const categories=(item.categories||[]).filter(c=>categoryNames.includes(c));return categories.length?categories:['Altri eventi'];}
+function matchesCategory(item){return eventCategories(item).some(c=>selectedCategories.has(c));}
+function refreshCategories(){const eligible=allEvents.filter(e=>eventMatchesArea(e,activeArea)&&eventOccursInPeriod(e,activePeriod));document.querySelector('#category-selection').textContent=selectedCategories.size===categoryNames.length?'Tutte le categorie':selectedCategories.size===0?'Nessuna categoria':selectedCategories.size===1?[...selectedCategories][0]:`${selectedCategories.size} categorie selezionate`;document.querySelector('#category-total').textContent=eligible.filter(matchesCategory).length;const all=document.querySelector('#category-all');all.checked=selectedCategories.size===categoryNames.length;all.indeterminate=selectedCategories.size>0&&selectedCategories.size<categoryNames.length;document.querySelector('#category-options').innerHTML=categoryNames.map((c,i)=>`<label><input type="checkbox" data-category="${i}" ${selectedCategories.has(c)?'checked':''}><span>${escapeHtml(c)}</span><span class="category-badge">${eligible.filter(e=>eventCategories(e).includes(c)).length}</span></label>`).join('');}
+document.querySelector('#category-all')?.addEventListener('change',e=>{selectedCategories.clear();if(e.target.checked)categoryNames.forEach(c=>selectedCategories.add(c));renderEvents();});
+document.querySelector('#category-options')?.addEventListener('change',e=>{const c=categoryNames[Number(e.target.dataset.category)];if(e.target.checked)selectedCategories.add(c);else selectedCategories.delete(c);renderEvents();});
+
 let activeArea = 'all';
 let activePeriod = 'all';
 const eventsServiceBase = 'https://giu-page-eventi-update.docile-aspen-8173.chatgpt.site';
@@ -538,7 +546,7 @@ function deduplicateEvents(events) {
 function updateFilterCounts() {
   document.querySelectorAll('[data-area-filters] [data-area], [data-day-filters] [data-period]').forEach((button) => {
     const area = button.dataset.area;
-    const count = allEvents.filter((item) => area
+    const count = allEvents.filter(matchesCategory).filter((item) => area
       ? eventMatchesArea(item, area) && eventOccursInPeriod(item, activePeriod)
       : eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, button.dataset.period)
     ).length;
@@ -632,7 +640,7 @@ function applyAndroidMapLinks() {
 function renderEvents() {
   if (!eventList) return;
   const visible = allEvents.filter((item) =>
-    eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, activePeriod)
+    eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, activePeriod) && matchesCategory(item)
   ).sort((a, b) => (a.distanceFromTarcentoKm ?? 9999) - (b.distanceFromTarcentoKm ?? 9999));
   eventList.innerHTML = visible.map((item, index) => {
     const days = eventDateLabel(item);
@@ -676,11 +684,12 @@ function renderEvents() {
   window.EventCounts?.refresh();
   if (eventCount) eventCount.textContent = `${visible.length} ${visible.length === 1 ? 'evento mostrato' : 'eventi mostrati'}`;
   updateFilterCounts();
+  refreshCategories();
   if (eventEmpty) {
     eventEmpty.hidden = visible.length !== 0;
     if (!visible.length) {
       const areaLabel = { all: 'le zone selezionate', friuli: 'il Friuli', mare: 'il Mare', austria: 'l’Austria' }[activeArea];
-      eventEmpty.textContent = `Nessun evento trovato per ${areaLabel} nel periodo selezionato. Prova a cambiare un filtro.`;
+      eventEmpty.textContent = `Nessun evento trovato per zona, periodo e categorie selezionati. Prova a cambiare un filtro.`;
     }
   }
   if (activeQuery.length >= 2 && searchInput) collectSearchResults();
@@ -743,6 +752,8 @@ function eventImageCandidates(item) {
 function applyEventsData(data) {
   if (!data?.events) throw new Error('Dati non disponibili');
   allEvents = deduplicateEvents(data.events).filter((item) => !eventHasEnded(item));
+  for (const item of allEvents) for (const c of item.categories || []) { if (!categoryNames.includes(c)) { const allSelected=selectedCategories.size===categoryNames.length; categoryNames.push(c); if(allSelected) selectedCategories.add(c); } }
+  categoryNames.sort((a,b)=>a.localeCompare(b, "it"));
   activeEventsDataSignature = eventsDataSignature(data);
   activeEventsDataTimestamp = eventsDataTimestamp(data);
   configureEventPeriods(data);
