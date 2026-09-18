@@ -323,11 +323,24 @@ const eventList = document.querySelector('[data-events-list]');
 const eventCount = document.querySelector('[data-results-count]');
 const eventEmpty = document.querySelector('[data-empty-state]');
 let allEvents = [];
+let textFilter = '';
+let visibleLimit = 24;
+const searchCache = new WeakMap();
+function plainSearch(value){return String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('it');}
+function matchesText(item){
+ if(!textFilter)return true;
+ let haystack=searchCache.get(item);
+ if(!haystack){haystack=plainSearch([item.title,item.description,item.longDescription,item.city,item.venue,item.address,...(item.categories||[]),...(item.detailParagraphs||[]),...(item.program||[]).flatMap(g=>[g.label,...(g.items||[])])].filter(Boolean).join(' '));searchCache.set(item,haystack);}
+ return textFilter.split(/\s+/).every(word=>haystack.includes(word));
+}
+document.querySelector('#event-text-filter')?.addEventListener('input',e=>{textFilter=plainSearch(e.target.value.trim());visibleLimit=24;renderEvents();});
+document.querySelector('#clear-event-text')?.addEventListener('click',()=>{const field=document.querySelector('#event-text-filter');field.value='';textFilter='';visibleLimit=24;renderEvents();field.focus();});
+
 const categoryNames=['Cinema','Convegni','Danza','Enogastronomia','Feste tradizionali','Festival','Fiere e mercatini','Interesse locale','Laboratori didattici','Manifestazioni sportive','Manifestazioni veliche','Mostre','Musica','Rievocazioni','Spettacoli teatrali','Sostenibile','Storia','Strada del vino e dei sapori','Motoraduni','Altri eventi'];
 const selectedCategories=new Set(categoryNames);
 function eventCategories(item){const categories=(item.categories||[]).filter(c=>categoryNames.includes(c));return categories.length?categories:['Altri eventi'];}
 function matchesCategory(item){return eventCategories(item).some(c=>selectedCategories.has(c));}
-function refreshCategories(){const eligible=allEvents.filter(e=>eventMatchesArea(e,activeArea)&&eventOccursInPeriod(e,activePeriod));document.querySelector('#category-selection').textContent=selectedCategories.size===categoryNames.length?'Tutte le categorie':selectedCategories.size===0?'Nessuna categoria':selectedCategories.size===1?[...selectedCategories][0]:`${selectedCategories.size} categorie selezionate`;document.querySelector('#category-total').textContent=eligible.filter(matchesCategory).length;const all=document.querySelector('#category-all');all.checked=selectedCategories.size===categoryNames.length;all.indeterminate=selectedCategories.size>0&&selectedCategories.size<categoryNames.length;document.querySelector('#category-options').innerHTML=categoryNames.map((c,i)=>`<label><input type="checkbox" data-category="${i}" ${selectedCategories.has(c)?'checked':''}><span>${escapeHtml(c)}</span><span class="category-badge">${eligible.filter(e=>eventCategories(e).includes(c)).length}</span></label>`).join('');}
+function refreshCategories(){const eligible=allEvents.filter(matchesText).filter(e=>eventMatchesArea(e,activeArea)&&eventOccursInPeriod(e,activePeriod));document.querySelector('#category-selection').textContent=selectedCategories.size===categoryNames.length?'Tutte le categorie':selectedCategories.size===0?'Nessuna categoria':selectedCategories.size===1?[...selectedCategories][0]:`${selectedCategories.size} categorie selezionate`;document.querySelector('#category-total').textContent=eligible.filter(matchesCategory).length;const all=document.querySelector('#category-all');all.checked=selectedCategories.size===categoryNames.length;all.indeterminate=selectedCategories.size>0&&selectedCategories.size<categoryNames.length;document.querySelector('#category-options').innerHTML=categoryNames.map((c,i)=>`<label><input type="checkbox" data-category="${i}" ${selectedCategories.has(c)?'checked':''}><span>${escapeHtml(c)}</span><span class="category-badge">${eligible.filter(e=>eventCategories(e).includes(c)).length}</span></label>`).join('');}
 document.querySelector('#category-all')?.addEventListener('change',e=>{selectedCategories.clear();if(e.target.checked)categoryNames.forEach(c=>selectedCategories.add(c));renderEvents();});
 document.querySelector('#category-options')?.addEventListener('change',e=>{const c=categoryNames[Number(e.target.dataset.category)];if(e.target.checked)selectedCategories.add(c);else selectedCategories.delete(c);renderEvents();});
 
@@ -345,11 +358,19 @@ let eventPeriods = {
 
 function configureEventPeriods(data) {
   if (!Array.isArray(data?.periods) || !data.periods.length) return;
-  eventPeriods = Object.fromEntries(data.periods.map((period) => [period.id, [period.from, period.to]]));
+  const periods = data.periods.filter(p=>!p.id.startsWith('sun')).map(p=>{
+    if(!p.id.startsWith('sat')) return p;
+    const end = data.periods.find(s=>s.id===p.id.replace('sat','sun'))?.to || p.to;
+    const startDate=new Date(p.from+'T12:00:00'),endDate=new Date(end+'T12:00:00');
+    const month=d=>d.toLocaleDateString('it-IT',{month:'short'});
+    const label=startDate.getMonth()===endDate.getMonth()?`${startDate.getDate()}–${endDate.getDate()} ${month(endDate)}`:`${startDate.getDate()} ${month(startDate)}–${endDate.getDate()} ${month(endDate)}`;
+    return {...p,id:p.id.replace('sat','weekend'),to:end,label};
+  });
+  eventPeriods = Object.fromEntries(periods.map((period) => [period.id, [period.from, period.to]]));
   const row = document.querySelector('[data-day-filters]');
   if (!row) return;
-  row.innerHTML = '<button class="filter-button is-selected" type="button" data-period="all">Tutti</button>' + data.periods
-    .map((period) => `<button class="filter-button" type="button" data-period="${escapeHtml(period.id)}">${escapeHtml(period.label)}</button>`)
+  row.innerHTML = '<button class="filter-button is-selected" type="button" data-period="all">Tutti</button>' + periods
+    .map((period) => `<button class="filter-button filter-button--${period.id.startsWith('weekday')?'austria':'friuli'}" type="button" data-period="${escapeHtml(period.id)}">${escapeHtml(period.label)}</button>`)
     .join('');
   bindEventFilters('[data-day-filters] [data-period]', 'period', (value) => { activePeriod = value; });
 }
@@ -426,8 +447,14 @@ function eventMatchesArea(item, area) {
 }
 
 function normalizeSearch(value) {
-  return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it');
+  const key = String(value || '');
+  if (normalizedSearchCache.has(key)) return normalizedSearchCache.get(key);
+  const result = key.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it');
+  if (normalizedSearchCache.size >= 5000) normalizedSearchCache.clear();
+  normalizedSearchCache.set(key, result);
+  return result;
 }
+const normalizedSearchCache = new Map();
 
 function normalizedEventTitle(value) {
   return normalizeSearch(value).replace(/[^a-z0-9]+/g, ' ').trim();
@@ -535,18 +562,35 @@ function mergeDuplicateEvents(first, second) {
 }
 
 function deduplicateEvents(events) {
-  return events.reduce((unique, item) => {
-    const duplicateIndex = unique.findIndex((candidate) => areDuplicateEvents(candidate, item));
-    if (duplicateIndex < 0) unique.push(item);
-    else unique[duplicateIndex] = mergeDuplicateEvents(unique[duplicateIndex], item);
-    return unique;
-  }, []);
+  const unique = [];
+  const byCity = new Map();
+  const cityOf = item => normalizeSearch(item.city).trim();
+  const generic = 'friuli venezia giulia';
+  function add(city, index) {
+    if (!byCity.has(city)) byCity.set(city, new Set());
+    byCity.get(city).add(index);
+  }
+  for (const item of events) {
+    const city = cityOf(item);
+    // Generic regional entries may match any town; preserve original match order.
+    const candidates = city === generic ? unique.map((_, index) => index)
+      : [...new Set([...(byCity.get(city) || []), ...(byCity.get(generic) || [])])].sort((a,b)=>a-b);
+    const index = candidates.find(index => areDuplicateEvents(unique[index], item));
+    if (index === undefined) { add(city, unique.length); unique.push(item); }
+    else {
+      const previousCity = cityOf(unique[index]);
+      unique[index] = mergeDuplicateEvents(unique[index], item);
+      const nextCity = cityOf(unique[index]);
+      if (previousCity !== nextCity) { byCity.get(previousCity)?.delete(index); add(nextCity, index); }
+    }
+  }
+  return unique;
 }
 
 function updateFilterCounts() {
   document.querySelectorAll('[data-area-filters] [data-area], [data-day-filters] [data-period]').forEach((button) => {
     const area = button.dataset.area;
-    const count = allEvents.filter(matchesCategory).filter((item) => area
+    const count = allEvents.filter(matchesText).filter(matchesCategory).filter((item) => area
       ? eventMatchesArea(item, area) && eventOccursInPeriod(item, activePeriod)
       : eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, button.dataset.period)
     ).length;
@@ -638,11 +682,12 @@ function applyAndroidMapLinks() {
 }
 
 function renderEvents() {
+
   if (!eventList) return;
-  const visible = allEvents.filter((item) =>
+  const visible = allEvents.filter(matchesText).filter((item) =>
     eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, activePeriod) && matchesCategory(item)
   ).sort((a, b) => (a.distanceFromTarcentoKm ?? 9999) - (b.distanceFromTarcentoKm ?? 9999));
-  eventList.innerHTML = visible.map((item, index) => {
+  eventList.innerHTML = visible.slice(0,visibleLimit).map((item, index) => {
     const days = eventDateLabel(item);
     const startTime = eventTimeLabel(item.startDate);
     const zone = item.zone || 'friuli';
@@ -672,14 +717,17 @@ function renderEvents() {
           <b>Apri Maps</b>
         </a>
         <dl class="event-card__info">${information}</dl>
+<details class="event-categories"><summary>Categorie <span class="category-badge">${eventCategories(item).length}</span><span class="category-chevron" aria-hidden="true">⌄</span></summary><ul>${eventCategories(item).map(c=>`<li>${escapeHtml(c)}</li>`).join('')}</ul></details>
         <div class="event-card__actions">
           <a class="event-card__button event-card__button--primary" href="${escapeHtml(detailPath)}"><img src="https://api.iconify.design/lucide/file-text.svg?color=%23ffffff" alt="">Apri pagina</a>
-          <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(item.shareUrl || detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
+          <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(item.shareUrl || detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.shareDescription || item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
         </div>
         ${window.EventCounts?.markup(item.slug) || ''}
       </div>
     </article>`;
   }).join('');
+  document.querySelector('#events-more')?.remove();
+  if(visible.length>visibleLimit){const more=document.createElement('button');more.id='events-more';more.className='detail-button';more.textContent=`Mostra altri 24 eventi (${visible.length-visibleLimit} rimanenti)`;more.onclick=()=>{visibleLimit+=24;renderEvents();};eventList.after(more);}
   applyAndroidMapLinks();
   window.EventCounts?.refresh();
   if (eventCount) eventCount.textContent = `${visible.length} ${visible.length === 1 ? 'evento mostrato' : 'eventi mostrati'}`;
@@ -689,10 +737,12 @@ function renderEvents() {
     eventEmpty.hidden = visible.length !== 0;
     if (!visible.length) {
       const areaLabel = { all: 'le zone selezionate', friuli: 'il Friuli', mare: 'il Mare', austria: 'l’Austria' }[activeArea];
-      eventEmpty.textContent = `Nessun evento trovato per zona, periodo e categorie selezionati. Prova a cambiare un filtro.`;
+      eventEmpty.textContent = `Nessun evento trovato per testo, zona, periodo e categorie selezionati. Prova a cambiare un filtro.`;
     }
   }
   if (activeQuery.length >= 2 && searchInput) collectSearchResults();
+
+
 }
 
 function bindEventFilters(selector, dataName, onChange) {
@@ -700,6 +750,7 @@ function bindEventFilters(selector, dataName, onChange) {
     button.addEventListener('click', () => {
       document.querySelectorAll(selector).forEach((item) => item.classList.toggle('is-selected', item === button));
       onChange(button.dataset[dataName]);
+      visibleLimit=24;
       renderEvents();
     });
   });
@@ -746,12 +797,14 @@ function eventHasEnded(item, now = new Date()) {
 }
 
 function eventImageCandidates(item) {
-  return [...new Set([item.image, item.imageServiceUrl, item.imageRemoteUrl].filter(Boolean))];
+  return [...new Set([item.thumbnail, item.image, item.imageServiceUrl, item.imageRemoteUrl].filter(Boolean))];
 }
 
 function applyEventsData(data) {
   if (!data?.events) throw new Error('Dati non disponibili');
+
   allEvents = deduplicateEvents(data.events).filter((item) => !eventHasEnded(item));
+
   for (const item of allEvents) for (const c of item.categories || []) { if (!categoryNames.includes(c)) { const allSelected=selectedCategories.size===categoryNames.length; categoryNames.push(c); if(allSelected) selectedCategories.add(c); } }
   categoryNames.sort((a,b)=>a.localeCompare(b, "it"));
   activeEventsDataSignature = eventsDataSignature(data);
@@ -764,25 +817,19 @@ function applyEventsData(data) {
 if (eventList) {
   if (window.EVENTS_DATA?.events) applyEventsData(window.EVENTS_DATA);
 
-  const eventsRequestController = new AbortController();
-  const eventsRequestTimeout = window.setTimeout(() => eventsRequestController.abort(), 5000);
-  fetch(`${eventsServiceBase}/api/events-data`, { cache: 'no-store', signal: eventsRequestController.signal })
-    .then((response) => {
-      if (!response.ok) throw new Error('Dati remoti non disponibili');
-      return response.json();
-    })
-    .then((data) => {
-      const remoteTimestamp = eventsDataTimestamp(data);
-      if ((!allEvents.length || remoteTimestamp > activeEventsDataTimestamp)
-        && eventsDataSignature(data) !== activeEventsDataSignature) applyEventsData(data);
-    })
-    .catch(() => {
-      if (!allEvents.length) {
-        eventList.innerHTML = '<div class="empty-state">Non è stato possibile caricare gli eventi.</div>';
-        if (eventCount) eventCount.textContent = 'Dati non disponibili';
-      }
-    })
-    .finally(() => window.clearTimeout(eventsRequestTimeout));
+  // Ask for the small revision response before downloading the full catalogue.
+  const controller = new AbortController();
+  const timeout = setTimeout(()=>controller.abort(),10000);
+  fetch(`${eventsServiceBase}/api/events-status?after=${encodeURIComponent(window.EVENTS_DATA?.generatedAt || '')}`,{cache:'no-store',signal:controller.signal})
+    .then(response=>{if(!response.ok)throw new Error('Stato non disponibile');return response.json();})
+    .then(async status=>{
+      if(allEvents.length && !status.updated)return;
+      const response=await fetch(`${eventsServiceBase}/api/events-data`,{cache:'no-store',signal:controller.signal});
+      if(!response.ok)throw new Error('Dati non disponibili');
+      const data=await response.json();
+      if(eventsDataSignature(data)!==activeEventsDataSignature)applyEventsData(data);
+    }).catch(()=>{}).finally(()=>clearTimeout(timeout));
+
 }
 
 applyAndroidMapLinks();
