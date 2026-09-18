@@ -257,7 +257,7 @@ function showToast(message) {
 }
 
 // Prova approvata: false ripristina la condivisione dei singoli eventi solo via link.
-const EVENT_SHARE_WITH_TEXT = true;
+const EVENT_SHARE_WITH_TEXT = false;
 
 function eventSharePayload(button, url) {
   const title = button.dataset.shareTitle?.trim();
