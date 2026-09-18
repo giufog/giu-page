@@ -256,18 +256,31 @@ function showToast(message) {
   toastTimer = setTimeout(() => toast.classList.remove('is-visible'), 3200);
 }
 
+// Prova approvata: false ripristina la condivisione dei singoli eventi solo via link.
+const EVENT_SHARE_WITH_TEXT = true;
+
+function eventSharePayload(button, url) {
+  const title = button.dataset.shareTitle?.trim();
+  const description = button.dataset.shareText?.trim();
+  if (!EVENT_SHARE_WITH_TEXT || !new URL(url).pathname.includes('/dettaglio/') || !title || !description) return { url };
+  const [dateAndCity, ...body] = description.split(/\r?\n/);
+  const text = [`*${title}*`, `*${dateAndCity}*`, '', body.join('\n')].join('\n').trim();
+  return { text, url };
+}
+
 async function shareContent(button) {
   const configuredUrl = button.dataset.shareUrl;
   const canonical = document.querySelector('link[rel="canonical"]')?.href;
   const url = configuredUrl ? new URL(configuredUrl, window.location.href).href : (canonical || window.location.href.split('#')[0]);
+  const payload = eventSharePayload(button, url);
   try {
     window.EventCounts?.share(url);
     if (navigator.share) {
-      await navigator.share({ url });
+      await navigator.share(payload);
       return;
     }
-    await navigator.clipboard.writeText(url);
-    showToast('Link copiato.');
+    await navigator.clipboard.writeText(payload.text ? `${payload.text}\n\n${url}` : url);
+    showToast(payload.text ? 'Testo e link copiati.' : 'Link copiato.');
   } catch (error) {
     if (error?.name !== 'AbortError') {
       showToast('Condivisione non disponibile.');
