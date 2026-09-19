@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-09-19",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -248,7 +248,7 @@
       "category": "eventi",
       "description": "Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
       "createdAt": "2026-09-03",
-      "updatedAt": "2026-09-18",
+      "updatedAt": "2026-09-19",
       "url": "https://giufog.github.io/giu-page/eventi/",
       "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-eventi-20260904-v2.jpg",
       "tags": [
