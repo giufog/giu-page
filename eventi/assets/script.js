@@ -336,18 +336,19 @@ const eventList = document.querySelector('[data-events-list]');
 const eventCount = document.querySelector('[data-results-count]');
 const eventEmpty = document.querySelector('[data-empty-state]');
 let allEvents = [];
-let textFilter = '';
+let textTerms = [];
 let visibleLimit = 24;
 const searchCache = new WeakMap();
 function plainSearch(value){return String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('it');}
+function setTextFilter(value){textTerms=[...new Set(plainSearch(value).split(/[\s,;]+/).filter(Boolean))];}
 function matchesText(item){
- if(!textFilter)return true;
+ if(!textTerms.length)return true;
  let haystack=searchCache.get(item);
- if(!haystack){haystack=plainSearch([item.title,item.description,item.longDescription,item.city,item.venue,item.address,...(item.categories||[]),...(item.detailParagraphs||[]),...(item.program||[]).flatMap(g=>[g.label,...(g.items||[])])].filter(Boolean).join(' '));searchCache.set(item,haystack);}
- return textFilter.split(/\s+/).every(word=>haystack.includes(word));
+ if(haystack===undefined){haystack=plainSearch([item.title,item.description].filter(Boolean).join(' '));searchCache.set(item,haystack);}
+ return textTerms.every(word=>haystack.includes(word));
 }
-document.querySelector('#event-text-filter')?.addEventListener('input',e=>{textFilter=plainSearch(e.target.value.trim());visibleLimit=24;renderEvents();});
-document.querySelector('#clear-event-text')?.addEventListener('click',()=>{const field=document.querySelector('#event-text-filter');field.value='';textFilter='';visibleLimit=24;renderEvents();field.focus();});
+document.querySelector('#event-text-filter')?.addEventListener('input',e=>{setTextFilter(e.target.value);visibleLimit=24;renderEvents();});
+document.querySelector('#clear-event-text')?.addEventListener('click',()=>{const field=document.querySelector('#event-text-filter');field.value='';setTextFilter('');visibleLimit=24;renderEvents();field.focus();});
 
 const categoryNames=['Cinema','Convegni','Danza','Enogastronomia','Feste tradizionali','Festival','Fiere e mercatini','Interesse locale','Laboratori didattici','Manifestazioni sportive','Manifestazioni veliche','Mostre','Musica','Rievocazioni','Spettacoli teatrali','Sostenibile','Storia','Strada del vino e dei sapori','Motoraduni','Altri eventi'];
 const selectedCategories=new Set(categoryNames);
