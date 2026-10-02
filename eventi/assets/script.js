@@ -131,7 +131,10 @@ function clearSearchHighlights() {
   searchIndex = -1;
 }
 
-function collectSearchResults() {
+function collectSearchResults({ keepCurrent = false } = {}) {
+  const currentMatch = keepCurrent ? searchMatches[searchIndex] : null;
+  const currentParent = currentMatch?.parentElement;
+  const parentIndex = currentParent ? [...currentParent.querySelectorAll('mark.search-highlight')].indexOf(currentMatch) : -1;
   clearSearchHighlights();
   activeQuery = searchInput?.value.trim().toLocaleLowerCase('it') || '';
   if (activeQuery.length < 2) {
@@ -183,7 +186,8 @@ function collectSearchResults() {
     searchStatus.textContent = 'Nessun risultato.';
     return;
   }
-  searchIndex = 0;
+  const restoredMatch = currentParent?.querySelectorAll('mark.search-highlight')[parentIndex];
+  searchIndex = Math.max(0, searchMatches.indexOf(restoredMatch));
   activateSearchResult(false);
 }
 
@@ -335,9 +339,12 @@ if (printButton) {
 const eventList = document.querySelector('[data-events-list]');
 const eventCount = document.querySelector('[data-results-count]');
 const eventEmpty = document.querySelector('[data-empty-state]');
+const eventLoader = document.querySelector('[data-events-loader]');
 let allEvents = [];
 let textTerms = [];
 let visibleLimit = 24;
+let filteredEvents = [];
+let autoLoadScheduled = false;
 const searchCache = new WeakMap();
 function plainSearch(value){return String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('it');}
 function setTextFilter(value){textTerms=[...new Set(plainSearch(value).split(/[\s,;]+/).filter(Boolean))];}
@@ -743,13 +750,9 @@ function applyAndroidMapLinks() {
   });
 }
 
-function renderEvents() {
-
-  if (!eventList) return;
-  const visible = allEvents.filter(matchesText).filter((item) =>
-    eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, activePeriod) && matchesCategory(item)
-  ).sort((a, b) => (a.distanceFromTarcentoKm ?? 9999) - (b.distanceFromTarcentoKm ?? 9999));
-  eventList.innerHTML = visible.slice(0,visibleLimit).map((item, index) => {
+function eventCardsMarkup(items, offset = 0) {
+  return items.map((item, index) => {
+    index += offset;
     const days = eventDateLabel(item);
     const startTime = eventTimeLabel(item.startDate);
     const zone = item.zone || 'friuli';
@@ -788,16 +791,66 @@ function renderEvents() {
       </div>
     </article>`;
   }).join('');
-  document.querySelector('#events-more')?.remove();
-  if(visible.length>visibleLimit){const more=document.createElement('button');more.id='events-more';more.className='detail-button';more.textContent=`Mostra altri 24 eventi (${visible.length-visibleLimit} rimanenti)`;more.onclick=()=>{visibleLimit+=24;renderEvents();};eventList.after(more);}
+}
+
+function updateEventLoader() {
+  if (!eventLoader) return;
+  eventLoader.hidden = visibleLimit >= filteredEvents.length;
+  scheduleAutoEvents();
+}
+
+function appendEventBatch() {
+  if (!eventList || visibleLimit >= filteredEvents.length) return;
+  const start = visibleLimit;
+  const end = Math.min(start + 24, filteredEvents.length);
+  // Append below the existing cards: preserve nodes, open categories and focus.
+  eventList.insertAdjacentHTML('beforeend', eventCardsMarkup(filteredEvents.slice(start, end), start));
+  visibleLimit = end;
+  updateEventLoader();
   applyAndroidMapLinks();
   window.EventCounts?.refresh();
-  if (eventCount) eventCount.textContent = `${visible.length} ${visible.length === 1 ? 'evento mostrato' : 'eventi mostrati'}`;
+  if (activeQuery.length >= 2 && searchInput) {
+    collectSearchResults({ keepCurrent: true });
+  }
+}
+
+function scheduleAutoEvents() {
+  if (autoLoadScheduled || !eventLoader || eventLoader.hidden) return;
+  autoLoadScheduled = true;
+  requestAnimationFrame(() => {
+    autoLoadScheduled = false;
+    if (eventLoader.hidden) return;
+    if (eventLoader.getBoundingClientRect().top <= window.innerHeight + 800) appendEventBatch();
+  });
+}
+
+if (eventLoader) {
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) scheduleAutoEvents();
+    }, { rootMargin: '0px 0px 800px 0px' });
+    observer.observe(eventLoader);
+  } else {
+    window.addEventListener('scroll', scheduleAutoEvents, { passive: true });
+  }
+  window.addEventListener('resize', scheduleAutoEvents, { passive: true });
+}
+
+function renderEvents() {
+  if (!eventList) return;
+  filteredEvents = allEvents.filter(matchesText).filter((item) =>
+    eventMatchesArea(item, activeArea) && eventOccursInPeriod(item, activePeriod) && matchesCategory(item)
+  ).sort((a, b) => (a.distanceFromTarcentoKm ?? 9999) - (b.distanceFromTarcentoKm ?? 9999));
+  eventList.innerHTML = eventCardsMarkup(filteredEvents.slice(0, visibleLimit));
+  updateEventLoader();
+  applyAndroidMapLinks();
+  window.EventCounts?.refresh();
+  if (eventCount) eventCount.textContent = `${filteredEvents.length} ${filteredEvents.length === 1 ? 'evento mostrato' : 'eventi mostrati'}`;
   updateFilterCounts();
   refreshCategories();
   if (eventEmpty) {
-    eventEmpty.hidden = visible.length !== 0;
-    if (!visible.length) {
+    eventEmpty.hidden = filteredEvents.length !== 0;
+    if (!filteredEvents.length) {
       const areaLabel = { all: 'le zone selezionate', friuli: 'il Friuli', mare: 'il Mare', austria: 'l’Austria' }[activeArea];
       eventEmpty.textContent = `Nessun evento trovato per testo, zona, periodo e categorie selezionati. Prova a cambiare un filtro.`;
     }
