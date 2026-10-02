@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "title": "I quattro dell’Ave Maria",
+  "slug": "i-quattro-dellave-maria",
+  "category": "varie",
+  "description": "Locandina, brani pubblicati e collegamenti di ascolto della colonna sonora.",
+  "createdAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "pageCount": 2,
+  "readingMinutes": 3,
+  "coverImage": "../../assets/share-whatsapp.jpg",
+  "tags": [
+    "cinema",
+    "musica",
+    "Bud Spencer",
+    "Terence Hill"
+  ],
+  "listed": false
+}

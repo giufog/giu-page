@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-03",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -256,6 +256,23 @@
         "friuli",
         "mare",
         "austria"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Musiche Bud Spencer e Terence Hill",
+      "slug": "musiche-bud-spencer-e-terence-hill",
+      "category": "varie",
+      "description": "Locandine, colonne sonore e ascolti dei 18 film interpretati insieme, con tracce, varianti e fonti documentate.",
+      "createdAt": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "url": "https://giufog.github.io/giu-page/musiche-bud-spencer-e-terence-hill/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/musiche-bud-spencer-e-terence-hill/assets/share-whatsapp.jpg",
+      "tags": [
+        "cinema",
+        "musica",
+        "Bud Spencer",
+        "Terence Hill"
       ],
       "listed": true
     }

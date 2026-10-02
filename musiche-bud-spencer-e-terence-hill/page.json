@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "title": "Musiche Bud Spencer e Terence Hill",
+  "slug": "musiche-bud-spencer-e-terence-hill",
+  "category": "varie",
+  "description": "Locandine, colonne sonore e ascolti dei 18 film interpretati insieme, con tracce, varianti e fonti documentate.",
+  "createdAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "pageCount": 6,
+  "readingMinutes": 8,
+  "coverImage": "assets/share-whatsapp.jpg",
+  "tags": [
+    "cinema",
+    "musica",
+    "Bud Spencer",
+    "Terence Hill"
+  ],
+  "listed": true
+}
