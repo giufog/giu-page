@@ -350,16 +350,63 @@ function matchesText(item){
 document.querySelector('#event-text-filter')?.addEventListener('input',e=>{setTextFilter(e.target.value);visibleLimit=24;renderEvents();});
 document.querySelector('#clear-event-text')?.addEventListener('click',()=>{const field=document.querySelector('#event-text-filter');field.value='';setTextFilter('');visibleLimit=24;renderEvents();field.focus();});
 
-const categoryNames=['Cinema','Convegni','Danza','Enogastronomia','Feste tradizionali','Festival','Fiere e mercatini','Interesse locale','Laboratori didattici','Manifestazioni sportive','Manifestazioni veliche','Mostre','Musica','Rievocazioni','Spettacoli teatrali','Sostenibile','Storia','Strada del vino e dei sapori','Motoraduni','Altri eventi'];
+const baseCategoryNames=['Cinema','Convegni','Danza','Enogastronomia','Feste tradizionali','Festival','Fiere e mercatini','Interesse locale','Laboratori didattici','Manifestazioni sportive','Manifestazioni veliche','Mostre','Musica','Rievocazioni','Spettacoli teatrali','Sostenibile','Storia','Strada del vino e dei sapori','Motoraduni','Altri eventi'];
+const categoryNames=[...baseCategoryNames];
 const selectedCategories=new Set(categoryNames);
 function eventCategories(item){const categories=(item.categories||[]).filter(c=>categoryNames.includes(c));return categories.length?categories:['Altri eventi'];}
 function matchesCategory(item){return eventCategories(item).some(c=>selectedCategories.has(c));}
 function refreshCategories(){const eligible=allEvents.filter(matchesText).filter(e=>eventMatchesArea(e,activeArea)&&eventOccursInPeriod(e,activePeriod));document.querySelector('#category-selection').textContent=selectedCategories.size===categoryNames.length?'Tutte le categorie':selectedCategories.size===0?'Nessuna categoria':selectedCategories.size===1?[...selectedCategories][0]:`${selectedCategories.size} categorie selezionate`;document.querySelector('#category-total').textContent=eligible.filter(matchesCategory).length;const all=document.querySelector('#category-all');all.checked=selectedCategories.size===categoryNames.length;all.indeterminate=selectedCategories.size>0&&selectedCategories.size<categoryNames.length;document.querySelector('#category-options').innerHTML=categoryNames.map((c,i)=>`<label><input type="checkbox" data-category="${i}" ${selectedCategories.has(c)?'checked':''}><span>${escapeHtml(c)}</span><span class="category-badge">${eligible.filter(e=>eventCategories(e).includes(c)).length}</span></label>`).join('');}
-document.querySelector('#category-all')?.addEventListener('change',e=>{selectedCategories.clear();if(e.target.checked)categoryNames.forEach(c=>selectedCategories.add(c));renderEvents();});
-document.querySelector('#category-options')?.addEventListener('change',e=>{const c=categoryNames[Number(e.target.dataset.category)];if(e.target.checked)selectedCategories.add(c);else selectedCategories.delete(c);renderEvents();});
+document.querySelector('#category-all')?.addEventListener('change',e=>{selectedCategories.clear();if(e.target.checked)categoryNames.forEach(c=>selectedCategories.add(c));saveEventFilters();renderEvents();});
+document.querySelector('#category-options')?.addEventListener('change',e=>{const c=categoryNames[Number(e.target.dataset.category)];if(!c)return;if(e.target.checked)selectedCategories.add(c);else selectedCategories.delete(c);saveEventFilters();renderEvents();});
 
 let activeArea = 'all';
 let activePeriod = 'all';
+const filterStorageKey = 'giu-page:eventi:filters:v1';
+let filtersRestored = false;
+let categoryAliases = window.EVENTS_DATA?.categoryAliases || {};
+
+function canonicalCategory(value) {
+  const label = String(value).trim().replace(/\s+/g, ' ');
+  return categoryAliases[label.toLowerCase()] || label;
+}
+
+function readEventFilters() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(filterStorageKey));
+    if (saved?.version !== 1) return null;
+    if (!['all', 'friuli', 'mare', 'austria'].includes(saved.area)) return null;
+    if (saved.categories !== null && (!Array.isArray(saved.categories) || !saved.categories.every(c=>typeof c === 'string'))) return null;
+    if (saved.period !== null && (!Array.isArray(saved.period) || saved.period.length !== 2 || !saved.period.every(d=>typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d)))) return null;
+    return saved;
+  } catch (_) { return null; }
+}
+
+function currentEventFilters() {
+  return {
+    version: 1,
+    area: activeArea,
+    // Store dates, not weekday1/weekend1: their meaning changes every week.
+    period: activePeriod === 'all' ? null : eventPeriods[activePeriod] || null,
+    categories: selectedCategories.size === categoryNames.length ? null : [...selectedCategories]
+  };
+}
+
+function restoreEventFilters(saved) {
+  if (!saved) return;
+  activeArea = saved.area;
+  activePeriod = saved.period === null ? 'all' : Object.keys(eventPeriods).find(id=>
+    eventPeriods[id][0] === saved.period[0] && eventPeriods[id][1] === saved.period[1]) || 'all';
+  selectedCategories.clear();
+  const categories = saved.categories === null ? categoryNames : saved.categories.map(canonicalCategory);
+  categories.filter(c=>categoryNames.includes(c)).forEach(c=>selectedCategories.add(c));
+}
+
+function saveEventFilters() {
+  if (!eventList) return;
+  try { localStorage.setItem(filterStorageKey, JSON.stringify(currentEventFilters())); }
+  catch (_) { /* Storage disabled/full: filters still work in this page. */ }
+}
+
 const eventsServiceBase = 'https://giu-page-eventi-update.docile-aspen-8173.chatgpt.site';
 let eventPeriods = {
   weekday1: ['2026-08-31', '2026-09-04'],
@@ -612,6 +659,7 @@ function updateFilterCounts() {
     button.innerHTML = `${escapeHtml(button.dataset.label)} <span class="filter-count" data-count="${count}" aria-hidden="true">${count}</span>`;
     button.setAttribute('aria-label', `${button.dataset.label}, ${count} ${count === 1 ? 'evento' : 'eventi'}`);
     button.setAttribute('aria-pressed', String(area ? area === activeArea : button.dataset.period === activePeriod));
+    button.classList.toggle('is-selected', area ? area === activeArea : button.dataset.period === activePeriod);
   });
 }
 
@@ -764,6 +812,7 @@ function bindEventFilters(selector, dataName, onChange) {
     button.addEventListener('click', () => {
       document.querySelectorAll(selector).forEach((item) => item.classList.toggle('is-selected', item === button));
       onChange(button.dataset[dataName]);
+      saveEventFilters();
       visibleLimit=24;
       renderEvents();
     });
@@ -816,14 +865,24 @@ function eventImageCandidates(item) {
 
 function applyEventsData(data) {
   if (!data?.events) throw new Error('Dati non disponibili');
+  const saved = filtersRestored ? currentEventFilters() : readEventFilters();
+  categoryAliases = { ...categoryAliases, ...data.categoryAliases };
 
-  allEvents = deduplicateEvents(data.events).filter((item) => !eventHasEnded(item));
+  allEvents = deduplicateEvents(data.events).filter((item) => !eventHasEnded(item)).map(item=>({
+    ...item, categories: [...new Set((item.categories || []).map(canonicalCategory))]
+  }));
 
-  for (const item of allEvents) for (const c of item.categories || []) { if (!categoryNames.includes(c)) { const allSelected=selectedCategories.size===categoryNames.length; categoryNames.push(c); if(allSelected) selectedCategories.add(c); } }
+  // Rebuild from each catalogue so obsolete foreign labels cannot linger at zero.
+  categoryNames.splice(0, categoryNames.length, ...baseCategoryNames);
+  selectedCategories.clear();
+  categoryNames.forEach(c=>selectedCategories.add(c));
+  for (const item of allEvents) for (const c of item.categories || []) { if (!categoryNames.includes(c)) { categoryNames.push(c); selectedCategories.add(c); } }
   categoryNames.sort((a,b)=>a.localeCompare(b, "it"));
   activeEventsDataSignature = eventsDataSignature(data);
   activeEventsDataTimestamp = eventsDataTimestamp(data);
   configureEventPeriods(data);
+  restoreEventFilters(saved);
+  filtersRestored = true;
   configureFreshness({ ...data, events: allEvents });
   renderEvents();
 }
