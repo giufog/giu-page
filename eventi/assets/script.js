@@ -381,7 +381,8 @@ function readEventFilters() {
   try {
     const saved = JSON.parse(localStorage.getItem(filterStorageKey));
     if (saved?.version !== 1) return null;
-    if (!['all', 'friuli', 'mare', 'austria'].includes(saved.area)) return null;
+    if (saved.area === 'mare') saved.area = 'veneto';
+    if (!['all', 'friuli', 'veneto', 'austria'].includes(saved.area)) return null;
     if (saved.categories !== null && (!Array.isArray(saved.categories) || !saved.categories.every(c=>typeof c === 'string'))) return null;
     if (saved.period !== null && (!Array.isArray(saved.period) || saved.period.length !== 2 || !saved.period.every(d=>typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d)))) return null;
     return saved;
@@ -851,7 +852,7 @@ function renderEvents() {
   if (eventEmpty) {
     eventEmpty.hidden = filteredEvents.length !== 0;
     if (!filteredEvents.length) {
-      const areaLabel = { all: 'le zone selezionate', friuli: 'il Friuli', mare: 'il Mare', austria: 'l’Austria' }[activeArea];
+      const areaLabel = { all: 'le zone selezionate', friuli: 'il Friuli', veneto: 'il Veneto', mare: 'il Mare', austria: 'l’Austria' }[activeArea];
       eventEmpty.textContent = `Nessun evento trovato per testo, zona, periodo e categorie selezionati. Prova a cambiare un filtro.`;
     }
   }
@@ -953,7 +954,7 @@ if (eventList) {
       const response=await fetch(`${eventsServiceBase}/api/events-data`,{cache:'no-store',signal:controller.signal});
       if(!response.ok)throw new Error('Dati non disponibili');
       const data=await response.json();
-      if(eventsDataSignature(data)!==activeEventsDataSignature)applyEventsData(data);
+      if(eventsDataSignature(data)!==activeEventsDataSignature && eventsDataTimestamp(data)>activeEventsDataTimestamp)applyEventsData(data);
     }).catch(()=>{}).finally(()=>clearTimeout(timeout));
 
 }

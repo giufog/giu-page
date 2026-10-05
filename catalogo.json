@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-05",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -243,23 +243,6 @@
       "listed": true
     },
     {
-      "title": "Eventi dal lunedì 28 settembre a domenica 18 ottobre",
-      "slug": "eventi",
-      "category": "eventi",
-      "description": "Eventi in Friuli, al mare e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
-      "createdAt": "2026-09-03",
-      "updatedAt": "2026-10-01",
-      "url": "https://giufog.github.io/giu-page/eventi/",
-      "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-eventi-20260904-v2.jpg",
-      "tags": [
-        "eventi",
-        "friuli",
-        "mare",
-        "austria"
-      ],
-      "listed": true
-    },
-    {
       "title": "Musiche Bud Spencer e Terence Hill",
       "slug": "musiche-bud-spencer-e-terence-hill",
       "category": "varie",
@@ -273,6 +256,23 @@
         "musica",
         "Bud Spencer",
         "Terence Hill"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Eventi dal lunedì 28 settembre a domenica 18 ottobre",
+      "slug": "eventi",
+      "category": "eventi",
+      "description": "Eventi in Friuli, in Veneto e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
+      "createdAt": "2026-09-03",
+      "updatedAt": "2026-10-04",
+      "url": "https://giufog.github.io/giu-page/eventi/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-eventi-20260904-v2.jpg",
+      "tags": [
+        "eventi",
+        "friuli",
+        "veneto",
+        "austria"
       ],
       "listed": true
     }

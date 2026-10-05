@@ -208,6 +208,8 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
   --zone-all-soft: #eee8f7;
   --zone-friuli: #2f7651;
   --zone-friuli-soft: #e2f0e7;
+  --zone-veneto: #a44e68;
+  --zone-veneto-soft: #f9e7ed;
   --zone-mare: #287897;
   --zone-mare-soft: #def1f8;
   --zone-austria: #9a621d;
@@ -245,6 +247,7 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
 }
 .filter-button--all { border-color: #d9cde8; background: var(--zone-all-soft); color: #56416f; }
 .filter-button--friuli { border-color: #c4ddcc; background: var(--zone-friuli-soft); color: #235d3f; }
+.filter-button--veneto { border-color: #e9c3cf; background: var(--zone-veneto-soft); color: #893d55; }
 .filter-button--mare { border-color: #bbdfea; background: var(--zone-mare-soft); color: #1f627c; }
 .filter-button--austria { border-color: #ead2a4; background: var(--zone-austria-soft); color: #7a4d16; }
 .filter-button:hover { filter: brightness(.96); transform: translateY(-1px); }
@@ -273,6 +276,7 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
 }
 
 .event-card--friuli { --zone-accent: var(--zone-friuli); --zone-soft: var(--zone-friuli-soft); }
+.event-card--veneto { --zone-accent: var(--zone-veneto); --zone-soft: var(--zone-veneto-soft); }
 .event-card--mare { --zone-accent: var(--zone-mare); --zone-soft: var(--zone-mare-soft); }
 .event-card--austria { --zone-accent: var(--zone-austria); --zone-soft: var(--zone-austria-soft); }
 .event-card__date {
@@ -318,6 +322,7 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
 .event-card__button:focus-visible { outline: 3px solid color-mix(in srgb, var(--zone-accent) 24%, transparent); outline-offset: 2px; }
 
 .detail-page { --detail-accent: var(--zone-friuli); --detail-soft: var(--zone-friuli-soft); background: #f5f8f6; }
+.detail-page--veneto { --detail-accent: var(--zone-veneto); --detail-soft: var(--zone-veneto-soft); }
 .detail-page--mare { --detail-accent: var(--zone-mare); --detail-soft: var(--zone-mare-soft); }
 .detail-page--austria { --detail-accent: var(--zone-austria); --detail-soft: var(--zone-austria-soft); }
 .detail-page .brand { color: #fff; text-decoration: none; }
