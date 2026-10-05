@@ -370,7 +370,12 @@ function refreshFavoriteControls(){
   const favorites=currentFavoriteCategories();
   const selected=favorites.filter(c=>selectedCategories.has(c)).length;
   const group=document.querySelector('#category-favorites');
-  if(group){group.disabled=!favorites.length;group.checked=!!favorites.length&&selected===favorites.length;group.indeterminate=selected>0&&selected<favorites.length;}
+  if(group){
+    group.disabled=!favorites.length;
+    // Checked means ONLY favorites, not "favorites included among all".
+    group.checked=!!favorites.length&&selected===favorites.length&&selectedCategories.size===favorites.length;
+    group.indeterminate=selected>0&&!group.checked&&selectedCategories.size<categoryNames.length;
+  }
   document.querySelectorAll('[data-category-favorite]').forEach(button=>{
     const category=categoryNames[Number(button.dataset.categoryFavorite)];
     const favorite=favoriteCategories.has(category);
@@ -401,7 +406,8 @@ document.querySelector('#category-options')?.addEventListener('click',e=>{
   refreshFavoriteControls();
 });
 document.querySelector('#category-favorites')?.addEventListener('change',e=>{
-  currentFavoriteCategories().forEach(c=>{if(e.target.checked)selectedCategories.add(c);else selectedCategories.delete(c);});
+  selectedCategories.clear();
+  categoryNames.filter(c=>favoriteCategories.has(c)===e.target.checked).forEach(c=>selectedCategories.add(c));
   saveEventFilters();renderEvents();
 });
 
