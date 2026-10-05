@@ -360,11 +360,50 @@ document.querySelector('#clear-event-text')?.addEventListener('click',()=>{const
 const baseCategoryNames=['Cinema','Convegni','Danza','Enogastronomia','Feste tradizionali','Festival','Fiere e mercatini','Interesse locale','Laboratori didattici','Manifestazioni sportive','Manifestazioni veliche','Mostre','Musica','Rievocazioni','Spettacoli teatrali','Sostenibile','Storia','Strada del vino e dei sapori','Motoraduni','Altri eventi'];
 const categoryNames=[...baseCategoryNames];
 const selectedCategories=new Set(categoryNames);
+const favoriteCategories=new Set();
 function eventCategories(item){const categories=(item.categories||[]).filter(c=>categoryNames.includes(c));return categories.length?categories:['Altri eventi'];}
 function matchesCategory(item){return eventCategories(item).some(c=>selectedCategories.has(c));}
-function refreshCategories(){const eligible=allEvents.filter(matchesText).filter(e=>eventMatchesArea(e,activeArea)&&eventOccursInPeriod(e,activePeriod));document.querySelector('#category-selection').textContent=selectedCategories.size===categoryNames.length?'Tutte le categorie':selectedCategories.size===0?'Nessuna categoria':selectedCategories.size===1?[...selectedCategories][0]:`${selectedCategories.size} categorie selezionate`;document.querySelector('#category-total').textContent=eligible.filter(matchesCategory).length;const all=document.querySelector('#category-all');all.checked=selectedCategories.size===categoryNames.length;all.indeterminate=selectedCategories.size>0&&selectedCategories.size<categoryNames.length;document.querySelector('#category-options').innerHTML=categoryNames.map((c,i)=>`<label><input type="checkbox" data-category="${i}" ${selectedCategories.has(c)?'checked':''}><span>${escapeHtml(c)}</span><span class="category-badge">${eligible.filter(e=>eventCategories(e).includes(c)).length}</span></label>`).join('');}
+// Reuse the favorite heart shape from My Emby's FavoriteHeartView (read-only).
+const categoryHeart='<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21C10 19 2 13 2 7.5C2 1.8 8.5 .5 12 5.5C15.5 .5 22 1.8 22 7.5C22 13 14 19 12 21Z"/></svg>';
+function currentFavoriteCategories(){return categoryNames.filter(c=>favoriteCategories.has(c));}
+function refreshFavoriteControls(){
+  const favorites=currentFavoriteCategories();
+  const selected=favorites.filter(c=>selectedCategories.has(c)).length;
+  const group=document.querySelector('#category-favorites');
+  if(group){group.disabled=!favorites.length;group.checked=!!favorites.length&&selected===favorites.length;group.indeterminate=selected>0&&selected<favorites.length;}
+  document.querySelectorAll('[data-category-favorite]').forEach(button=>{
+    const category=categoryNames[Number(button.dataset.categoryFavorite)];
+    const favorite=favoriteCategories.has(category);
+    button.setAttribute('aria-pressed',String(favorite));
+    button.setAttribute('aria-label',`${favorite?'Rimuovi':'Aggiungi'} ${category} ${favorite?'dai':'ai'} preferiti`);
+  });
+}
+function refreshCategories(){
+  const eligible=allEvents.filter(matchesText).filter(e=>eventMatchesArea(e,activeArea)&&eventOccursInPeriod(e,activePeriod));
+  document.querySelector('#category-selection').textContent=selectedCategories.size===categoryNames.length?'Tutte le categorie':selectedCategories.size===0?'Nessuna categoria':selectedCategories.size===1?[...selectedCategories][0]:`${selectedCategories.size} categorie selezionate`;
+  document.querySelector('#category-total').textContent=eligible.filter(matchesCategory).length;
+  const all=document.querySelector('#category-all');
+  all.checked=selectedCategories.size===categoryNames.length;
+  all.indeterminate=selectedCategories.size>0&&selectedCategories.size<categoryNames.length;
+  document.querySelector('#category-options').innerHTML=categoryNames.map((c,i)=>`<div class="category-option"><label><input type="checkbox" data-category="${i}" ${selectedCategories.has(c)?'checked':''}><span>${escapeHtml(c)}</span></label><button type="button" class="category-favorite" data-category-favorite="${i}" aria-pressed="false" aria-label="Aggiungi ${escapeHtml(c)} ai preferiti">${categoryHeart}</button><span class="category-badge">${eligible.filter(e=>eventCategories(e).includes(c)).length}</span></div>`).join('');
+  refreshFavoriteControls();
+}
 document.querySelector('#category-all')?.addEventListener('change',e=>{selectedCategories.clear();if(e.target.checked)categoryNames.forEach(c=>selectedCategories.add(c));saveEventFilters();renderEvents();});
 document.querySelector('#category-options')?.addEventListener('change',e=>{const c=categoryNames[Number(e.target.dataset.category)];if(!c)return;if(e.target.checked)selectedCategories.add(c);else selectedCategories.delete(c);saveEventFilters();renderEvents();});
+document.querySelector('#category-options')?.addEventListener('click',e=>{
+  const button=e.target.closest('[data-category-favorite]');
+  if(!button)return;
+  const c=categoryNames[Number(button.dataset.categoryFavorite)];
+  if(!c)return;
+  if(favoriteCategories.has(c))favoriteCategories.delete(c);else favoriteCategories.add(c);
+  saveEventFilters();
+  // A heart changes the preference only: retain rows, focus and event cards.
+  refreshFavoriteControls();
+});
+document.querySelector('#category-favorites')?.addEventListener('change',e=>{
+  currentFavoriteCategories().forEach(c=>{if(e.target.checked)selectedCategories.add(c);else selectedCategories.delete(c);});
+  saveEventFilters();renderEvents();
+});
 
 let activeArea = 'all';
 let activePeriod = 'all';
@@ -384,6 +423,7 @@ function readEventFilters() {
     if (saved.area === 'mare') saved.area = 'veneto';
     if (!['all', 'friuli', 'veneto', 'austria'].includes(saved.area)) return null;
     if (saved.categories !== null && (!Array.isArray(saved.categories) || !saved.categories.every(c=>typeof c === 'string'))) return null;
+    if (saved.favoriteCategories !== undefined && (!Array.isArray(saved.favoriteCategories) || !saved.favoriteCategories.every(c=>typeof c === 'string'))) return null;
     if (saved.period !== null && (!Array.isArray(saved.period) || saved.period.length !== 2 || !saved.period.every(d=>typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d)))) return null;
     return saved;
   } catch (_) { return null; }
@@ -395,7 +435,8 @@ function currentEventFilters() {
     area: activeArea,
     // Store dates, not weekday1/weekend1: their meaning changes every week.
     period: activePeriod === 'all' ? null : eventPeriods[activePeriod] || null,
-    categories: selectedCategories.size === categoryNames.length ? null : [...selectedCategories]
+    categories: selectedCategories.size === categoryNames.length ? null : [...selectedCategories],
+    favoriteCategories: [...favoriteCategories]
   };
 }
 
@@ -407,6 +448,9 @@ function restoreEventFilters(saved) {
   selectedCategories.clear();
   const categories = saved.categories === null ? categoryNames : saved.categories.map(canonicalCategory);
   categories.filter(c=>categoryNames.includes(c)).forEach(c=>selectedCategories.add(c));
+  favoriteCategories.clear();
+  // Keep temporarily absent categories so their hearts return in a later catalogue.
+  (saved.favoriteCategories || []).map(canonicalCategory).forEach(c=>favoriteCategories.add(c));
 }
 
 function saveEventFilters() {
