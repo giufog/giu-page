@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "title": "Uffici postali vicino a Tarcento",
+  "slug": "uffici-postali-vicino-a-tarcento",
+  "category": "varie",
+  "description": "Indirizzi, orari settimanali e indicazioni per gli uffici di Poste Italiane entro 10 km da Tarcento.",
+  "createdAt": "2026-10-06",
+  "updatedAt": "2026-10-06",
+  "pageCount": 3,
+  "readingMinutes": 4,
+  "coverImage": "assets/share-whatsapp.jpg",
+  "tags": [
+    "poste",
+    "tarcento",
+    "orari"
+  ],
+  "listed": true
+}

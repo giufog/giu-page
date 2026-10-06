@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -273,6 +273,22 @@
         "friuli",
         "veneto",
         "austria"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Uffici postali vicino a Tarcento",
+      "slug": "uffici-postali-vicino-a-tarcento",
+      "category": "varie",
+      "description": "Indirizzi, orari settimanali e indicazioni per gli uffici di Poste Italiane entro 10 km da Tarcento.",
+      "createdAt": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "url": "https://giufog.github.io/giu-page/uffici-postali-vicino-a-tarcento/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/uffici-postali-vicino-a-tarcento/assets/share-whatsapp.jpg",
+      "tags": [
+        "poste",
+        "tarcento",
+        "orari"
       ],
       "listed": true
     }
