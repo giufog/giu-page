@@ -97,7 +97,10 @@
     status.remove();
 
     definitions.forEach(category => {
-      const categoryPages = pages.filter(page => page.listed !== false && (page.category || 'varie') === category.id);
+      // Keep the same newest-first order as the category previews (catalogo.js).
+      const categoryPages = pages
+        .filter(page => page.listed !== false && (page.category || 'varie') === category.id)
+        .sort((a, b) => String(b.createdAt || b.updatedAt || '').localeCompare(String(a.createdAt || a.updatedAt || '')));
       const item = document.createElement('section');
       item.className = 'app-menu__category';
       item.style.setProperty('--category', category.color);
