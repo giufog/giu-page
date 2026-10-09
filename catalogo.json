@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-09",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -260,23 +260,6 @@
       "listed": true
     },
     {
-      "title": "Eventi dal lunedì 28 settembre a domenica 18 ottobre",
-      "slug": "eventi",
-      "category": "eventi",
-      "description": "Eventi in Friuli, in Veneto e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
-      "createdAt": "2026-09-03",
-      "updatedAt": "2026-10-05",
-      "url": "https://giufog.github.io/giu-page/eventi/",
-      "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-eventi-20260904-v2.jpg",
-      "tags": [
-        "eventi",
-        "friuli",
-        "veneto",
-        "austria"
-      ],
-      "listed": true
-    },
-    {
       "title": "Uffici postali vicino a Tarcento",
       "slug": "uffici-postali-vicino-a-tarcento",
       "category": "varie",
@@ -289,6 +272,23 @@
         "poste",
         "tarcento",
         "orari"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Eventi dal lunedì 5 ottobre a domenica 25 ottobre",
+      "slug": "eventi",
+      "category": "eventi",
+      "description": "Eventi in Friuli, in Veneto e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
+      "createdAt": "2026-09-03",
+      "updatedAt": "2026-10-09",
+      "url": "https://giufog.github.io/giu-page/eventi/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-eventi-20260904-v2.jpg",
+      "tags": [
+        "eventi",
+        "friuli",
+        "veneto",
+        "austria"
       ],
       "listed": true
     }

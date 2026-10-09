@@ -955,6 +955,11 @@ function eventsDataTimestamp(data) {
   return Number.isNaN(timestamp) ? 0 : timestamp;
 }
 
+function catalogueIsPublished(data, metadata) {
+  return Boolean(data?.generatedAt && data.generatedAt === metadata?.eventsGeneratedAt
+    && data.events?.length === metadata.eventCount);
+}
+
 function eventHasEnded(item, now = new Date()) {
   const rawEnd = item.endDate || item.startDate;
   if (!rawEnd) return false;
@@ -1004,7 +1009,16 @@ if (eventList) {
       const response=await fetch(`${eventsServiceBase}/api/events-data`,{cache:'no-store',signal:controller.signal});
       if(!response.ok)throw new Error('Dati non disponibili');
       const data=await response.json();
-      if(eventsDataSignature(data)!==activeEventsDataSignature && eventsDataTimestamp(data)>activeEventsDataTimestamp)applyEventsData(data);
+      if(eventsDataSignature(data)!==activeEventsDataSignature && eventsDataTimestamp(data)>activeEventsDataTimestamp){
+        const publication=await fetch('page.json',{cache:'no-store',signal:controller.signal});
+        if(!publication.ok)throw new Error('Pubblicazione non verificabile');
+        const metadata=await publication.json();
+        if(catalogueIsPublished(data,metadata))applyEventsData(data);
+        else {
+          const meta=document.querySelector('[data-event-meta]');
+          if(meta)meta.textContent+=' · Nuovi dati raccolti, pagine in attesa di pubblicazione.';
+        }
+      }
     }).catch(()=>{}).finally(()=>clearTimeout(timeout));
 
 }
