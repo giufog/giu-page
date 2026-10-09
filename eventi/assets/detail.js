@@ -1,4 +1,3 @@
-const SERVICE_BASE = 'https://giu-page-eventi-update.docile-aspen-8173.chatgpt.site';
 const target = document.querySelector('[data-event-detail]');
 const wantedSlug = new URLSearchParams(location.search).get('evento') || '';
 
@@ -272,22 +271,9 @@ function render(item) {
   if (activeQuery.length >= 2 && searchInput) collectSearchResults();
 }
 
-async function loadData() {
-  try {
-    const response = await fetch(`${SERVICE_BASE}/api/events-data`, { cache: 'no-store' });
-    if (!response.ok) throw new Error('remote unavailable');
-    return await response.json();
-  } catch (_) {
-    return window.EVENTS_DATA || {events:[]};
-  }
-}
-
-loadData().then(data => {
-  const item = (data.events || []).find(event => event.slug === wantedSlug);
-  if (item && !eventHasEnded(item)) {
-    if (location.search && wantedSlug) history.replaceState(null, '', `${encodeURIComponent(wantedSlug)}/index.html`);
-    document.querySelectorAll('.detail-page .brand, .detail-header-back, .detail-back').forEach(link => { link.href = '../../'; });
-    render(item);
-  }
-  else renderUnavailable(Boolean(item));
-});
+// I vecchi link ?evento=... aprono la scheda statica del medesimo pacchetto.
+// Un catalogo remoto non ancora pubblicato non deve inventare una destinazione.
+const legacyEvent = (window.EVENTS_DATA?.events || []).find(event => event.slug === wantedSlug);
+if (legacyEvent && !eventHasEnded(legacyEvent)) {
+  location.replace(`${encodeURIComponent(wantedSlug)}/index.html`);
+} else renderUnavailable(Boolean(legacyEvent));
