@@ -1,0 +1,47 @@
+name: Pubblica Eventi cloud
+run-name: Eventi ${{ inputs.source_run_id }} / tentativo ${{ inputs.source_run_attempt }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: 'ID esatto del run Aggiorna eventi concluso con successo'
+        type: string
+        required: true
+      source_run_attempt:
+        description: 'Tentativo esatto del run sorgente'
+        type: string
+        required: true
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publish-eventi-central
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'giufog/giu-page' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    # At most 3 publish attempts, two 15-minute backoffs and bounded preflight.
+    timeout-minutes: 95
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Test dei confini di pubblicazione
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python3 -m unittest discover -s .github/tests -v
+      - name: Pubblica soltanto il pacchetto Eventi validato
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENTI_READ_TOKEN: ${{ secrets.EVENTI_READ_TOKEN }}
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+          SOURCE_RUN_ATTEMPT: ${{ inputs.source_run_attempt }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        shell: bash
+        run: |
+          python3 .github/publish_eventi.py --source-run-id "$SOURCE_RUN_ID" --source-run-attempt "$SOURCE_RUN_ATTEMPT"
