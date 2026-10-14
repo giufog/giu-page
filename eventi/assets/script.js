@@ -821,24 +821,29 @@ function eventCardsMarkup(items, offset = 0) {
       <img src="${escapeHtml(imageUrl)}" data-image-fallbacks="${encodeURIComponent(JSON.stringify(imageCandidates))}" alt="${escapeHtml(item.imageAlt || item.title)}" width="640" height="360" loading="${index === 0 ? 'eager' : 'lazy'}" fetchpriority="${index === 0 ? 'high' : 'low'}" decoding="async">
     </a>` : '';
     return `<article class="event-card event-card--${escapeHtml(zone)}" data-searchable>
-      <div class="event-card__date"><span>${days}</span>${startTime ? `<span>dalle ${startTime}</span>` : ''}</div>
+      <div class="event-card__date"><img src="assets/icons/calendar-days.svg" alt=""><span>${days}${startTime ? ` · dalle ${startTime}` : ''}</span></div>
+      <a class="event-card__location" href="${escapeHtml(mapsUrl)}" data-map-link target="_blank" rel="noopener" aria-label="Apri su Google Maps: ${escapeHtml(item.locationLabel)}">
+        <img src="assets/icons/map-pin.svg" alt="">
+        <span>${escapeHtml(item.locationLabel)}</span>
+        <b>Apri Maps</b>
+      </a>
       ${image}
       <div class="event-card__body">
         <h3><a href="${escapeHtml(detailPath)}">${escapeHtml(item.title)}</a></h3>
+        <details class="event-card__expand">
+          <summary><span class="event-card__expand-label">Espandi</span><span class="event-card__collapse-label">Riduci</span><img src="assets/icons/chevron-down.svg" alt=""></summary>
+          <div class="event-card__remainder">
         ${eventRating(item)}
         <p class="event-card__description">${escapeHtml(item.description)}</p>
-        <a class="event-card__location" href="${escapeHtml(mapsUrl)}" data-map-link target="_blank" rel="noopener" aria-label="Apri su Google Maps: ${escapeHtml(item.locationLabel)}">
-          <img src="https://api.iconify.design/lucide/map-pin.svg?color=%23173e35" alt="">
-          <span>${escapeHtml(item.locationLabel)}</span>
-          <b>Apri Maps</b>
-        </a>
         <dl class="event-card__info">${information}</dl>
 <details class="event-categories"><summary>Categorie <span class="category-badge">${eventCategories(item).length}</span><span class="category-chevron" aria-hidden="true">⌄</span></summary><ul>${eventCategories(item).map(c=>`<li>${escapeHtml(c)}</li>`).join('')}</ul></details>
         <div class="event-card__actions">
-          <a class="event-card__button event-card__button--primary" href="${escapeHtml(detailPath)}"><img src="https://api.iconify.design/lucide/file-text.svg?color=%23ffffff" alt="">Apri pagina</a>
-          <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(item.shareUrl || detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.shareDescription || item.description)}"><img src="https://api.iconify.design/lucide/share-2.svg?color=%232878b8" alt="">Condividi</button>
+          <a class="event-card__button event-card__button--primary" href="${escapeHtml(detailPath)}"><img src="assets/icons/file-text.svg" alt="">Apri pagina</a>
+          <button class="event-card__button event-card__button--share" type="button" data-share-event data-share-url="${escapeHtml(item.shareUrl || detailPath)}" data-share-title="${escapeHtml(item.title)}" data-share-text="${escapeHtml(item.shareDescription || item.description)}"><img src="assets/icons/share-2.svg" alt="">Condividi</button>
         </div>
         ${window.EventCounts?.markup(item.slug) || ''}
+          </div>
+        </details>
       </div>
     </article>`;
   }).join('');

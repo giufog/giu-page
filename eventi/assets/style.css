@@ -470,3 +470,82 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
 .category-favorite[aria-pressed="true"] svg { fill:currentColor; }
 .category-favorite:hover { background:#fff2f5; }
 .category-option>.category-badge { flex-shrink:0; }
+
+/* Miniature compatte: proposta 05 approvata il 14 ottobre 2026.
+   Solo le schede della raccolta; nessuna variazione ai dettagli degli eventi. */
+.event-grid { align-items: start; }
+.event-card { min-height: 0; height: auto; border-radius: 12px; }
+.event-card__date {
+  justify-content: flex-start;
+  gap: 8px;
+  min-height: 36px;
+  padding: 7px 12px;
+  border-bottom: 0;
+  font-size: .82rem;
+  font-weight: 750;
+  line-height: 1.45;
+}
+.event-card__date > img { width: 18px; height: 18px; flex-shrink: 0; }
+.event-card__location {
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 7px 12px;
+  border: 0;
+  border-top: 1px solid color-mix(in srgb, var(--zone-accent) 24%, white);
+  border-radius: 0;
+  background: var(--zone-soft);
+  font-size: .82rem;
+  font-weight: 400;
+}
+.event-card__location > span { min-width: 0; overflow-wrap: anywhere; }
+.event-card__location > b { font-size: .7rem; }
+.event-card__location > img { margin-top: 0; }
+.event-card__body { flex: 0 0 auto; gap: 5px; padding: 10px 12px 8px; }
+.event-card h3 { font-size: 1.125rem; line-height: 1.32; }
+.event-card__expand { min-width: 0; }
+.event-card__expand > summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  margin-top: 0;
+  padding: 7px 12px;
+  border-radius: 8px;
+  color: #fff;
+  background: var(--action);
+  font-size: .82rem;
+  font-weight: 650;
+  line-height: 1.4;
+  list-style: none;
+  cursor: pointer;
+}
+.event-card__expand > summary::-webkit-details-marker { display: none; }
+.event-card__expand > summary:hover { background: #1a6339; }
+.event-card__expand > summary > img {
+  width: 17px; height: 17px; flex-shrink: 0;
+  filter: brightness(0) invert(1);
+}
+.event-card__collapse-label { display: none; }
+.event-card__expand[open] > summary .event-card__expand-label { display: none; }
+.event-card__expand[open] > summary .event-card__collapse-label { display: inline; }
+.event-card__expand[open] > summary > img { transform: rotate(180deg); }
+.event-card__remainder {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+.event-card__description { font-size: .875rem; line-height: 1.6; }
+.event-card__actions { margin-top: 0; }
+.event-card__button { min-height: 44px; }
+.event-card__button--primary img { filter: brightness(0) invert(1); }
+.event-card .event-categories { margin: 0; padding-block: 0; }
+.event-card .event-categories > summary { min-height: 44px; }
+@media print {
+  .event-card__expand > summary { display: none; }
+  .event-card__remainder { margin-top: 0; }
+}
