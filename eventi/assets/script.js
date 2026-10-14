@@ -351,7 +351,7 @@ function setTextFilter(value){textTerms=[...new Set(plainSearch(value).split(/[\
 function matchesText(item){
  if(!textTerms.length)return true;
  let haystack=searchCache.get(item);
- if(haystack===undefined){haystack=plainSearch([item.title,item.description].filter(Boolean).join(' '));searchCache.set(item,haystack);}
+ if(haystack===undefined){haystack=plainSearch([item.title,eventCardDescription(item)].filter(Boolean).join(' '));searchCache.set(item,haystack);}
  return textTerms.every(word=>haystack.includes(word));
 }
 document.querySelector('#event-text-filter')?.addEventListener('input',e=>{setTextFilter(e.target.value);visibleLimit=24;renderEvents();});
@@ -801,6 +801,98 @@ function applyAndroidMapLinks() {
   });
 }
 
+const cardDescriptionCache = new WeakMap();
+function eventCardDescription(item) {
+  if (!cardDescriptionCache.has(item)) cardDescriptionCache.set(item, buildEventCardDescription(item));
+  return cardDescriptionCache.get(item);
+}
+
+function buildEventCardDescription(item) {
+  const clean = value => String(value || '').replace(/\s+/g, ' ').trim();
+  const original = clean(item.description);
+  if (!original) return '';
+  const places = [...new Set([item.locationLabel, item.venue, item.address, item.city])]
+    .filter(value => typeof value === 'string' && value.trim().length > 2)
+    .map(clean).sort((a, b) => b.length - a.length);
+  // Most summaries are already prose: avoid compiling location patterns for
+  // every event during the first text search over the full catalogue.
+  const beginsWithDate = /^(?:(?:dal?|il|i)\s+)?(?:(?:lun(?:ed[iì])?|mar(?:ted[iì])?|mer(?:coled[iì])?|gio(?:ved[iì])?|ven(?:erd[iì])?|sab(?:ato)?|dom(?:enica)?)[.,]?\s*)?\d{1,2}\b/i.test(original);
+  const locationStart = original.replace(/^(?:a|presso)\s+/i, '').toLowerCase();
+  if (!beginsWithDate && !places.some(place => locationStart.startsWith(place.toLowerCase()))) return original;
+  const months = 'gen(?:naio)?|feb(?:braio)?|mar(?:zo)?|apr(?:ile)?|mag(?:gio)?|giu(?:gno)?|lug(?:lio)?|ago(?:sto)?|set(?:tembre)?|ott(?:obre)?|nov(?:embre)?|dic(?:embre)?';
+  const weekday = '(?:lun(?:ed[iì])?|mar(?:ted[iì])?|mer(?:coled[iì])?|gio(?:ved[iì])?|ven(?:erd[iì])?|sab(?:ato)?|dom(?:enica)?)';
+  const day = `(?:${weekday}[.,]?\\s*)?\\d{1,2}[°º]?`;
+  const date = `(?:${day}(?:\\s*(?:[-–—]|al|e|,)\\s*${day})*\\s*(?:di\\s+)?(?:${months})\\b\\.?(?:\\s+\\d{4})?|${day}[/.]\\d{1,2}[/.]\\d{2,4}\\b)`;
+  const dateIntro = new RegExp(`^(?:(?:dal?|il|i)\\s+)?${date}(?:\\s*(?:[-–—]|al|e)\\s*${date})?`, 'i');
+  const separators = /^[\s,;:.·|–—-]+/;
+  const escape = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  function placePrefix(text) {
+    const start = text.replace(/^(?:a|presso)\s+/i, '').toLowerCase();
+    for (const place of places) {
+      if (!start.startsWith(place.toLowerCase())) continue;
+      const pattern = new RegExp(`^(?:(?:a|presso)\\s+)?${escape(place).replace(/\s+/g, '\\s+')}($|[\\s,;:.·|–—-])`, 'i');
+      const match = text.match(pattern);
+      if (!match) continue;
+      const remainder = text.slice(match[0].length).replace(separators, '');
+      // A standalone heading may be dropped; a subject such as "Udine ospita"
+      // belongs to the sentence and must keep its place name.
+      if (!remainder || /[,;:.·|–—-]/.test(match[1]) || /^[A-ZÀ-Ý«“"']/.test(remainder)) {
+        return { length: match[0].length, remainder };
+      }
+    }
+    return null;
+  }
+  function datePrefix(text) {
+    const match = text.match(dateIntro);
+    if (!match) return null;
+    const years = match[0].match(/\b\d{4}\b/g) || [];
+    const first = Number(String(item.startDate || '').slice(0, 4));
+    const last = Number(String(item.endDate || item.startDate || '').slice(0, 4));
+    if (years.some(year => first && (Number(year) < first || Number(year) > last))) return null;
+    const remainder = text.slice(match[0].length).replace(separators, '');
+    // Do not cut a date list halfway through (e.g. 18 e 25 marzo, 15 e 22 aprile).
+    const incomplete = /^(?:\d|(?:e|al)\s+\d)/i.test(remainder) && !/^\d{1,2}[.:]\d{2}\b/.test(remainder);
+    return { length: match[0].length, remainder, incomplete };
+  }
+  const introductoryDate = datePrefix(original);
+  const introductoryPlace = introductoryDate ? null : placePrefix(original);
+  if (!introductoryDate && !introductoryPlace) return original;
+  const metadataLine = /^(?:(?:alle|dalle|ore|h\.?|programma|info(?:rmazioni)?|contatti|ingresso|prenotazioni|biglietti|presentazione)\b|\d{1,2}[.:]\d{2}\b)/i;
+  const weekdayDate = new RegExp(`^(?:(?:dal?|il)\\s+)?${weekday}[.,]?\\s*\\d{1,2}\\b`, 'i');
+  // Prefer real descriptive prose already extracted from the same source.
+  // No generic replacement summary, generated text or changes to the catalogue.
+  const parts = [];
+  let length = 0;
+  for (const value of item.detailParagraphs || []) {
+    const text = clean(value);
+    if (datePrefix(text) || weekdayDate.test(text) || placePrefix(text) || metadataLine.test(text)) {
+      if (parts.length) break;
+      continue;
+    }
+    if (text.length < 30 || (text.length < 60 && !/[.!?…]$/.test(text))) continue;
+    parts.push(text);
+    length += text.length;
+    if (length >= 280) break;
+  }
+  const prose = parts.join(' ');
+  if (!prose && introductoryDate?.incomplete) return original;
+  let description = prose || (introductoryDate || introductoryPlace).remainder;
+  if (!prose) {
+    description = description.replace(/^(?:(?:alle|dalle)(?:\s+ore)?|ore|h\.?)\s*\d{1,2}(?:[.:]\d{2})?(?:\s*(?:alle(?:\s+ore)?|al|[-–—])\s*(?:\d{1,2}(?:[.:]\d{2})?|tramonto))?\b[\s,;:.–—-]*/i, '');
+    for (let i = 0; i < 3; i++) {
+      const place = placePrefix(description);
+      if (!place) break;
+      description = place.remainder;
+    }
+  }
+  description = clean(description);
+  if (!description || description.length < 20) return original;
+  description = description[0].toLocaleUpperCase('it') + description.slice(1);
+  if (description.length <= 280) return description;
+  const cut = description.slice(0, 277).replace(/\s+\S*$/, '').replace(/[\s,;:–—-]+$/, '');
+  return `${cut}…`;
+}
+
 function eventCardsMarkup(items, offset = 0) {
   return items.map((item, index) => {
     index += offset;
@@ -834,7 +926,7 @@ function eventCardsMarkup(items, offset = 0) {
           <summary><span class="event-card__expand-label">Espandi</span><span class="event-card__collapse-label">Riduci</span><img src="assets/icons/chevron-down.svg" alt=""></summary>
           <div class="event-card__remainder">
         ${eventRating(item)}
-        <p class="event-card__description">${escapeHtml(item.description)}</p>
+        <p class="event-card__description">${escapeHtml(eventCardDescription(item))}</p>
         <dl class="event-card__info">${information}</dl>
 <details class="event-categories"><summary>Categorie <span class="category-badge">${eventCategories(item).length}</span><span class="category-chevron" aria-hidden="true">⌄</span></summary><ul>${eventCategories(item).map(c=>`<li>${escapeHtml(c)}</li>`).join('')}</ul></details>
         <div class="event-card__actions">
