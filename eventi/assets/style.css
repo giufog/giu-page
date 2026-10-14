@@ -503,6 +503,7 @@ dialog { width: min(440px, calc(100% - 32px)); padding: 0; border: 1px solid var
 .event-card__location > img { margin-top: 0; }
 .event-card__body { flex: 0 0 auto; gap: 5px; padding: 10px 12px 8px; }
 .event-card h3 { font-size: 1.125rem; line-height: 1.32; }
+.event-card > h3 { padding: 10px 12px 8px; }
 .event-card__expand { min-width: 0; }
 .event-card__expand > summary {
   display: flex;

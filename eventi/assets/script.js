@@ -821,15 +821,15 @@ function eventCardsMarkup(items, offset = 0) {
       <img src="${escapeHtml(imageUrl)}" data-image-fallbacks="${encodeURIComponent(JSON.stringify(imageCandidates))}" alt="${escapeHtml(item.imageAlt || item.title)}" width="640" height="360" loading="${index === 0 ? 'eager' : 'lazy'}" fetchpriority="${index === 0 ? 'high' : 'low'}" decoding="async">
     </a>` : '';
     return `<article class="event-card event-card--${escapeHtml(zone)}" data-searchable>
+      <h3><a href="${escapeHtml(detailPath)}">${escapeHtml(item.title)}</a></h3>
+      ${image}
       <div class="event-card__date"><img src="assets/icons/calendar-days.svg" alt=""><span>${days}${startTime ? ` · dalle ${startTime}` : ''}</span></div>
       <a class="event-card__location" href="${escapeHtml(mapsUrl)}" data-map-link target="_blank" rel="noopener" aria-label="Apri su Google Maps: ${escapeHtml(item.locationLabel)}">
         <img src="assets/icons/map-pin.svg" alt="">
         <span>${escapeHtml(item.locationLabel)}</span>
         <b>Apri Maps</b>
       </a>
-      ${image}
       <div class="event-card__body">
-        <h3><a href="${escapeHtml(detailPath)}">${escapeHtml(item.title)}</a></h3>
         <details class="event-card__expand">
           <summary><span class="event-card__expand-label">Espandi</span><span class="event-card__collapse-label">Riduci</span><img src="assets/icons/chevron-down.svg" alt=""></summary>
           <div class="event-card__remainder">
