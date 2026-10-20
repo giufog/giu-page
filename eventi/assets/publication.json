@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "giufog/eventi",
-  "sourceSha": "f9dedb8824f86e0dc096dbac2af88da16a53a0f5",
-  "sourceRunId": 38749122592,
+  "sourceSha": "3f63502bd04305d4a11773e165f342de41d8c034",
+  "sourceRunId": 39404580834,
   "sourceRunAttempt": 1,
-  "sourceRunNumber": 20,
-  "packageSha256": "a3e5fb9ff8bc712279193d09e7b6b66b096b69a5b2b17ee1682f9269406053cb"
+  "sourceRunNumber": 21,
+  "packageSha256": "4f62edb5068090fa2051a8b7cd983b1aa7f25532fe31eecc2718b360db1a6170"
 }
