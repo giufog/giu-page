@@ -1,0 +1,16 @@
+.favorite-heart,.button--favorites{color:#e65378!important}
+.favorite-heart svg,.button--favorites svg{width:26px;height:26px;flex:none;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linejoin:round}
+.favorite-heart[aria-pressed=true] svg,.button--favorites[aria-pressed=true] svg{fill:currentColor}
+.favorite-heart{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:44px;height:44px;min-height:44px;padding:6px;border:0;border-radius:8px;background:transparent;cursor:pointer;flex:none;font:inherit}
+.favorite-heart:hover{background:#fdf0f4}.favorite-heart:focus-visible,.button--favorites:focus-visible,.favorites-backup button:focus-visible{outline:3px solid #217a46;outline-offset:3px}
+.style-card .favorite-row,.card .favorite-row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.favorite-row h2{flex:1;min-width:0}.favorite-detail{width:auto;padding-inline:10px;border:1px solid #d8e5dc;border-radius:12px;margin-bottom:8px}
+.button--favorites{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;min-width:158px;border:1px solid #d8e5dc;border-radius:12px;padding:10px 14px;background:white;font:inherit;font-size:.93rem;font-weight:800;cursor:pointer}
+.button--favorites[aria-pressed=true]{background:#fdf0f4!important;border-color:#e65378!important}
+.favorites-backup{margin:10px 0 14px;font-size:.86rem;color:#50655b}.favorites-backup summary{min-height:44px;padding:12px 0;display:list-item;cursor:pointer;font-weight:650;list-style:revert}
+.favorites-backup p{max-width:75ch}.favorites-backup-actions{display:flex;gap:8px;flex-wrap:wrap}.favorites-backup button{min-height:44px;border:1px solid #d8e5dc;border-radius:12px;padding:8px 12px;background:white;color:#173e35;font:inherit;cursor:pointer}
+.favorites-backup label{display:block;margin:12px 0 6px}.favorites-backup textarea{display:block;width:100%;max-width:760px;padding:10px;border:1px solid #d8e5dc;border-radius:8px;font:13px/1.5 monospace;overflow-wrap:anywhere;resize:vertical}
+.favorites-status{font-size:.85rem;color:#50655b;margin:0 0 12px}.favorites-status:empty{display:none}.favorites-status[data-error=true]{color:#983d3d}
+.favorites-only .sample-section{display:none}
+@media(max-width:600px){.hero__actions{display:grid!important;grid-template-columns:1fr 1fr;gap:8px!important}.hero__actions .button--favorites{grid-column:1/-1;justify-self:start}.button--favorites svg{width:22px;height:22px}}
+@media print{.favorite-heart,.favorites-backup,.favorites-status,.button--favorites{display:none!important}}
