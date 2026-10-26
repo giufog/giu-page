@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-10-26",
   "pages": [
     {
       "title": "Standard grafico da provare",
@@ -226,23 +226,6 @@
       "listed": true
     },
     {
-      "title": "Catalogo Stili Immagini",
-      "slug": "catalogo-stili-immagini",
-      "category": "varie",
-      "description": "296 stili numerati con anteprime, filtri, prompt riutilizzabili e riferimenti alle fonti.",
-      "createdAt": "2026-09-17",
-      "updatedAt": "2026-09-17",
-      "url": "https://giufog.github.io/giu-page/catalogo-stili-immagini/",
-      "coverImageUrl": "https://giufog.github.io/giu-page/catalogo-stili-immagini/assets/share-whatsapp-v3.jpg",
-      "tags": [
-        "immagini",
-        "stili",
-        "prompt",
-        "catalogo"
-      ],
-      "listed": true
-    },
-    {
       "title": "Musiche Bud Spencer e Terence Hill",
       "slug": "musiche-bud-spencer-e-terence-hill",
       "category": "varie",
@@ -289,6 +272,23 @@
         "friuli",
         "veneto",
         "austria"
+      ],
+      "listed": true
+    },
+    {
+      "title": "Catalogo Stili Immagini",
+      "slug": "catalogo-stili-immagini",
+      "category": "varie",
+      "description": "317 stili numerati in otto categorie, con prompt riutilizzabili e confronti prima/dopo verticali per ogni esempio.",
+      "createdAt": "2026-09-17",
+      "updatedAt": "2026-10-26",
+      "url": "https://giufog.github.io/giu-page/catalogo-stili-immagini/",
+      "coverImageUrl": "https://giufog.github.io/giu-page/catalogo-stili-immagini/assets/share-whatsapp-v3.jpg",
+      "tags": [
+        "immagini",
+        "stili",
+        "prompt",
+        "catalogo"
       ],
       "listed": true
     }
