@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "title": "Eventi dal lunedì 19 ottobre a domenica 8 novembre",
+  "title": "Eventi dal lunedì 26 ottobre a domenica 15 novembre",
   "slug": "eventi",
   "category": "eventi",
   "description": "Eventi in Friuli, in Veneto e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
   "createdAt": "2026-09-03",
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-27",
   "pageCount": 1,
   "readingMinutes": 4,
   "coverImage": "assets/share-eventi-20260904-v2.jpg",
@@ -16,6 +16,6 @@
     "austria"
   ],
   "listed": true,
-  "eventsGeneratedAt": "2026-10-24T11:24:46+00:00",
-  "eventCount": 1086
+  "eventsGeneratedAt": "2026-10-27T10:48:51+00:00",
+  "eventCount": 959
 }
