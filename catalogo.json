@@ -243,12 +243,12 @@
       "listed": true
     },
     {
-      "title": "Eventi dal lunedì 9 novembre a domenica 29 novembre",
+      "title": "Eventi dal lunedì 16 novembre a domenica 6 dicembre",
       "slug": "eventi",
       "category": "eventi",
       "description": "Eventi in Friuli, in Veneto e nell’Austria vicina, ordinati per distanza da Tarcento e aggiornati automaticamente.",
       "createdAt": "2026-09-03",
-      "updatedAt": "2026-11-12",
+      "updatedAt": "2026-11-17",
       "url": "https://giufog.github.io/giu-page/eventi/",
       "coverImageUrl": "https://giufog.github.io/giu-page/eventi/assets/share-eventi-20260904-v2.jpg",
       "tags": [
